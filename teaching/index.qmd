@@ -1,0 +1,31 @@
+---
+title: "Renewables in Electricity Markets"
+subtitle: "An open course: video lectures, slides, exercises and interviews"
+aliases:
+  - /index.php/teaching/index.html
+---
+
+At the Technical University of Denmark, I developed and taught for many years an M.Sc. course on Renewables in Electricity Markets. All the course material is shared here for anyone who wants to learn about the topic. It covers the basics of electricity markets (day-ahead and balancing markets, ancillary services), the impact of renewables on markets, how renewable energy producers participate in electricity markets, and renewable energy analytics, mainly forecasting.
+
+The course is built from ten modules of video lectures with slides. [Six exercise sessions](exercises.qmd) let you apply the ideas, and [interviews with industry guests and former students](interviews.qmd) show why it matters in practice.
+
+## Why renewables in electricity markets?
+
+The topic sits where three of the major trends in electric energy systems over the last 10 to 20 years meet: the *large-scale deployment of renewable energy generation*, the *deregulation of the electric power sector*, and *digitization*. Together they have brought a wealth of challenges and opportunities, as two industry guests explain.
+
+::: {.grid}
+::: {.g-col-12 .g-col-md-6}
+**Olivier Corradi (Tomorrow)** wants consumers to appraise the climate impact of their daily choices.
+
+{{< video https://www.youtube.com/embed/UVZ5ThqfBvY >}}
+:::
+::: {.g-col-12 .g-col-md-6}
+**Christophe Lephilibert (GetBarry)** is changing the way we relate to electricity consumption.
+
+{{< video https://www.youtube.com/embed/b-yrQVZQVKE >}}
+:::
+:::
+
+## Modules
+
+{{< include _modules.md >}}

@@ -1,0 +1,13 @@
+num: 2
+title: Electricity spot markets (e.g., day-ahead)
+intro: We start our description of electricity markets by concentrating on so-called *"spot" markets*, as for the example of the *day-ahead electricity markets* we have in Europe.
+topics: [Bilateral contracts and electricity pools, Market clearing as an optimization problem, Prices and settlement, Zonal and network aspects, Impact of regulation and support schemes]
+interviews:
+  - [Klaus Skytte (Nordic Energy Research), Fg2ofpBnQR0, "Klaus Skytte was the head of the Energy Economics and Regulation group at DTU Management and is now the Director of Nordic Energy Research. We discuss the importance of electricity markets and regulation in the energy transition."]
+lectures:
+  - ["Introduction", "LvL-qBDxJck", 31761lecture2p0.pdf]
+  - ["From bilateral contracts to the electricity pool", "L9kx7wzsR_c", 31761lecture2p1.pdf]
+  - ["Market clearing as an optimization problem", "FYfbM56L-mE", 31761lecture2p2.pdf]
+  - ["From prices to settlement", "s9i4RA-2-18", 31761lecture2p3.pdf]
+  - ["Zonal and network aspects", "5TYXd4wXveE", 31761lecture2p4.pdf]
+  - ["Impact of regulation and support schemes", "rpCvZcRddmI", 31761lecture2p5.pdf]

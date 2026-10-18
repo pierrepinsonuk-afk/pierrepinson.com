@@ -1,0 +1,11 @@
+num: 5
+title: Impact of renewables on electricity markets
+intro: As more and more *renewable energy generation* is present in *electricity markets*, one ought to understand the resulting *impact*. It is first necessary to get a few aspects right, for instance what the electricity cost is composed of, and what may impact electricity markets more generally. Indeed, electricity markets were affected by weather and climate before renewable energy was part of the picture anyway.
+topics: [Electricity cost and the cost structure, "What impacts electricity markets generally (weather and climate)", How renewable generation affects market outcomes and dynamics, Simulating that impact and analysing it from real market data]
+interviews: []
+lectures:
+  - ["Module introduction", "yWvAh1FrzFA", 31761lecture5p0.pdf]
+  - ["Electricity cost and cost structure", "BQlO9tkao8Q", 31761lecture5p1.pdf]
+  - ["What impacts wholesale prices?", "luvuxCNGQqY", 31761lecture5p2.pdf]
+  - ["How do renewables impact electricity prices?", "l0Nnf1wmxAA", 31761lecture5p3.pdf]
+  - ["The impact of renewables: from simulation to reality", "X0iMW1sgfpw", 31761lecture5p4.pdf]

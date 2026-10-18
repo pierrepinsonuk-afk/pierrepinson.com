@@ -1,0 +1,81 @@
+---
+title: "Pierre Pinson"
+body-classes: home
+pagetitle: "Pierre Pinson – Forecasting, analytics and decision sciences"
+page-layout: full
+aliases:
+  - /index.php/index.html
+listing:
+  - id: recent-pubs
+    contents: publications.yml
+    template: _templates/pubs-compact.ejs
+    max-items: 6
+    sort: false
+  - id: recent-news
+    contents: news/posts
+    type: table
+    fields: [date, title]
+    sort: "date desc"
+    max-items: 3
+    date-format: "MMM YYYY"
+    filter-ui: false
+    sort-ui: false
+---
+
+```{=html}
+<section class="hero">
+  <div>
+    <h1>Making uncertainty useful.</h1>
+    <p class="roles"><strong>Principal</strong> at <a href="https://incommodities.com/">inCommodities</a> and <strong>Professor</strong> at Imperial College London, Dyson School of Design Engineering</p>
+    <p class="lede">I work on probabilistic forecasting, forecast verification and electricity markets, combining statistics and operations research to get the most value out of data.</p>
+    <div class="actions">
+      <a class="btn-pp primary" href="publications.html">Read the publications</a>
+      <a class="btn-pp" href="teaching/index.html">Take the open course</a>
+    </div>
+  </div>
+  <figure class="fan-wrap">
+    <svg id="fan" class="fan" viewBox="0 0 400 230" role="img" tabindex="0" aria-label="Interactive probabilistic forecast. Move the pointer or use the arrow keys to issue a forecast from a different time.">
+      <path class="band b1" opacity=".16" d="M160 128 C220 72 300 58 400 40 L400 222 C300 210 220 190 160 128Z"/>
+      <path class="band b2" opacity=".3" d="M160 128 C220 96 300 90 400 80 L400 192 C300 180 220 166 160 128Z"/>
+      <path class="band b3" opacity=".55" d="M160 128 C220 114 300 116 400 114 L400 156 C300 150 220 144 160 128Z"/>
+      <path class="obs" d="M0 150 C30 142 50 160 80 148 C110 136 130 150 160 128" stroke-width="2.5" fill="none"/>
+    </svg>
+    <figcaption class="fan-caption"><span class="k k-obs">Observed</span><span class="k k-band">Predictive intervals</span><span class="k k-truth">What happened next</span></figcaption>
+    <p class="fan-hint">Move across the chart to forecast from another moment.</p>
+  </figure>
+</section>
+```
+
+{{< include _home_themes.md >}}
+
+::: {.home-cols}
+::: {}
+## Recent publications
+
+::: {#recent-pubs}
+:::
+
+[All 220 publications](publications.qmd) · [Download BibTeX](files/pinson-publications.bib)
+:::
+
+::: {}
+## Open course
+
+::: {.course-feature}
+### Renewables in Electricity Markets
+
+Ten modules of video lectures and slides, from market fundamentals to advanced renewable energy forecasting, with exercises and interviews.
+
+```{=html}
+<div class="progress-ticks" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+```
+
+[Start with module 1](teaching/module-01.qmd){.btn-pp .primary}
+:::
+
+## News
+
+::: {#recent-news}
+:::
+:::
+:::

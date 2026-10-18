@@ -1,0 +1,60 @@
+---
+title: "Module 3: Intra-day and balancing markets"
+subtitle: "Renewables in Electricity Markets · module 3 of 10"
+aliases:
+  - /index.php/teaching/module-3-intra-day-and-balancing-markets/index.html
+---
+
+The journey through electricity markets continues with a focus on *intra-day and balancing market mechanisms*, to close the gap between schedules obtained after the clearing of day-ahead markets and the real-time operation of the power system.
+
+This module covers:
+
+- From day-ahead market clearing to physical operation
+- The intra-day market
+- Definition of imbalances
+- Balancing markets and their operation
+- Settlement principles (one-price vs. two-price)
+
+## Lectures
+
+### 3.0 Module introduction
+
+{{< video https://www.youtube.com/embed/oGfH1bAYkyY >}}
+
+[Slides (PDF)](/files/31761/Module3/Lecture3p0/31761lecture3p0.pdf){.slides-link}
+
+### 3.1 From market outcomes to physical operation
+
+{{< video https://www.youtube.com/embed/AdDJRNYtpME >}}
+
+[Slides (PDF)](/files/31761/Module3/Lecture3p1/31761lecture3p1.pdf){.slides-link}
+
+### 3.2 Intra-day markets
+
+{{< video https://www.youtube.com/embed/a-MltqbnuIk >}}
+
+[Slides (PDF)](/files/31761/Module3/Lecture3p2/31761lecture3p2.pdf){.slides-link}
+
+### 3.3 Balancing market and imbalance definition
+
+{{< video https://www.youtube.com/embed/eWSeuljyWcs >}}
+
+[Slides (PDF)](/files/31761/Module3/Lecture3p3/31761lecture3p3.pdf){.slides-link}
+
+### 3.4 Balancing market operation and clearing
+
+{{< video https://www.youtube.com/embed/QOVheObT5gM >}}
+
+[Slides (PDF)](/files/31761/Module3/Lecture3p4/31761lecture3p4.pdf){.slides-link}
+
+### 3.5 One-price vs. two-price settlement
+
+{{< video https://www.youtube.com/embed/4kbNMKxLZ4A >}}
+
+[Slides (PDF)](/files/31761/Module3/Lecture3p5/31761lecture3p5.pdf){.slides-link}
+
+::: {.module-nav}
+[← Module 2](module-02.qmd)
+
+[Module 4 →](module-04.qmd)
+:::

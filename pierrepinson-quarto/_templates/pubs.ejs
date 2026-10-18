@@ -1,0 +1,19 @@
+```{=html}
+<div class="pub-list">
+<% for (const item of items) { %>
+<article class="pub" <%= metadataAttrs(item) %>>
+  <div class="pub-year listing-year"><%= item.year %></div>
+  <div>
+    <h3 class="pub-title listing-title"><% if (item.url || item.preprint) { %><a href="<%- item.url || item.preprint %>"><%= item.title %></a><% } else { %><%= item.title %><% } %></h3>
+    <p class="pub-authors listing-author"><% const parts = String(item.authors).split("P. Pinson"); %><% parts.forEach((part, i) => { %><%- part %><% if (i < parts.length - 1) { %><strong>P. Pinson</strong><% } %><% }) %></p>
+    <p class="pub-venue listing-venue"><%= item.venue %></p>
+    <p class="pub-links">
+      <% if (item.url) { %><a href="<%- item.url %>">Publisher page</a><% } %>
+      <% if (item.preprint) { %><a href="<%- item.preprint %>">Open preprint</a><% } %>
+      <% if (item.status) { %><span class="pub-status"><%= item.status %></span><% } %>
+    </p>
+  </div>
+</article>
+<% } %>
+</div>
+```

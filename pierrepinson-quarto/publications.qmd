@@ -1,0 +1,20 @@
+---
+title: "Publications"
+subtitle: "Journal articles, conference papers and preprints, newest first"
+aliases:
+  - /index.php/pubs/index.html
+listing:
+  contents: publications.yml
+  template: _templates/pubs.ejs
+  sort: false
+  sort-ui: false
+  filter-ui: true
+  categories: true
+  page-size: 40
+---
+
+::: {.pub-tools}
+[Download all as BibTeX](files/pinson-publications.bib)
+
+[Google Scholar profile](https://scholar.google.com/citations?user=8Ai6cssAAAAJ)
+:::

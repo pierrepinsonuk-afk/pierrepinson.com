@@ -1,0 +1,3 @@
+```{=html}
+<section class="themes" aria-label="Research themes"><a class="theme" href="publications.html#theme=forecasting"><h2>Forecasting</h2><p>Probabilistic forecasting and forecast verification, for energy, meteorology and business.</p><span class="theme-count">106 papers</span></a><a class="theme" href="publications.html#theme=markets"><h2>Markets</h2><p>Electricity market design and trading, and markets for data, analytics and forecasts.</p><span class="theme-count">93 papers</span></a><a class="theme" href="publications.html#theme=optimisation"><h2>Optimisation under uncertainty</h2><p>Stochastic and robust decision-making, from unit commitment to logistics.</p><span class="theme-count">49 papers</span></a></section>
+```

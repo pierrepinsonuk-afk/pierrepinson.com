@@ -1,0 +1,46 @@
+---
+title: "Module 4: Ancillary services"
+subtitle: "Renewables in Electricity Markets · module 4 of 10"
+aliases:
+  - /index.php/teaching/module-4-ancillary-services/index.html
+---
+
+*Ancillary services* are of utmost importance for a reliable operation of power systems, maybe even more so when increasing the penetration of renewable energy generation sources. These are to be procured and remunerated in a market environment.
+
+This module covers:
+
+- Ancillary services themselves
+- Payment of capacity and energy
+- How the various types of ancillary services are procured and remunerated
+
+## Lectures
+
+### 4.0 Module introduction
+
+{{< video https://www.youtube.com/embed/_gc6FVj2BEc >}}
+
+[Slides (PDF)](/files/31761/Module4/Lecture4p0/31761lecture4p0.pdf){.slides-link}
+
+### 4.1 Why ancillary services?
+
+{{< video https://www.youtube.com/embed/OdD5MW3c9QE >}}
+
+[Slides (PDF)](/files/31761/Module4/Lecture4p1/31761lecture4p1.pdf){.slides-link}
+
+### 4.2 Payments for capacity and energy
+
+{{< video https://www.youtube.com/embed/XXCDwDmZWPI >}}
+
+[Slides (PDF)](/files/31761/Module4/Lecture4p2/31761lecture4p2.pdf){.slides-link}
+
+### 4.3 Ancillary services and payments
+
+{{< video https://www.youtube.com/embed/Jp0ZXmCxN7k >}}
+
+[Slides (PDF)](/files/31761/Module4/Lecture4p3/31761lecture4p3.pdf){.slides-link}
+
+::: {.module-nav}
+[← Module 3](module-03.qmd)
+
+[Module 5 →](module-05.qmd)
+:::

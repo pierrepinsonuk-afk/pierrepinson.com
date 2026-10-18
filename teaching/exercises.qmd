@@ -1,0 +1,17 @@
+---
+title: "Exercises"
+subtitle: "Six sessions, with solutions"
+aliases:
+  - /index.php/teaching/exercises/index.html
+---
+
+Six exercise sessions let you apply the concepts from the lectures. Each takes 2 to 3 hours.
+
+| Session | Exercise | Solution |
+|:--|:--|:--|
+| 1 | [Day-ahead electricity markets: basics](/files/31761/ExSession1/31761-exsession1.pdf) | [PDF](/files/31761/ExSession1/31761-exsession1_solution.pdf), [spreadsheet](/files/31761/ExSession1/31761-exsession1_solution.xlsx) |
+| 2 | [Day-ahead electricity markets: advanced](/files/31761/ExSession2/31761-exsession2.pdf) | [PDF](/files/31761/ExSession2/31761-exsession2_solution.pdf) |
+| 3 | [Intra-day and balancing markets](/files/31761/Exsession3/31761-exsession3.pdf) | [PDF](/files/31761/Exsession3/31761-exsession3_solution.pdf) |
+| 4 | [Ancillary service markets](/files/31761/Exsession4/31761-exsession4.pdf) | [PDF](/files/31761/Exsession4/31761-exsession4_solution.pdf) |
+| 5 | [Market participation for renewables](/files/31761/Exsession5/31761-exsession5.pdf) | [PDF](/files/31761/Exsession5/31761-exsession5_solution.pdf) |
+| 6 | [Verification of renewable energy forecasts](/files/31761/Exsession6/31761-exsession6.pdf) | [PDF](/files/31761/Exsession6/31761-exsession6_solution.pdf), [spreadsheet](/files/31761/Exsession6/31761-exsession6_solution.xlsx) |

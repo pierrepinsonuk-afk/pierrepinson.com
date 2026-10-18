@@ -1,0 +1,60 @@
+---
+title: "Module 7: Introduction to renewable energy analytics"
+subtitle: "Renewables in Electricity Markets · module 7 of 10"
+aliases:
+  - /index.php/teaching/module-7-introduction-to-renewable-energy-analytics/index.html
+---
+
+Renewable energy generation directly relates to weather conditions, i.e. wind for wind energy and irradiance and cloudiness for solar energy. In a market environment where offers are made prior to operation, and deviations from schedule have financial consequences, there is a strong incentive to forecast renewable energy generation. This is based on *renewable energy analytics*, which takes advantage of the wealth of data available today.
+
+This module covers:
+
+- Why we need to forecast and what forecast information may be needed
+- Origin and characterization of uncertainty in renewable energy forecasting
+- The various types of forecast products
+
+## Before you start
+
+### Interview with Jesper Thiesen (ConWx)
+
+Jesper has a long track record in renewable energy forecasting and tells us about current challenges and opportunities in the field.
+
+{{< video https://www.youtube.com/embed/80WcvOUu0JI >}}
+
+### Interview with Emil Larsen (Utiligize)
+
+Emil argues that digitization and its implications might be of higher importance to the actors of the energy system than renewables and the evolution of electricity markets.
+
+{{< video https://www.youtube.com/embed/X3YbuxKd2oY >}}
+
+## Lectures
+
+### 7.0 Module introduction
+
+{{< video https://www.youtube.com/embed/_qQ4ymwyirg >}}
+
+[Slides (PDF)](https://pierrepinson.com/31761/Slides/31761lecture7p0.pdf){.slides-link}
+
+### 7.1 Forecasts, why and in what form?
+
+{{< video https://www.youtube.com/embed/erxK7rt7HVk >}}
+
+[Slides (PDF)](https://pierrepinson.com/31761/Slides/31761lecture7p1.pdf){.slides-link}
+
+### 7.2 Uncertainty origins and characterization
+
+{{< video https://www.youtube.com/embed/pPAaJK0HgI0 >}}
+
+[Slides (PDF)](https://pierrepinson.com/31761/Slides/31761lecture7p2.pdf){.slides-link}
+
+### 7.3 Various types of forecasting products
+
+{{< video https://www.youtube.com/embed/Svqx876d_ps >}}
+
+[Slides (PDF)](https://pierrepinson.com/31761/Slides/31761lecture7p3.pdf){.slides-link}
+
+::: {.module-nav}
+[← Module 6](module-06.qmd)
+
+[Module 8 →](module-08.qmd)
+:::

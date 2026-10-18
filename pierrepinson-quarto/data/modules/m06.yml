@@ -1,0 +1,11 @@
+num: 6
+title: Participation of renewables in electricity markets
+intro: Today in most electricity markets, renewable energy producers participate as conventional producers, placing offers at the day-ahead stage and then facing potential (financial) consequences stemming from imbalances. The *participation of renewables in electricity markets* therefore raises the question of how to optimally design offering strategies.
+topics: [What a market participation strategy is, "Decision-making under uncertainty, based on the newsvendor problem", Offering renewable energy in electricity markets]
+interviews:
+  - [Georgia Champeri (Danske Commodities), m-dFmS-9qw8, "A former student of the course, now working for Danske Commodities, one of the leading energy trading companies in Europe."]
+lectures:
+  - ["Module introduction", "8YziNYMXwFI", 31761lecture6p0.pdf]
+  - ["What is a market participation strategy?", "dEli_53GQpQ", 31761lecture6p1.pdf]
+  - ["Decision-making under uncertainty", "RQkz-u0JMYY", 31761lecture6p2.pdf]
+  - ["Offering renewable energy under uncertainty", "9dEe5JdqPp4", 31761lecture6p3.pdf]

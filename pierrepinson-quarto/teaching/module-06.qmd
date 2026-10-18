@@ -1,0 +1,54 @@
+---
+title: "Module 6: Participation of renewables in electricity markets"
+subtitle: "Renewables in Electricity Markets · module 6 of 10"
+aliases:
+  - /index.php/teaching/module-6-participation-of-renewables-in-electricity-markets/index.html
+---
+
+Today in most electricity markets, renewable energy producers participate as conventional producers, placing offers at the day-ahead stage and then facing potential (financial) consequences stemming from imbalances. The *participation of renewables in electricity markets* therefore raises the question of how to optimally design offering strategies.
+
+This module covers:
+
+- What a market participation strategy is
+- Decision-making under uncertainty, based on the newsvendor problem
+- Offering renewable energy in electricity markets
+
+## Before you start
+
+### Interview with Georgia Champeri (Danske Commodities)
+
+A former student of the course, now working for Danske Commodities, one of the leading energy trading companies in Europe.
+
+{{< video https://www.youtube.com/embed/m-dFmS-9qw8 >}}
+
+## Lectures
+
+### 6.0 Module introduction
+
+{{< video https://www.youtube.com/embed/8YziNYMXwFI >}}
+
+[Slides (PDF)](https://pierrepinson.com/31761/Slides/31761lecture6p0.pdf){.slides-link}
+
+### 6.1 What is a market participation strategy?
+
+{{< video https://www.youtube.com/embed/dEli_53GQpQ >}}
+
+[Slides (PDF)](https://pierrepinson.com/31761/Slides/31761lecture6p1.pdf){.slides-link}
+
+### 6.2 Decision-making under uncertainty
+
+{{< video https://www.youtube.com/embed/RQkz-u0JMYY >}}
+
+[Slides (PDF)](https://pierrepinson.com/31761/Slides/31761lecture6p2.pdf){.slides-link}
+
+### 6.3 Offering renewable energy under uncertainty
+
+{{< video https://www.youtube.com/embed/9dEe5JdqPp4 >}}
+
+[Slides (PDF)](https://pierrepinson.com/31761/Slides/31761lecture6p3.pdf){.slides-link}
+
+::: {.module-nav}
+[← Module 5](module-05.qmd)
+
+[Module 7 →](module-07.qmd)
+:::

@@ -1,0 +1,53 @@
+---
+title: "Module 5: Impact of renewables on electricity markets"
+subtitle: "Renewables in Electricity Markets · module 5 of 10"
+aliases:
+  - /index.php/teaching/module-5-impact-of-renewables-in-electricity-markets/index.html
+---
+
+As more and more *renewable energy generation* is present in *electricity markets*, one ought to understand the resulting *impact*. It is first necessary to get a few aspects right, for instance what the electricity cost is composed of, and what may impact electricity markets more generally. Indeed, electricity markets were affected by weather and climate before renewable energy was part of the picture anyway.
+
+This module covers:
+
+- Electricity cost and the cost structure
+- What impacts electricity markets generally (weather and climate)
+- How renewable generation affects market outcomes and dynamics
+- Simulating that impact and analysing it from real market data
+
+## Lectures
+
+### 5.0 Module introduction
+
+{{< video https://www.youtube.com/embed/yWvAh1FrzFA >}}
+
+[Slides (PDF)](https://pierrepinson.com/31761/Slides/31761lecture5p0.pdf){.slides-link}
+
+### 5.1 Electricity cost and cost structure
+
+{{< video https://www.youtube.com/embed/BQlO9tkao8Q >}}
+
+[Slides (PDF)](https://pierrepinson.com/31761/Slides/31761lecture5p1.pdf){.slides-link}
+
+### 5.2 What impacts wholesale prices?
+
+{{< video https://www.youtube.com/embed/luvuxCNGQqY >}}
+
+[Slides (PDF)](https://pierrepinson.com/31761/Slides/31761lecture5p2.pdf){.slides-link}
+
+### 5.3 How do renewables impact electricity prices?
+
+{{< video https://www.youtube.com/embed/l0Nnf1wmxAA >}}
+
+[Slides (PDF)](https://pierrepinson.com/31761/Slides/31761lecture5p3.pdf){.slides-link}
+
+### 5.4 The impact of renewables: from simulation to reality
+
+{{< video https://www.youtube.com/embed/X0iMW1sgfpw >}}
+
+[Slides (PDF)](https://pierrepinson.com/31761/Slides/31761lecture5p4.pdf){.slides-link}
+
+::: {.module-nav}
+[← Module 4](module-04.qmd)
+
+[Module 6 →](module-06.qmd)
+:::

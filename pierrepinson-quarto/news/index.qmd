@@ -1,0 +1,13 @@
+---
+title: "News"
+aliases:
+  - /index.php/blog-and-posts/index.html
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  date-format: "D MMMM YYYY"
+  categories: false
+  filter-ui: false
+  sort-ui: false
+---

@@ -1,0 +1,12 @@
+num: 3
+title: Intra-day and balancing markets
+intro: The journey through electricity markets continues with a focus on *intra-day and balancing market mechanisms*, to close the gap between schedules obtained after the clearing of day-ahead markets and the real-time operation of the power system.
+topics: [From day-ahead market clearing to physical operation, The intra-day market, Definition of imbalances, Balancing markets and their operation, "Settlement principles (one-price vs. two-price)"]
+interviews: []
+lectures:
+  - ["Module introduction", "oGfH1bAYkyY", 31761lecture3p0.pdf]
+  - ["From market outcomes to physical operation", "AdDJRNYtpME", 31761lecture3p1.pdf]
+  - ["Intra-day markets", "a-MltqbnuIk", 31761lecture3p2.pdf]
+  - ["Balancing market and imbalance definition", "eWSeuljyWcs", 31761lecture3p3.pdf]
+  - ["Balancing market operation and clearing", "QOVheObT5gM", 31761lecture3p4.pdf]
+  - ["One-price vs. two-price settlement", "4kbNMKxLZ4A", 31761lecture3p5.pdf]

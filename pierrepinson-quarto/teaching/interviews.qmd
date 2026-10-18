@@ -1,0 +1,89 @@
+---
+title: "Interviews"
+subtitle: "Industry guests and former students on renewables, markets and careers"
+aliases:
+  - /index.php/teaching/additional-industry-interviews/index.html
+  - /index.php/teaching/interviews-with-former-students/index.html
+---
+
+Conversations recorded for the course, to motivate what it covers and show where it leads.
+
+## Industry guests
+
+### Olivier Corradi (Tomorrow)
+
+A start-up that wants consumers to appraise the climate impact of the daily choices they make.
+
+{{< video https://www.youtube.com/embed/UVZ5ThqfBvY >}}
+
+### Christophe Lephilibert (GetBarry)
+
+A Danish electricity retailer that aims at changing the way we relate to electricity consumption.
+
+{{< video https://www.youtube.com/embed/b-yrQVZQVKE >}}
+
+### Klaus Skytte (Nordic Energy Research)
+
+The importance of electricity markets and regulation in the energy transition.
+
+{{< video https://www.youtube.com/embed/Fg2ofpBnQR0 >}}
+
+### Jesper Thiesen (ConWx)
+
+Current challenges and opportunities in renewable energy forecasting.
+
+{{< video https://www.youtube.com/embed/80WcvOUu0JI >}}
+
+### Emil Larsen (Utiligize)
+
+Why digitization may matter even more than renewables to energy system actors.
+
+{{< video https://www.youtube.com/embed/X3YbuxKd2oY >}}
+
+### Rasmus Mosbæk (Hybrid GreenTech)
+
+{{< video https://www.youtube.com/embed/YSYIBE4LhpA >}}
+
+### Pierre-Julien Trombe (Lithium Balance)
+
+{{< video https://www.youtube.com/embed/EsgvRGzKTMA >}}
+
+### Christoffer Greisen (DTU)
+
+{{< video https://www.youtube.com/embed/0f5kUM7U04g >}}
+
+### Poul Brath (Radius, now with Det Andet)
+
+{{< video https://www.youtube.com/embed/HXjIJlqwg4E >}}
+
+## Former students
+
+Around 500 M.Sc. students took this course at DTU. Some of them shared how it helped at the start of their careers.
+
+### Edoardo Simioni (Ørsted)
+
+{{< video https://www.youtube.com/embed/iu5QLTgSI0U >}}
+
+### A former student who preferred to stay anonymous
+
+{{< video https://www.youtube.com/embed/b5zPcC6G2qI >}}
+
+### Tore Gad Kjeld (HOFOR)
+
+{{< video https://www.youtube.com/embed/sokkXIi00zg >}}
+
+### Georgia Champeri (Danske Commodities)
+
+{{< video https://www.youtube.com/embed/m-dFmS-9qw8 >}}
+
+### Jacobo Lansac (Anemo Analytics)
+
+{{< video https://www.youtube.com/embed/pmIJiy9MBkM >}}
+
+### Andrea Marín Radoszynski (DTU, now with Ørsted)
+
+{{< video https://www.youtube.com/embed/uqDE6zylh-g >}}
+
+### Alex Newcombe (Ørsted, now with the Danish Energy Agency)
+
+{{< video https://www.youtube.com/embed/PppdOT7ErLE >}}

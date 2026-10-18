@@ -1,0 +1,9 @@
+---
+title: "Molslinjen and Halfspace win the INFORMS Edelman Award"
+date: 2024-04-15
+description: "Forecasting and revenue management for fast ferries in Denmark."
+---
+
+The forecasting and revenue management toolbox that Halfspace and Molslinjen developed and deployed for the data-driven operation of ferries in Denmark won the 2024 INFORMS Franz Edelman Award.
+
+The full story is in our paper [Data-driven at sea: Forecasting and revenue management at Molslinjen](../../../publications.qmd), published in the *INFORMS Journal on Applied Analytics*.

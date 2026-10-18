@@ -1,0 +1,56 @@
+---
+title: "About"
+image: images/portrait.jpg
+aliases:
+  - /index.php/sample-page-2-2/index.html
+  - /index.php/contact-2/index.html
+about:
+  template: trestles
+  image-shape: rounded
+  image-width: 14em
+  links:
+    - text: Email
+      href: mailto:p.pinson@imperial.ac.uk
+    - text: Google Scholar
+      href: https://scholar.google.com/citations?user=8Ai6cssAAAAJ
+    - text: LinkedIn
+      href: https://www.linkedin.com/in/pierrepinson
+    - text: CV (PDF)
+      href: https://pierrepinson.com/wp-content/uploads/2023/03/ppinsoncv.pdf
+---
+
+I am a Principal at [inCommodities](https://incommodities.com/), a data-driven energy trading company, and a Professor at [Imperial College London](https://www.imperial.ac.uk/), [Dyson School of Design Engineering](https://www.imperial.ac.uk/design-engineering/). I am an IEEE Fellow (class of 2020), an INFORMS member and an IIF director, and I was on the Clarivate Highly Cited Researchers list in 2019, 2020 and 2021 (cross-field) for work in statistics, meteorology, economics and power and energy engineering.
+
+Before Imperial, I was a Professor at the Technical University of Denmark, first in the Department of Electrical Engineering and then in the Department of Technology, Management and Economics. I have been a visiting researcher at the University of Oxford (Mathematical Institute) and the University of Washington (Department of Statistics), and spent a year at the [European Centre for Medium-Range Weather Forecasts](https://www.ecmwf.int/) (ECMWF) working on ensemble forecasting of surface winds. I have also been a visiting professor at École Normale Supérieure de Rennes, and a Simons Fellow at the Isaac Newton Institute for Mathematical Sciences in Cambridge for the Mathematics of Energy Systems programme.
+
+What has interested me most over the last decades is how to generate optimal value from data, for society and for the various stakeholders involved. I have mainly worked on energy and meteorology, as well as shipping, logistics and business analytics. That brings together data science, analytics, operations research and management science, game theory and mechanism design. Some of the work I am known for includes probabilistic forecasting and forecast verification, peer-to-peer and community-based electricity markets, coordination of energy markets, and collaborative and market-based analytics such as data and analytics markets.
+
+## Positions
+
+::: {.timeline}
+- [2026 –]{.when} Principal, inCommodities (Aarhus, Denmark)
+- [2022 –]{.when} Professor, Imperial College London, Dyson School of Design Engineering (Chair of Data-centric Design Engineering from 2022)
+- [2022 – 2026]{.when} Chief Scientist, Halfspace (Copenhagen, Denmark)
+- [2021 – 2022]{.when} Professor of Operations Research, Technical University of Denmark, Department of Technology, Management and Economics
+- [2013 – 2020]{.when} Professor of Energy Analytics and Markets, Technical University of Denmark, Department of Electrical Engineering
+- [2008 – 2013]{.when} Associate Professor, Technical University of Denmark, Department of Applied Mathematics and Computer Science
+- [2007 – 2008]{.when} Assistant Professor, Technical University of Denmark, Department of Applied Mathematics and Computer Science
+- [2006 – 2007]{.when} Postdoctoral fellow, Technical University of Denmark, Department of Applied Mathematics and Computer Science
+:::
+
+## Education
+
+::: {.timeline}
+- [2006]{.when} Ph.D. in Energy, Forecasting and Stochastic Optimization, École des Mines de Paris
+- [2002]{.when} M.Sc. in Applied Mathematics, Institut National des Sciences Appliquées (INSA) Toulouse
+:::
+
+## Selected awards
+
+::: {.timeline}
+- [2024]{.when} INFORMS Franz Edelman Award, with Molslinjen and Halfspace
+- [2019 – 2021]{.when} Highly Cited Researcher, Clarivate
+- [2020]{.when} IEEE Fellow
+- [2019]{.when} Simons Fellow, Isaac Newton Institute for Mathematical Sciences
+- [2018]{.when} IDA Elektropris, yearly prize in electrical engineering of the Danish Society of Engineers
+:::

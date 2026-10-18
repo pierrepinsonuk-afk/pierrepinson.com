@@ -1,0 +1,10 @@
+num: 8
+title: Verification of renewable energy forecasts
+intro: Before starting to generate forecasts, one needs to understand what the forecasts may be used for, but also what makes forecasts "good" or not. This implies having good basics in the *verification of renewable energy forecasts*.
+topics: [What makes the "goodness" of renewable energy forecasts, Verifying deterministic forecasts, Verifying probabilistic forecasts]
+interviews: []
+lectures:
+  - ["Module introduction", "7-PQnT8s7I8", 31761lecture8p0.pdf]
+  - ["What makes a good forecast?", "ONS0SwmlXUU", 31761lecture8p1.pdf]
+  - ["Verification of deterministic forecasts", "dofN7h6FTNg", 31761lecture8p2.pdf]
+  - ["Verification of probabilistic forecasts", "Ffo8XilZAZw", 31761lecture8p3.pdf]

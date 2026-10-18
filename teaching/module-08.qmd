@@ -1,0 +1,46 @@
+---
+title: "Module 8: Verification of renewable energy forecasts"
+subtitle: "Renewables in Electricity Markets · module 8 of 10"
+aliases:
+  - /index.php/teaching/module-8-verification-of-renewable-energy-forecasts/index.html
+---
+
+Before starting to generate forecasts, one needs to understand what the forecasts may be used for, but also what makes forecasts "good" or not. This implies having good basics in the *verification of renewable energy forecasts*.
+
+This module covers:
+
+- What makes the "goodness" of renewable energy forecasts
+- Verifying deterministic forecasts
+- Verifying probabilistic forecasts
+
+## Lectures
+
+### 8.0 Module introduction
+
+{{< video https://www.youtube.com/embed/7-PQnT8s7I8 >}}
+
+[Slides (PDF)](/files/31761/Module8/Lecture8p0/31761lecture8p0.pdf){.slides-link}
+
+### 8.1 What makes a good forecast?
+
+{{< video https://www.youtube.com/embed/ONS0SwmlXUU >}}
+
+[Slides (PDF)](/files/31761/Module8/Lecture8p1/31761lecture8p1.pdf){.slides-link}
+
+### 8.2 Verification of deterministic forecasts
+
+{{< video https://www.youtube.com/embed/dofN7h6FTNg >}}
+
+[Slides (PDF)](/files/31761/Module8/Lecture8p2/31761lecture8p2.pdf){.slides-link}
+
+### 8.3 Verification of probabilistic forecasts
+
+{{< video https://www.youtube.com/embed/Ffo8XilZAZw >}}
+
+[Slides (PDF)](/files/31761/Module8/Lecture8p3/31761lecture8p3.pdf){.slides-link}
+
+::: {.module-nav}
+[← Module 7](module-07.qmd)
+
+[Module 9 →](module-09.qmd)
+:::

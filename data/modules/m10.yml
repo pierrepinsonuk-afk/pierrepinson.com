@@ -1,0 +1,10 @@
+num: 10
+title: Renewable energy forecasting – Advanced topics
+intro: Eventually, we aim at improving our renewable energy modelling and forecasting skills, since it may be possible to generate forecasts of close to state-of-the-art quality without too much effort. We cover a number of *advanced topics in renewable energy forecasting*, taking you further than the basic concepts and approaches of the previous module.
+topics: [Going beyond linear regression, Accepting nonstationarity and letting models evolve with time, A systematic approach to modelling decisions based on available data]
+interviews: []
+lectures:
+  - ["Module introduction", "0DzTPoG-h88", 31761lecture10p0.pdf]
+  - ["From linear to nonlinear regression", "xbO0jcvpwIc", 31761lecture10p1.pdf]
+  - ["Nonstationarity and time-adaptivity", "ol8jTKTvsOg", 31761lecture10p2.pdf]
+  - ["Data-driven decisions", "NnKFm9FfqG4", 31761lecture10p3.pdf]

@@ -1,0 +1,42 @@
+---
+title: "Publications"
+subtitle: "Journal articles, conference papers and preprints"
+aliases:
+  - /index.php/pubs/index.html
+listing:
+  contents: publications.yml
+  template: _templates/pubs.ejs
+  sort: false
+  sort-ui: false
+  filter-ui: false
+  categories: false
+  page-size: 1000
+---
+
+```{=html}
+<section id="pub-explorer" class="pub-explorer" aria-label="Filter publications">
+  <div class="pub-hist" role="group" aria-label="Papers per year; select a year to filter"></div>
+  <div class="pub-controls">
+    <input class="pub-search" type="search" placeholder="Search titles, authors, journals" aria-label="Search publications">
+    <div class="chips" role="group" aria-label="Theme">
+      <button type="button" class="chip" data-group="theme" data-value="forecasting">Forecasting</button>
+      <button type="button" class="chip" data-group="theme" data-value="markets">Markets</button>
+      <button type="button" class="chip" data-group="theme" data-value="optimisation">Optimisation</button>
+      <button type="button" class="chip" data-group="theme" data-value="energy">Energy systems</button>
+      <button type="button" class="chip" data-group="theme" data-value="analytics">Analytics</button>
+    </div>
+    <div class="chips" role="group" aria-label="Type">
+      <button type="button" class="chip" data-group="kind" data-value="article">Journal</button>
+      <button type="button" class="chip" data-group="kind" data-value="conference">Conference</button>
+      <button type="button" class="chip" data-group="kind" data-value="preprint">Preprint</button>
+    </div>
+  </div>
+  <div class="pub-status-row">
+    <span class="pub-count" aria-live="polite"></span>
+    <button type="button" class="pub-reset">Clear filters</button>
+    <span class="spacer"></span>
+    <a href="files/pinson-publications.bib">Download BibTeX</a>
+    <a href="https://scholar.google.com/citations?user=8Ai6cssAAAAJ">Google Scholar</a>
+  </div>
+</section>
+```

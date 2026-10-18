@@ -1,0 +1,46 @@
+---
+title: "Module 10: Renewable energy forecasting – Advanced topics"
+subtitle: "Renewables in Electricity Markets · module 10 of 10"
+aliases:
+  - /index.php/teaching/module-10-renewable-energy-forecasting-advanced-topics/index.html
+---
+
+Eventually, we aim at improving our renewable energy modelling and forecasting skills, since it may be possible to generate forecasts of close to state-of-the-art quality without too much effort. We cover a number of *advanced topics in renewable energy forecasting*, taking you further than the basic concepts and approaches of the previous module.
+
+This module covers:
+
+- Going beyond linear regression
+- Accepting nonstationarity and letting models evolve with time
+- A systematic approach to modelling decisions based on available data
+
+## Lectures
+
+### 10.0 Module introduction
+
+{{< video https://www.youtube.com/embed/0DzTPoG-h88 >}}
+
+[Slides (PDF)](https://pierrepinson.com/31761/Slides/31761lecture10p0.pdf){.slides-link}
+
+### 10.1 From linear to nonlinear regression
+
+{{< video https://www.youtube.com/embed/xbO0jcvpwIc >}}
+
+[Slides (PDF)](https://pierrepinson.com/31761/Slides/31761lecture10p1.pdf){.slides-link}
+
+### 10.2 Nonstationarity and time-adaptivity
+
+{{< video https://www.youtube.com/embed/ol8jTKTvsOg >}}
+
+[Slides (PDF)](https://pierrepinson.com/31761/Slides/31761lecture10p2.pdf){.slides-link}
+
+### 10.3 Data-driven decisions
+
+{{< video https://www.youtube.com/embed/NnKFm9FfqG4 >}}
+
+[Slides (PDF)](https://pierrepinson.com/31761/Slides/31761lecture10p3.pdf){.slides-link}
+
+::: {.module-nav}
+[← Module 9](module-09.qmd)
+
+[Exercises →](exercises.qmd)
+:::

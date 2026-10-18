@@ -1,0 +1,47 @@
+---
+title: "Module 9: Renewable energy forecasting – First steps"
+subtitle: "Renewables in Electricity Markets · module 9 of 10"
+aliases:
+  - /index.php/teaching/module-9-renewable-energy-forecasting-first-steps/index.html
+---
+
+In this module we take a first go at *renewable energy forecasting*, looking at the numerous accessible ways to generate forecasts, often with already acceptable performance. Even if that performance is not seen as acceptable, these approaches comprise benchmarks to be outperformed when investing in more advanced forecasting approaches.
+
+This module covers:
+
+- General aspects of renewable energy forecasting approaches
+- Benchmark approaches
+- Using (linear) regression for forecasting
+- Exploring the data to pick input variables and use them cleverly
+
+## Lectures
+
+### 9.0 Module introduction
+
+{{< video https://www.youtube.com/embed/ZVr271-X4Yo >}}
+
+[Slides (PDF)](https://pierrepinson.com/31761/Slides/31761lecture9p0.pdf){.slides-link}
+
+### 9.1 Generalities and benchmark approaches
+
+{{< video https://www.youtube.com/embed/wplCgb4LKDM >}}
+
+[Slides (PDF)](https://pierrepinson.com/31761/Slides/31761lecture9p1.pdf){.slides-link}
+
+### 9.2 Going further in a regression framework
+
+{{< video https://www.youtube.com/embed/mvW5aOv-b6g >}}
+
+[Slides (PDF)](https://pierrepinson.com/31761/Slides/31761lecture9p2.pdf){.slides-link}
+
+### 9.3 Digging in the data
+
+{{< video https://www.youtube.com/embed/A-n4PPmo67Y >}}
+
+[Slides (PDF)](https://pierrepinson.com/31761/Slides/31761lecture9p3.pdf){.slides-link}
+
+::: {.module-nav}
+[← Module 8](module-08.qmd)
+
+[Module 10 →](module-10.qmd)
+:::

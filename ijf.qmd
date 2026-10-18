@@ -1,0 +1,28 @@
+---
+title: "International Journal of Forecasting"
+subtitle: "The official journal of the International Institute of Forecasters"
+aliases:
+  - /index.php/shortcodes/index.html
+  - /index.php/shortcodes/ijf-submit/index.html
+---
+
+The *International Journal of Forecasting* (IJF) is the leading journal in its field. It is the official publication of the [International Institute of Forecasters](https://forecasters.org/) (IIF) and shares its aims and scope: to unify the field and bridge the gap between theory and practice, making forecasting useful and relevant for decision and policy makers. The journal places strong emphasis on empirical studies, evaluation, implementation research and ways of improving forecasting practice, and is open to many points of view. Reviewing is double-blind.
+
+I wrote an [editorial in early 2020](https://www.sciencedirect.com/science/article/pii/S0169207020300145) when I became Editor-in-Chief.
+
+## Topics covered
+
+Economic and econometric forecasting, marketing, new products, finance, production, technology, business, government and the military, demographics, energy, climate, crime, seasonal adjustment, time series, legal and political aspects, implementation, judgmental and psychological aspects, the impact of forecast uncertainty on decision making, organizational aspects, sport, machine learning, forecasting methodology, elections, and big data.
+
+The journal publishes research papers, research notes, discussion articles, book reviews, editorials and letters. Data and code associated with published articles are provided as online supplements on [ScienceDirect](https://www.sciencedirect.com/journal/international-journal-of-forecasting).
+
+## Submitting a paper
+
+The IJF welcomes submissions relevant to the science and practice of forecasting: methodological and applied papers, new datasets and forecasting competitions, short communications, book reviews and interviews.
+
+[Submit an article](https://www.editorialmanager.com/ijf){.btn-pp .primary}
+
+- [Preferred keywords](https://ijf.forecasters.org/keywords/)
+- **Online supplements.** For empirical studies, the description of the method and data should allow replication. Please submit code and data to be published as an online supplement. Appendices with additional results can be supplements too.
+- **LaTeX** is encouraged. Use the Elsevier [elsarticle class](https://www.elsevier.com/researcher/author/policies-and-guidelines/latex-instructions), submit a PDF, and use BibTeX or BibLaTeX. Save figures as PDF or EPS, not JPG or WMF. After acceptance we will ask for the source files.
+- **Word** files are also accepted. Save equations as equation objects rather than images, use high-resolution figures, and use the APA style if you manage references with EndNote.

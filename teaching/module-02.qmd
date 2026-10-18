@@ -1,0 +1,68 @@
+---
+title: "Module 2: Electricity spot markets (e.g., day-ahead)"
+subtitle: "Renewables in Electricity Markets · module 2 of 10"
+aliases:
+  - /index.php/teaching/module-2-electricity-spot-markets-e-g-day-ahead/index.html
+---
+
+We start our description of electricity markets by concentrating on so-called *"spot" markets*, as for the example of the *day-ahead electricity markets* we have in Europe.
+
+This module covers:
+
+- Bilateral contracts and electricity pools
+- Market clearing as an optimization problem
+- Prices and settlement
+- Zonal and network aspects
+- Impact of regulation and support schemes
+
+## Before you start
+
+### Interview with Klaus Skytte (Nordic Energy Research)
+
+Klaus Skytte was the head of the Energy Economics and Regulation group at DTU Management and is now the Director of Nordic Energy Research. We discuss the importance of electricity markets and regulation in the energy transition.
+
+{{< video https://www.youtube.com/embed/Fg2ofpBnQR0 >}}
+
+## Lectures
+
+### 2.0 Introduction
+
+{{< video https://www.youtube.com/embed/LvL-qBDxJck >}}
+
+[Slides (PDF)](/files/31761/Module2/Lecture2p0/31761lecture2p0.pdf){.slides-link}
+
+### 2.1 From bilateral contracts to the electricity pool
+
+{{< video https://www.youtube.com/embed/L9kx7wzsR_c >}}
+
+[Slides (PDF)](/files/31761/Module2/Lecture2p1/31761lecture2p1.pdf){.slides-link}
+
+### 2.2 Market clearing as an optimization problem
+
+{{< video https://www.youtube.com/embed/FYfbM56L-mE >}}
+
+[Slides (PDF)](/files/31761/Module2/Lecture2p2/31761lecture2p2.pdf){.slides-link}
+
+### 2.3 From prices to settlement
+
+{{< video https://www.youtube.com/embed/s9i4RA-2-18 >}}
+
+[Slides (PDF)](/files/31761/Module2/Lecture2p3/31761lecture2p3.pdf){.slides-link}
+
+### 2.4 Zonal and network aspects
+
+{{< video https://www.youtube.com/embed/5TYXd4wXveE >}}
+
+[Slides (PDF)](/files/31761/Module2/Lecture2p4/31761lecture2p4.pdf){.slides-link}
+
+### 2.5 Impact of regulation and support schemes
+
+{{< video https://www.youtube.com/embed/rpCvZcRddmI >}}
+
+[Slides (PDF)](/files/31761/Module2/Lecture2p5/31761lecture2p5.pdf){.slides-link}
+
+::: {.module-nav}
+[← Module 1](module-01.qmd)
+
+[Module 3 →](module-03.qmd)
+:::

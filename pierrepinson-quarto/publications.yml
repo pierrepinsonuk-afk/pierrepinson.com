@@ -1,0 +1,2284 @@
+- title: 'From intraday orderbook to imbalance price: Understanding cross-market interaction'
+  year: 2026
+  venue: Preprint (arXiv:2609.37903)
+  authors: R. Yu, J.L. Cremer, P. Pinson, J. Kazempour, L. Semmelmann, T. Matsumoto, D.W. Bunn
+  url: ''
+  preprint: https://arxiv.org/abs/2609.37903
+  status: Preprint
+  categories:
+  - Forecasting
+  - Markets
+  - Preprint
+- title: 'Learning to fix: Optimisation-aware machine learning for accelerated unit commitment'
+  year: 2026
+  venue: Preprint (arXiv:2609.39396)
+  authors: B. Fritz, A. Makrides, M. Fetanat, P. Pinson
+  url: ''
+  preprint: https://arxiv.org/abs/2609.39396
+  status: Preprint
+  categories:
+  - Optimisation
+  - Energy
+  - Preprint
+- title: Stabilizing distribution-free probabilistic forecasts
+  year: 2026
+  venue: Preprint (arXiv:2605.28531)
+  authors: J. Van Belle, H. Wen, W. Verbeke, P. Pinson
+  url: ''
+  preprint: https://arxiv.org/abs/2605.28531
+  status: Preprint
+  categories:
+  - Forecasting
+  - Preprint
+- title: Towards replication-robust analytics markets
+  year: 2026
+  venue: INFORMS Journal on Data Science, in press
+  authors: T. Falconer, P. Pinson, J. Kazempour
+  url: https://pubsonline.informs.org/doi/10.1287/ijds.2025.0075
+  preprint: https://arxiv.org/abs/2310.06000
+  status: In press
+  categories:
+  - Markets
+  - Journal article
+- title: How to purchase labels? A cost-effective approach using active learning markets
+  year: 2026
+  venue: INFORMS Journal on Data Science, in press
+  authors: X. Huang, P. Pinson
+  url: ''
+  preprint: https://arxiv.org/abs/2511.20605
+  status: In press
+  categories:
+  - Markets
+  - Journal article
+- title: Value-oriented forecast reconciliation for renewables in electricity markets
+  year: 2026
+  venue: European Journal of Operational Research 332(2), pp. 492-504
+  authors: H. Wen, P. Pinson
+  url: ''
+  preprint: https://arxiv.org/abs/2501.16086
+  status: ''
+  categories:
+  - Forecasting
+  - Markets
+  - Journal article
+- title: 'Synergies between AI computing and power systems: Metrics, scheduling, and resilience'
+  year: 2025
+  venue: IEEE Energy Sustainability Magazine, in press
+  authors: F. Pourahmadi, O. Corradi, P. Pinson
+  url: ''
+  preprint: ''
+  status: In press
+  categories:
+  - Energy
+  - Journal article
+- title: Seamless and multi-resolution energy forecasting
+  year: 2025
+  venue: IEEE Transactions on Smart Grid 16(1), pp. 383-395
+  authors: C. Wang, P. Pinson, Y. Wang
+  url: https://ieeexplore.ieee.org/document/10643199
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: Privacy-aware data acquisition under data similarity in regression markets
+  year: 2025
+  venue: IEEE Transactions on Neural Networks and Learning Systems
+  authors: S. Pandey, P. Pinson, P. Popovski
+  url: https://ieeexplore.ieee.org/document/10819955
+  preprint: https://arxiv.org/abs/2312.02611
+  status: ''
+  categories:
+  - Markets
+  - Journal article
+- title: Prediction markets with intermittent contributions
+  year: 2025
+  venue: Preprint, under review
+  authors: M. Vitali, P. Pinson
+  url: ''
+  preprint: https://arxiv.org/abs/2510.13385
+  status: Preprint
+  categories:
+  - Forecasting
+  - Markets
+  - Preprint
+- title: Predict-and-optimize robust unit commitment with statistical guarantees via weight combination
+  year: 2025
+  venue: IEEE Transactions on Power Systems, in press
+  authors: R. Xie, Y. Chen, P. Pinson
+  url: https://ieeexplore.ieee.org/document/11176839
+  preprint: ''
+  status: In press
+  categories:
+  - Optimisation
+  - Energy
+  - Journal article
+- title: Pooling probabilistic forecasts for cooperative wind power offering
+  year: 2025
+  venue: Preprint, under review
+  authors: H. Wen, P. Pinson
+  url: ''
+  preprint: https://arxiv.org/abs/2510.12382
+  status: Preprint
+  categories:
+  - Forecasting
+  - Markets
+  - Preprint
+- title: 'Load forecasting model trading: A cost-oriented and auction-based approach'
+  year: 2025
+  venue: IEEE Transactions on Smart Grid, in press
+  authors: D. Qin, P. Pinson, Y. Wang
+  url: ''
+  preprint: ''
+  status: In press
+  categories:
+  - Forecasting
+  - Markets
+  - Journal article
+- title: 'Inverse game theory: An incenter-based approach'
+  year: 2025
+  venue: 34th International Joint Conference on Artificial Intelligence (IJCAI 2025), pp. 3805-3813
+  authors: L. Cui, H. Yu, P. Pinson, D. Paccagnan
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Optimisation
+  - Conference paper
+- title: Integrated optimization of operations and capacity planning under uncertainty for drayage procurement in container logistics
+  year: 2025
+  venue: Preprint, under review
+  authors: G. Vassos, R.M. Lusby, P. Pinson
+  url: ''
+  preprint: ''
+  status: Preprint
+  categories:
+  - Optimisation
+  - Preprint
+- title: How long is long enough? Finite-horizon approximation of energy storage scheduling problems
+  year: 2025
+  venue: Preprint, under review
+  authors: E. Prat, R.M. Lusby, J.M. Morales, S. Pineda, P. Pinson
+  url: ''
+  preprint: https://arxiv.org/abs/2411.17463
+  status: Preprint
+  categories:
+  - Optimisation
+  - Energy
+  - Preprint
+- title: Generalizable simulation framework for the request-to-order process in the procurement of onboard vessel requisitions
+  year: 2025
+  venue: Preprint, under review
+  authors: G. Vassos, R.M. Lusby, P. Pinson
+  url: ''
+  preprint: ''
+  status: Preprint
+  categories:
+  - Optimisation
+  - Preprint
+- title: Fairness by design in shared-energy allocation problems
+  year: 2025
+  venue: Computational Management Science, in press
+  authors: Z. Fornier, V. Leclère, P. Pinson
+  url: ''
+  preprint: ''
+  status: In press
+  categories:
+  - Optimisation
+  - Markets
+  - Journal article
+- title: Do we actually understand the impact of renewables on electricity prices? A causal inference approach
+  year: 2025
+  venue: iEnergy 4(4), pp. 247-258
+  authors: D. Cacciarelli, P. Pinson, F. Panagiotopoulos, D. Dixon, L. Blaxland
+  url: https://www.sciopen.com/article/10.23919/IEN.2025.0027
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Energy
+  - Journal article
+- title: Data are missing again -- Reconstruction of power generation data using k-Nearest Neighbors and spectral graph theory
+  year: 2025
+  venue: Wind Energy 28(1), art. no. 2962
+  authors: A. Pierrot, P. Pinson
+  url: https://onlinelibrary.wiley.com/doi/10.1002/we.2962
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Energy
+  - Journal article
+- title: A negotiation-based incentive mechanism for efficient transmission expansion planning considering generation investment equilibrium in deregulated environment
+  year: 2025
+  venue: Applied Energy, in press
+  authors: H. Guo, Y. Xiao, P. Pinson, X. Wang, L. Zhang, X. Wang
+  url: ''
+  preprint: ''
+  status: In press
+  categories:
+  - Markets
+  - Energy
+  - Journal article
+- title: A causal analysis of balancing costs in the UK electricity market
+  year: 2025
+  venue: Preprint, under review
+  authors: D. Cacciarelli, F. Panagiotopoulos, D. Dixon, P. Pinson
+  url: ''
+  preprint: ''
+  status: Preprint
+  categories:
+  - Markets
+  - Preprint
+- title: Wind energy forecasting with missing values within a fully conditional specification framework
+  year: 2024
+  venue: International Journal of Forecasting 40(1), pp. 77-95
+  authors: H. Wen, P. Pinson, J. Gu, Z. Jin
+  url: ''
+  preprint: https://arxiv.org/abs/2203.08252
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: Strategic coalition for data pricing in IoT data markets
+  year: 2024
+  venue: IEEE Internet of Things Journal 11(4), pp. 6454-6468
+  authors: S.R. Pandey, P. Pinson, P. Popovski
+  url: https://ieeexplore.ieee.org/document/10236510
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Journal article
+- title: Robust generation dispatch with purchase of renewable power and load predictions
+  year: 2024
+  venue: IEEE Transactions on Sustainable Energy 15(3), pp. 1486-1501
+  authors: R. Xie, P. Pinson, Y. Xu, Y. Chen
+  url: https://ieeexplore.ieee.org/document/10399845
+  preprint: ''
+  status: ''
+  categories:
+  - Optimisation
+  - Energy
+  - Journal article
+- title: On tracking varying bounds when forecasting bounded time series
+  year: 2024
+  venue: Technometrics 66(4), pp. 651-661
+  authors: A. Pierrot, P. Pinson
+  url: https://www.tandfonline.com/doi/full/10.1080/00401706.2024.2350421
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: On the efficiency of energy markets with non-merchant storage
+  year: 2024
+  venue: Energy Systems, in press
+  authors: L. Frölke, E. Prat, P. Pinson, R.M. Lusby, J. Kazempour
+  url: ''
+  preprint: https://arxiv.org/abs/2210.05305
+  status: In press
+  categories:
+  - Markets
+  - Journal article
+- title: 'Data-driven at sea: Forecasting and revenue management at Molslinjen'
+  year: 2024
+  venue: INFORMS Journal on Applied Analytics (invited; INFORMS Edelman Award 2024 winner)
+  authors: P. Pinson, M. Bjørn, S. Kristiansen, C.B. Nielsen, L. Janerka, J. Skovgaard, K. Durhuus
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Analytics
+  - Journal article
+- title: CRPS-based online learning for nonlinear probabilistic forecast combination
+  year: 2024
+  venue: International Journal of Forecasting 40(4), pp. 1449-1466
+  authors: D. van der Meer, P. Pinson, S. Camal, G. Kariniotakis
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0169207023001371
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: 'Convolutional encoding and normalizing flows: a deep learning approach for offshore wind speed probabilistic forecasting in the Mediterranean Sea'
+  year: 2024
+  venue: Artificial Intelligence for the Earth Systems 3(3)
+  authors: R. Marcille, P. Tandeo, M. Thiébaut, P. Pinson, R. Fablet
+  url: https://journals.ametsoc.org/view/journals/aies/3/3/AIES-D-23-0112.1.xml
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: Bayesian regression markets
+  year: 2024
+  venue: Journal of Machine Learning Research 25(180), pp. 1-38
+  authors: T. Falconer, J. Kazempour, P. Pinson
+  url: https://jmlr.org/papers/v25/23-1385.html
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Journal article
+- title: 'A market for trading forecasts: A wagering mechanism'
+  year: 2024
+  venue: International Journal of Forecasting 40(1), pp. 142-159
+  authors: A. Raja, J. Kazempour, P. Pinson, S. Grammatico
+  url: ''
+  preprint: https://arxiv.org/abs/2205.02668
+  status: ''
+  categories:
+  - Forecasting
+  - Markets
+  - Journal article
+- title: What may future electricity markets look like?
+  year: 2023
+  venue: Journal of Modern Power Systems and Clean Energy 11(3), pp. 698-706 (invited)
+  authors: P. Pinson
+  url: https://ieeexplore.ieee.org/document/10049815
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Journal article
+- title: 'Privacy-preserving convex optimization: When differential privacy meets stochastic programming'
+  year: 2023
+  venue: Preprint, under review
+  authors: V. Dvorkin, F. Fioretto, P. Van Hentenryck, P. Pinson, J. Kazempour
+  url: ''
+  preprint: https://arxiv.org/abs/2209.14152
+  status: Preprint
+  categories:
+  - Optimisation
+  - Preprint
+- title: P2P market coordination methodologies with distribution grid management
+  year: 2023
+  venue: Sustainable Energy, Grids and Networks 34, art. no. 101075
+  authors: A.S. Faria, T. Soares, T. Orlandini, C. Oliveira, T. Sousa, P. Pinson, M. Matos
+  url: https://www.sciencedirect.com/science/article/pii/S2352467723000838
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Journal article
+- title: Online decision-making for trading wind energy
+  year: 2023
+  venue: Computational Management Science 20, art. no. 33
+  authors: M.A. Muñoz, P. Pinson, J. Kazempour
+  url: https://link.springer.com/article/10.1007/s10287-023-00462-2
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Optimisation
+  - Journal article
+- title: On the design of decentralised data markets
+  year: 2023
+  venue: Preprint, under review
+  authors: A. Manzano Kharman, C. Jursitzky, Q. Zhou, P. Ferraro, J. Marecek, P. Pinson, R. Shorten
+  url: ''
+  preprint: https://arxiv.org/abs/2206.06299
+  status: Preprint
+  categories:
+  - Markets
+  - Preprint
+- title: On machine learning-based techniques for future sustainable and resilient energy systems
+  year: 2023
+  venue: IEEE Transactions on Sustainable Energy 14(2), pp. 1230-1243
+  authors: J. Wang, P. Pinson, S. Chatzivasileiadis, M. Panteli, G. Strbac, V. Terzija
+  url: https://ieeexplore.ieee.org/document/9844246
+  preprint: ''
+  status: ''
+  categories:
+  - Energy
+  - Journal article
+- title: Moving from linear to conic markets for electricity
+  year: 2023
+  venue: European Journal of Operational Research 309(2), pp. 762-783
+  authors: A. Ratha, P. Pinson, H. Le Cadre, A. Virag, J. Kazempour
+  url: ''
+  preprint: https://arxiv.org/abs/2103.12122
+  status: ''
+  categories:
+  - Markets
+  - Optimisation
+  - Journal article
+- title: Fair and scalable electric vehicle charging under electrical grid constraints
+  year: 2023
+  venue: IEEE Transactions on Intelligent Transportation Systems 24(12), pp. 15169-15177
+  authors: G. Tsaousoglou, J.S. Giraldo, P. Pinson, N.G. Paterakis
+  url: https://ieeexplore.ieee.org/document/10251779
+  preprint: ''
+  status: ''
+  categories:
+  - Optimisation
+  - Energy
+  - Journal article
+- title: Distributionally robust trading strategies for renewable energy producers
+  year: 2023
+  venue: IEEE Transactions on Energy Markets, Policy and Regulation 1(1), pp. 37-47
+  authors: P. Pinson
+  url: https://ieeexplore.ieee.org/document/10032566
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Optimisation
+  - Journal article
+- title: Chance-constrained economic dispatch of generic energy storage under decision-dependent uncertainty
+  year: 2023
+  venue: IEEE Transactions on Sustainable Energy 14(4), pp. 2234-2248
+  authors: N. Qi, P. Pinson, M.R. Almassalkhi, L. Cheng, Y. Zhuang
+  url: https://ieeexplore.ieee.org/document/10081472
+  preprint: ''
+  status: ''
+  categories:
+  - Optimisation
+  - Energy
+  - Journal article
+- title: Variable heat pricing to steer the flexibility of heat demand response in district heating systems
+  year: 2022
+  venue: Electric Power Systems Research 212, art. no. 108383
+  authors: L. Bai, J. Wang, P. Pinson
+  url: https://www.sciencedirect.com/science/article/pii/S0378779622005454
+  preprint: ''
+  status: ''
+  categories:
+  - Energy
+  - Journal article
+- title: 'Trading data for wind power forecasting: A regression market with Lasso regularization'
+  year: 2022
+  venue: Electric Power Systems Research 212, art. no. 108442
+  authors: L. Han, P. Pinson, J. Kazempour
+  url: https://www.sciencedirect.com/science/article/pii/S0378779622005831
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Markets
+  - Journal article
+- title: To share or not to share? Alternative views on a future of collaborative forecasting
+  year: 2022
+  venue: Foresight 67, pp. 8-15
+  authors: P. Pinson
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: Stochastic control and pricing for natural gas networks
+  year: 2022
+  venue: IEEE Transactions on Control of Network Systems 9(1), pp. 450-462
+  authors: V. Dvorkin, A. Ratha, P. Pinson, J. Kazempour
+  url: https://ieeexplore.ieee.org/document/9540318
+  preprint: ''
+  status: ''
+  categories:
+  - Optimisation
+  - Energy
+  - Journal article
+- title: Reliability-aware probabilistic reserve procurement
+  year: 2022
+  venue: Electric Power Systems Research 212, art. no. 108345
+  authors: L. Herre, P. Pinson, S. Chatzivasileiadis
+  url: https://www.sciencedirect.com/science/article/pii/S0378779622005193
+  preprint: ''
+  status: ''
+  categories:
+  - Optimisation
+  - Energy
+  - Journal article
+- title: Regression markets and application to energy forecasting
+  year: 2022
+  venue: TOP 30, pp. 533-573
+  authors: P. Pinson, L. Han, J. Kazempour
+  url: https://link.springer.com/article/10.1007/s11750-022-00631-7
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Markets
+  - Journal article
+- title: 'Pandemics and forecasting: The way forward through the Taleb-Ioannidis debate'
+  year: 2022
+  venue: International Journal of Forecasting 38(2), pp. 410-412
+  authors: P. Pinson, S. Makridakis
+  url: https://www.sciencedirect.com/science/article/pii/S0169207020301229
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: 'North Sea energy islands: Impact on national markets and grids'
+  year: 2022
+  venue: Energy Policy 167, art. no. 112907
+  authors: A. Tosatto, X.M. Beseler, J. Østergaard, P. Pinson, S. Chatzivasileiadis
+  url: ''
+  preprint: https://arxiv.org/abs/2103.17056
+  status: ''
+  categories:
+  - Markets
+  - Energy
+  - Journal article
+- title: Multi-stage linear decision rules for stochastic control of natural gas networks with linepack
+  year: 2022
+  venue: Electric Power Systems Research 212, art. no. 108388
+  authors: V. Dvorkin, A. Botterud, D. Mallapragada, J. Kazempour, P. Pinson
+  url: https://www.sciencedirect.com/science/article/pii/S0378779622005375
+  preprint: ''
+  status: ''
+  categories:
+  - Optimisation
+  - Energy
+  - Journal article
+- title: 'Forecasting: theory and practice'
+  year: 2022
+  venue: International Journal of Forecasting 38(3), pp. 705-871
+  authors: F. Petropoulos and co-authors (incl. P. Pinson)
+  url: https://www.sciencedirect.com/science/article/pii/S0169207021001758
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: 'Editorial: Epidemics and forecasting with focus on COVID-19'
+  year: 2022
+  venue: International Journal of Forecasting 38(2), pp. 407-409
+  authors: P. Pinson
+  url: https://www.sciencedirect.com/science/article/pii/S0169207021002156
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: 'Continuous and distribution-free probabilistic wind power forecasting: A conditional normalizing flow approach'
+  year: 2022
+  venue: IEEE Transactions on Sustainable Energy 13(4), pp. 2250-2263
+  authors: H. Wen, P. Pinson, J. Ma, J. Gu, Z. Jin
+  url: https://ieeexplore.ieee.org/document/9831039
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: An asynchronous online negotiation mechanism for real-time peer-to-peer electricity markets
+  year: 2022
+  venue: IEEE Transactions on Power Systems 37(3), pp. 1868-1880
+  authors: Z. Guo, P. Pinson, S. Chen, Q. Yang, Z. Yang
+  url: https://ieeexplore.ieee.org/document/9536422
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Journal article
+- title: A network-aware market mechanism for decentralized district heating systems
+  year: 2022
+  venue: Applied Energy, art. no. 117956
+  authors: L. Frölke, T. Sousa, P. Pinson
+  url: https://www.sciencedirect.com/science/article/pii/S0306261921012563
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Energy
+  - Journal article
+- title: What do prosumer marginal utility functions look like? Derivation and analysis
+  year: 2021
+  venue: IEEE Transactions on Power Systems 36(5), pp. 4322-4330
+  authors: C. Ziras, T. Sousa, P. Pinson
+  url: https://ieeexplore.ieee.org/document/9385902
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Journal article
+- title: Transactive energy for flexible prosumers using algorithmic game theory
+  year: 2021
+  venue: IEEE Transactions on Sustainable Energy 12(3), pp. 1571-1581
+  authors: G. Tsaousoglou, P. Pinson, N.G. Paterakis
+  url: https://ieeexplore.ieee.org/document/9343668
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Journal article
+- title: Towards data markets in renewable energy forecasting
+  year: 2021
+  venue: IEEE Transactions on Sustainable Energy 12(1), pp. 533-542
+  authors: C. Goncalves, P. Pinson, R. Bessa
+  url: https://ieeexplore.ieee.org/document/9141479
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Markets
+  - Journal article
+- title: Privacy-preserving distributed learning for renewable energy forecasting
+  year: 2021
+  venue: IEEE Transactions on Sustainable Energy 12(3), pp. 1777-1787
+  authors: C. Goncalves, R. Bessa, P. Pinson
+  url: https://ieeexplore.ieee.org/document/9374719
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: Price-region bids in electricity markets
+  year: 2021
+  venue: European Journal of Operational Research 295(3), pp. 1056-1073
+  authors: L. Bobo, L. Mitridati, J.A. Taylor, P. Pinson, J. Kazempour
+  url: https://www.sciencedirect.com/science/article/pii/S0377221721002502
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Journal article
+- title: Online optimization for real-time peer-to-peer electricity market mechanisms
+  year: 2021
+  venue: IEEE Transactions on Smart Grid 12(5), pp. 4151-4163
+  authors: Z. Guo, P. Pinson, S. Chen, Q. Yang, Z. Yang
+  url: https://ieeexplore.ieee.org/document/9416277
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Optimisation
+  - Journal article
+- title: Online forecast reconciliation in wind power prediction
+  year: 2021
+  venue: Electric Power Systems Research 190, art. no. 106637
+  authors: C. Di Modica, P. Pinson, S. Ben Taieb
+  url: https://www.sciencedirect.com/science/article/pii/S0378779620304405
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: Online distributed learning in wind power forecasting
+  year: 2021
+  venue: International Journal of Forecasting 37(1), pp. 205-223
+  authors: B. Sommer, P. Pinson, J.W. Messner, D. Obst
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0169207020300613
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: 'Monetizing customer load data for an energy retailer: A cooperative game approach'
+  year: 2021
+  venue: Proc. Probabilistic Methods Applied to Power Systems (PMAPS) 2021
+  authors: L. Han, P. Pinson, J. Kazempour
+  url: ''
+  preprint: https://arxiv.org/abs/2012.05519
+  status: ''
+  categories:
+  - Markets
+  - Conference paper
+- title: Mechanism design for fair and efficient DSO flexibility markets
+  year: 2021
+  venue: IEEE Transactions on Smart Grid 12(3), pp. 2249-2260
+  authors: G. Tsaousoglou, J.S. Giraldo, P. Pinson, N.G. Paterakis
+  url: https://ieeexplore.ieee.org/document/9312120
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Journal article
+- title: Managing distributed flexibility under uncertainty by combining deep learning with duality
+  year: 2021
+  venue: IEEE Transactions on Sustainable Energy 12(4), pp. 2195-2204
+  authors: G. Tsaousoglou, K. Mitropoulou, K. Steriotis, N.G. Paterakis, P. Pinson, E. Varvarigos
+  url: https://ieeexplore.ieee.org/document/9447957
+  preprint: ''
+  status: ''
+  categories:
+  - Optimisation
+  - Energy
+  - Journal article
+- title: Forecasting and market design advances
+  year: 2021
+  venue: IEEE Power and Energy Magazine 19(6), pp. 75-85
+  authors: J. Fox, E. Ela, B. Hobbs, J. Sharp, J. Novacheck, A. Motley, R.J. Bessa, P. Pinson, G. Kariniotakis
+  url: https://ieeexplore.ieee.org/document/9586385
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Markets
+  - Journal article
+- title: Energy and reserve dispatch with distributionally robust joint chance constraints
+  year: 2021
+  venue: Operations Research Letters 49(3), pp. 291-299
+  authors: C. Ordoudis, V.A. Nguyen, D. Kuhn, P. Pinson
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0167637721000213
+  preprint: ''
+  status: ''
+  categories:
+  - Optimisation
+  - Journal article
+- title: Electric demand response and bounded rationality – Mean-field control for large populations of heterogeneous bounded-rational agents
+  year: 2021
+  venue: Philosophical Transactions of the Royal Society A 379(2202), art. no. 20190429
+  authors: A. Marín Radoszynski, P. Pinson
+  url: https://royalsocietypublishing.org/doi/abs/10.1098/rsta.2019.0429
+  preprint: ''
+  status: ''
+  categories:
+  - Optimisation
+  - Energy
+  - Journal article
+- title: Dynamic reserve and transmission capacity allocation in wind-dominated power systems
+  year: 2021
+  venue: IEEE Transactions on Power Systems 36(4), pp. 3017-3028
+  authors: N. Viafora, S. Delikaraoglou, P. Pinson, G. Hug, J. Holbøll
+  url: https://ieeexplore.ieee.org/document/9286771
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Optimisation
+  - Journal article
+- title: Design and game-theoretical analysis of community-based market mechanisms in heat and electricity systems
+  year: 2021
+  venue: Omega 99, art. no. 102177
+  authors: L. Mitridati, J. Kazempour, P. Pinson
+  url: https://www.sciencedirect.com/science/article/pii/S0305048319305523
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Journal article
+- title: Coordination of power and natural gas markets via financial instruments
+  year: 2021
+  venue: Computational Management Science 18, pp. 505-538
+  authors: A. Schwele, C. Ordoudis, P. Pinson, J. Kazempour
+  url: https://link.springer.com/article/10.1007/s10287-021-00403-x
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Journal article
+- title: Chance-constrained peer-to-peer joint energy and reserve market based on consensus ADMM
+  year: 2021
+  venue: IEEE Transactions on Smart Grid 12(1), pp. 798-809
+  authors: Z. Guo, P. Pinson, S. Chen, Q. Yang, Z. Yang
+  url: https://ieeexplore.ieee.org/document/9178314
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Optimisation
+  - Journal article
+- title: Adaptive generalized logit-Normal distributions for wind power short-term forecasting
+  year: 2021
+  venue: Proc. Probabilistic Methods Applied to Power Systems (PMAPS) 2021
+  authors: A. Pierrot, P. Pinson
+  url: ''
+  preprint: https://arxiv.org/abs/2012.08910
+  status: ''
+  categories:
+  - Forecasting
+  - Conference paper
+- title: A self-adaptive multikernel machine based on Recursive Least-Squares applied to very short-term wind power forecasting
+  year: 2021
+  venue: IEEE Access 9, pp. 104761-104772
+  authors: E.C. Bezerra, P. Pinson, R.P.S. Leão, A.P.S. Braga
+  url: https://ieeexplore.ieee.org/document/9495822
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: A critical overview of privacy-preserving approaches for collaborative forecasting
+  year: 2021
+  venue: International Journal of Forecasting 37(1), pp. 322-342
+  authors: C. Goncalves, R.J. Bessa, P. Pinson
+  url: https://www.sciencedirect.com/science/article/pii/S016920702030090X
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: Loss allocation in joint transmission and distribution peer-to-peer markets
+  year: 2021
+  venue: IEEE Transactions on Power Systems 36(3), pp. 1833-1842
+  authors: F. Moret, A. Tosatto, T. Baroche, P. Pinson
+  url: https://ieeexplore.ieee.org/document/9201189
+  preprint: https://arxiv.org/abs/2001.05396
+  status: ''
+  categories:
+  - Markets
+  - Journal article
+- title: Differentially private optimal power flow for distribution grids
+  year: 2021
+  venue: IEEE Transactions on Power Systems 36(3), pp. 2186-2196
+  authors: V. Dvorkin, F. Fioretto, P. Van Hentenryck, J. Kazempour, P. Pinson
+  url: https://ieeexplore.ieee.org/document/9226144
+  preprint: https://arxiv.org/abs/2004.03921
+  status: ''
+  categories:
+  - Optimisation
+  - Energy
+  - Journal article
+- title: Transactive energy based aggregation of prosumers as a retailer
+  year: 2020
+  venue: IEEE Transactions on Smart Grid 11(4), pp. 3302-3312
+  authors: Y. Xiao, X. Wang, P. Pinson, X. Wang
+  url: https://ieeexplore.ieee.org/document/9011607
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Journal article
+- title: The future of forecasting for renewable energy
+  year: 2020
+  venue: WIREs Energy and Environment 9(2), art. no. e365
+  authors: C. Sweeney, R.J. Bessa, J. Browell, P. Pinson
+  url: https://onlinelibrary.wiley.com/doi/10.1002/wene.365
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Energy
+  - Journal article
+- title: 'The ethical smart grid: Enabling a fruitful and long-lasting relationship between utilities and customers'
+  year: 2020
+  venue: Energy Policy 140, art. no. 111258
+  authors: G. Le Ray, P. Pinson
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0301421520300185
+  preprint: ''
+  status: ''
+  categories:
+  - Energy
+  - Journal article
+- title: Statistical post-processing of turbulence-resolving weather forecasts for offshore wind power forecasting
+  year: 2020
+  venue: Wind Energy 23(4), pp. 884-897
+  authors: C. Gilbert, J.W. Messner, P. Pinson, P.-J. Trombe, R. Verzijlbergh, P. van Dorp, H. Jonker
+  url: https://onlinelibrary.wiley.com/doi/full/10.1002/we.2456
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: Market-based coordination for integrated electricity and natural gas systems under uncertain supply
+  year: 2020
+  venue: European Journal of Operational Research 287(3), pp. 1105-1119
+  authors: C. Ordoudis, S. Delikaraoglou, J. Kazempour, P. Pinson
+  url: https://www.sciencedirect.com/science/article/pii/S0377221720304185
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Optimisation
+  - Journal article
+- title: Heterogeneous risk preferences in community-based electricity markets
+  year: 2020
+  venue: European Journal of Operational Research 287(1), pp. 36-48
+  authors: F. Moret, P. Pinson, A. Papakonstantinou
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0377221720303878
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Journal article
+- title: 'Heat and electricity market coordination: A scalable complementarity approach'
+  year: 2020
+  venue: European Journal of Operational Research 283(3), pp. 1107-1123
+  authors: L. Mitridati, J. Kazempour, P. Pinson
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0377221719309841
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Optimisation
+  - Journal article
+- title: Evaluation of wind power forecasts – An up-to-date view
+  year: 2020
+  venue: Wind Energy 23(6), pp. 1461-1481
+  authors: J.W. Messner, P. Pinson, J. Browell, M.B. Bjerregård, I. Schicker
+  url: https://onlinelibrary.wiley.com/doi/full/10.1002/we.2497
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: 'Energy forecasting: A review and outlook'
+  year: 2020
+  venue: IEEE Open Access Journal of Power and Energy 7, pp. 376-388
+  authors: T. Hong, P. Pinson, Y. Wang, R. Weron, D. Yang, H. Zareipour
+  url: https://ieeexplore.ieee.org/document/9218967
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Energy
+  - Journal article
+- title: Editorial
+  year: 2020
+  venue: International Journal of Forecasting 36(2), pp. 229-231
+  authors: P. Pinson
+  url: https://www.sciencedirect.com/science/article/pii/S0169207020300145
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: Do unit commitment constraints affect generation expansion planning? A scalable stochastic model
+  year: 2020
+  venue: Energy Systems 11, pp. 247-282
+  authors: A. Schwele, J. Kazempour, P. Pinson
+  url: https://link.springer.com/article/10.1007/s12667-018-00321-z
+  preprint: ''
+  status: ''
+  categories:
+  - Optimisation
+  - Energy
+  - Journal article
+- title: Distributionally robust chance-constrained generation expansion planning
+  year: 2020
+  venue: IEEE Transactions on Power Systems 35(4), pp. 2888-2903
+  authors: F. Pourahmadi, J. Kazempour, C. Ordoudis, P. Pinson, S.H. Hosseini
+  url: https://ieeexplore.ieee.org/document/8933104
+  preprint: ''
+  status: ''
+  categories:
+  - Optimisation
+  - Energy
+  - Journal article
+- title: 'Demand side management of heat in smart homes: Living-lab experiments'
+  year: 2020
+  venue: Energy 195, art. no. 116993
+  authors: M.H. Christensen, P. Pinson, R. Li
+  url: https://www.sciencedirect.com/science/article/pii/S0360544220301006
+  preprint: ''
+  status: ''
+  categories:
+  - Energy
+  - Journal article
+- title: Chance-constrained optimal power flow with nonparametric probability distributions of dynamic line ratings
+  year: 2020
+  venue: International Journal of Electrical Power and Energy Systems 114, art. no. 105389
+  authors: N. Viafora, S. Delikaraoglou, P. Pinson, J. Holbøll
+  url: https://www.sciencedirect.com/science/article/pii/S0142061519309317
+  preprint: ''
+  status: ''
+  categories:
+  - Optimisation
+  - Energy
+  - Journal article
+- title: Big data analytics for future electricity grids
+  year: 2020
+  venue: Electric Power Systems Research 189, art. no. 106788
+  authors: M. Kezunovic, P. Pinson, Z. Obradovic, S. Grijalva, T. Hong, R. Bessa
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0378779620305915
+  preprint: ''
+  status: ''
+  categories:
+  - Energy
+  - Journal article
+- title: Affine policies for flexibility provision by natural gas networks to power systems
+  year: 2020
+  venue: Electric Power Systems Research 189, art. no. 106565
+  authors: A. Ratha, A. Schwele, J. Kazempour, P. Pinson, S.S. Torbaghan, A. Virag
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0378779620303692
+  preprint: ''
+  status: ''
+  categories:
+  - Optimisation
+  - Energy
+  - Journal article
+- title: Added-value of ensemble prediction system on the quality of solar irradiance probabilistic forecasts
+  year: 2020
+  venue: Renewable Energy 162, pp. 1321-1339
+  authors: J. Le Gal La Salle, J. Badosa, M. David, P. Pinson, P. Lauret
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0960148120311186
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: 'A mid-term DSO market for capacity limits: How to estimate opportunity costs of aggregators?'
+  year: 2020
+  venue: IEEE Transactions on Smart Grid 11(1), pp. 334-345
+  authors: C. Ziras, J. Kazempour, E.C. Kara, H.W. Bindner, P. Pinson, S. Kiliccote
+  url: https://ieeexplore.ieee.org/document/8732585
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Journal article
+- title: A local market mechanism for physical storage rights
+  year: 2020
+  venue: IEEE Transactions on Power Systems 35(4), pp. 3087-3099
+  authors: D. Thomas, J. Kazempour, A. Papakonstantinou, P. Pinson, O. Deblecker, C.S. Ioakimidis
+  url: https://ieeexplore.ieee.org/document/8963661
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Journal article
+- title: Verification of solar irradiance probabilistic forecasts
+  year: 2019
+  venue: Solar Energy 194, pp. 254-271
+  authors: P. Lauret, M. David, P. Pinson
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0038092X19310382
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: Trading wind power through physically settled options and short-term electricity markets
+  year: 2019
+  venue: Wind Energy 22(11), pp. 1487-1499
+  authors: A. Papakonstantinou, G. Champeri, S. Delikaraoglou, P. Pinson
+  url: https://onlinelibrary.wiley.com/doi/abs/10.1002/we.2383
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Journal article
+- title: Temporal hierarchies with autocorrelation for load forecasting
+  year: 2019
+  venue: European Journal of Operational Research 280(3), pp. 876-888
+  authors: P. Nystrup, E. Lindström, H. Madsen, P. Pinson
+  url: https://www.sciencedirect.com/science/article/abs/pii/S037722171930640X
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: Polyhedral predictive regions for power system applications
+  year: 2019
+  venue: IEEE Transactions on Power Systems 34(1), pp. 693-704
+  authors: F. Golestaneh, P. Pinson, H.B. Gooi
+  url: https://ieeexplore.ieee.org/document/8423709
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Optimisation
+  - Journal article
+- title: 'Peer-to-peer and community-driven markets: a comprehensive review'
+  year: 2019
+  venue: Renewable and Sustainable Energy Reviews 104, pp. 367-378
+  authors: T. Sousa, T. Soares, P. Pinson, F. Moret, T. Baroche, E. Sorin
+  url: https://www.sciencedirect.com/science/article/pii/S1364032119300462
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Journal article
+- title: Optimal allocation of HVDC interconnections for exchange of energy and reserve capacity services
+  year: 2019
+  venue: Energy Systems 10(3), pp. 635-675
+  authors: S. Delikaraoglou, P. Pinson
+  url: https://link.springer.com/article/10.1007/s12667-018-0288-6
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Optimisation
+  - Journal article
+- title: Online adaptive LASSO estimation in Vector Auto Regressive models for wind power forecasting in high dimension
+  year: 2019
+  venue: International Journal of Forecasting 35(4), pp. 1485-1498
+  authors: J.W. Messner, P. Pinson
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0169207018300347
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: Online adaptive clustering algorithm for load profiling
+  year: 2019
+  venue: Sustainable Energy, Grids and Networks 17, art. no. 100181
+  authors: G. Le Ray, P. Pinson
+  url: https://www.sciencedirect.com/science/article/pii/S2352467718301498
+  preprint: ''
+  status: ''
+  categories:
+  - Analytics
+  - Energy
+  - Journal article
+- title: Incentive-compatibility in a two-stage stochastic electricity market with high wind power penetration
+  year: 2019
+  venue: IEEE Transactions on Power Systems 34(4), pp. 2846-2858
+  authors: L. Exizidis, J. Kazempour, A. Papakonstantinou, P. Pinson, Z. de Greve, F. Vallee
+  url: https://ieeexplore.ieee.org/document/8651383
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Journal article
+- title: 'Guest editorial: Energy forecasting in the big data world'
+  year: 2019
+  venue: International Journal of Forecasting 35(4), pp. 1387-1388
+  authors: T. Hong, P. Pinson
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0169207019301062
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: Forecast reconciliation in day-ahead wind power forecasting
+  year: 2019
+  venue: Energies 12, art. no. 1112
+  authors: L. Bai, P. Pinson
+  url: https://www.mdpi.com/1996-1073/12/6/1112
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: Exogenous approach to grid cost allocation in peer-to-peer electricity markets
+  year: 2019
+  venue: IEEE Transactions on Power Systems 34(4), pp. 2553-2564
+  authors: T. Baroche, P. Pinson, R. Le Goff Latimier, H. Ben Ahmed
+  url: https://ieeexplore.ieee.org/document/8630697
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Journal article
+- title: 'Energy Collectives: a community and fairness based approach to future electricity markets'
+  year: 2019
+  venue: IEEE Transactions on Power Systems 34(5), pp. 3994-4004
+  authors: F. Moret, P. Pinson
+  url: https://ieeexplore.ieee.org/document/8301552
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Journal article
+- title: Electricity market equilibrium under information asymmetry
+  year: 2019
+  venue: Operations Research Letters 47(6), pp. 521-526
+  authors: V. Dvorkin, J. Kazempour, P. Pinson
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0167637719300756
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Journal article
+- title: Convex relaxations and approximations of chance-constrained AC-OPF problems
+  year: 2019
+  venue: IEEE Transactions on Power Systems 34(2), pp. 1459-1470
+  authors: L. Halilbasic, P. Pinson, S. Chatzivasileiadis
+  url: https://ieeexplore.ieee.org/document/8481575
+  preprint: ''
+  status: ''
+  categories:
+  - Optimisation
+  - Energy
+  - Journal article
+- title: Consensus-based approach to peer-to-peer electricity markets with product differentiation
+  year: 2019
+  venue: IEEE Transactions on Power Systems 34(2), pp. 994-1004
+  authors: E. Sorin, P. Pinson, L.A. Bobo
+  url: https://ieeexplore.ieee.org/document/8481579
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Journal article
+- title: An integrated market for electricity and natural gas systems with stochastic power producers
+  year: 2019
+  venue: European Journal of Operational Research 272(2), pp. 642-654
+  authors: C. Ordoudis, P. Pinson, J.M. Morales
+  url: https://www.sciencedirect.com/science/article/abs/pii/S037722171830571X
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Optimisation
+  - Journal article
+- title: Visualizing big energy data
+  year: 2018
+  venue: IEEE Power and Energy Magazine 16(3), pp. 18-25
+  authors: R.J. Hyndman, X. Liu, P. Pinson
+  url: https://ieeexplore.ieee.org/document/8340945
+  preprint: ''
+  status: ''
+  categories:
+  - Analytics
+  - Energy
+  - Journal article
+- title: 'Stochastic market design with revenue adequacy and cost recovery by scenario: benefits and costs'
+  year: 2018
+  venue: IEEE Transactions on Power Systems 33(4), pp. 3531-3545
+  authors: J. Kazempour, P. Pinson, B.F. Hobbs
+  url: https://ieeexplore.ieee.org/document/8246578
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Optimisation
+  - Journal article
+- title: Real-time trading strategies of proactive DISCO with heterogeneous DG owners
+  year: 2018
+  venue: IEEE Transactions on Smart Grid 9(3), pp. 1688-1697
+  authors: Q. Wang, C. Zhang, J. Wang, P. Pinson, J. Østergaard
+  url: https://ieeexplore.ieee.org/document/7530925
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Journal article
+- title: Real-time procurement strategies of a proactive distribution company with aggregator-based demand response
+  year: 2018
+  venue: IEEE Transactions on Smart Grid 9(2), pp. 766-776
+  authors: C. Zhang, Q. Wang, J. Wang, J.M. Morales, P. Pinson, J. Østergaard
+  url: https://ieeexplore.ieee.org/document/7469395
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Journal article
+- title: Price-taker offering strategy in electricity pay-as-bid markets
+  year: 2018
+  venue: IEEE Transactions on Power Systems 33(2), pp. 2175-2183
+  authors: N. Mazzi, J. Kazempour, P. Pinson
+  url: https://ieeexplore.ieee.org/document/8003486
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Journal article
+- title: Prévision météorologique pour les énergies renouvelables
+  year: 2018
+  venue: La Météorologie 100, pp. 1-8
+  authors: S. Cros, P. Pinson
+  url: http://documents.irevues.inist.fr/handle/2042/65145
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: Evaluating price-based demand response in practice – With application to the EcoGrid EU experiment
+  year: 2018
+  venue: IEEE Transactions on Smart Grid 9(3), pp. 2304-2313
+  authors: G. Le Ray, P. Pinson, E.M. Larsen
+  url: https://ieeexplore.ieee.org/document/7571156
+  preprint: ''
+  status: ''
+  categories:
+  - Energy
+  - Analytics
+  - Journal article
+- title: Ellipsoidal prediction regions for multivariate uncertainty characterization
+  year: 2018
+  venue: IEEE Transactions on Power Systems 33(4), pp. 4519-4530
+  authors: F. Golestaneh, P. Pinson, R. Azizipanah-Abarghooee, H.B. Gooi
+  url: https://ieeexplore.ieee.org/document/8253871
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: Cost-optimal ATCs in zonal electricity markets
+  year: 2018
+  venue: IEEE Transactions on Power Systems 33(4), pp. 3624-3633
+  authors: T.V. Jensen, J. Kazempour, P. Pinson
+  url: https://ieeexplore.ieee.org/document/8239657
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Optimisation
+  - Journal article
+- title: Correlation-constrained and sparsity-controlled vector autoregressive model for spatio-temporal wind power forecasting
+  year: 2018
+  venue: IEEE Transactions on Power Systems 33(5)
+  authors: Y. Zhao, L. Ye, P. Pinson, Y. Tang
+  url: https://ieeexplore.ieee.org/abstract/document/8260961
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: Benefits of spatio-temporal modelling for short term wind power forecasting at both individual and aggregated levels
+  year: 2018
+  venue: Environmetrics 29(3), art. no. e2493
+  authors: A. Lenzi, I. Steinsland, P. Pinson
+  url: https://onlinelibrary.wiley.com/doi/full/10.1002/env.2493
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: Bayesian approach to unveiling supply curves in electricity markets
+  year: 2018
+  venue: IEEE Transactions on Power Systems 33(3), pp. 2610-2620
+  authors: L. Mitridati, P. Pinson
+  url: https://ieeexplore.ieee.org/abstract/document/8053811
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Journal article
+- title: Active distribution grid management based on robust AC optimal power flow
+  year: 2018
+  venue: IEEE Transactions on Smart Grid 9(6), pp. 6229-6241
+  authors: T. Soares, R.J. Bessa, P. Pinson, H. Morais
+  url: https://ieeexplore.ieee.org/document/7932508
+  preprint: ''
+  status: ''
+  categories:
+  - Optimisation
+  - Energy
+  - Journal article
+- title: A local energy market for electricity and hydrogen
+  year: 2018
+  venue: IEEE Transactions on Power Systems 33(4), pp. 3898-3908
+  authors: Y. Xiao, X. Wang, P. Pinson, X. Wang
+  url: https://ieeexplore.ieee.org/document/8128505
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Energy
+  - Journal article
+- title: Towards fully renewable energy systems – Experience and trends in Denmark
+  year: 2017
+  venue: CSEE Journal of Power and Energy Systems 3(1), pp. 26-35
+  authors: P. Pinson, L. Mitridati, C. Ordoudis, J. Østergaard
+  url: https://ieeexplore.ieee.org/document/7874618
+  preprint: ''
+  status: ''
+  categories:
+  - Energy
+  - Markets
+  - Journal article
+- title: The emergence of consumer-centric electricity markets
+  year: 2017
+  venue: Distribution & Utilization 34(12), pp. 27-31 (in Chinese)
+  authors: P. Pinson, T. Baroche, F. Moret, T. Sousa, E. Sorin, S. You
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Journal article
+- title: Spatial models for probabilistic prediction of wind power with application to yearly average and high temporal resolution data
+  year: 2017
+  venue: Stochastic Environmental Research and Risk Assessment 31(7), pp. 1615-1631
+  authors: A. Lenzi, P. Pinson, L.K.H. Clemmensen, G. Guillot
+  url: https://link.springer.com/article/10.1007/s00477-016-1329-0
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: 'RE-Europe: a large-scale dataset for a future renewable-energy based European power system'
+  year: 2017
+  venue: Scientific Data 4, art. no. 170175
+  authors: T.V. Jensen, P. Pinson
+  url: https://www.nature.com/articles/sdata2017175
+  preprint: ''
+  status: ''
+  categories:
+  - Energy
+  - Analytics
+  - Journal article
+- title: Optimal offering and operating strategy for a large wind-storage system as a price maker
+  year: 2017
+  venue: IEEE Transactions on Power Systems 32(6), pp. 4904-4913
+  authors: H. Ding, P. Pinson, Z. Hu, J. Wang, Y. Song
+  url: https://ieeexplore.ieee.org/document/7876745
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Optimisation
+  - Journal article
+- title: Optimal offering and allocation policies for wind power in energy and reserve markets
+  year: 2017
+  venue: Wind Energy 20(11), pp. 1851-1870
+  authors: T. Soares, T.V. Jensen, N. Mazzi, P. Pinson, H. Morais
+  url: https://onlinelibrary.wiley.com/doi/abs/10.1002/we.2125
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Journal article
+- title: Impact of public aggregate wind forecasts on electricity market outcomes
+  year: 2017
+  venue: IEEE Transactions on Sustainable Energy 8(4), pp. 1394-1405
+  authors: L. Exizidis, J. Kazempour, P. Pinson, Z. De Grève, F. Vallée
+  url: https://ieeexplore.ieee.org/abstract/document/7879306
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Markets
+  - Journal article
+- title: From demand response evaluation to forecasting – Methods and results from the EcoGrid EU experiment
+  year: 2017
+  venue: Sustainable Energy, Grids and Networks 10, pp. 75-83
+  authors: E.M. Larsen, P. Pinson, F. Leimgruber, F. Judex
+  url: https://www.sciencedirect.com/science/article/pii/S2352467716300893
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Energy
+  - Journal article
+- title: Decision-dependent stochastic generation expansion planning with large amounts of wind power
+  year: 2017
+  venue: IEEE Transactions on Power Systems 32(4), pp. 3015-3026
+  authors: Y. Zhan, Q.P. Zheng, J. Wang, P. Pinson
+  url: https://ieeexplore.ieee.org/document/7740966
+  preprint: ''
+  status: ''
+  categories:
+  - Optimisation
+  - Energy
+  - Journal article
+- title: Attribution mechanisms for ancillary service costs induced by variability in power delivery
+  year: 2017
+  venue: IEEE Transactions on Power Systems 32(3), pp. 1891-1901
+  authors: F. Bona, N. Gast, J.-Y. Le Boudec, P. Pinson, D. Tomozei
+  url: https://ieeexplore.ieee.org/document/7539347
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Journal article
+- title: Very-short-term probabilistic wind power forecasts by sparse vector autoregression
+  year: 2016
+  venue: IEEE Transactions on Smart Grid 7(2), pp. 763-770
+  authors: J. Dowell, P. Pinson
+  url: https://ieeexplore.ieee.org/document/7105918
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: Very short-term nonparametric probabilistic forecasting of renewable energy generation – with application to solar energy
+  year: 2016
+  venue: IEEE Transactions on Power Systems 31(5), pp. 3850-3863
+  authors: F. Golestaneh, P. Pinson, H.B. Gooi
+  url: https://ieeexplore.ieee.org/document/7372485
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: Trading strategies for distribution company with stochastic distributed energy resources
+  year: 2016
+  venue: Applied Energy 177, pp. 625-635
+  authors: C. Zhang, Q. Wang, J. Wang, M. Korpås, P. Pinson, J. Østergaard, M.E. Khodayar
+  url: https://www.sciencedirect.com/science/article/pii/S0306261916307486
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Journal article
+- title: 'Sharing wind power forecasts in electricity markets: A numerical analysis'
+  year: 2016
+  venue: Applied Energy 176, pp. 65-73
+  authors: L. Exizidis, J. Kazempour, P. Pinson, Z. De Grève, F. Vallée
+  url: https://www.sciencedirect.com/science/article/pii/S0306261916306468
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Markets
+  - Journal article
+- title: Quantile forecast discrimination ability and value
+  year: 2016
+  venue: Quarterly Journal of the Royal Meteorological Society 141(693), pp. 3415-3424
+  authors: Z. Ben Bouallègue, P. Pinson, P. Friederichs
+  url: https://rmets.onlinelibrary.wiley.com/doi/full/10.1002/qj.2624
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: 'Probabilistic energy forecasting: Global Energy Forecasting Competition 2014 and beyond'
+  year: 2016
+  venue: International Journal of Forecasting 32(3), pp. 896-913
+  authors: T. Hong, P. Pinson, S. Fan, H. Zareipour, A. Troccoli, R.J. Hyndman
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0169207016000133
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: Optimal offering strategies for wind power in energy and primary reserve markets
+  year: 2016
+  venue: IEEE Transactions on Sustainable Energy 7(3), pp. 1036-1045
+  authors: T. Soares, P. Pinson, T.V. Jensen, H. Morais
+  url: https://ieeexplore.ieee.org/document/7399764
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Journal article
+- title: Optimal offering for wind-storage systems using linear decision rules
+  year: 2016
+  venue: IEEE Transactions on Power Systems 31(6), pp. 5061-5070
+  authors: H. Ding, P. Pinson, Z. Hu, Y. Song
+  url: https://ieeexplore.ieee.org/document/7398187
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Optimisation
+  - Journal article
+- title: Optimal bidding strategy of battery storage in power markets considering performance based regulation and battery cycle life
+  year: 2016
+  venue: IEEE Transactions on Smart Grid 7(5), pp. 2359-2367
+  authors: G. He, Q. Chen, C. Kang, P. Pinson, Q. Xia
+  url: https://ieeexplore.ieee.org/document/7106509
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Optimisation
+  - Journal article
+- title: Introducing distributed learning in wind power forecasting
+  year: 2016
+  venue: Proc. Probabilistic Methods Applied to Power Systems (PMAPS) 2016
+  authors: P. Pinson
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Conference paper
+- title: Integrated bidding and operating strategies for wind farms enhanced with storage
+  year: 2016
+  venue: IEEE Transactions on Sustainable Energy 7(1), pp. 163-172
+  authors: H. Ding, P. Pinson, Z. Hu, Y. Song
+  url: https://ieeexplore.ieee.org/document/7296676
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Optimisation
+  - Journal article
+- title: 'Information uncertainty in electricity markets: Introducing probabilistic offers'
+  year: 2016
+  venue: IEEE Transactions on Power Systems 31(6), pp. 5202-5203
+  authors: A. Papakonstantinou, P. Pinson
+  url: https://ieeexplore.ieee.org/document/7436822
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Journal article
+- title: Impact of inter- and intra-regional coordination in markets with a large renewable component
+  year: 2016
+  venue: IEEE Transactions on Power Systems 31(6), pp. 4755-4764
+  authors: S. Delikaraoglou, J.M. Morales, P. Pinson
+  url: https://ieeexplore.ieee.org/document/7436823
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Journal article
+- title: Identifying and characterizing the impact of turbine icing on wind farm power generation
+  year: 2016
+  venue: Wind Energy 19(8), pp. 1503-1518
+  authors: N. Davis, P. Pinson, A. Hahmann, N.-E. Clausen, M. Zagar
+  url: https://onlinelibrary.wiley.com/doi/full/10.1002/we.1933
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Energy
+  - Journal article
+- title: Generation of scenarios from calibrated ensemble forecasts with a dynamic ensemble copula coupling approach
+  year: 2016
+  venue: Monthly Weather Review 144(12), pp. 4737-4750
+  authors: Z. Ben Bouallègue, T. Heppelmann, S. Theis, P. Pinson
+  url: https://journals.ametsoc.org/view/journals/mwre/144/12/mwr-d-15-0403.1.xml
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: Generation and evaluation of space-time trajectories of photovoltaic generation
+  year: 2016
+  venue: Applied Energy 176, pp. 80-91
+  authors: F. Golestaneh, P. Pinson, H.B. Gooi
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: Economic dispatch of demand-side balancing through asymmetric block offers
+  year: 2016
+  venue: IEEE Transactions on Power Systems 31(4), pp. 2999-3007
+  authors: N. O'Connell, P. Pinson, H. Madsen, M. O'Malley
+  url: https://ieeexplore.ieee.org/document/7284714
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Optimisation
+  - Journal article
+- title: Adaptive robust polynomial regression for power curve modeling with application to wind power forecasting
+  year: 2016
+  venue: Wind Energy 19(12), pp. 2321-2336
+  authors: M. Xu, P. Pinson, Z. Lu, Y. Qiao, Y. Min
+  url: https://onlinelibrary.wiley.com/doi/abs/10.1002/we.1985
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: A multi-period OPF model under renewable generation uncertainty and demand-side flexibility
+  year: 2016
+  venue: IEEE Transactions on Smart Grid 7(3), pp. 1495-1503
+  authors: W.A. Bukhsh, C. Zhang, P. Pinson
+  url: https://ieeexplore.ieee.org/document/7347460
+  preprint: ''
+  status: ''
+  categories:
+  - Optimisation
+  - Energy
+  - Journal article
+- title: The "WIRE" benchmarking exercise on short-term forecasting models for renewable power generation
+  year: 2015
+  venue: Energies 8(9), pp. 9594-9619
+  authors: S. Sperati, S. Alessandrini, P. Pinson, G. Kariniotakis
+  url: https://www.mdpi.com/1996-1073/8/9/9594
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: Probabilistic maximum-value wind prediction for offshore environments
+  year: 2015
+  venue: Wind Energy 18(10), pp. 1725-1738
+  authors: A. Staid, P. Pinson, S.D. Guikema
+  url: https://onlinelibrary.wiley.com/doi/full/10.1002/we.1787
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: Offering strategies for hybrid concentrated solar-fossil power plants through robust optimization
+  year: 2015
+  venue: International Journal of Electrical Power and Energy Systems 67, pp. 639-650
+  authors: H.M.I. Pousinho, J. Contreras, P. Pinson, V.M.F. Mendes
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0142061514007790
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Optimisation
+  - Journal article
+- title: 'Foreword for the special section on wind and solar energy: uncovering and accommodating their impacts on electricity markets'
+  year: 2015
+  venue: IEEE Transactions on Power Systems 30(3), pp. 1557-1559
+  authors: P. Pinson, M. O'Malley
+  url: https://ieeexplore.ieee.org/document/7087434
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Journal article
+- title: Forecasting for dynamic line rating
+  year: 2015
+  venue: Renewable and Sustainable Energy Reviews 52, pp. 1713-1730
+  authors: A. Michiorri, H.M. Nguyen, S. Alessandrini, J.B. Bremnes, S. Dierer, E. Ferrero, B.E. Nygaard, P. Pinson, N. Thomaidis, S. Uski-Joutsenvuo
+  url: https://www.sciencedirect.com/science/article/pii/S1364032115007819
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Energy
+  - Journal article
+- title: Weather radars – the new eyes of offshore wind farms
+  year: 2014
+  venue: Wind Energy 17(11), pp. 1767-1787
+  authors: P.-J. Trombe, P. Pinson, et al.
+  url: https://onlinelibrary.wiley.com/doi/abs/10.1002/we.1659
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: Redefining the merit order of stochastic generation in forward markets
+  year: 2014
+  venue: IEEE Transactions on Power Systems 29(2), pp. 992-993 (letter)
+  authors: J.M. Morales, M. Zugno, S. Pineda, P. Pinson
+  url: https://ieeexplore.ieee.org/abstract/document/6656976
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Journal article
+- title: Probabilistic forecasts of wind power generation accounting for geographically dispersed information
+  year: 2014
+  venue: IEEE Transactions on Smart Grid 5(1), pp. 480-489
+  authors: J. Tastu, P. Pinson, P.-J. Trombe, H. Madsen
+  url: https://ieeexplore.ieee.org/document/6685920
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: Probabilistic forecasting of wind power generation using extreme learning machine
+  year: 2014
+  venue: IEEE Transactions on Power Systems 29(3), pp. 1033-1044
+  authors: C. Wan, Z. Xu, P. Pinson, Z.Y. Dong, K.P. Wong
+  url: https://ieeexplore.ieee.org/document/6665108
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: Optimal prediction intervals of wind power generation
+  year: 2014
+  venue: IEEE Transactions on Power Systems 29(3), pp. 1166-1174
+  authors: C. Wan, Z. Xu, P. Pinson, Z.Y. Dong, K.P. Wong
+  url: https://ieeexplore.ieee.org/document/6662465
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: 'Guest editorial: Special section on analytics for energy forecasting with applications to smart grid'
+  year: 2014
+  venue: IEEE Transactions on Smart Grid 5(1), pp. 399-401
+  authors: T. Hong and co-authors (incl. P. Pinson)
+  url: https://ieeexplore.ieee.org/document/6693792
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: Global Energy Forecasting Competition 2012 (GEFCom2012)
+  year: 2014
+  venue: International Journal of Forecasting 30(2), pp. 357-363
+  authors: T. Hong, P. Pinson, S. Fan
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0169207013000745
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: FLECH – A Danish market solution for DSO congestion management through DER flexibility services
+  year: 2014
+  venue: Journal of Modern Power Systems and Clean Energy 2(2), pp. 126-133
+  authors: C. Zhang, Y. Ding, N.C. Nordentoft, P. Pinson, J. Østergaard
+  url: https://link.springer.com/article/10.1007/s40565-014-0048-0
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Journal article
+- title: Exponential smoothing approaches for prediction in real-time electricity markets
+  year: 2014
+  venue: Energies 7(6), pp. 3710-3732
+  authors: T. Jónsson, P. Pinson, H.Aa. Nielsen, H. Madsen
+  url: https://www.mdpi.com/1996-1073/7/6/3710
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Markets
+  - Journal article
+- title: Electricity market clearing with improved dispatch of stochastic producers
+  year: 2014
+  venue: European Journal of Operational Research 235(3), pp. 765-774
+  authors: J.M. Morales, M. Zugno, S. Pineda, P. Pinson
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0377221713009120
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Optimisation
+  - Journal article
+- title: Early warnings of extreme winds utilising the ECMWF Extreme Forecast Index
+  year: 2014
+  venue: Meteorological Applications 21(2), pp. 171-185
+  authors: T.I. Petroliagis, P. Pinson
+  url: https://rmets.onlinelibrary.wiley.com/doi/full/10.1002/met.1339
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: Discussion of "Prediction intervals for short-term wind farm generation forecasts" and "Combined nonparametric prediction intervals for wind power generation"
+  year: 2014
+  venue: IEEE Transactions on Sustainable Energy 5(3), pp. 1018-1019
+  authors: P. Pinson, J. Tastu
+  url: https://ieeexplore.ieee.org/document/6837562
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: Density forecasting of day-ahead electricity prices using time-adaptive quantile regression
+  year: 2014
+  venue: Energies 7(9), pp. 5523-5547
+  authors: T. Jónsson, P. Pinson, H.Aa. Nielsen, H. Madsen
+  url: https://www.mdpi.com/1996-1073/7/9/5523
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Markets
+  - Journal article
+- title: 'Comments on: Space-time wind speed forecasting for improved power system dispatch'
+  year: 2014
+  venue: TEST 23(1), pp. 26-29
+  authors: P. Pinson
+  url: https://link.springer.com/article/10.1007/s11749-014-0352-z
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: 'Benefits and challenges of electric demand response: A critical review'
+  year: 2014
+  venue: Renewable and Sustainable Energy Reviews 39, pp. 686-699
+  authors: N. O'Connell, P. Pinson, H. Madsen, M. O'Malley
+  url: https://www.sciencedirect.com/science/article/abs/pii/S1364032114005504
+  preprint: ''
+  status: ''
+  categories:
+  - Energy
+  - Journal article
+- title: Automatic classification of offshore wind regimes with weather radar observations
+  year: 2014
+  venue: IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing 7(1), pp. 116-125
+  authors: P.-J. Trombe, P. Pinson, H. Madsen
+  url: https://ieeexplore.ieee.org/document/6516587
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: 'Wind energy: Forecasting challenges for its optimal management'
+  year: 2013
+  venue: Statistical Science 28(4), pp. 564-585
+  authors: P. Pinson
+  url: https://projecteuclid.org/euclid.ss/1386078879
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: Trading wind energy on the basis of probabilistic forecasts of both wind generation and market quantities
+  year: 2013
+  venue: Wind Energy 16(6), pp. 909-926
+  authors: M. Zugno, T. Jónsson, P. Pinson
+  url: https://onlinelibrary.wiley.com/doi/abs/10.1002/we.1531
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Markets
+  - Journal article
+- title: The impact of wind power on European cross-border power flows
+  year: 2013
+  venue: IEEE Transactions on Power Systems 28(4), pp. 3566-3575
+  authors: M. Zugno, P. Pinson, H. Madsen
+  url: https://ieeexplore.ieee.org/document/6523177
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Energy
+  - Journal article
+- title: Pool strategy of a price-maker wind power producer
+  year: 2013
+  venue: IEEE Transactions on Power Systems 28(3), pp. 3440-3450
+  authors: M. Zugno, J.M. Morales, P. Pinson, H. Madsen
+  url: https://ieeexplore.ieee.org/document/6494365
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Optimisation
+  - Journal article
+- title: Forecasting day-ahead electricity prices accounting for the impact of wind power generation
+  year: 2013
+  venue: IEEE Transactions on Sustainable Energy 4(1), pp. 210-218
+  authors: T. Jónsson, P. Pinson, H.Aa. Nielsen, H. Madsen, T.S. Nielsen
+  url: https://ieeexplore.ieee.org/document/6313966
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Markets
+  - Journal article
+- title: Direct interval forecasting of wind power
+  year: 2013
+  venue: IEEE Transactions on Power Systems 28(4), pp. 4877-4878 (letter)
+  authors: C. Wan, Z. Xu, P. Pinson
+  url: https://ieeexplore.ieee.org/document/6512634
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: Controlling electricity consumption by forecasting its response to varying prices
+  year: 2013
+  venue: IEEE Transactions on Power Systems 28(1), pp. 421-429
+  authors: O. Corradi, H. Ochsenfeld, H. Madsen, P. Pinson
+  url: https://ieeexplore.ieee.org/document/6205637
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Energy
+  - Journal article
+- title: Chance-constrained optimization of demand response to price signals
+  year: 2013
+  venue: IEEE Transactions on Smart Grid 4(4), pp. 2072-2080
+  authors: G. Dorini, P. Pinson, H. Madsen
+  url: https://ieeexplore.ieee.org/document/6529209
+  preprint: ''
+  status: ''
+  categories:
+  - Optimisation
+  - Energy
+  - Journal article
+- title: A comparison between the ECMWF and COSMO Ensemble Prediction Systems applied to short-term wind power forecasting
+  year: 2013
+  venue: Applied Energy 107, pp. 271-280
+  authors: S. Alessandrini, S. Sperati, P. Pinson
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0306261913001499
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: A bilevel model for electricity retailers' participation in a demand response market environment
+  year: 2013
+  venue: Energy Economics 36, pp. 182-197
+  authors: M. Zugno, J.M. Morales, P. Pinson, H. Madsen
+  url: https://www.sciencedirect.com/science/article/pii/S0140988312003477
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Optimisation
+  - Journal article
+- title: Very short-term probabilistic forecasting of wind power with generalized logit-Normal distributions
+  year: 2012
+  venue: Journal of the Royal Statistical Society, Series C 61(4), pp. 555-576
+  authors: P. Pinson
+  url: https://rss.onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-9876.2011.01026.x
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: Verification of the ECMWF ensemble forecasts of wind speed against analyses and observations
+  year: 2012
+  venue: Meteorological Applications 19(4), pp. 484-500
+  authors: P. Pinson, R. Hagedorn
+  url: https://rmets.onlinelibrary.wiley.com/doi/full/10.1002/met.283
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: Probabilistic forecasting of the wave energy flux
+  year: 2012
+  venue: Applied Energy 93, pp. 364-370
+  authors: P. Pinson, G. Reikard, J. Bidlot
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0306261911008361
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Energy
+  - Journal article
+- title: Evaluating the quality of scenarios of short-term wind power generation
+  year: 2012
+  venue: Applied Energy 96, pp. 12-20
+  authors: P. Pinson, R. Girard
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0306261911006994
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: Adaptive modeling and forecasting of wind power fluctuations with Markov-switching autoregressive models
+  year: 2012
+  venue: Journal of Forecasting 31(4), pp. 281-313
+  authors: P. Pinson, H. Madsen
+  url: https://onlinelibrary.wiley.com/doi/abs/10.1002/for.1194
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: Adaptive calibration of (u,v)-wind ensemble forecasts
+  year: 2012
+  venue: Quarterly Journal of the Royal Meteorological Society 138(666), pp. 1273-1284
+  authors: P. Pinson
+  url: https://rmets.onlinelibrary.wiley.com/doi/abs/10.1002/qj.1873
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: A transmission-cost-based model to estimate the amount of market-integrable wind resources
+  year: 2012
+  venue: IEEE Transactions on Power Systems 27(2), pp. 1060-1069
+  authors: J.M. Morales, P. Pinson, H. Madsen
+  url: https://ieeexplore.ieee.org/document/6123187
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Energy
+  - Journal article
+- title: A general probabilistic forecasting framework for offshore wind power fluctuations
+  year: 2012
+  venue: Energies 5(3), pp. 621-657
+  authors: P.-J. Trombe, P. Pinson, H. Madsen
+  url: https://www.mdpi.com/1996-1073/5/3/621
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: Wind fluctuations over the North Sea
+  year: 2011
+  venue: International Journal of Climatology 31(11), pp. 1584-1595
+  authors: C.L. Vincent, P. Pinson, G. Giebel
+  url: https://rmets.onlinelibrary.wiley.com/doi/abs/10.1002/joc.2175
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: Spatio-temporal analysis and modeling of wind power forecast errors
+  year: 2011
+  venue: Wind Energy 14(1), pp. 43-60
+  authors: J. Tastu, P. Pinson, E. Kotwa, H.Aa. Nielsen, H. Madsen
+  url: https://onlinelibrary.wiley.com/doi/abs/10.1002/we.401
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: Influence of local wind speed and direction on wind power dynamics – Application to offshore very short-term prediction
+  year: 2011
+  venue: Applied Energy 88(11), pp. 4087-4096
+  authors: C. Gallego, P. Pinson, H. Madsen, A. Costa, A. Cuerva
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0306261911002868
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: Forecasting ocean waves – The ECMWF wave model and time-series methods
+  year: 2011
+  venue: Ocean Engineering 38(10), pp. 1089-1099
+  authors: G. Reikard, P. Pinson, J. Bidlot
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0029801811000837
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: Resolving non-stationary spectral signals in wind speed time-series using the Hilbert-Huang transform
+  year: 2010
+  venue: Journal of Applied Meteorology and Climatology 49(2), pp. 253-267
+  authors: C.L. Vincent, G. Giebel, P. Pinson, H. Madsen
+  url: https://journals.ametsoc.org/view/journals/apme/49/2/2009jamc2058.1.xml
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: 'Reliability diagrams for nonparametric density forecasts of continuous variables: accounting for serial correlation'
+  year: 2010
+  venue: Quarterly Journal of the Royal Meteorological Society 136(646), pp. 77-90
+  authors: P. Pinson, P. McSharry, H. Madsen
+  url: https://rmets.onlinelibrary.wiley.com/doi/10.1002/qj.559
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: On the market impact of wind energy forecasts
+  year: 2010
+  venue: Energy Economics 32(2), pp. 313-320
+  authors: T. Jónsson, P. Pinson, H. Madsen
+  url: https://www.sciencedirect.com/science/article/pii/S0140988309002011
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Markets
+  - Journal article
+- title: Feedback, competition and stochasticity in a day-ahead electricity market
+  year: 2010
+  venue: Energy Economics 32(2), pp. 292-301
+  authors: P. Giabardo, M. Zugno, P. Pinson, H. Madsen
+  url: https://www.sciencedirect.com/science/article/pii/S0140988309001625
+  preprint: ''
+  status: ''
+  categories:
+  - Markets
+  - Journal article
+- title: Conditional weighted combination of wind power forecasts
+  year: 2010
+  venue: Wind Energy 13(8), pp. 751-763
+  authors: F. Thordarson, H. Madsen, H.Aa. Nielsen, P. Pinson
+  url: https://onlinelibrary.wiley.com/doi/abs/10.1002/we.395
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: Conditional prediction intervals of wind power generation
+  year: 2010
+  venue: IEEE Transactions on Power Systems 25(4), pp. 1845-1856
+  authors: P. Pinson, G. Kariniotakis
+  url: https://ieeexplore.ieee.org/document/5451173
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: Temperature prediction at critical points in district heating systems
+  year: 2009
+  venue: European Journal of Operational Research 194(1), pp. 163-176
+  authors: P. Pinson, T.S. Nielsen, H.Aa. Nielsen, N.K. Poulsen, H. Madsen
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0377221707011939
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Energy
+  - Journal article
+- title: Skill forecasting from ensemble predictions of wind power
+  year: 2009
+  venue: Applied Energy 86(7-8), pp. 1326-1334
+  authors: P. Pinson, H.Aa. Nielsen, H. Madsen, G. Kariniotakis
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0306261908002602
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: From probabilistic forecasts to statistical scenarios of short-term wind power production
+  year: 2009
+  venue: Wind Energy 12(1), pp. 51-62
+  authors: P. Pinson, G. Papaefthymiou, B. Klöckl, H.Aa. Nielsen, H. Madsen
+  url: https://onlinelibrary.wiley.com/doi/10.1002/we.284
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: Ensemble-based probabilistic forecasting at Horns Rev
+  year: 2009
+  venue: Wind Energy 12(2), pp. 137-155
+  authors: P. Pinson, H. Madsen
+  url: https://onlinelibrary.wiley.com/doi/abs/10.1002/we.309
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: Regime-switching modelling of the fluctuations of offshore wind generation
+  year: 2008
+  venue: Journal of Wind Engineering and Industrial Aerodynamics 96(12), pp. 2327-2347
+  authors: P. Pinson, L.E.A. Christensen, H. Madsen, P.E. Sørensen, M.H. Donovan, L.E. Jensen
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0167610508001050
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: Probabilistic tools for planning and operating power systems with distributed energy storage
+  year: 2008
+  venue: e&i Elektrotechnik und Informationstechnik 125(12), pp. 460-465
+  authors: B. Klöckl, G. Papaefthymiou, P. Pinson
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Energy
+  - Journal article
+- title: Modelling of power fluctuations from large offshore wind farms
+  year: 2008
+  venue: Wind Energy 11(1), pp. 29-43
+  authors: P. Sørensen, N.A. Cutululis, A. Vigueras-Rodriguez, H. Madsen, P. Pinson, L.E. Jensen, J. Hjerrild, M. Donovan
+  url: https://onlinelibrary.wiley.com/doi/abs/10.1002/we.246
+  preprint: ''
+  status: ''
+  categories:
+  - Energy
+  - Journal article
+- title: Local linear regression with adaptive orthogonal fitting for the wind power application
+  year: 2008
+  venue: Statistics and Computing 18(1), pp. 59-71
+  authors: P. Pinson, H.Aa. Nielsen, H. Madsen, T.S. Nielsen
+  url: https://link.springer.com/article/10.1007/s11222-007-9038-7
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: 'ViLab: a Virtual Laboratory for collaborative research on wind power forecasting'
+  year: 2007
+  venue: Wind Engineering 31(2), pp. 117-121
+  authors: P. Pinson, S. Lozano, I. Marti, G. Kariniotakis, G. Giebel
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: Trading wind generation with short-term probabilistic forecasts of wind power
+  year: 2007
+  venue: IEEE Transactions on Power Systems 22(3), pp. 1148-1156
+  authors: P. Pinson, C. Chevallier, G. Kariniotakis
+  url: https://ieeexplore.ieee.org/document/4282048
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Markets
+  - Journal article
+- title: 'Nonparametric probabilistic forecasts of wind power: required properties and evaluation'
+  year: 2007
+  venue: Wind Energy 10(6), pp. 497-516
+  authors: P. Pinson, H.Aa. Nielsen, J.K. Møller, H. Madsen, G. Kariniotakis
+  url: https://onlinelibrary.wiley.com/doi/abs/10.1002/we.230
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: Standardizing the performance evaluation of short-term wind power prediction models
+  year: 2005
+  venue: Wind Engineering 29(6), pp. 475-489
+  authors: H. Madsen, P. Pinson, T.S. Nielsen, H.Aa. Nielsen, G. Kariniotakis
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article
+- title: On-line assessment of prediction risk for wind power production forecasts
+  year: 2004
+  venue: Wind Energy 7(2), pp. 119-132
+  authors: P. Pinson, G. Kariniotakis
+  url: https://onlinelibrary.wiley.com/doi/abs/10.1002/we.114
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Journal article

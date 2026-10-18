@@ -1,0 +1,12 @@
+num: 7
+title: Introduction to renewable energy analytics
+intro: Renewable energy generation directly relates to weather conditions, i.e. wind for wind energy and irradiance and cloudiness for solar energy. In a market environment where offers are made prior to operation, and deviations from schedule have financial consequences, there is a strong incentive to forecast renewable energy generation. This is based on *renewable energy analytics*, which takes advantage of the wealth of data available today.
+topics: [Why we need to forecast and what forecast information may be needed, Origin and characterization of uncertainty in renewable energy forecasting, The various types of forecast products]
+interviews:
+  - [Jesper Thiesen (ConWx), 80WcvOUu0JI, "Jesper has a long track record in renewable energy forecasting and tells us about current challenges and opportunities in the field."]
+  - [Emil Larsen (Utiligize), X3YbuxKd2oY, "Emil argues that digitization and its implications might be of higher importance to the actors of the energy system than renewables and the evolution of electricity markets."]
+lectures:
+  - ["Module introduction", "_qQ4ymwyirg", 31761lecture7p0.pdf]
+  - ["Forecasts, why and in what form?", "erxK7rt7HVk", 31761lecture7p1.pdf]
+  - ["Uncertainty origins and characterization", "pPAaJK0HgI0", 31761lecture7p2.pdf]
+  - ["Various types of forecasting products", "Svqx876d_ps", 31761lecture7p3.pdf]

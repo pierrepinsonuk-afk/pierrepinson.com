@@ -1,0 +1,10 @@
+num: 9
+title: Renewable energy forecasting – First steps
+intro: In this module we take a first go at *renewable energy forecasting*, looking at the numerous accessible ways to generate forecasts, often with already acceptable performance. Even if that performance is not seen as acceptable, these approaches comprise benchmarks to be outperformed when investing in more advanced forecasting approaches.
+topics: [General aspects of renewable energy forecasting approaches, Benchmark approaches, "Using (linear) regression for forecasting", Exploring the data to pick input variables and use them cleverly]
+interviews: []
+lectures:
+  - ["Module introduction", "ZVr271-X4Yo", 31761lecture9p0.pdf]
+  - ["Generalities and benchmark approaches", "wplCgb4LKDM", 31761lecture9p1.pdf]
+  - ["Going further in a regression framework", "mvW5aOv-b6g", 31761lecture9p2.pdf]
+  - ["Digging in the data", "A-n4PPmo67Y", 31761lecture9p3.pdf]
