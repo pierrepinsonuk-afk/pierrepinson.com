@@ -44,8 +44,8 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-2e4daac90d0b4ba0c23d0a77811efccc.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-7f645b06d82c92468e61cc21c360dd86.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-4ae82d3333ed288c205a870900332187.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-b6bfde0d7fc0d6988115a3b4e5607248.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-0d4c84ccf33595e48b2e30930ac7e76a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -83,9 +83,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-year','listing-venue','listing-authors','listing-url','listing-preprint','listing-status','listing-categories','listing-themes','listing-kind',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title','listing-year','listing-venue','listing-authors','listing-url','listing-preprint','listing-status','listing-categories','listing-themes','listing-kind','listing-pdf','listing-haspdf',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-title","listing-year","listing-venue","listing-authors","listing-url","listing-preprint","listing-status","listing-categories","listing-themes","listing-kind"],
+      searchColumns: ["listing-title","listing-year","listing-venue","listing-authors","listing-url","listing-preprint","listing-status","listing-categories","listing-themes","listing-kind","listing-pdf","listing-haspdf"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -437,6 +437,9 @@ window.Quarto = {
       <button type="button" class="chip" data-group="kind" data-value="conference">Conference</button>
       <button type="button" class="chip" data-group="kind" data-value="preprint">Preprint</button>
     </div>
+    <div class="chips" role="group" aria-label="Access">
+      <button type="button" class="chip" data-group="pdf" data-value="yes">Free PDF</button>
+    </div>
   </div>
   <div class="pub-status-row">
     <span class="pub-count" aria-live="polite"></span>
@@ -453,97 +456,104 @@ window.Quarto = {
 <div class="quarto-listing quarto-listing-container-custom" id="listing-listing">
 <div class="pub-list" id="pub-list">
 
-<article class="pub" data-year="2026" data-themes="forecasting markets" data-kind="preprint">
+<article class="pub" data-year="2026" data-themes="forecasting markets" data-kind="preprint" data-pdf="yes">
   <div class="pub-year">2026</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://arxiv.org/abs/2609.37903">From intraday orderbook to imbalance price: Understanding cross-market interaction</a></h3>
     <p class="pub-authors">R. Yu, J.L. Cremer, <strong>P. Pinson</strong>, J. Kazempour, L. Semmelmann, T. Matsumoto, D.W. Bunn</p>
     <p class="pub-venue">Preprint (arXiv:2609.37903)</p>
     <p class="pub-links">
+      <a class="pub-pdf" href="https://arxiv.org/pdf/2609.37903" aria-label="PDF of From intraday orderbook to imbalance price: Understanding cross-market interaction">PDF</a>
       
-      <a href="https://arxiv.org/abs/2609.37903">Open preprint</a>
+      <a href="https://arxiv.org/abs/2609.37903">arXiv page</a>
       <span class="pub-status">Preprint</span>
     </p>
   </div>
 </article>
 
-<article class="pub" data-year="2026" data-themes="optimisation energy" data-kind="preprint">
+<article class="pub" data-year="2026" data-themes="optimisation energy" data-kind="preprint" data-pdf="yes">
   <div class="pub-year">2026</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://arxiv.org/abs/2609.39396">Learning to fix: Optimisation-aware machine learning for accelerated unit commitment</a></h3>
     <p class="pub-authors">B. Fritz, A. Makrides, M. Fetanat, <strong>P. Pinson</strong></p>
     <p class="pub-venue">Preprint (arXiv:2609.39396)</p>
     <p class="pub-links">
+      <a class="pub-pdf" href="https://arxiv.org/pdf/2609.39396" aria-label="PDF of Learning to fix: Optimisation-aware machine learning for accelerated unit commitment">PDF</a>
       
-      <a href="https://arxiv.org/abs/2609.39396">Open preprint</a>
+      <a href="https://arxiv.org/abs/2609.39396">arXiv page</a>
       <span class="pub-status">Preprint</span>
     </p>
   </div>
 </article>
 
-<article class="pub" data-year="2026" data-themes="forecasting" data-kind="preprint">
+<article class="pub" data-year="2026" data-themes="forecasting" data-kind="preprint" data-pdf="yes">
   <div class="pub-year">2026</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://arxiv.org/abs/2605.28531">Stabilizing distribution-free probabilistic forecasts</a></h3>
     <p class="pub-authors">J. Van Belle, H. Wen, W. Verbeke, <strong>P. Pinson</strong></p>
     <p class="pub-venue">Preprint (arXiv:2605.28531)</p>
     <p class="pub-links">
+      <a class="pub-pdf" href="https://arxiv.org/pdf/2605.28531" aria-label="PDF of Stabilizing distribution-free probabilistic forecasts">PDF</a>
       
-      <a href="https://arxiv.org/abs/2605.28531">Open preprint</a>
+      <a href="https://arxiv.org/abs/2605.28531">arXiv page</a>
       <span class="pub-status">Preprint</span>
     </p>
   </div>
 </article>
 
-<article class="pub" data-year="2026" data-themes="markets" data-kind="article">
+<article class="pub" data-year="2026" data-themes="markets" data-kind="article" data-pdf="yes">
   <div class="pub-year">2026</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://pubsonline.informs.org/doi/10.1287/ijds.2025.0075">Towards replication-robust analytics markets</a></h3>
     <p class="pub-authors">T. Falconer, <strong>P. Pinson</strong>, J. Kazempour</p>
     <p class="pub-venue">INFORMS Journal on Data Science, in press</p>
     <p class="pub-links">
+      <a class="pub-pdf" href="https://arxiv.org/pdf/2310.06000" aria-label="PDF of Towards replication-robust analytics markets">PDF</a>
       <a href="https://pubsonline.informs.org/doi/10.1287/ijds.2025.0075">Publisher page</a>
-      <a href="https://arxiv.org/abs/2310.06000">Open preprint</a>
+      <a href="https://arxiv.org/abs/2310.06000">arXiv page</a>
       <span class="pub-status">In press</span>
     </p>
   </div>
 </article>
 
-<article class="pub" data-year="2026" data-themes="markets" data-kind="article">
+<article class="pub" data-year="2026" data-themes="markets" data-kind="article" data-pdf="yes">
   <div class="pub-year">2026</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://arxiv.org/abs/2511.20605">How to purchase labels? A cost-effective approach using active learning markets</a></h3>
     <p class="pub-authors">X. Huang, <strong>P. Pinson</strong></p>
     <p class="pub-venue">INFORMS Journal on Data Science, in press</p>
     <p class="pub-links">
+      <a class="pub-pdf" href="https://arxiv.org/pdf/2511.20605" aria-label="PDF of How to purchase labels? A cost-effective approach using active learning markets">PDF</a>
       
-      <a href="https://arxiv.org/abs/2511.20605">Open preprint</a>
+      <a href="https://arxiv.org/abs/2511.20605">arXiv page</a>
       <span class="pub-status">In press</span>
     </p>
   </div>
 </article>
 
-<article class="pub" data-year="2026" data-themes="forecasting markets" data-kind="article">
+<article class="pub" data-year="2026" data-themes="forecasting markets" data-kind="article" data-pdf="yes">
   <div class="pub-year">2026</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://arxiv.org/abs/2501.16086">Value-oriented forecast reconciliation for renewables in electricity markets</a></h3>
     <p class="pub-authors">H. Wen, <strong>P. Pinson</strong></p>
     <p class="pub-venue">European Journal of Operational Research 332(2), pp. 492-504</p>
     <p class="pub-links">
+      <a class="pub-pdf" href="https://arxiv.org/pdf/2501.16086" aria-label="PDF of Value-oriented forecast reconciliation for renewables in electricity markets">PDF</a>
       
-      <a href="https://arxiv.org/abs/2501.16086">Open preprint</a>
+      <a href="https://arxiv.org/abs/2501.16086">arXiv page</a>
       
     </p>
   </div>
 </article>
 
-<article class="pub" data-year="2025" data-themes="energy" data-kind="article">
+<article class="pub" data-year="2025" data-themes="energy" data-kind="article" data-pdf="yes">
   <div class="pub-year">2025</div>
   <div>
     <h3 class="pub-title anchored">Synergies between AI computing and power systems: Metrics, scheduling, and resilience</h3>
     <p class="pub-authors">F. Pourahmadi, O. Corradi, <strong>P. Pinson</strong></p>
     <p class="pub-venue">IEEE Energy Sustainability Magazine, in press</p>
     <p class="pub-links">
+      <a class="pub-pdf" href="https://arxiv.org/pdf/2512.07001" aria-label="PDF of Synergies between AI computing and power systems: Metrics, scheduling, and resilience">PDF</a>
       
       
       <span class="pub-status">In press</span>
@@ -551,13 +561,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2025" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2025" data-themes="forecasting" data-kind="article" data-pdf="yes">
   <div class="pub-year">2025</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/10643199">Seamless and multi-resolution energy forecasting</a></h3>
     <p class="pub-authors">C. Wang, <strong>P. Pinson</strong>, Y. Wang</p>
     <p class="pub-venue">IEEE Transactions on Smart Grid 16(1), pp. 383-395</p>
     <p class="pub-links">
+      <a class="pub-pdf" href="http://hub.hku.hk/bitstream/10722/350128/1/content.pdf" aria-label="PDF of Seamless and multi-resolution energy forecasting">PDF</a>
       <a href="https://ieeexplore.ieee.org/document/10643199">Publisher page</a>
       
       
@@ -565,41 +576,44 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2025" data-themes="markets" data-kind="article">
+<article class="pub" data-year="2025" data-themes="markets" data-kind="article" data-pdf="yes">
   <div class="pub-year">2025</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/10819955">Privacy-aware data acquisition under data similarity in regression markets</a></h3>
     <p class="pub-authors">S. Pandey, <strong>P. Pinson</strong>, P. Popovski</p>
     <p class="pub-venue">IEEE Transactions on Neural Networks and Learning Systems</p>
     <p class="pub-links">
+      <a class="pub-pdf" href="https://arxiv.org/pdf/2312.02611" aria-label="PDF of Privacy-aware data acquisition under data similarity in regression markets">PDF</a>
       <a href="https://ieeexplore.ieee.org/document/10819955">Publisher page</a>
-      <a href="https://arxiv.org/abs/2312.02611">Open preprint</a>
+      <a href="https://arxiv.org/abs/2312.02611">arXiv page</a>
       
     </p>
   </div>
 </article>
 
-<article class="pub" data-year="2025" data-themes="forecasting markets" data-kind="preprint">
+<article class="pub" data-year="2025" data-themes="forecasting markets" data-kind="preprint" data-pdf="yes">
   <div class="pub-year">2025</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://arxiv.org/abs/2510.13385">Prediction markets with intermittent contributions</a></h3>
     <p class="pub-authors">M. Vitali, <strong>P. Pinson</strong></p>
     <p class="pub-venue">Preprint, under review</p>
     <p class="pub-links">
+      <a class="pub-pdf" href="https://arxiv.org/pdf/2510.13385" aria-label="PDF of Prediction markets with intermittent contributions">PDF</a>
       
-      <a href="https://arxiv.org/abs/2510.13385">Open preprint</a>
+      <a href="https://arxiv.org/abs/2510.13385">arXiv page</a>
       <span class="pub-status">Preprint</span>
     </p>
   </div>
 </article>
 
-<article class="pub" data-year="2025" data-themes="optimisation energy" data-kind="article">
+<article class="pub" data-year="2025" data-themes="optimisation energy" data-kind="article" data-pdf="yes">
   <div class="pub-year">2025</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/11176839">Predict-and-optimize robust unit commitment with statistical guarantees via weight combination</a></h3>
     <p class="pub-authors">R. Xie, Y. Chen, <strong>P. Pinson</strong></p>
     <p class="pub-venue">IEEE Transactions on Power Systems, in press</p>
     <p class="pub-links">
+      <a class="pub-pdf" href="https://arxiv.org/pdf/2411.03138" aria-label="PDF of Predict-and-optimize robust unit commitment with statistical guarantees via weight combination">PDF</a>
       <a href="https://ieeexplore.ieee.org/document/11176839">Publisher page</a>
       
       <span class="pub-status">In press</span>
@@ -607,21 +621,22 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2025" data-themes="forecasting markets" data-kind="preprint">
+<article class="pub" data-year="2025" data-themes="forecasting markets" data-kind="preprint" data-pdf="yes">
   <div class="pub-year">2025</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://arxiv.org/abs/2510.12382">Pooling probabilistic forecasts for cooperative wind power offering</a></h3>
     <p class="pub-authors">H. Wen, <strong>P. Pinson</strong></p>
     <p class="pub-venue">Preprint, under review</p>
     <p class="pub-links">
+      <a class="pub-pdf" href="https://arxiv.org/pdf/2510.12382" aria-label="PDF of Pooling probabilistic forecasts for cooperative wind power offering">PDF</a>
       
-      <a href="https://arxiv.org/abs/2510.12382">Open preprint</a>
+      <a href="https://arxiv.org/abs/2510.12382">arXiv page</a>
       <span class="pub-status">Preprint</span>
     </p>
   </div>
 </article>
 
-<article class="pub" data-year="2025" data-themes="forecasting markets" data-kind="article">
+<article class="pub" data-year="2025" data-themes="forecasting markets" data-kind="article" data-pdf="no">
   <div class="pub-year">2025</div>
   <div>
     <h3 class="pub-title anchored">Load forecasting model trading: A cost-oriented and auction-based approach</h3>
@@ -630,18 +645,20 @@ window.Quarto = {
     <p class="pub-links">
       
       
+      
       <span class="pub-status">In press</span>
     </p>
   </div>
 </article>
 
-<article class="pub" data-year="2025" data-themes="optimisation" data-kind="conference">
+<article class="pub" data-year="2025" data-themes="optimisation" data-kind="conference" data-pdf="yes">
   <div class="pub-year">2025</div>
   <div>
     <h3 class="pub-title anchored">Inverse game theory: An incenter-based approach</h3>
     <p class="pub-authors">L. Cui, H. Yu, <strong>P. Pinson</strong>, D. Paccagnan</p>
     <p class="pub-venue">34th International Joint Conference on Artificial Intelligence (IJCAI 2025), pp. 3805-3813</p>
     <p class="pub-links">
+      <a class="pub-pdf" href="https://www.ijcai.org/proceedings/2025/0423.pdf" aria-label="PDF of Inverse game theory: An incenter-based approach">PDF</a>
       
       
       
@@ -649,13 +666,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2025" data-themes="optimisation" data-kind="preprint">
+<article class="pub" data-year="2025" data-themes="optimisation" data-kind="preprint" data-pdf="yes">
   <div class="pub-year">2025</div>
   <div>
     <h3 class="pub-title anchored">Integrated optimization of operations and capacity planning under uncertainty for drayage procurement in container logistics</h3>
     <p class="pub-authors">G. Vassos, R.M. Lusby, <strong>P. Pinson</strong></p>
     <p class="pub-venue">Preprint, under review</p>
     <p class="pub-links">
+      <a class="pub-pdf" href="https://arxiv.org/pdf/2505.01808" aria-label="PDF of Integrated optimization of operations and capacity planning under uncertainty for drayage procurement in container logistics">PDF</a>
       
       
       <span class="pub-status">Preprint</span>
@@ -663,27 +681,29 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2025" data-themes="optimisation energy" data-kind="preprint">
+<article class="pub" data-year="2025" data-themes="optimisation energy" data-kind="preprint" data-pdf="yes">
   <div class="pub-year">2025</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://arxiv.org/abs/2411.17463">How long is long enough? Finite-horizon approximation of energy storage scheduling problems</a></h3>
     <p class="pub-authors">E. Prat, R.M. Lusby, J.M. Morales, S. Pineda, <strong>P. Pinson</strong></p>
     <p class="pub-venue">Preprint, under review</p>
     <p class="pub-links">
+      <a class="pub-pdf" href="https://arxiv.org/pdf/2411.17463" aria-label="PDF of How long is long enough? Finite-horizon approximation of energy storage scheduling problems">PDF</a>
       
-      <a href="https://arxiv.org/abs/2411.17463">Open preprint</a>
+      <a href="https://arxiv.org/abs/2411.17463">arXiv page</a>
       <span class="pub-status">Preprint</span>
     </p>
   </div>
 </article>
 
-<article class="pub" data-year="2025" data-themes="optimisation" data-kind="preprint">
+<article class="pub" data-year="2025" data-themes="optimisation" data-kind="preprint" data-pdf="yes">
   <div class="pub-year">2025</div>
   <div>
     <h3 class="pub-title anchored">Generalizable simulation framework for the request-to-order process in the procurement of onboard vessel requisitions</h3>
     <p class="pub-authors">G. Vassos, R.M. Lusby, <strong>P. Pinson</strong></p>
     <p class="pub-venue">Preprint, under review</p>
     <p class="pub-links">
+      <a class="pub-pdf" href="https://arxiv.org/pdf/2505.01806" aria-label="PDF of Generalizable simulation framework for the request-to-order process in the procurement of onboard vessel requisitions">PDF</a>
       
       
       <span class="pub-status">Preprint</span>
@@ -691,13 +711,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2025" data-themes="optimisation markets" data-kind="article">
+<article class="pub" data-year="2025" data-themes="optimisation markets" data-kind="article" data-pdf="yes">
   <div class="pub-year">2025</div>
   <div>
     <h3 class="pub-title anchored">Fairness by design in shared-energy allocation problems</h3>
     <p class="pub-authors">Z. Fornier, V. Leclère, <strong>P. Pinson</strong></p>
     <p class="pub-venue">Computational Management Science, in press</p>
     <p class="pub-links">
+      <a class="pub-pdf" href="https://www.researchsquare.com/article/rs-3914653/latest.pdf" aria-label="PDF of Fairness by design in shared-energy allocation problems">PDF</a>
       
       
       <span class="pub-status">In press</span>
@@ -705,13 +726,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2025" data-themes="markets energy" data-kind="article">
+<article class="pub" data-year="2025" data-themes="markets energy" data-kind="article" data-pdf="yes">
   <div class="pub-year">2025</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.sciopen.com/article/10.23919/IEN.2025.0027">Do we actually understand the impact of renewables on electricity prices? A causal inference approach</a></h3>
     <p class="pub-authors">D. Cacciarelli, <strong>P. Pinson</strong>, F. Panagiotopoulos, D. Dixon, L. Blaxland</p>
     <p class="pub-venue">iEnergy 4(4), pp. 247-258</p>
     <p class="pub-links">
+      <a class="pub-pdf" href="https://arxiv.org/pdf/2501.10423" aria-label="PDF of Do we actually understand the impact of renewables on electricity prices? A causal inference approach">PDF</a>
       <a href="https://www.sciopen.com/article/10.23919/IEN.2025.0027">Publisher page</a>
       
       
@@ -719,13 +741,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2025" data-themes="forecasting energy" data-kind="article">
+<article class="pub" data-year="2025" data-themes="forecasting energy" data-kind="article" data-pdf="yes">
   <div class="pub-year">2025</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://onlinelibrary.wiley.com/doi/10.1002/we.2962">Data are missing again -- Reconstruction of power generation data using k-Nearest Neighbors and spectral graph theory</a></h3>
     <p class="pub-authors">A. Pierrot, <strong>P. Pinson</strong></p>
     <p class="pub-venue">Wind Energy 28(1), art. no. 2962</p>
     <p class="pub-links">
+      <a class="pub-pdf" href="https://www.authorea.com/doi/pdf/10.22541/au.170663898.88889975" aria-label="PDF of Data are missing again -- Reconstruction of power generation data using k-Nearest Neighbors and spectral graph theory">PDF</a>
       <a href="https://onlinelibrary.wiley.com/doi/10.1002/we.2962">Publisher page</a>
       
       
@@ -733,7 +756,7 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2025" data-themes="markets energy" data-kind="article">
+<article class="pub" data-year="2025" data-themes="markets energy" data-kind="article" data-pdf="no">
   <div class="pub-year">2025</div>
   <div>
     <h3 class="pub-title anchored">A negotiation-based incentive mechanism for efficient transmission expansion planning considering generation investment equilibrium in deregulated environment</h3>
@@ -742,12 +765,13 @@ window.Quarto = {
     <p class="pub-links">
       
       
+      
       <span class="pub-status">In press</span>
     </p>
   </div>
 </article>
 
-<article class="pub" data-year="2025" data-themes="markets" data-kind="preprint">
+<article class="pub" data-year="2025" data-themes="markets" data-kind="preprint" data-pdf="no">
   <div class="pub-year">2025</div>
   <div>
     <h3 class="pub-title anchored">A causal analysis of balancing costs in the UK electricity market</h3>
@@ -756,32 +780,35 @@ window.Quarto = {
     <p class="pub-links">
       
       
+      
       <span class="pub-status">Preprint</span>
     </p>
   </div>
 </article>
 
-<article class="pub" data-year="2024" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2024" data-themes="forecasting" data-kind="article" data-pdf="yes">
   <div class="pub-year">2024</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://arxiv.org/abs/2203.08252">Wind energy forecasting with missing values within a fully conditional specification framework</a></h3>
     <p class="pub-authors">H. Wen, <strong>P. Pinson</strong>, J. Gu, Z. Jin</p>
     <p class="pub-venue">International Journal of Forecasting 40(1), pp. 77-95</p>
     <p class="pub-links">
+      <a class="pub-pdf" href="https://arxiv.org/pdf/2203.08252" aria-label="PDF of Wind energy forecasting with missing values within a fully conditional specification framework">PDF</a>
       
-      <a href="https://arxiv.org/abs/2203.08252">Open preprint</a>
+      <a href="https://arxiv.org/abs/2203.08252">arXiv page</a>
       
     </p>
   </div>
 </article>
 
-<article class="pub" data-year="2024" data-themes="markets" data-kind="article">
+<article class="pub" data-year="2024" data-themes="markets" data-kind="article" data-pdf="yes">
   <div class="pub-year">2024</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/10236510">Strategic coalition for data pricing in IoT data markets</a></h3>
     <p class="pub-authors">S.R. Pandey, <strong>P. Pinson</strong>, P. Popovski</p>
     <p class="pub-venue">IEEE Internet of Things Journal 11(4), pp. 6454-6468</p>
     <p class="pub-links">
+      <a class="pub-pdf" href="https://arxiv.org/pdf/2206.07785" aria-label="PDF of Strategic coalition for data pricing in IoT data markets">PDF</a>
       <a href="https://ieeexplore.ieee.org/document/10236510">Publisher page</a>
       
       
@@ -789,13 +816,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2024" data-themes="optimisation energy" data-kind="article">
+<article class="pub" data-year="2024" data-themes="optimisation energy" data-kind="article" data-pdf="yes">
   <div class="pub-year">2024</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/10399845">Robust generation dispatch with purchase of renewable power and load predictions</a></h3>
     <p class="pub-authors">R. Xie, <strong>P. Pinson</strong>, Y. Xu, Y. Chen</p>
     <p class="pub-venue">IEEE Transactions on Sustainable Energy 15(3), pp. 1486-1501</p>
     <p class="pub-links">
+      <a class="pub-pdf" href="https://arxiv.org/pdf/2210.00291" aria-label="PDF of Robust generation dispatch with purchase of renewable power and load predictions">PDF</a>
       <a href="https://ieeexplore.ieee.org/document/10399845">Publisher page</a>
       
       
@@ -803,13 +831,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2024" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2024" data-themes="forecasting" data-kind="article" data-pdf="yes">
   <div class="pub-year">2024</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.tandfonline.com/doi/full/10.1080/00401706.2024.2350421">On tracking varying bounds when forecasting bounded time series</a></h3>
     <p class="pub-authors">A. Pierrot, <strong>P. Pinson</strong></p>
     <p class="pub-venue">Technometrics 66(4), pp. 651-661</p>
     <p class="pub-links">
+      <a class="pub-pdf" href="https://arxiv.org/pdf/2306.13428" aria-label="PDF of On tracking varying bounds when forecasting bounded time series">PDF</a>
       <a href="https://www.tandfonline.com/doi/full/10.1080/00401706.2024.2350421">Publisher page</a>
       
       
@@ -817,21 +846,22 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2024" data-themes="markets" data-kind="article">
+<article class="pub" data-year="2024" data-themes="markets" data-kind="article" data-pdf="yes">
   <div class="pub-year">2024</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://arxiv.org/abs/2210.05305">On the efficiency of energy markets with non-merchant storage</a></h3>
     <p class="pub-authors">L. Frölke, E. Prat, <strong>P. Pinson</strong>, R.M. Lusby, J. Kazempour</p>
     <p class="pub-venue">Energy Systems, in press</p>
     <p class="pub-links">
+      <a class="pub-pdf" href="https://arxiv.org/pdf/2210.05305" aria-label="PDF of On the efficiency of energy markets with non-merchant storage">PDF</a>
       
-      <a href="https://arxiv.org/abs/2210.05305">Open preprint</a>
+      <a href="https://arxiv.org/abs/2210.05305">arXiv page</a>
       <span class="pub-status">In press</span>
     </p>
   </div>
 </article>
 
-<article class="pub" data-year="2024" data-themes="forecasting analytics" data-kind="article">
+<article class="pub" data-year="2024" data-themes="forecasting analytics" data-kind="article" data-pdf="no">
   <div class="pub-year">2024</div>
   <div>
     <h3 class="pub-title anchored">Data-driven at sea: Forecasting and revenue management at Molslinjen</h3>
@@ -841,17 +871,19 @@ window.Quarto = {
       
       
       
+      
     </p>
   </div>
 </article>
 
-<article class="pub" data-year="2024" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2024" data-themes="forecasting" data-kind="article" data-pdf="yes">
   <div class="pub-year">2024</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0169207023001371">CRPS-based online learning for nonlinear probabilistic forecast combination</a></h3>
     <p class="pub-authors">D. van der Meer, <strong>P. Pinson</strong>, S. Camal, G. Kariniotakis</p>
     <p class="pub-venue">International Journal of Forecasting 40(4), pp. 1449-1466</p>
     <p class="pub-links">
+      <a class="pub-pdf" href="https://hal.science/hal-04408320v1/document" aria-label="PDF of CRPS-based online learning for nonlinear probabilistic forecast combination">PDF</a>
       <a href="https://www.sciencedirect.com/science/article/abs/pii/S0169207023001371">Publisher page</a>
       
       
@@ -859,13 +891,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2024" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2024" data-themes="forecasting" data-kind="article" data-pdf="yes">
   <div class="pub-year">2024</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://journals.ametsoc.org/view/journals/aies/3/3/AIES-D-23-0112.1.xml">Convolutional encoding and normalizing flows: a deep learning approach for offshore wind speed probabilistic forecasting in the Mediterranean Sea</a></h3>
     <p class="pub-authors">R. Marcille, P. Tandeo, M. Thiébaut, <strong>P. Pinson</strong>, R. Fablet</p>
     <p class="pub-venue">Artificial Intelligence for the Earth Systems 3(3)</p>
     <p class="pub-links">
+      <a class="pub-pdf" href="https://imt-atlantique.hal.science/hal-04645705/document" aria-label="PDF of Convolutional encoding and normalizing flows: a deep learning approach for offshore wind speed probabilistic forecasting in the Mediterranean Sea">PDF</a>
       <a href="https://journals.ametsoc.org/view/journals/aies/3/3/AIES-D-23-0112.1.xml">Publisher page</a>
       
       
@@ -873,13 +906,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2024" data-themes="markets" data-kind="article">
+<article class="pub" data-year="2024" data-themes="markets" data-kind="article" data-pdf="yes">
   <div class="pub-year">2024</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://jmlr.org/papers/v25/23-1385.html">Bayesian regression markets</a></h3>
     <p class="pub-authors">T. Falconer, J. Kazempour, <strong>P. Pinson</strong></p>
     <p class="pub-venue">Journal of Machine Learning Research 25(180), pp. 1-38</p>
     <p class="pub-links">
+      <a class="pub-pdf" href="https://arxiv.org/pdf/2310.14992" aria-label="PDF of Bayesian regression markets">PDF</a>
       <a href="https://jmlr.org/papers/v25/23-1385.html">Publisher page</a>
       
       
@@ -887,27 +921,29 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2024" data-themes="forecasting markets" data-kind="article">
+<article class="pub" data-year="2024" data-themes="forecasting markets" data-kind="article" data-pdf="yes">
   <div class="pub-year">2024</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://arxiv.org/abs/2205.02668">A market for trading forecasts: A wagering mechanism</a></h3>
     <p class="pub-authors">A. Raja, J. Kazempour, <strong>P. Pinson</strong>, S. Grammatico</p>
     <p class="pub-venue">International Journal of Forecasting 40(1), pp. 142-159</p>
     <p class="pub-links">
+      <a class="pub-pdf" href="https://arxiv.org/pdf/2205.02668" aria-label="PDF of A market for trading forecasts: A wagering mechanism">PDF</a>
       
-      <a href="https://arxiv.org/abs/2205.02668">Open preprint</a>
+      <a href="https://arxiv.org/abs/2205.02668">arXiv page</a>
       
     </p>
   </div>
 </article>
 
-<article class="pub" data-year="2023" data-themes="markets" data-kind="article">
+<article class="pub" data-year="2023" data-themes="markets" data-kind="article" data-pdf="yes">
   <div class="pub-year">2023</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/10049815">What may future electricity markets look like?</a></h3>
     <p class="pub-authors"><strong>P. Pinson</strong></p>
     <p class="pub-venue">Journal of Modern Power Systems and Clean Energy 11(3), pp. 698-706 (invited)</p>
     <p class="pub-links">
+      <a class="pub-pdf" href="https://ieeexplore.ieee.org/ielx7/8685265/10136634/10049815.pdf" aria-label="PDF of What may future electricity markets look like?">PDF</a>
       <a href="https://ieeexplore.ieee.org/document/10049815">Publisher page</a>
       
       
@@ -915,27 +951,29 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2023" data-themes="optimisation" data-kind="preprint">
+<article class="pub" data-year="2023" data-themes="optimisation" data-kind="preprint" data-pdf="yes">
   <div class="pub-year">2023</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://arxiv.org/abs/2209.14152">Privacy-preserving convex optimization: When differential privacy meets stochastic programming</a></h3>
     <p class="pub-authors">V. Dvorkin, F. Fioretto, P. Van Hentenryck, <strong>P. Pinson</strong>, J. Kazempour</p>
     <p class="pub-venue">Preprint, under review</p>
     <p class="pub-links">
+      <a class="pub-pdf" href="https://arxiv.org/pdf/2209.14152" aria-label="PDF of Privacy-preserving convex optimization: When differential privacy meets stochastic programming">PDF</a>
       
-      <a href="https://arxiv.org/abs/2209.14152">Open preprint</a>
+      <a href="https://arxiv.org/abs/2209.14152">arXiv page</a>
       <span class="pub-status">Preprint</span>
     </p>
   </div>
 </article>
 
-<article class="pub" data-year="2023" data-themes="markets" data-kind="article">
+<article class="pub" data-year="2023" data-themes="markets" data-kind="article" data-pdf="no">
   <div class="pub-year">2023</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.sciencedirect.com/science/article/pii/S2352467723000838">P2P market coordination methodologies with distribution grid management</a></h3>
     <p class="pub-authors">A.S. Faria, T. Soares, T. Orlandini, C. Oliveira, T. Sousa, <strong>P. Pinson</strong>, M. Matos</p>
     <p class="pub-venue">Sustainable Energy, Grids and Networks 34, art. no. 101075</p>
     <p class="pub-links">
+      
       <a href="https://www.sciencedirect.com/science/article/pii/S2352467723000838">Publisher page</a>
       
       
@@ -943,13 +981,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2023" data-themes="markets optimisation" data-kind="article">
+<article class="pub" data-year="2023" data-themes="markets optimisation" data-kind="article" data-pdf="yes">
   <div class="pub-year">2023</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://link.springer.com/article/10.1007/s10287-023-00462-2">Online decision-making for trading wind energy</a></h3>
     <p class="pub-authors">M.A. Muñoz, <strong>P. Pinson</strong>, J. Kazempour</p>
     <p class="pub-venue">Computational Management Science 20, art. no. 33</p>
     <p class="pub-links">
+      <a class="pub-pdf" href="https://link.springer.com/content/pdf/10.1007/s10287-023-00462-2.pdf" aria-label="PDF of Online decision-making for trading wind energy">PDF</a>
       <a href="https://link.springer.com/article/10.1007/s10287-023-00462-2">Publisher page</a>
       
       
@@ -957,27 +996,29 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2023" data-themes="markets" data-kind="preprint">
+<article class="pub" data-year="2023" data-themes="markets" data-kind="preprint" data-pdf="yes">
   <div class="pub-year">2023</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://arxiv.org/abs/2206.06299">On the design of decentralised data markets</a></h3>
     <p class="pub-authors">A. Manzano Kharman, C. Jursitzky, Q. Zhou, P. Ferraro, J. Marecek, <strong>P. Pinson</strong>, R. Shorten</p>
     <p class="pub-venue">Preprint, under review</p>
     <p class="pub-links">
+      <a class="pub-pdf" href="https://arxiv.org/pdf/2206.06299" aria-label="PDF of On the design of decentralised data markets">PDF</a>
       
-      <a href="https://arxiv.org/abs/2206.06299">Open preprint</a>
+      <a href="https://arxiv.org/abs/2206.06299">arXiv page</a>
       <span class="pub-status">Preprint</span>
     </p>
   </div>
 </article>
 
-<article class="pub" data-year="2023" data-themes="energy" data-kind="article">
+<article class="pub" data-year="2023" data-themes="energy" data-kind="article" data-pdf="yes">
   <div class="pub-year">2023</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/9844246">On machine learning-based techniques for future sustainable and resilient energy systems</a></h3>
     <p class="pub-authors">J. Wang, <strong>P. Pinson</strong>, S. Chatzivasileiadis, M. Panteli, G. Strbac, V. Terzija</p>
     <p class="pub-venue">IEEE Transactions on Sustainable Energy 14(2), pp. 1230-1243</p>
     <p class="pub-links">
+      <a class="pub-pdf" href="https://orbit.dtu.dk/files/282943131/On_Machine_Learning_Based_Techniques_for_Future_Sustainable_and_Resilient_Energy_Systems.pdf" aria-label="PDF of On machine learning-based techniques for future sustainable and resilient energy systems">PDF</a>
       <a href="https://ieeexplore.ieee.org/document/9844246">Publisher page</a>
       
       
@@ -985,27 +1026,29 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2023" data-themes="markets optimisation" data-kind="article">
+<article class="pub" data-year="2023" data-themes="markets optimisation" data-kind="article" data-pdf="yes">
   <div class="pub-year">2023</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://arxiv.org/abs/2103.12122">Moving from linear to conic markets for electricity</a></h3>
     <p class="pub-authors">A. Ratha, <strong>P. Pinson</strong>, H. Le Cadre, A. Virag, J. Kazempour</p>
     <p class="pub-venue">European Journal of Operational Research 309(2), pp. 762-783</p>
     <p class="pub-links">
+      <a class="pub-pdf" href="https://arxiv.org/pdf/2103.12122" aria-label="PDF of Moving from linear to conic markets for electricity">PDF</a>
       
-      <a href="https://arxiv.org/abs/2103.12122">Open preprint</a>
+      <a href="https://arxiv.org/abs/2103.12122">arXiv page</a>
       
     </p>
   </div>
 </article>
 
-<article class="pub" data-year="2023" data-themes="optimisation energy" data-kind="article">
+<article class="pub" data-year="2023" data-themes="optimisation energy" data-kind="article" data-pdf="yes">
   <div class="pub-year">2023</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/10251779">Fair and scalable electric vehicle charging under electrical grid constraints</a></h3>
     <p class="pub-authors">G. Tsaousoglou, J.S. Giraldo, <strong>P. Pinson</strong>, N.G. Paterakis</p>
     <p class="pub-venue">IEEE Transactions on Intelligent Transportation Systems 24(12), pp. 15169-15177</p>
     <p class="pub-links">
+      <a class="pub-pdf" href="https://pure.tue.nl/ws/files/316735503/Fair_and_Scalable_Electric_Vehicle_Charging_Under_Electrical_Grid_Constraints.pdf" aria-label="PDF of Fair and scalable electric vehicle charging under electrical grid constraints">PDF</a>
       <a href="https://ieeexplore.ieee.org/document/10251779">Publisher page</a>
       
       
@@ -1013,13 +1056,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2023" data-themes="markets optimisation" data-kind="article">
+<article class="pub" data-year="2023" data-themes="markets optimisation" data-kind="article" data-pdf="no">
   <div class="pub-year">2023</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/10032566">Distributionally robust trading strategies for renewable energy producers</a></h3>
     <p class="pub-authors"><strong>P. Pinson</strong></p>
     <p class="pub-venue">IEEE Transactions on Energy Markets, Policy and Regulation 1(1), pp. 37-47</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/10032566">Publisher page</a>
       
       
@@ -1027,13 +1071,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2023" data-themes="optimisation energy" data-kind="article">
+<article class="pub" data-year="2023" data-themes="optimisation energy" data-kind="article" data-pdf="no">
   <div class="pub-year">2023</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/10081472">Chance-constrained economic dispatch of generic energy storage under decision-dependent uncertainty</a></h3>
     <p class="pub-authors">N. Qi, <strong>P. Pinson</strong>, M.R. Almassalkhi, L. Cheng, Y. Zhuang</p>
     <p class="pub-venue">IEEE Transactions on Sustainable Energy 14(4), pp. 2234-2248</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/10081472">Publisher page</a>
       
       
@@ -1041,13 +1086,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2022" data-themes="energy" data-kind="article">
+<article class="pub" data-year="2022" data-themes="energy" data-kind="article" data-pdf="no">
   <div class="pub-year">2022</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.sciencedirect.com/science/article/pii/S0378779622005454">Variable heat pricing to steer the flexibility of heat demand response in district heating systems</a></h3>
     <p class="pub-authors">L. Bai, J. Wang, <strong>P. Pinson</strong></p>
     <p class="pub-venue">Electric Power Systems Research 212, art. no. 108383</p>
     <p class="pub-links">
+      
       <a href="https://www.sciencedirect.com/science/article/pii/S0378779622005454">Publisher page</a>
       
       
@@ -1055,13 +1101,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2022" data-themes="forecasting markets" data-kind="article">
+<article class="pub" data-year="2022" data-themes="forecasting markets" data-kind="article" data-pdf="no">
   <div class="pub-year">2022</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.sciencedirect.com/science/article/pii/S0378779622005831">Trading data for wind power forecasting: A regression market with Lasso regularization</a></h3>
     <p class="pub-authors">L. Han, <strong>P. Pinson</strong>, J. Kazempour</p>
     <p class="pub-venue">Electric Power Systems Research 212, art. no. 108442</p>
     <p class="pub-links">
+      
       <a href="https://www.sciencedirect.com/science/article/pii/S0378779622005831">Publisher page</a>
       
       
@@ -1069,7 +1116,7 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2022" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2022" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2022</div>
   <div>
     <h3 class="pub-title anchored">To share or not to share? Alternative views on a future of collaborative forecasting</h3>
@@ -1079,17 +1126,19 @@ window.Quarto = {
       
       
       
+      
     </p>
   </div>
 </article>
 
-<article class="pub" data-year="2022" data-themes="optimisation energy" data-kind="article">
+<article class="pub" data-year="2022" data-themes="optimisation energy" data-kind="article" data-pdf="no">
   <div class="pub-year">2022</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/9540318">Stochastic control and pricing for natural gas networks</a></h3>
     <p class="pub-authors">V. Dvorkin, A. Ratha, <strong>P. Pinson</strong>, J. Kazempour</p>
     <p class="pub-venue">IEEE Transactions on Control of Network Systems 9(1), pp. 450-462</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/9540318">Publisher page</a>
       
       
@@ -1097,13 +1146,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2022" data-themes="optimisation energy" data-kind="article">
+<article class="pub" data-year="2022" data-themes="optimisation energy" data-kind="article" data-pdf="no">
   <div class="pub-year">2022</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.sciencedirect.com/science/article/pii/S0378779622005193">Reliability-aware probabilistic reserve procurement</a></h3>
     <p class="pub-authors">L. Herre, <strong>P. Pinson</strong>, S. Chatzivasileiadis</p>
     <p class="pub-venue">Electric Power Systems Research 212, art. no. 108345</p>
     <p class="pub-links">
+      
       <a href="https://www.sciencedirect.com/science/article/pii/S0378779622005193">Publisher page</a>
       
       
@@ -1111,13 +1161,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2022" data-themes="forecasting markets" data-kind="article">
+<article class="pub" data-year="2022" data-themes="forecasting markets" data-kind="article" data-pdf="no">
   <div class="pub-year">2022</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://link.springer.com/article/10.1007/s11750-022-00631-7">Regression markets and application to energy forecasting</a></h3>
     <p class="pub-authors"><strong>P. Pinson</strong>, L. Han, J. Kazempour</p>
     <p class="pub-venue">TOP 30, pp. 533-573</p>
     <p class="pub-links">
+      
       <a href="https://link.springer.com/article/10.1007/s11750-022-00631-7">Publisher page</a>
       
       
@@ -1125,13 +1176,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2022" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2022" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2022</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.sciencedirect.com/science/article/pii/S0169207020301229">Pandemics and forecasting: The way forward through the Taleb-Ioannidis debate</a></h3>
     <p class="pub-authors"><strong>P. Pinson</strong>, S. Makridakis</p>
     <p class="pub-venue">International Journal of Forecasting 38(2), pp. 410-412</p>
     <p class="pub-links">
+      
       <a href="https://www.sciencedirect.com/science/article/pii/S0169207020301229">Publisher page</a>
       
       
@@ -1139,27 +1191,29 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2022" data-themes="markets energy" data-kind="article">
+<article class="pub" data-year="2022" data-themes="markets energy" data-kind="article" data-pdf="yes">
   <div class="pub-year">2022</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://arxiv.org/abs/2103.17056">North Sea energy islands: Impact on national markets and grids</a></h3>
     <p class="pub-authors">A. Tosatto, X.M. Beseler, J. Østergaard, <strong>P. Pinson</strong>, S. Chatzivasileiadis</p>
     <p class="pub-venue">Energy Policy 167, art. no. 112907</p>
     <p class="pub-links">
+      <a class="pub-pdf" href="https://arxiv.org/pdf/2103.17056" aria-label="PDF of North Sea energy islands: Impact on national markets and grids">PDF</a>
       
-      <a href="https://arxiv.org/abs/2103.17056">Open preprint</a>
+      <a href="https://arxiv.org/abs/2103.17056">arXiv page</a>
       
     </p>
   </div>
 </article>
 
-<article class="pub" data-year="2022" data-themes="optimisation energy" data-kind="article">
+<article class="pub" data-year="2022" data-themes="optimisation energy" data-kind="article" data-pdf="no">
   <div class="pub-year">2022</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.sciencedirect.com/science/article/pii/S0378779622005375">Multi-stage linear decision rules for stochastic control of natural gas networks with linepack</a></h3>
     <p class="pub-authors">V. Dvorkin, A. Botterud, D. Mallapragada, J. Kazempour, <strong>P. Pinson</strong></p>
     <p class="pub-venue">Electric Power Systems Research 212, art. no. 108388</p>
     <p class="pub-links">
+      
       <a href="https://www.sciencedirect.com/science/article/pii/S0378779622005375">Publisher page</a>
       
       
@@ -1167,13 +1221,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2022" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2022" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2022</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.sciencedirect.com/science/article/pii/S0169207021001758">Forecasting: theory and practice</a></h3>
     <p class="pub-authors">F. Petropoulos and co-authors (incl. <strong>P. Pinson</strong>)</p>
     <p class="pub-venue">International Journal of Forecasting 38(3), pp. 705-871</p>
     <p class="pub-links">
+      
       <a href="https://www.sciencedirect.com/science/article/pii/S0169207021001758">Publisher page</a>
       
       
@@ -1181,13 +1236,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2022" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2022" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2022</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.sciencedirect.com/science/article/pii/S0169207021002156">Editorial: Epidemics and forecasting with focus on COVID-19</a></h3>
     <p class="pub-authors"><strong>P. Pinson</strong></p>
     <p class="pub-venue">International Journal of Forecasting 38(2), pp. 407-409</p>
     <p class="pub-links">
+      
       <a href="https://www.sciencedirect.com/science/article/pii/S0169207021002156">Publisher page</a>
       
       
@@ -1195,13 +1251,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2022" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2022" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2022</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/9831039">Continuous and distribution-free probabilistic wind power forecasting: A conditional normalizing flow approach</a></h3>
     <p class="pub-authors">H. Wen, <strong>P. Pinson</strong>, J. Ma, J. Gu, Z. Jin</p>
     <p class="pub-venue">IEEE Transactions on Sustainable Energy 13(4), pp. 2250-2263</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/9831039">Publisher page</a>
       
       
@@ -1209,13 +1266,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2022" data-themes="markets" data-kind="article">
+<article class="pub" data-year="2022" data-themes="markets" data-kind="article" data-pdf="no">
   <div class="pub-year">2022</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/9536422">An asynchronous online negotiation mechanism for real-time peer-to-peer electricity markets</a></h3>
     <p class="pub-authors">Z. Guo, <strong>P. Pinson</strong>, S. Chen, Q. Yang, Z. Yang</p>
     <p class="pub-venue">IEEE Transactions on Power Systems 37(3), pp. 1868-1880</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/9536422">Publisher page</a>
       
       
@@ -1223,13 +1281,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2022" data-themes="markets energy" data-kind="article">
+<article class="pub" data-year="2022" data-themes="markets energy" data-kind="article" data-pdf="no">
   <div class="pub-year">2022</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.sciencedirect.com/science/article/pii/S0306261921012563">A network-aware market mechanism for decentralized district heating systems</a></h3>
     <p class="pub-authors">L. Frölke, T. Sousa, <strong>P. Pinson</strong></p>
     <p class="pub-venue">Applied Energy, art. no. 117956</p>
     <p class="pub-links">
+      
       <a href="https://www.sciencedirect.com/science/article/pii/S0306261921012563">Publisher page</a>
       
       
@@ -1237,13 +1296,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2021" data-themes="markets" data-kind="article">
+<article class="pub" data-year="2021" data-themes="markets" data-kind="article" data-pdf="no">
   <div class="pub-year">2021</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/9385902">What do prosumer marginal utility functions look like? Derivation and analysis</a></h3>
     <p class="pub-authors">C. Ziras, T. Sousa, <strong>P. Pinson</strong></p>
     <p class="pub-venue">IEEE Transactions on Power Systems 36(5), pp. 4322-4330</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/9385902">Publisher page</a>
       
       
@@ -1251,13 +1311,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2021" data-themes="markets" data-kind="article">
+<article class="pub" data-year="2021" data-themes="markets" data-kind="article" data-pdf="no">
   <div class="pub-year">2021</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/9343668">Transactive energy for flexible prosumers using algorithmic game theory</a></h3>
     <p class="pub-authors">G. Tsaousoglou, <strong>P. Pinson</strong>, N.G. Paterakis</p>
     <p class="pub-venue">IEEE Transactions on Sustainable Energy 12(3), pp. 1571-1581</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/9343668">Publisher page</a>
       
       
@@ -1265,13 +1326,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2021" data-themes="forecasting markets" data-kind="article">
+<article class="pub" data-year="2021" data-themes="forecasting markets" data-kind="article" data-pdf="no">
   <div class="pub-year">2021</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/9141479">Towards data markets in renewable energy forecasting</a></h3>
     <p class="pub-authors">C. Goncalves, <strong>P. Pinson</strong>, R. Bessa</p>
     <p class="pub-venue">IEEE Transactions on Sustainable Energy 12(1), pp. 533-542</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/9141479">Publisher page</a>
       
       
@@ -1279,13 +1341,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2021" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2021" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2021</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/9374719">Privacy-preserving distributed learning for renewable energy forecasting</a></h3>
     <p class="pub-authors">C. Goncalves, R. Bessa, <strong>P. Pinson</strong></p>
     <p class="pub-venue">IEEE Transactions on Sustainable Energy 12(3), pp. 1777-1787</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/9374719">Publisher page</a>
       
       
@@ -1293,13 +1356,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2021" data-themes="markets" data-kind="article">
+<article class="pub" data-year="2021" data-themes="markets" data-kind="article" data-pdf="no">
   <div class="pub-year">2021</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.sciencedirect.com/science/article/pii/S0377221721002502">Price-region bids in electricity markets</a></h3>
     <p class="pub-authors">L. Bobo, L. Mitridati, J.A. Taylor, <strong>P. Pinson</strong>, J. Kazempour</p>
     <p class="pub-venue">European Journal of Operational Research 295(3), pp. 1056-1073</p>
     <p class="pub-links">
+      
       <a href="https://www.sciencedirect.com/science/article/pii/S0377221721002502">Publisher page</a>
       
       
@@ -1307,13 +1371,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2021" data-themes="markets optimisation" data-kind="article">
+<article class="pub" data-year="2021" data-themes="markets optimisation" data-kind="article" data-pdf="no">
   <div class="pub-year">2021</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/9416277">Online optimization for real-time peer-to-peer electricity market mechanisms</a></h3>
     <p class="pub-authors">Z. Guo, <strong>P. Pinson</strong>, S. Chen, Q. Yang, Z. Yang</p>
     <p class="pub-venue">IEEE Transactions on Smart Grid 12(5), pp. 4151-4163</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/9416277">Publisher page</a>
       
       
@@ -1321,13 +1386,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2021" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2021" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2021</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.sciencedirect.com/science/article/pii/S0378779620304405">Online forecast reconciliation in wind power prediction</a></h3>
     <p class="pub-authors">C. Di Modica, <strong>P. Pinson</strong>, S. Ben Taieb</p>
     <p class="pub-venue">Electric Power Systems Research 190, art. no. 106637</p>
     <p class="pub-links">
+      
       <a href="https://www.sciencedirect.com/science/article/pii/S0378779620304405">Publisher page</a>
       
       
@@ -1335,13 +1401,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2021" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2021" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2021</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0169207020300613">Online distributed learning in wind power forecasting</a></h3>
     <p class="pub-authors">B. Sommer, <strong>P. Pinson</strong>, J.W. Messner, D. Obst</p>
     <p class="pub-venue">International Journal of Forecasting 37(1), pp. 205-223</p>
     <p class="pub-links">
+      
       <a href="https://www.sciencedirect.com/science/article/abs/pii/S0169207020300613">Publisher page</a>
       
       
@@ -1349,27 +1416,29 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2021" data-themes="markets" data-kind="conference">
+<article class="pub" data-year="2021" data-themes="markets" data-kind="conference" data-pdf="yes">
   <div class="pub-year">2021</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://arxiv.org/abs/2012.05519">Monetizing customer load data for an energy retailer: A cooperative game approach</a></h3>
     <p class="pub-authors">L. Han, <strong>P. Pinson</strong>, J. Kazempour</p>
     <p class="pub-venue">Proc. Probabilistic Methods Applied to Power Systems (PMAPS) 2021</p>
     <p class="pub-links">
+      <a class="pub-pdf" href="https://arxiv.org/pdf/2012.05519" aria-label="PDF of Monetizing customer load data for an energy retailer: A cooperative game approach">PDF</a>
       
-      <a href="https://arxiv.org/abs/2012.05519">Open preprint</a>
+      <a href="https://arxiv.org/abs/2012.05519">arXiv page</a>
       
     </p>
   </div>
 </article>
 
-<article class="pub" data-year="2021" data-themes="markets" data-kind="article">
+<article class="pub" data-year="2021" data-themes="markets" data-kind="article" data-pdf="no">
   <div class="pub-year">2021</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/9312120">Mechanism design for fair and efficient DSO flexibility markets</a></h3>
     <p class="pub-authors">G. Tsaousoglou, J.S. Giraldo, <strong>P. Pinson</strong>, N.G. Paterakis</p>
     <p class="pub-venue">IEEE Transactions on Smart Grid 12(3), pp. 2249-2260</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/9312120">Publisher page</a>
       
       
@@ -1377,13 +1446,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2021" data-themes="optimisation energy" data-kind="article">
+<article class="pub" data-year="2021" data-themes="optimisation energy" data-kind="article" data-pdf="no">
   <div class="pub-year">2021</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/9447957">Managing distributed flexibility under uncertainty by combining deep learning with duality</a></h3>
     <p class="pub-authors">G. Tsaousoglou, K. Mitropoulou, K. Steriotis, N.G. Paterakis, <strong>P. Pinson</strong>, E. Varvarigos</p>
     <p class="pub-venue">IEEE Transactions on Sustainable Energy 12(4), pp. 2195-2204</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/9447957">Publisher page</a>
       
       
@@ -1391,13 +1461,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2021" data-themes="forecasting markets" data-kind="article">
+<article class="pub" data-year="2021" data-themes="forecasting markets" data-kind="article" data-pdf="no">
   <div class="pub-year">2021</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/9586385">Forecasting and market design advances</a></h3>
     <p class="pub-authors">J. Fox, E. Ela, B. Hobbs, J. Sharp, J. Novacheck, A. Motley, R.J. Bessa, <strong>P. Pinson</strong>, G. Kariniotakis</p>
     <p class="pub-venue">IEEE Power and Energy Magazine 19(6), pp. 75-85</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/9586385">Publisher page</a>
       
       
@@ -1405,13 +1476,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2021" data-themes="optimisation" data-kind="article">
+<article class="pub" data-year="2021" data-themes="optimisation" data-kind="article" data-pdf="no">
   <div class="pub-year">2021</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0167637721000213">Energy and reserve dispatch with distributionally robust joint chance constraints</a></h3>
     <p class="pub-authors">C. Ordoudis, V.A. Nguyen, D. Kuhn, <strong>P. Pinson</strong></p>
     <p class="pub-venue">Operations Research Letters 49(3), pp. 291-299</p>
     <p class="pub-links">
+      
       <a href="https://www.sciencedirect.com/science/article/abs/pii/S0167637721000213">Publisher page</a>
       
       
@@ -1419,13 +1491,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2021" data-themes="optimisation energy" data-kind="article">
+<article class="pub" data-year="2021" data-themes="optimisation energy" data-kind="article" data-pdf="no">
   <div class="pub-year">2021</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://royalsocietypublishing.org/doi/abs/10.1098/rsta.2019.0429">Electric demand response and bounded rationality – Mean-field control for large populations of heterogeneous bounded-rational agents</a></h3>
     <p class="pub-authors">A. Marín Radoszynski, <strong>P. Pinson</strong></p>
     <p class="pub-venue">Philosophical Transactions of the Royal Society A 379(2202), art. no. 20190429</p>
     <p class="pub-links">
+      
       <a href="https://royalsocietypublishing.org/doi/abs/10.1098/rsta.2019.0429">Publisher page</a>
       
       
@@ -1433,13 +1506,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2021" data-themes="markets optimisation" data-kind="article">
+<article class="pub" data-year="2021" data-themes="markets optimisation" data-kind="article" data-pdf="no">
   <div class="pub-year">2021</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/9286771">Dynamic reserve and transmission capacity allocation in wind-dominated power systems</a></h3>
     <p class="pub-authors">N. Viafora, S. Delikaraoglou, <strong>P. Pinson</strong>, G. Hug, J. Holbøll</p>
     <p class="pub-venue">IEEE Transactions on Power Systems 36(4), pp. 3017-3028</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/9286771">Publisher page</a>
       
       
@@ -1447,13 +1521,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2021" data-themes="markets" data-kind="article">
+<article class="pub" data-year="2021" data-themes="markets" data-kind="article" data-pdf="no">
   <div class="pub-year">2021</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.sciencedirect.com/science/article/pii/S0305048319305523">Design and game-theoretical analysis of community-based market mechanisms in heat and electricity systems</a></h3>
     <p class="pub-authors">L. Mitridati, J. Kazempour, <strong>P. Pinson</strong></p>
     <p class="pub-venue">Omega 99, art. no. 102177</p>
     <p class="pub-links">
+      
       <a href="https://www.sciencedirect.com/science/article/pii/S0305048319305523">Publisher page</a>
       
       
@@ -1461,13 +1536,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2021" data-themes="markets" data-kind="article">
+<article class="pub" data-year="2021" data-themes="markets" data-kind="article" data-pdf="no">
   <div class="pub-year">2021</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://link.springer.com/article/10.1007/s10287-021-00403-x">Coordination of power and natural gas markets via financial instruments</a></h3>
     <p class="pub-authors">A. Schwele, C. Ordoudis, <strong>P. Pinson</strong>, J. Kazempour</p>
     <p class="pub-venue">Computational Management Science 18, pp. 505-538</p>
     <p class="pub-links">
+      
       <a href="https://link.springer.com/article/10.1007/s10287-021-00403-x">Publisher page</a>
       
       
@@ -1475,13 +1551,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2021" data-themes="markets optimisation" data-kind="article">
+<article class="pub" data-year="2021" data-themes="markets optimisation" data-kind="article" data-pdf="no">
   <div class="pub-year">2021</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/9178314">Chance-constrained peer-to-peer joint energy and reserve market based on consensus ADMM</a></h3>
     <p class="pub-authors">Z. Guo, <strong>P. Pinson</strong>, S. Chen, Q. Yang, Z. Yang</p>
     <p class="pub-venue">IEEE Transactions on Smart Grid 12(1), pp. 798-809</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/9178314">Publisher page</a>
       
       
@@ -1489,27 +1566,29 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2021" data-themes="forecasting" data-kind="conference">
+<article class="pub" data-year="2021" data-themes="forecasting" data-kind="conference" data-pdf="yes">
   <div class="pub-year">2021</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://arxiv.org/abs/2012.08910">Adaptive generalized logit-Normal distributions for wind power short-term forecasting</a></h3>
     <p class="pub-authors">A. Pierrot, <strong>P. Pinson</strong></p>
     <p class="pub-venue">Proc. Probabilistic Methods Applied to Power Systems (PMAPS) 2021</p>
     <p class="pub-links">
+      <a class="pub-pdf" href="https://arxiv.org/pdf/2012.08910" aria-label="PDF of Adaptive generalized logit-Normal distributions for wind power short-term forecasting">PDF</a>
       
-      <a href="https://arxiv.org/abs/2012.08910">Open preprint</a>
+      <a href="https://arxiv.org/abs/2012.08910">arXiv page</a>
       
     </p>
   </div>
 </article>
 
-<article class="pub" data-year="2021" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2021" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2021</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/9495822">A self-adaptive multikernel machine based on Recursive Least-Squares applied to very short-term wind power forecasting</a></h3>
     <p class="pub-authors">E.C. Bezerra, <strong>P. Pinson</strong>, R.P.S. Leão, A.P.S. Braga</p>
     <p class="pub-venue">IEEE Access 9, pp. 104761-104772</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/9495822">Publisher page</a>
       
       
@@ -1517,13 +1596,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2021" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2021" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2021</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.sciencedirect.com/science/article/pii/S016920702030090X">A critical overview of privacy-preserving approaches for collaborative forecasting</a></h3>
     <p class="pub-authors">C. Goncalves, R.J. Bessa, <strong>P. Pinson</strong></p>
     <p class="pub-venue">International Journal of Forecasting 37(1), pp. 322-342</p>
     <p class="pub-links">
+      
       <a href="https://www.sciencedirect.com/science/article/pii/S016920702030090X">Publisher page</a>
       
       
@@ -1531,41 +1611,44 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2021" data-themes="markets" data-kind="article">
+<article class="pub" data-year="2021" data-themes="markets" data-kind="article" data-pdf="yes">
   <div class="pub-year">2021</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/9201189">Loss allocation in joint transmission and distribution peer-to-peer markets</a></h3>
     <p class="pub-authors">F. Moret, A. Tosatto, T. Baroche, <strong>P. Pinson</strong></p>
     <p class="pub-venue">IEEE Transactions on Power Systems 36(3), pp. 1833-1842</p>
     <p class="pub-links">
+      <a class="pub-pdf" href="https://arxiv.org/pdf/2001.05396" aria-label="PDF of Loss allocation in joint transmission and distribution peer-to-peer markets">PDF</a>
       <a href="https://ieeexplore.ieee.org/document/9201189">Publisher page</a>
-      <a href="https://arxiv.org/abs/2001.05396">Open preprint</a>
+      <a href="https://arxiv.org/abs/2001.05396">arXiv page</a>
       
     </p>
   </div>
 </article>
 
-<article class="pub" data-year="2021" data-themes="optimisation energy" data-kind="article">
+<article class="pub" data-year="2021" data-themes="optimisation energy" data-kind="article" data-pdf="yes">
   <div class="pub-year">2021</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/9226144">Differentially private optimal power flow for distribution grids</a></h3>
     <p class="pub-authors">V. Dvorkin, F. Fioretto, P. Van Hentenryck, J. Kazempour, <strong>P. Pinson</strong></p>
     <p class="pub-venue">IEEE Transactions on Power Systems 36(3), pp. 2186-2196</p>
     <p class="pub-links">
+      <a class="pub-pdf" href="https://arxiv.org/pdf/2004.03921" aria-label="PDF of Differentially private optimal power flow for distribution grids">PDF</a>
       <a href="https://ieeexplore.ieee.org/document/9226144">Publisher page</a>
-      <a href="https://arxiv.org/abs/2004.03921">Open preprint</a>
+      <a href="https://arxiv.org/abs/2004.03921">arXiv page</a>
       
     </p>
   </div>
 </article>
 
-<article class="pub" data-year="2020" data-themes="markets" data-kind="article">
+<article class="pub" data-year="2020" data-themes="markets" data-kind="article" data-pdf="no">
   <div class="pub-year">2020</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/9011607">Transactive energy based aggregation of prosumers as a retailer</a></h3>
     <p class="pub-authors">Y. Xiao, X. Wang, <strong>P. Pinson</strong>, X. Wang</p>
     <p class="pub-venue">IEEE Transactions on Smart Grid 11(4), pp. 3302-3312</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/9011607">Publisher page</a>
       
       
@@ -1573,13 +1656,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2020" data-themes="forecasting energy" data-kind="article">
+<article class="pub" data-year="2020" data-themes="forecasting energy" data-kind="article" data-pdf="no">
   <div class="pub-year">2020</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://onlinelibrary.wiley.com/doi/10.1002/wene.365">The future of forecasting for renewable energy</a></h3>
     <p class="pub-authors">C. Sweeney, R.J. Bessa, J. Browell, <strong>P. Pinson</strong></p>
     <p class="pub-venue">WIREs Energy and Environment 9(2), art. no. e365</p>
     <p class="pub-links">
+      
       <a href="https://onlinelibrary.wiley.com/doi/10.1002/wene.365">Publisher page</a>
       
       
@@ -1587,13 +1671,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2020" data-themes="energy" data-kind="article">
+<article class="pub" data-year="2020" data-themes="energy" data-kind="article" data-pdf="no">
   <div class="pub-year">2020</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0301421520300185">The ethical smart grid: Enabling a fruitful and long-lasting relationship between utilities and customers</a></h3>
     <p class="pub-authors">G. Le Ray, <strong>P. Pinson</strong></p>
     <p class="pub-venue">Energy Policy 140, art. no. 111258</p>
     <p class="pub-links">
+      
       <a href="https://www.sciencedirect.com/science/article/abs/pii/S0301421520300185">Publisher page</a>
       
       
@@ -1601,13 +1686,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2020" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2020" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2020</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://onlinelibrary.wiley.com/doi/full/10.1002/we.2456">Statistical post-processing of turbulence-resolving weather forecasts for offshore wind power forecasting</a></h3>
     <p class="pub-authors">C. Gilbert, J.W. Messner, <strong>P. Pinson</strong>, P.-J. Trombe, R. Verzijlbergh, P. van Dorp, H. Jonker</p>
     <p class="pub-venue">Wind Energy 23(4), pp. 884-897</p>
     <p class="pub-links">
+      
       <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/we.2456">Publisher page</a>
       
       
@@ -1615,13 +1701,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2020" data-themes="markets optimisation" data-kind="article">
+<article class="pub" data-year="2020" data-themes="markets optimisation" data-kind="article" data-pdf="no">
   <div class="pub-year">2020</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.sciencedirect.com/science/article/pii/S0377221720304185">Market-based coordination for integrated electricity and natural gas systems under uncertain supply</a></h3>
     <p class="pub-authors">C. Ordoudis, S. Delikaraoglou, J. Kazempour, <strong>P. Pinson</strong></p>
     <p class="pub-venue">European Journal of Operational Research 287(3), pp. 1105-1119</p>
     <p class="pub-links">
+      
       <a href="https://www.sciencedirect.com/science/article/pii/S0377221720304185">Publisher page</a>
       
       
@@ -1629,13 +1716,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2020" data-themes="markets" data-kind="article">
+<article class="pub" data-year="2020" data-themes="markets" data-kind="article" data-pdf="no">
   <div class="pub-year">2020</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0377221720303878">Heterogeneous risk preferences in community-based electricity markets</a></h3>
     <p class="pub-authors">F. Moret, <strong>P. Pinson</strong>, A. Papakonstantinou</p>
     <p class="pub-venue">European Journal of Operational Research 287(1), pp. 36-48</p>
     <p class="pub-links">
+      
       <a href="https://www.sciencedirect.com/science/article/abs/pii/S0377221720303878">Publisher page</a>
       
       
@@ -1643,13 +1731,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2020" data-themes="markets optimisation" data-kind="article">
+<article class="pub" data-year="2020" data-themes="markets optimisation" data-kind="article" data-pdf="no">
   <div class="pub-year">2020</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0377221719309841">Heat and electricity market coordination: A scalable complementarity approach</a></h3>
     <p class="pub-authors">L. Mitridati, J. Kazempour, <strong>P. Pinson</strong></p>
     <p class="pub-venue">European Journal of Operational Research 283(3), pp. 1107-1123</p>
     <p class="pub-links">
+      
       <a href="https://www.sciencedirect.com/science/article/abs/pii/S0377221719309841">Publisher page</a>
       
       
@@ -1657,13 +1746,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2020" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2020" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2020</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://onlinelibrary.wiley.com/doi/full/10.1002/we.2497">Evaluation of wind power forecasts – An up-to-date view</a></h3>
     <p class="pub-authors">J.W. Messner, <strong>P. Pinson</strong>, J. Browell, M.B. Bjerregård, I. Schicker</p>
     <p class="pub-venue">Wind Energy 23(6), pp. 1461-1481</p>
     <p class="pub-links">
+      
       <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/we.2497">Publisher page</a>
       
       
@@ -1671,13 +1761,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2020" data-themes="forecasting energy" data-kind="article">
+<article class="pub" data-year="2020" data-themes="forecasting energy" data-kind="article" data-pdf="no">
   <div class="pub-year">2020</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/9218967">Energy forecasting: A review and outlook</a></h3>
     <p class="pub-authors">T. Hong, <strong>P. Pinson</strong>, Y. Wang, R. Weron, D. Yang, H. Zareipour</p>
     <p class="pub-venue">IEEE Open Access Journal of Power and Energy 7, pp. 376-388</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/9218967">Publisher page</a>
       
       
@@ -1685,13 +1776,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2020" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2020" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2020</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.sciencedirect.com/science/article/pii/S0169207020300145">Editorial</a></h3>
     <p class="pub-authors"><strong>P. Pinson</strong></p>
     <p class="pub-venue">International Journal of Forecasting 36(2), pp. 229-231</p>
     <p class="pub-links">
+      
       <a href="https://www.sciencedirect.com/science/article/pii/S0169207020300145">Publisher page</a>
       
       
@@ -1699,13 +1791,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2020" data-themes="optimisation energy" data-kind="article">
+<article class="pub" data-year="2020" data-themes="optimisation energy" data-kind="article" data-pdf="no">
   <div class="pub-year">2020</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://link.springer.com/article/10.1007/s12667-018-00321-z">Do unit commitment constraints affect generation expansion planning? A scalable stochastic model</a></h3>
     <p class="pub-authors">A. Schwele, J. Kazempour, <strong>P. Pinson</strong></p>
     <p class="pub-venue">Energy Systems 11, pp. 247-282</p>
     <p class="pub-links">
+      
       <a href="https://link.springer.com/article/10.1007/s12667-018-00321-z">Publisher page</a>
       
       
@@ -1713,13 +1806,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2020" data-themes="optimisation energy" data-kind="article">
+<article class="pub" data-year="2020" data-themes="optimisation energy" data-kind="article" data-pdf="no">
   <div class="pub-year">2020</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/8933104">Distributionally robust chance-constrained generation expansion planning</a></h3>
     <p class="pub-authors">F. Pourahmadi, J. Kazempour, C. Ordoudis, <strong>P. Pinson</strong>, S.H. Hosseini</p>
     <p class="pub-venue">IEEE Transactions on Power Systems 35(4), pp. 2888-2903</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/8933104">Publisher page</a>
       
       
@@ -1727,13 +1821,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2020" data-themes="energy" data-kind="article">
+<article class="pub" data-year="2020" data-themes="energy" data-kind="article" data-pdf="no">
   <div class="pub-year">2020</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.sciencedirect.com/science/article/pii/S0360544220301006">Demand side management of heat in smart homes: Living-lab experiments</a></h3>
     <p class="pub-authors">M.H. Christensen, <strong>P. Pinson</strong>, R. Li</p>
     <p class="pub-venue">Energy 195, art. no. 116993</p>
     <p class="pub-links">
+      
       <a href="https://www.sciencedirect.com/science/article/pii/S0360544220301006">Publisher page</a>
       
       
@@ -1741,13 +1836,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2020" data-themes="optimisation energy" data-kind="article">
+<article class="pub" data-year="2020" data-themes="optimisation energy" data-kind="article" data-pdf="no">
   <div class="pub-year">2020</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.sciencedirect.com/science/article/pii/S0142061519309317">Chance-constrained optimal power flow with nonparametric probability distributions of dynamic line ratings</a></h3>
     <p class="pub-authors">N. Viafora, S. Delikaraoglou, <strong>P. Pinson</strong>, J. Holbøll</p>
     <p class="pub-venue">International Journal of Electrical Power and Energy Systems 114, art. no. 105389</p>
     <p class="pub-links">
+      
       <a href="https://www.sciencedirect.com/science/article/pii/S0142061519309317">Publisher page</a>
       
       
@@ -1755,13 +1851,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2020" data-themes="energy" data-kind="article">
+<article class="pub" data-year="2020" data-themes="energy" data-kind="article" data-pdf="no">
   <div class="pub-year">2020</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0378779620305915">Big data analytics for future electricity grids</a></h3>
     <p class="pub-authors">M. Kezunovic, <strong>P. Pinson</strong>, Z. Obradovic, S. Grijalva, T. Hong, R. Bessa</p>
     <p class="pub-venue">Electric Power Systems Research 189, art. no. 106788</p>
     <p class="pub-links">
+      
       <a href="https://www.sciencedirect.com/science/article/abs/pii/S0378779620305915">Publisher page</a>
       
       
@@ -1769,13 +1866,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2020" data-themes="optimisation energy" data-kind="article">
+<article class="pub" data-year="2020" data-themes="optimisation energy" data-kind="article" data-pdf="no">
   <div class="pub-year">2020</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0378779620303692">Affine policies for flexibility provision by natural gas networks to power systems</a></h3>
     <p class="pub-authors">A. Ratha, A. Schwele, J. Kazempour, <strong>P. Pinson</strong>, S.S. Torbaghan, A. Virag</p>
     <p class="pub-venue">Electric Power Systems Research 189, art. no. 106565</p>
     <p class="pub-links">
+      
       <a href="https://www.sciencedirect.com/science/article/abs/pii/S0378779620303692">Publisher page</a>
       
       
@@ -1783,13 +1881,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2020" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2020" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2020</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0960148120311186">Added-value of ensemble prediction system on the quality of solar irradiance probabilistic forecasts</a></h3>
     <p class="pub-authors">J. Le Gal La Salle, J. Badosa, M. David, <strong>P. Pinson</strong>, P. Lauret</p>
     <p class="pub-venue">Renewable Energy 162, pp. 1321-1339</p>
     <p class="pub-links">
+      
       <a href="https://www.sciencedirect.com/science/article/abs/pii/S0960148120311186">Publisher page</a>
       
       
@@ -1797,13 +1896,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2020" data-themes="markets" data-kind="article">
+<article class="pub" data-year="2020" data-themes="markets" data-kind="article" data-pdf="no">
   <div class="pub-year">2020</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/8732585">A mid-term DSO market for capacity limits: How to estimate opportunity costs of aggregators?</a></h3>
     <p class="pub-authors">C. Ziras, J. Kazempour, E.C. Kara, H.W. Bindner, <strong>P. Pinson</strong>, S. Kiliccote</p>
     <p class="pub-venue">IEEE Transactions on Smart Grid 11(1), pp. 334-345</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/8732585">Publisher page</a>
       
       
@@ -1811,13 +1911,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2020" data-themes="markets" data-kind="article">
+<article class="pub" data-year="2020" data-themes="markets" data-kind="article" data-pdf="no">
   <div class="pub-year">2020</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/8963661">A local market mechanism for physical storage rights</a></h3>
     <p class="pub-authors">D. Thomas, J. Kazempour, A. Papakonstantinou, <strong>P. Pinson</strong>, O. Deblecker, C.S. Ioakimidis</p>
     <p class="pub-venue">IEEE Transactions on Power Systems 35(4), pp. 3087-3099</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/8963661">Publisher page</a>
       
       
@@ -1825,13 +1926,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2019" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2019" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2019</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0038092X19310382">Verification of solar irradiance probabilistic forecasts</a></h3>
     <p class="pub-authors">P. Lauret, M. David, <strong>P. Pinson</strong></p>
     <p class="pub-venue">Solar Energy 194, pp. 254-271</p>
     <p class="pub-links">
+      
       <a href="https://www.sciencedirect.com/science/article/abs/pii/S0038092X19310382">Publisher page</a>
       
       
@@ -1839,13 +1941,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2019" data-themes="markets" data-kind="article">
+<article class="pub" data-year="2019" data-themes="markets" data-kind="article" data-pdf="no">
   <div class="pub-year">2019</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/we.2383">Trading wind power through physically settled options and short-term electricity markets</a></h3>
     <p class="pub-authors">A. Papakonstantinou, G. Champeri, S. Delikaraoglou, <strong>P. Pinson</strong></p>
     <p class="pub-venue">Wind Energy 22(11), pp. 1487-1499</p>
     <p class="pub-links">
+      
       <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/we.2383">Publisher page</a>
       
       
@@ -1853,13 +1956,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2019" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2019" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2019</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.sciencedirect.com/science/article/abs/pii/S037722171930640X">Temporal hierarchies with autocorrelation for load forecasting</a></h3>
     <p class="pub-authors">P. Nystrup, E. Lindström, H. Madsen, <strong>P. Pinson</strong></p>
     <p class="pub-venue">European Journal of Operational Research 280(3), pp. 876-888</p>
     <p class="pub-links">
+      
       <a href="https://www.sciencedirect.com/science/article/abs/pii/S037722171930640X">Publisher page</a>
       
       
@@ -1867,13 +1971,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2019" data-themes="forecasting optimisation" data-kind="article">
+<article class="pub" data-year="2019" data-themes="forecasting optimisation" data-kind="article" data-pdf="no">
   <div class="pub-year">2019</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/8423709">Polyhedral predictive regions for power system applications</a></h3>
     <p class="pub-authors">F. Golestaneh, <strong>P. Pinson</strong>, H.B. Gooi</p>
     <p class="pub-venue">IEEE Transactions on Power Systems 34(1), pp. 693-704</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/8423709">Publisher page</a>
       
       
@@ -1881,13 +1986,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2019" data-themes="markets" data-kind="article">
+<article class="pub" data-year="2019" data-themes="markets" data-kind="article" data-pdf="no">
   <div class="pub-year">2019</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.sciencedirect.com/science/article/pii/S1364032119300462">Peer-to-peer and community-driven markets: a comprehensive review</a></h3>
     <p class="pub-authors">T. Sousa, T. Soares, <strong>P. Pinson</strong>, F. Moret, T. Baroche, E. Sorin</p>
     <p class="pub-venue">Renewable and Sustainable Energy Reviews 104, pp. 367-378</p>
     <p class="pub-links">
+      
       <a href="https://www.sciencedirect.com/science/article/pii/S1364032119300462">Publisher page</a>
       
       
@@ -1895,13 +2001,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2019" data-themes="markets optimisation" data-kind="article">
+<article class="pub" data-year="2019" data-themes="markets optimisation" data-kind="article" data-pdf="no">
   <div class="pub-year">2019</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://link.springer.com/article/10.1007/s12667-018-0288-6">Optimal allocation of HVDC interconnections for exchange of energy and reserve capacity services</a></h3>
     <p class="pub-authors">S. Delikaraoglou, <strong>P. Pinson</strong></p>
     <p class="pub-venue">Energy Systems 10(3), pp. 635-675</p>
     <p class="pub-links">
+      
       <a href="https://link.springer.com/article/10.1007/s12667-018-0288-6">Publisher page</a>
       
       
@@ -1909,13 +2016,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2019" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2019" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2019</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0169207018300347">Online adaptive LASSO estimation in Vector Auto Regressive models for wind power forecasting in high dimension</a></h3>
     <p class="pub-authors">J.W. Messner, <strong>P. Pinson</strong></p>
     <p class="pub-venue">International Journal of Forecasting 35(4), pp. 1485-1498</p>
     <p class="pub-links">
+      
       <a href="https://www.sciencedirect.com/science/article/abs/pii/S0169207018300347">Publisher page</a>
       
       
@@ -1923,13 +2031,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2019" data-themes="analytics energy" data-kind="article">
+<article class="pub" data-year="2019" data-themes="analytics energy" data-kind="article" data-pdf="no">
   <div class="pub-year">2019</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.sciencedirect.com/science/article/pii/S2352467718301498">Online adaptive clustering algorithm for load profiling</a></h3>
     <p class="pub-authors">G. Le Ray, <strong>P. Pinson</strong></p>
     <p class="pub-venue">Sustainable Energy, Grids and Networks 17, art. no. 100181</p>
     <p class="pub-links">
+      
       <a href="https://www.sciencedirect.com/science/article/pii/S2352467718301498">Publisher page</a>
       
       
@@ -1937,13 +2046,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2019" data-themes="markets" data-kind="article">
+<article class="pub" data-year="2019" data-themes="markets" data-kind="article" data-pdf="no">
   <div class="pub-year">2019</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/8651383">Incentive-compatibility in a two-stage stochastic electricity market with high wind power penetration</a></h3>
     <p class="pub-authors">L. Exizidis, J. Kazempour, A. Papakonstantinou, <strong>P. Pinson</strong>, Z. de Greve, F. Vallee</p>
     <p class="pub-venue">IEEE Transactions on Power Systems 34(4), pp. 2846-2858</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/8651383">Publisher page</a>
       
       
@@ -1951,13 +2061,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2019" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2019" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2019</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0169207019301062">Guest editorial: Energy forecasting in the big data world</a></h3>
     <p class="pub-authors">T. Hong, <strong>P. Pinson</strong></p>
     <p class="pub-venue">International Journal of Forecasting 35(4), pp. 1387-1388</p>
     <p class="pub-links">
+      
       <a href="https://www.sciencedirect.com/science/article/abs/pii/S0169207019301062">Publisher page</a>
       
       
@@ -1965,13 +2076,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2019" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2019" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2019</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.mdpi.com/1996-1073/12/6/1112">Forecast reconciliation in day-ahead wind power forecasting</a></h3>
     <p class="pub-authors">L. Bai, <strong>P. Pinson</strong></p>
     <p class="pub-venue">Energies 12, art. no. 1112</p>
     <p class="pub-links">
+      
       <a href="https://www.mdpi.com/1996-1073/12/6/1112">Publisher page</a>
       
       
@@ -1979,13 +2091,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2019" data-themes="markets" data-kind="article">
+<article class="pub" data-year="2019" data-themes="markets" data-kind="article" data-pdf="no">
   <div class="pub-year">2019</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/8630697">Exogenous approach to grid cost allocation in peer-to-peer electricity markets</a></h3>
     <p class="pub-authors">T. Baroche, <strong>P. Pinson</strong>, R. Le Goff Latimier, H. Ben Ahmed</p>
     <p class="pub-venue">IEEE Transactions on Power Systems 34(4), pp. 2553-2564</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/8630697">Publisher page</a>
       
       
@@ -1993,13 +2106,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2019" data-themes="markets" data-kind="article">
+<article class="pub" data-year="2019" data-themes="markets" data-kind="article" data-pdf="no">
   <div class="pub-year">2019</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/8301552">Energy Collectives: a community and fairness based approach to future electricity markets</a></h3>
     <p class="pub-authors">F. Moret, <strong>P. Pinson</strong></p>
     <p class="pub-venue">IEEE Transactions on Power Systems 34(5), pp. 3994-4004</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/8301552">Publisher page</a>
       
       
@@ -2007,13 +2121,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2019" data-themes="markets" data-kind="article">
+<article class="pub" data-year="2019" data-themes="markets" data-kind="article" data-pdf="no">
   <div class="pub-year">2019</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0167637719300756">Electricity market equilibrium under information asymmetry</a></h3>
     <p class="pub-authors">V. Dvorkin, J. Kazempour, <strong>P. Pinson</strong></p>
     <p class="pub-venue">Operations Research Letters 47(6), pp. 521-526</p>
     <p class="pub-links">
+      
       <a href="https://www.sciencedirect.com/science/article/abs/pii/S0167637719300756">Publisher page</a>
       
       
@@ -2021,13 +2136,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2019" data-themes="optimisation energy" data-kind="article">
+<article class="pub" data-year="2019" data-themes="optimisation energy" data-kind="article" data-pdf="no">
   <div class="pub-year">2019</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/8481575">Convex relaxations and approximations of chance-constrained AC-OPF problems</a></h3>
     <p class="pub-authors">L. Halilbasic, <strong>P. Pinson</strong>, S. Chatzivasileiadis</p>
     <p class="pub-venue">IEEE Transactions on Power Systems 34(2), pp. 1459-1470</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/8481575">Publisher page</a>
       
       
@@ -2035,13 +2151,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2019" data-themes="markets" data-kind="article">
+<article class="pub" data-year="2019" data-themes="markets" data-kind="article" data-pdf="no">
   <div class="pub-year">2019</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/8481579">Consensus-based approach to peer-to-peer electricity markets with product differentiation</a></h3>
     <p class="pub-authors">E. Sorin, <strong>P. Pinson</strong>, L.A. Bobo</p>
     <p class="pub-venue">IEEE Transactions on Power Systems 34(2), pp. 994-1004</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/8481579">Publisher page</a>
       
       
@@ -2049,13 +2166,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2019" data-themes="markets optimisation" data-kind="article">
+<article class="pub" data-year="2019" data-themes="markets optimisation" data-kind="article" data-pdf="no">
   <div class="pub-year">2019</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.sciencedirect.com/science/article/abs/pii/S037722171830571X">An integrated market for electricity and natural gas systems with stochastic power producers</a></h3>
     <p class="pub-authors">C. Ordoudis, <strong>P. Pinson</strong>, J.M. Morales</p>
     <p class="pub-venue">European Journal of Operational Research 272(2), pp. 642-654</p>
     <p class="pub-links">
+      
       <a href="https://www.sciencedirect.com/science/article/abs/pii/S037722171830571X">Publisher page</a>
       
       
@@ -2063,13 +2181,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2018" data-themes="analytics energy" data-kind="article">
+<article class="pub" data-year="2018" data-themes="analytics energy" data-kind="article" data-pdf="no">
   <div class="pub-year">2018</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/8340945">Visualizing big energy data</a></h3>
     <p class="pub-authors">R.J. Hyndman, X. Liu, <strong>P. Pinson</strong></p>
     <p class="pub-venue">IEEE Power and Energy Magazine 16(3), pp. 18-25</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/8340945">Publisher page</a>
       
       
@@ -2077,13 +2196,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2018" data-themes="markets optimisation" data-kind="article">
+<article class="pub" data-year="2018" data-themes="markets optimisation" data-kind="article" data-pdf="no">
   <div class="pub-year">2018</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/8246578">Stochastic market design with revenue adequacy and cost recovery by scenario: benefits and costs</a></h3>
     <p class="pub-authors">J. Kazempour, <strong>P. Pinson</strong>, B.F. Hobbs</p>
     <p class="pub-venue">IEEE Transactions on Power Systems 33(4), pp. 3531-3545</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/8246578">Publisher page</a>
       
       
@@ -2091,13 +2211,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2018" data-themes="markets" data-kind="article">
+<article class="pub" data-year="2018" data-themes="markets" data-kind="article" data-pdf="no">
   <div class="pub-year">2018</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/7530925">Real-time trading strategies of proactive DISCO with heterogeneous DG owners</a></h3>
     <p class="pub-authors">Q. Wang, C. Zhang, J. Wang, <strong>P. Pinson</strong>, J. Østergaard</p>
     <p class="pub-venue">IEEE Transactions on Smart Grid 9(3), pp. 1688-1697</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/7530925">Publisher page</a>
       
       
@@ -2105,13 +2226,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2018" data-themes="markets" data-kind="article">
+<article class="pub" data-year="2018" data-themes="markets" data-kind="article" data-pdf="no">
   <div class="pub-year">2018</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/7469395">Real-time procurement strategies of a proactive distribution company with aggregator-based demand response</a></h3>
     <p class="pub-authors">C. Zhang, Q. Wang, J. Wang, J.M. Morales, <strong>P. Pinson</strong>, J. Østergaard</p>
     <p class="pub-venue">IEEE Transactions on Smart Grid 9(2), pp. 766-776</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/7469395">Publisher page</a>
       
       
@@ -2119,13 +2241,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2018" data-themes="markets" data-kind="article">
+<article class="pub" data-year="2018" data-themes="markets" data-kind="article" data-pdf="no">
   <div class="pub-year">2018</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/8003486">Price-taker offering strategy in electricity pay-as-bid markets</a></h3>
     <p class="pub-authors">N. Mazzi, J. Kazempour, <strong>P. Pinson</strong></p>
     <p class="pub-venue">IEEE Transactions on Power Systems 33(2), pp. 2175-2183</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/8003486">Publisher page</a>
       
       
@@ -2133,13 +2256,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2018" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2018" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2018</div>
   <div>
     <h3 class="pub-title anchored"><a href="http://documents.irevues.inist.fr/handle/2042/65145">Prévision météorologique pour les énergies renouvelables</a></h3>
     <p class="pub-authors">S. Cros, <strong>P. Pinson</strong></p>
     <p class="pub-venue">La Météorologie 100, pp. 1-8</p>
     <p class="pub-links">
+      
       <a href="http://documents.irevues.inist.fr/handle/2042/65145">Publisher page</a>
       
       
@@ -2147,13 +2271,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2018" data-themes="energy analytics" data-kind="article">
+<article class="pub" data-year="2018" data-themes="energy analytics" data-kind="article" data-pdf="no">
   <div class="pub-year">2018</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/7571156">Evaluating price-based demand response in practice – With application to the EcoGrid EU experiment</a></h3>
     <p class="pub-authors">G. Le Ray, <strong>P. Pinson</strong>, E.M. Larsen</p>
     <p class="pub-venue">IEEE Transactions on Smart Grid 9(3), pp. 2304-2313</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/7571156">Publisher page</a>
       
       
@@ -2161,13 +2286,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2018" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2018" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2018</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/8253871">Ellipsoidal prediction regions for multivariate uncertainty characterization</a></h3>
     <p class="pub-authors">F. Golestaneh, <strong>P. Pinson</strong>, R. Azizipanah-Abarghooee, H.B. Gooi</p>
     <p class="pub-venue">IEEE Transactions on Power Systems 33(4), pp. 4519-4530</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/8253871">Publisher page</a>
       
       
@@ -2175,13 +2301,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2018" data-themes="markets optimisation" data-kind="article">
+<article class="pub" data-year="2018" data-themes="markets optimisation" data-kind="article" data-pdf="no">
   <div class="pub-year">2018</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/8239657">Cost-optimal ATCs in zonal electricity markets</a></h3>
     <p class="pub-authors">T.V. Jensen, J. Kazempour, <strong>P. Pinson</strong></p>
     <p class="pub-venue">IEEE Transactions on Power Systems 33(4), pp. 3624-3633</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/8239657">Publisher page</a>
       
       
@@ -2189,13 +2316,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2018" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2018" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2018</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/abstract/document/8260961">Correlation-constrained and sparsity-controlled vector autoregressive model for spatio-temporal wind power forecasting</a></h3>
     <p class="pub-authors">Y. Zhao, L. Ye, <strong>P. Pinson</strong>, Y. Tang</p>
     <p class="pub-venue">IEEE Transactions on Power Systems 33(5)</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/abstract/document/8260961">Publisher page</a>
       
       
@@ -2203,13 +2331,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2018" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2018" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2018</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://onlinelibrary.wiley.com/doi/full/10.1002/env.2493">Benefits of spatio-temporal modelling for short term wind power forecasting at both individual and aggregated levels</a></h3>
     <p class="pub-authors">A. Lenzi, I. Steinsland, <strong>P. Pinson</strong></p>
     <p class="pub-venue">Environmetrics 29(3), art. no. e2493</p>
     <p class="pub-links">
+      
       <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/env.2493">Publisher page</a>
       
       
@@ -2217,13 +2346,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2018" data-themes="markets" data-kind="article">
+<article class="pub" data-year="2018" data-themes="markets" data-kind="article" data-pdf="no">
   <div class="pub-year">2018</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/abstract/document/8053811">Bayesian approach to unveiling supply curves in electricity markets</a></h3>
     <p class="pub-authors">L. Mitridati, <strong>P. Pinson</strong></p>
     <p class="pub-venue">IEEE Transactions on Power Systems 33(3), pp. 2610-2620</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/abstract/document/8053811">Publisher page</a>
       
       
@@ -2231,13 +2361,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2018" data-themes="optimisation energy" data-kind="article">
+<article class="pub" data-year="2018" data-themes="optimisation energy" data-kind="article" data-pdf="no">
   <div class="pub-year">2018</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/7932508">Active distribution grid management based on robust AC optimal power flow</a></h3>
     <p class="pub-authors">T. Soares, R.J. Bessa, <strong>P. Pinson</strong>, H. Morais</p>
     <p class="pub-venue">IEEE Transactions on Smart Grid 9(6), pp. 6229-6241</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/7932508">Publisher page</a>
       
       
@@ -2245,13 +2376,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2018" data-themes="markets energy" data-kind="article">
+<article class="pub" data-year="2018" data-themes="markets energy" data-kind="article" data-pdf="no">
   <div class="pub-year">2018</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/8128505">A local energy market for electricity and hydrogen</a></h3>
     <p class="pub-authors">Y. Xiao, X. Wang, <strong>P. Pinson</strong>, X. Wang</p>
     <p class="pub-venue">IEEE Transactions on Power Systems 33(4), pp. 3898-3908</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/8128505">Publisher page</a>
       
       
@@ -2259,13 +2391,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2017" data-themes="energy markets" data-kind="article">
+<article class="pub" data-year="2017" data-themes="energy markets" data-kind="article" data-pdf="no">
   <div class="pub-year">2017</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/7874618">Towards fully renewable energy systems – Experience and trends in Denmark</a></h3>
     <p class="pub-authors"><strong>P. Pinson</strong>, L. Mitridati, C. Ordoudis, J. Østergaard</p>
     <p class="pub-venue">CSEE Journal of Power and Energy Systems 3(1), pp. 26-35</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/7874618">Publisher page</a>
       
       
@@ -2273,7 +2406,7 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2017" data-themes="markets" data-kind="article">
+<article class="pub" data-year="2017" data-themes="markets" data-kind="article" data-pdf="no">
   <div class="pub-year">2017</div>
   <div>
     <h3 class="pub-title anchored">The emergence of consumer-centric electricity markets</h3>
@@ -2283,17 +2416,19 @@ window.Quarto = {
       
       
       
+      
     </p>
   </div>
 </article>
 
-<article class="pub" data-year="2017" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2017" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2017</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://link.springer.com/article/10.1007/s00477-016-1329-0">Spatial models for probabilistic prediction of wind power with application to yearly average and high temporal resolution data</a></h3>
     <p class="pub-authors">A. Lenzi, <strong>P. Pinson</strong>, L.K.H. Clemmensen, G. Guillot</p>
     <p class="pub-venue">Stochastic Environmental Research and Risk Assessment 31(7), pp. 1615-1631</p>
     <p class="pub-links">
+      
       <a href="https://link.springer.com/article/10.1007/s00477-016-1329-0">Publisher page</a>
       
       
@@ -2301,13 +2436,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2017" data-themes="energy analytics" data-kind="article">
+<article class="pub" data-year="2017" data-themes="energy analytics" data-kind="article" data-pdf="no">
   <div class="pub-year">2017</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.nature.com/articles/sdata2017175">RE-Europe: a large-scale dataset for a future renewable-energy based European power system</a></h3>
     <p class="pub-authors">T.V. Jensen, <strong>P. Pinson</strong></p>
     <p class="pub-venue">Scientific Data 4, art. no. 170175</p>
     <p class="pub-links">
+      
       <a href="https://www.nature.com/articles/sdata2017175">Publisher page</a>
       
       
@@ -2315,13 +2451,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2017" data-themes="markets optimisation" data-kind="article">
+<article class="pub" data-year="2017" data-themes="markets optimisation" data-kind="article" data-pdf="no">
   <div class="pub-year">2017</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/7876745">Optimal offering and operating strategy for a large wind-storage system as a price maker</a></h3>
     <p class="pub-authors">H. Ding, <strong>P. Pinson</strong>, Z. Hu, J. Wang, Y. Song</p>
     <p class="pub-venue">IEEE Transactions on Power Systems 32(6), pp. 4904-4913</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/7876745">Publisher page</a>
       
       
@@ -2329,13 +2466,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2017" data-themes="markets" data-kind="article">
+<article class="pub" data-year="2017" data-themes="markets" data-kind="article" data-pdf="no">
   <div class="pub-year">2017</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/we.2125">Optimal offering and allocation policies for wind power in energy and reserve markets</a></h3>
     <p class="pub-authors">T. Soares, T.V. Jensen, N. Mazzi, <strong>P. Pinson</strong>, H. Morais</p>
     <p class="pub-venue">Wind Energy 20(11), pp. 1851-1870</p>
     <p class="pub-links">
+      
       <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/we.2125">Publisher page</a>
       
       
@@ -2343,13 +2481,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2017" data-themes="forecasting markets" data-kind="article">
+<article class="pub" data-year="2017" data-themes="forecasting markets" data-kind="article" data-pdf="no">
   <div class="pub-year">2017</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/abstract/document/7879306">Impact of public aggregate wind forecasts on electricity market outcomes</a></h3>
     <p class="pub-authors">L. Exizidis, J. Kazempour, <strong>P. Pinson</strong>, Z. De Grève, F. Vallée</p>
     <p class="pub-venue">IEEE Transactions on Sustainable Energy 8(4), pp. 1394-1405</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/abstract/document/7879306">Publisher page</a>
       
       
@@ -2357,13 +2496,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2017" data-themes="forecasting energy" data-kind="article">
+<article class="pub" data-year="2017" data-themes="forecasting energy" data-kind="article" data-pdf="no">
   <div class="pub-year">2017</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.sciencedirect.com/science/article/pii/S2352467716300893">From demand response evaluation to forecasting – Methods and results from the EcoGrid EU experiment</a></h3>
     <p class="pub-authors">E.M. Larsen, <strong>P. Pinson</strong>, F. Leimgruber, F. Judex</p>
     <p class="pub-venue">Sustainable Energy, Grids and Networks 10, pp. 75-83</p>
     <p class="pub-links">
+      
       <a href="https://www.sciencedirect.com/science/article/pii/S2352467716300893">Publisher page</a>
       
       
@@ -2371,13 +2511,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2017" data-themes="optimisation energy" data-kind="article">
+<article class="pub" data-year="2017" data-themes="optimisation energy" data-kind="article" data-pdf="no">
   <div class="pub-year">2017</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/7740966">Decision-dependent stochastic generation expansion planning with large amounts of wind power</a></h3>
     <p class="pub-authors">Y. Zhan, Q.P. Zheng, J. Wang, <strong>P. Pinson</strong></p>
     <p class="pub-venue">IEEE Transactions on Power Systems 32(4), pp. 3015-3026</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/7740966">Publisher page</a>
       
       
@@ -2385,13 +2526,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2017" data-themes="markets" data-kind="article">
+<article class="pub" data-year="2017" data-themes="markets" data-kind="article" data-pdf="no">
   <div class="pub-year">2017</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/7539347">Attribution mechanisms for ancillary service costs induced by variability in power delivery</a></h3>
     <p class="pub-authors">F. Bona, N. Gast, J.-Y. Le Boudec, <strong>P. Pinson</strong>, D. Tomozei</p>
     <p class="pub-venue">IEEE Transactions on Power Systems 32(3), pp. 1891-1901</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/7539347">Publisher page</a>
       
       
@@ -2399,13 +2541,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2016" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2016" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2016</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/7105918">Very-short-term probabilistic wind power forecasts by sparse vector autoregression</a></h3>
     <p class="pub-authors">J. Dowell, <strong>P. Pinson</strong></p>
     <p class="pub-venue">IEEE Transactions on Smart Grid 7(2), pp. 763-770</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/7105918">Publisher page</a>
       
       
@@ -2413,13 +2556,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2016" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2016" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2016</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/7372485">Very short-term nonparametric probabilistic forecasting of renewable energy generation – with application to solar energy</a></h3>
     <p class="pub-authors">F. Golestaneh, <strong>P. Pinson</strong>, H.B. Gooi</p>
     <p class="pub-venue">IEEE Transactions on Power Systems 31(5), pp. 3850-3863</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/7372485">Publisher page</a>
       
       
@@ -2427,13 +2571,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2016" data-themes="markets" data-kind="article">
+<article class="pub" data-year="2016" data-themes="markets" data-kind="article" data-pdf="no">
   <div class="pub-year">2016</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.sciencedirect.com/science/article/pii/S0306261916307486">Trading strategies for distribution company with stochastic distributed energy resources</a></h3>
     <p class="pub-authors">C. Zhang, Q. Wang, J. Wang, M. Korpås, <strong>P. Pinson</strong>, J. Østergaard, M.E. Khodayar</p>
     <p class="pub-venue">Applied Energy 177, pp. 625-635</p>
     <p class="pub-links">
+      
       <a href="https://www.sciencedirect.com/science/article/pii/S0306261916307486">Publisher page</a>
       
       
@@ -2441,13 +2586,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2016" data-themes="forecasting markets" data-kind="article">
+<article class="pub" data-year="2016" data-themes="forecasting markets" data-kind="article" data-pdf="no">
   <div class="pub-year">2016</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.sciencedirect.com/science/article/pii/S0306261916306468">Sharing wind power forecasts in electricity markets: A numerical analysis</a></h3>
     <p class="pub-authors">L. Exizidis, J. Kazempour, <strong>P. Pinson</strong>, Z. De Grève, F. Vallée</p>
     <p class="pub-venue">Applied Energy 176, pp. 65-73</p>
     <p class="pub-links">
+      
       <a href="https://www.sciencedirect.com/science/article/pii/S0306261916306468">Publisher page</a>
       
       
@@ -2455,13 +2601,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2016" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2016" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2016</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://rmets.onlinelibrary.wiley.com/doi/full/10.1002/qj.2624">Quantile forecast discrimination ability and value</a></h3>
     <p class="pub-authors">Z. Ben Bouallègue, <strong>P. Pinson</strong>, P. Friederichs</p>
     <p class="pub-venue">Quarterly Journal of the Royal Meteorological Society 141(693), pp. 3415-3424</p>
     <p class="pub-links">
+      
       <a href="https://rmets.onlinelibrary.wiley.com/doi/full/10.1002/qj.2624">Publisher page</a>
       
       
@@ -2469,13 +2616,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2016" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2016" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2016</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0169207016000133">Probabilistic energy forecasting: Global Energy Forecasting Competition 2014 and beyond</a></h3>
     <p class="pub-authors">T. Hong, <strong>P. Pinson</strong>, S. Fan, H. Zareipour, A. Troccoli, R.J. Hyndman</p>
     <p class="pub-venue">International Journal of Forecasting 32(3), pp. 896-913</p>
     <p class="pub-links">
+      
       <a href="https://www.sciencedirect.com/science/article/abs/pii/S0169207016000133">Publisher page</a>
       
       
@@ -2483,13 +2631,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2016" data-themes="markets" data-kind="article">
+<article class="pub" data-year="2016" data-themes="markets" data-kind="article" data-pdf="no">
   <div class="pub-year">2016</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/7399764">Optimal offering strategies for wind power in energy and primary reserve markets</a></h3>
     <p class="pub-authors">T. Soares, <strong>P. Pinson</strong>, T.V. Jensen, H. Morais</p>
     <p class="pub-venue">IEEE Transactions on Sustainable Energy 7(3), pp. 1036-1045</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/7399764">Publisher page</a>
       
       
@@ -2497,13 +2646,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2016" data-themes="markets optimisation" data-kind="article">
+<article class="pub" data-year="2016" data-themes="markets optimisation" data-kind="article" data-pdf="no">
   <div class="pub-year">2016</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/7398187">Optimal offering for wind-storage systems using linear decision rules</a></h3>
     <p class="pub-authors">H. Ding, <strong>P. Pinson</strong>, Z. Hu, Y. Song</p>
     <p class="pub-venue">IEEE Transactions on Power Systems 31(6), pp. 5061-5070</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/7398187">Publisher page</a>
       
       
@@ -2511,13 +2661,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2016" data-themes="markets optimisation" data-kind="article">
+<article class="pub" data-year="2016" data-themes="markets optimisation" data-kind="article" data-pdf="no">
   <div class="pub-year">2016</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/7106509">Optimal bidding strategy of battery storage in power markets considering performance based regulation and battery cycle life</a></h3>
     <p class="pub-authors">G. He, Q. Chen, C. Kang, <strong>P. Pinson</strong>, Q. Xia</p>
     <p class="pub-venue">IEEE Transactions on Smart Grid 7(5), pp. 2359-2367</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/7106509">Publisher page</a>
       
       
@@ -2525,7 +2676,7 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2016" data-themes="forecasting" data-kind="conference">
+<article class="pub" data-year="2016" data-themes="forecasting" data-kind="conference" data-pdf="no">
   <div class="pub-year">2016</div>
   <div>
     <h3 class="pub-title anchored">Introducing distributed learning in wind power forecasting</h3>
@@ -2535,17 +2686,19 @@ window.Quarto = {
       
       
       
+      
     </p>
   </div>
 </article>
 
-<article class="pub" data-year="2016" data-themes="markets optimisation" data-kind="article">
+<article class="pub" data-year="2016" data-themes="markets optimisation" data-kind="article" data-pdf="no">
   <div class="pub-year">2016</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/7296676">Integrated bidding and operating strategies for wind farms enhanced with storage</a></h3>
     <p class="pub-authors">H. Ding, <strong>P. Pinson</strong>, Z. Hu, Y. Song</p>
     <p class="pub-venue">IEEE Transactions on Sustainable Energy 7(1), pp. 163-172</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/7296676">Publisher page</a>
       
       
@@ -2553,13 +2706,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2016" data-themes="markets" data-kind="article">
+<article class="pub" data-year="2016" data-themes="markets" data-kind="article" data-pdf="no">
   <div class="pub-year">2016</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/7436822">Information uncertainty in electricity markets: Introducing probabilistic offers</a></h3>
     <p class="pub-authors">A. Papakonstantinou, <strong>P. Pinson</strong></p>
     <p class="pub-venue">IEEE Transactions on Power Systems 31(6), pp. 5202-5203</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/7436822">Publisher page</a>
       
       
@@ -2567,13 +2721,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2016" data-themes="markets" data-kind="article">
+<article class="pub" data-year="2016" data-themes="markets" data-kind="article" data-pdf="no">
   <div class="pub-year">2016</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/7436823">Impact of inter- and intra-regional coordination in markets with a large renewable component</a></h3>
     <p class="pub-authors">S. Delikaraoglou, J.M. Morales, <strong>P. Pinson</strong></p>
     <p class="pub-venue">IEEE Transactions on Power Systems 31(6), pp. 4755-4764</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/7436823">Publisher page</a>
       
       
@@ -2581,13 +2736,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2016" data-themes="forecasting energy" data-kind="article">
+<article class="pub" data-year="2016" data-themes="forecasting energy" data-kind="article" data-pdf="no">
   <div class="pub-year">2016</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://onlinelibrary.wiley.com/doi/full/10.1002/we.1933">Identifying and characterizing the impact of turbine icing on wind farm power generation</a></h3>
     <p class="pub-authors">N. Davis, <strong>P. Pinson</strong>, A. Hahmann, N.-E. Clausen, M. Zagar</p>
     <p class="pub-venue">Wind Energy 19(8), pp. 1503-1518</p>
     <p class="pub-links">
+      
       <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/we.1933">Publisher page</a>
       
       
@@ -2595,13 +2751,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2016" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2016" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2016</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://journals.ametsoc.org/view/journals/mwre/144/12/mwr-d-15-0403.1.xml">Generation of scenarios from calibrated ensemble forecasts with a dynamic ensemble copula coupling approach</a></h3>
     <p class="pub-authors">Z. Ben Bouallègue, T. Heppelmann, S. Theis, <strong>P. Pinson</strong></p>
     <p class="pub-venue">Monthly Weather Review 144(12), pp. 4737-4750</p>
     <p class="pub-links">
+      
       <a href="https://journals.ametsoc.org/view/journals/mwre/144/12/mwr-d-15-0403.1.xml">Publisher page</a>
       
       
@@ -2609,7 +2766,7 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2016" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2016" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2016</div>
   <div>
     <h3 class="pub-title anchored">Generation and evaluation of space-time trajectories of photovoltaic generation</h3>
@@ -2619,17 +2776,19 @@ window.Quarto = {
       
       
       
+      
     </p>
   </div>
 </article>
 
-<article class="pub" data-year="2016" data-themes="markets optimisation" data-kind="article">
+<article class="pub" data-year="2016" data-themes="markets optimisation" data-kind="article" data-pdf="no">
   <div class="pub-year">2016</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/7284714">Economic dispatch of demand-side balancing through asymmetric block offers</a></h3>
     <p class="pub-authors">N. O'Connell, <strong>P. Pinson</strong>, H. Madsen, M. O'Malley</p>
     <p class="pub-venue">IEEE Transactions on Power Systems 31(4), pp. 2999-3007</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/7284714">Publisher page</a>
       
       
@@ -2637,13 +2796,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2016" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2016" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2016</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/we.1985">Adaptive robust polynomial regression for power curve modeling with application to wind power forecasting</a></h3>
     <p class="pub-authors">M. Xu, <strong>P. Pinson</strong>, Z. Lu, Y. Qiao, Y. Min</p>
     <p class="pub-venue">Wind Energy 19(12), pp. 2321-2336</p>
     <p class="pub-links">
+      
       <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/we.1985">Publisher page</a>
       
       
@@ -2651,13 +2811,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2016" data-themes="optimisation energy" data-kind="article">
+<article class="pub" data-year="2016" data-themes="optimisation energy" data-kind="article" data-pdf="no">
   <div class="pub-year">2016</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/7347460">A multi-period OPF model under renewable generation uncertainty and demand-side flexibility</a></h3>
     <p class="pub-authors">W.A. Bukhsh, C. Zhang, <strong>P. Pinson</strong></p>
     <p class="pub-venue">IEEE Transactions on Smart Grid 7(3), pp. 1495-1503</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/7347460">Publisher page</a>
       
       
@@ -2665,13 +2826,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2015" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2015" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2015</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.mdpi.com/1996-1073/8/9/9594">The "WIRE" benchmarking exercise on short-term forecasting models for renewable power generation</a></h3>
     <p class="pub-authors">S. Sperati, S. Alessandrini, <strong>P. Pinson</strong>, G. Kariniotakis</p>
     <p class="pub-venue">Energies 8(9), pp. 9594-9619</p>
     <p class="pub-links">
+      
       <a href="https://www.mdpi.com/1996-1073/8/9/9594">Publisher page</a>
       
       
@@ -2679,13 +2841,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2015" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2015" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2015</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://onlinelibrary.wiley.com/doi/full/10.1002/we.1787">Probabilistic maximum-value wind prediction for offshore environments</a></h3>
     <p class="pub-authors">A. Staid, <strong>P. Pinson</strong>, S.D. Guikema</p>
     <p class="pub-venue">Wind Energy 18(10), pp. 1725-1738</p>
     <p class="pub-links">
+      
       <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/we.1787">Publisher page</a>
       
       
@@ -2693,13 +2856,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2015" data-themes="markets optimisation" data-kind="article">
+<article class="pub" data-year="2015" data-themes="markets optimisation" data-kind="article" data-pdf="no">
   <div class="pub-year">2015</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0142061514007790">Offering strategies for hybrid concentrated solar-fossil power plants through robust optimization</a></h3>
     <p class="pub-authors">H.M.I. Pousinho, J. Contreras, <strong>P. Pinson</strong>, V.M.F. Mendes</p>
     <p class="pub-venue">International Journal of Electrical Power and Energy Systems 67, pp. 639-650</p>
     <p class="pub-links">
+      
       <a href="https://www.sciencedirect.com/science/article/abs/pii/S0142061514007790">Publisher page</a>
       
       
@@ -2707,13 +2871,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2015" data-themes="markets" data-kind="article">
+<article class="pub" data-year="2015" data-themes="markets" data-kind="article" data-pdf="no">
   <div class="pub-year">2015</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/7087434">Foreword for the special section on wind and solar energy: uncovering and accommodating their impacts on electricity markets</a></h3>
     <p class="pub-authors"><strong>P. Pinson</strong>, M. O'Malley</p>
     <p class="pub-venue">IEEE Transactions on Power Systems 30(3), pp. 1557-1559</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/7087434">Publisher page</a>
       
       
@@ -2721,13 +2886,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2015" data-themes="forecasting energy" data-kind="article">
+<article class="pub" data-year="2015" data-themes="forecasting energy" data-kind="article" data-pdf="no">
   <div class="pub-year">2015</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.sciencedirect.com/science/article/pii/S1364032115007819">Forecasting for dynamic line rating</a></h3>
     <p class="pub-authors">A. Michiorri, H.M. Nguyen, S. Alessandrini, J.B. Bremnes, S. Dierer, E. Ferrero, B.E. Nygaard, <strong>P. Pinson</strong>, N. Thomaidis, S. Uski-Joutsenvuo</p>
     <p class="pub-venue">Renewable and Sustainable Energy Reviews 52, pp. 1713-1730</p>
     <p class="pub-links">
+      
       <a href="https://www.sciencedirect.com/science/article/pii/S1364032115007819">Publisher page</a>
       
       
@@ -2735,13 +2901,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2014" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2014" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2014</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/we.1659">Weather radars – the new eyes of offshore wind farms</a></h3>
     <p class="pub-authors">P.-J. Trombe, <strong>P. Pinson</strong>, et al.</p>
     <p class="pub-venue">Wind Energy 17(11), pp. 1767-1787</p>
     <p class="pub-links">
+      
       <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/we.1659">Publisher page</a>
       
       
@@ -2749,13 +2916,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2014" data-themes="markets" data-kind="article">
+<article class="pub" data-year="2014" data-themes="markets" data-kind="article" data-pdf="no">
   <div class="pub-year">2014</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/abstract/document/6656976">Redefining the merit order of stochastic generation in forward markets</a></h3>
     <p class="pub-authors">J.M. Morales, M. Zugno, S. Pineda, <strong>P. Pinson</strong></p>
     <p class="pub-venue">IEEE Transactions on Power Systems 29(2), pp. 992-993 (letter)</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/abstract/document/6656976">Publisher page</a>
       
       
@@ -2763,13 +2931,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2014" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2014" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2014</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/6685920">Probabilistic forecasts of wind power generation accounting for geographically dispersed information</a></h3>
     <p class="pub-authors">J. Tastu, <strong>P. Pinson</strong>, P.-J. Trombe, H. Madsen</p>
     <p class="pub-venue">IEEE Transactions on Smart Grid 5(1), pp. 480-489</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/6685920">Publisher page</a>
       
       
@@ -2777,13 +2946,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2014" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2014" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2014</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/6665108">Probabilistic forecasting of wind power generation using extreme learning machine</a></h3>
     <p class="pub-authors">C. Wan, Z. Xu, <strong>P. Pinson</strong>, Z.Y. Dong, K.P. Wong</p>
     <p class="pub-venue">IEEE Transactions on Power Systems 29(3), pp. 1033-1044</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/6665108">Publisher page</a>
       
       
@@ -2791,13 +2961,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2014" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2014" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2014</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/6662465">Optimal prediction intervals of wind power generation</a></h3>
     <p class="pub-authors">C. Wan, Z. Xu, <strong>P. Pinson</strong>, Z.Y. Dong, K.P. Wong</p>
     <p class="pub-venue">IEEE Transactions on Power Systems 29(3), pp. 1166-1174</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/6662465">Publisher page</a>
       
       
@@ -2805,13 +2976,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2014" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2014" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2014</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/6693792">Guest editorial: Special section on analytics for energy forecasting with applications to smart grid</a></h3>
     <p class="pub-authors">T. Hong and co-authors (incl. <strong>P. Pinson</strong>)</p>
     <p class="pub-venue">IEEE Transactions on Smart Grid 5(1), pp. 399-401</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/6693792">Publisher page</a>
       
       
@@ -2819,13 +2991,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2014" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2014" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2014</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0169207013000745">Global Energy Forecasting Competition 2012 (GEFCom2012)</a></h3>
     <p class="pub-authors">T. Hong, <strong>P. Pinson</strong>, S. Fan</p>
     <p class="pub-venue">International Journal of Forecasting 30(2), pp. 357-363</p>
     <p class="pub-links">
+      
       <a href="https://www.sciencedirect.com/science/article/abs/pii/S0169207013000745">Publisher page</a>
       
       
@@ -2833,13 +3006,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2014" data-themes="markets" data-kind="article">
+<article class="pub" data-year="2014" data-themes="markets" data-kind="article" data-pdf="no">
   <div class="pub-year">2014</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://link.springer.com/article/10.1007/s40565-014-0048-0">FLECH – A Danish market solution for DSO congestion management through DER flexibility services</a></h3>
     <p class="pub-authors">C. Zhang, Y. Ding, N.C. Nordentoft, <strong>P. Pinson</strong>, J. Østergaard</p>
     <p class="pub-venue">Journal of Modern Power Systems and Clean Energy 2(2), pp. 126-133</p>
     <p class="pub-links">
+      
       <a href="https://link.springer.com/article/10.1007/s40565-014-0048-0">Publisher page</a>
       
       
@@ -2847,13 +3021,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2014" data-themes="forecasting markets" data-kind="article">
+<article class="pub" data-year="2014" data-themes="forecasting markets" data-kind="article" data-pdf="no">
   <div class="pub-year">2014</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.mdpi.com/1996-1073/7/6/3710">Exponential smoothing approaches for prediction in real-time electricity markets</a></h3>
     <p class="pub-authors">T. Jónsson, <strong>P. Pinson</strong>, H.Aa. Nielsen, H. Madsen</p>
     <p class="pub-venue">Energies 7(6), pp. 3710-3732</p>
     <p class="pub-links">
+      
       <a href="https://www.mdpi.com/1996-1073/7/6/3710">Publisher page</a>
       
       
@@ -2861,13 +3036,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2014" data-themes="markets optimisation" data-kind="article">
+<article class="pub" data-year="2014" data-themes="markets optimisation" data-kind="article" data-pdf="no">
   <div class="pub-year">2014</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0377221713009120">Electricity market clearing with improved dispatch of stochastic producers</a></h3>
     <p class="pub-authors">J.M. Morales, M. Zugno, S. Pineda, <strong>P. Pinson</strong></p>
     <p class="pub-venue">European Journal of Operational Research 235(3), pp. 765-774</p>
     <p class="pub-links">
+      
       <a href="https://www.sciencedirect.com/science/article/abs/pii/S0377221713009120">Publisher page</a>
       
       
@@ -2875,13 +3051,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2014" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2014" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2014</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://rmets.onlinelibrary.wiley.com/doi/full/10.1002/met.1339">Early warnings of extreme winds utilising the ECMWF Extreme Forecast Index</a></h3>
     <p class="pub-authors">T.I. Petroliagis, <strong>P. Pinson</strong></p>
     <p class="pub-venue">Meteorological Applications 21(2), pp. 171-185</p>
     <p class="pub-links">
+      
       <a href="https://rmets.onlinelibrary.wiley.com/doi/full/10.1002/met.1339">Publisher page</a>
       
       
@@ -2889,13 +3066,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2014" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2014" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2014</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/6837562">Discussion of "Prediction intervals for short-term wind farm generation forecasts" and "Combined nonparametric prediction intervals for wind power generation"</a></h3>
     <p class="pub-authors"><strong>P. Pinson</strong>, J. Tastu</p>
     <p class="pub-venue">IEEE Transactions on Sustainable Energy 5(3), pp. 1018-1019</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/6837562">Publisher page</a>
       
       
@@ -2903,13 +3081,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2014" data-themes="forecasting markets" data-kind="article">
+<article class="pub" data-year="2014" data-themes="forecasting markets" data-kind="article" data-pdf="no">
   <div class="pub-year">2014</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.mdpi.com/1996-1073/7/9/5523">Density forecasting of day-ahead electricity prices using time-adaptive quantile regression</a></h3>
     <p class="pub-authors">T. Jónsson, <strong>P. Pinson</strong>, H.Aa. Nielsen, H. Madsen</p>
     <p class="pub-venue">Energies 7(9), pp. 5523-5547</p>
     <p class="pub-links">
+      
       <a href="https://www.mdpi.com/1996-1073/7/9/5523">Publisher page</a>
       
       
@@ -2917,13 +3096,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2014" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2014" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2014</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://link.springer.com/article/10.1007/s11749-014-0352-z">Comments on: Space-time wind speed forecasting for improved power system dispatch</a></h3>
     <p class="pub-authors"><strong>P. Pinson</strong></p>
     <p class="pub-venue">TEST 23(1), pp. 26-29</p>
     <p class="pub-links">
+      
       <a href="https://link.springer.com/article/10.1007/s11749-014-0352-z">Publisher page</a>
       
       
@@ -2931,13 +3111,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2014" data-themes="energy" data-kind="article">
+<article class="pub" data-year="2014" data-themes="energy" data-kind="article" data-pdf="no">
   <div class="pub-year">2014</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.sciencedirect.com/science/article/abs/pii/S1364032114005504">Benefits and challenges of electric demand response: A critical review</a></h3>
     <p class="pub-authors">N. O'Connell, <strong>P. Pinson</strong>, H. Madsen, M. O'Malley</p>
     <p class="pub-venue">Renewable and Sustainable Energy Reviews 39, pp. 686-699</p>
     <p class="pub-links">
+      
       <a href="https://www.sciencedirect.com/science/article/abs/pii/S1364032114005504">Publisher page</a>
       
       
@@ -2945,13 +3126,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2014" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2014" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2014</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/6516587">Automatic classification of offshore wind regimes with weather radar observations</a></h3>
     <p class="pub-authors">P.-J. Trombe, <strong>P. Pinson</strong>, H. Madsen</p>
     <p class="pub-venue">IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing 7(1), pp. 116-125</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/6516587">Publisher page</a>
       
       
@@ -2959,13 +3141,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2013" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2013" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2013</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://projecteuclid.org/euclid.ss/1386078879">Wind energy: Forecasting challenges for its optimal management</a></h3>
     <p class="pub-authors"><strong>P. Pinson</strong></p>
     <p class="pub-venue">Statistical Science 28(4), pp. 564-585</p>
     <p class="pub-links">
+      
       <a href="https://projecteuclid.org/euclid.ss/1386078879">Publisher page</a>
       
       
@@ -2973,13 +3156,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2013" data-themes="forecasting markets" data-kind="article">
+<article class="pub" data-year="2013" data-themes="forecasting markets" data-kind="article" data-pdf="no">
   <div class="pub-year">2013</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/we.1531">Trading wind energy on the basis of probabilistic forecasts of both wind generation and market quantities</a></h3>
     <p class="pub-authors">M. Zugno, T. Jónsson, <strong>P. Pinson</strong></p>
     <p class="pub-venue">Wind Energy 16(6), pp. 909-926</p>
     <p class="pub-links">
+      
       <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/we.1531">Publisher page</a>
       
       
@@ -2987,13 +3171,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2013" data-themes="markets energy" data-kind="article">
+<article class="pub" data-year="2013" data-themes="markets energy" data-kind="article" data-pdf="no">
   <div class="pub-year">2013</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/6523177">The impact of wind power on European cross-border power flows</a></h3>
     <p class="pub-authors">M. Zugno, <strong>P. Pinson</strong>, H. Madsen</p>
     <p class="pub-venue">IEEE Transactions on Power Systems 28(4), pp. 3566-3575</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/6523177">Publisher page</a>
       
       
@@ -3001,13 +3186,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2013" data-themes="markets optimisation" data-kind="article">
+<article class="pub" data-year="2013" data-themes="markets optimisation" data-kind="article" data-pdf="no">
   <div class="pub-year">2013</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/6494365">Pool strategy of a price-maker wind power producer</a></h3>
     <p class="pub-authors">M. Zugno, J.M. Morales, <strong>P. Pinson</strong>, H. Madsen</p>
     <p class="pub-venue">IEEE Transactions on Power Systems 28(3), pp. 3440-3450</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/6494365">Publisher page</a>
       
       
@@ -3015,13 +3201,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2013" data-themes="forecasting markets" data-kind="article">
+<article class="pub" data-year="2013" data-themes="forecasting markets" data-kind="article" data-pdf="no">
   <div class="pub-year">2013</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/6313966">Forecasting day-ahead electricity prices accounting for the impact of wind power generation</a></h3>
     <p class="pub-authors">T. Jónsson, <strong>P. Pinson</strong>, H.Aa. Nielsen, H. Madsen, T.S. Nielsen</p>
     <p class="pub-venue">IEEE Transactions on Sustainable Energy 4(1), pp. 210-218</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/6313966">Publisher page</a>
       
       
@@ -3029,13 +3216,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2013" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2013" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2013</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/6512634">Direct interval forecasting of wind power</a></h3>
     <p class="pub-authors">C. Wan, Z. Xu, <strong>P. Pinson</strong></p>
     <p class="pub-venue">IEEE Transactions on Power Systems 28(4), pp. 4877-4878 (letter)</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/6512634">Publisher page</a>
       
       
@@ -3043,13 +3231,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2013" data-themes="forecasting energy" data-kind="article">
+<article class="pub" data-year="2013" data-themes="forecasting energy" data-kind="article" data-pdf="no">
   <div class="pub-year">2013</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/6205637">Controlling electricity consumption by forecasting its response to varying prices</a></h3>
     <p class="pub-authors">O. Corradi, H. Ochsenfeld, H. Madsen, <strong>P. Pinson</strong></p>
     <p class="pub-venue">IEEE Transactions on Power Systems 28(1), pp. 421-429</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/6205637">Publisher page</a>
       
       
@@ -3057,13 +3246,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2013" data-themes="optimisation energy" data-kind="article">
+<article class="pub" data-year="2013" data-themes="optimisation energy" data-kind="article" data-pdf="no">
   <div class="pub-year">2013</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/6529209">Chance-constrained optimization of demand response to price signals</a></h3>
     <p class="pub-authors">G. Dorini, <strong>P. Pinson</strong>, H. Madsen</p>
     <p class="pub-venue">IEEE Transactions on Smart Grid 4(4), pp. 2072-2080</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/6529209">Publisher page</a>
       
       
@@ -3071,13 +3261,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2013" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2013" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2013</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0306261913001499">A comparison between the ECMWF and COSMO Ensemble Prediction Systems applied to short-term wind power forecasting</a></h3>
     <p class="pub-authors">S. Alessandrini, S. Sperati, <strong>P. Pinson</strong></p>
     <p class="pub-venue">Applied Energy 107, pp. 271-280</p>
     <p class="pub-links">
+      
       <a href="https://www.sciencedirect.com/science/article/abs/pii/S0306261913001499">Publisher page</a>
       
       
@@ -3085,13 +3276,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2013" data-themes="markets optimisation" data-kind="article">
+<article class="pub" data-year="2013" data-themes="markets optimisation" data-kind="article" data-pdf="no">
   <div class="pub-year">2013</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.sciencedirect.com/science/article/pii/S0140988312003477">A bilevel model for electricity retailers' participation in a demand response market environment</a></h3>
     <p class="pub-authors">M. Zugno, J.M. Morales, <strong>P. Pinson</strong>, H. Madsen</p>
     <p class="pub-venue">Energy Economics 36, pp. 182-197</p>
     <p class="pub-links">
+      
       <a href="https://www.sciencedirect.com/science/article/pii/S0140988312003477">Publisher page</a>
       
       
@@ -3099,13 +3291,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2012" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2012" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2012</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://rss.onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-9876.2011.01026.x">Very short-term probabilistic forecasting of wind power with generalized logit-Normal distributions</a></h3>
     <p class="pub-authors"><strong>P. Pinson</strong></p>
     <p class="pub-venue">Journal of the Royal Statistical Society, Series C 61(4), pp. 555-576</p>
     <p class="pub-links">
+      
       <a href="https://rss.onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-9876.2011.01026.x">Publisher page</a>
       
       
@@ -3113,13 +3306,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2012" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2012" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2012</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://rmets.onlinelibrary.wiley.com/doi/full/10.1002/met.283">Verification of the ECMWF ensemble forecasts of wind speed against analyses and observations</a></h3>
     <p class="pub-authors"><strong>P. Pinson</strong>, R. Hagedorn</p>
     <p class="pub-venue">Meteorological Applications 19(4), pp. 484-500</p>
     <p class="pub-links">
+      
       <a href="https://rmets.onlinelibrary.wiley.com/doi/full/10.1002/met.283">Publisher page</a>
       
       
@@ -3127,13 +3321,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2012" data-themes="forecasting energy" data-kind="article">
+<article class="pub" data-year="2012" data-themes="forecasting energy" data-kind="article" data-pdf="no">
   <div class="pub-year">2012</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0306261911008361">Probabilistic forecasting of the wave energy flux</a></h3>
     <p class="pub-authors"><strong>P. Pinson</strong>, G. Reikard, J. Bidlot</p>
     <p class="pub-venue">Applied Energy 93, pp. 364-370</p>
     <p class="pub-links">
+      
       <a href="https://www.sciencedirect.com/science/article/abs/pii/S0306261911008361">Publisher page</a>
       
       
@@ -3141,13 +3336,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2012" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2012" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2012</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0306261911006994">Evaluating the quality of scenarios of short-term wind power generation</a></h3>
     <p class="pub-authors"><strong>P. Pinson</strong>, R. Girard</p>
     <p class="pub-venue">Applied Energy 96, pp. 12-20</p>
     <p class="pub-links">
+      
       <a href="https://www.sciencedirect.com/science/article/abs/pii/S0306261911006994">Publisher page</a>
       
       
@@ -3155,13 +3351,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2012" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2012" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2012</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/for.1194">Adaptive modeling and forecasting of wind power fluctuations with Markov-switching autoregressive models</a></h3>
     <p class="pub-authors"><strong>P. Pinson</strong>, H. Madsen</p>
     <p class="pub-venue">Journal of Forecasting 31(4), pp. 281-313</p>
     <p class="pub-links">
+      
       <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/for.1194">Publisher page</a>
       
       
@@ -3169,13 +3366,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2012" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2012" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2012</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://rmets.onlinelibrary.wiley.com/doi/abs/10.1002/qj.1873">Adaptive calibration of (u,v)-wind ensemble forecasts</a></h3>
     <p class="pub-authors"><strong>P. Pinson</strong></p>
     <p class="pub-venue">Quarterly Journal of the Royal Meteorological Society 138(666), pp. 1273-1284</p>
     <p class="pub-links">
+      
       <a href="https://rmets.onlinelibrary.wiley.com/doi/abs/10.1002/qj.1873">Publisher page</a>
       
       
@@ -3183,13 +3381,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2012" data-themes="markets energy" data-kind="article">
+<article class="pub" data-year="2012" data-themes="markets energy" data-kind="article" data-pdf="no">
   <div class="pub-year">2012</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/6123187">A transmission-cost-based model to estimate the amount of market-integrable wind resources</a></h3>
     <p class="pub-authors">J.M. Morales, <strong>P. Pinson</strong>, H. Madsen</p>
     <p class="pub-venue">IEEE Transactions on Power Systems 27(2), pp. 1060-1069</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/6123187">Publisher page</a>
       
       
@@ -3197,13 +3396,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2012" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2012" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2012</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.mdpi.com/1996-1073/5/3/621">A general probabilistic forecasting framework for offshore wind power fluctuations</a></h3>
     <p class="pub-authors">P.-J. Trombe, <strong>P. Pinson</strong>, H. Madsen</p>
     <p class="pub-venue">Energies 5(3), pp. 621-657</p>
     <p class="pub-links">
+      
       <a href="https://www.mdpi.com/1996-1073/5/3/621">Publisher page</a>
       
       
@@ -3211,13 +3411,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2011" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2011" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2011</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://rmets.onlinelibrary.wiley.com/doi/abs/10.1002/joc.2175">Wind fluctuations over the North Sea</a></h3>
     <p class="pub-authors">C.L. Vincent, <strong>P. Pinson</strong>, G. Giebel</p>
     <p class="pub-venue">International Journal of Climatology 31(11), pp. 1584-1595</p>
     <p class="pub-links">
+      
       <a href="https://rmets.onlinelibrary.wiley.com/doi/abs/10.1002/joc.2175">Publisher page</a>
       
       
@@ -3225,13 +3426,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2011" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2011" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2011</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/we.401">Spatio-temporal analysis and modeling of wind power forecast errors</a></h3>
     <p class="pub-authors">J. Tastu, <strong>P. Pinson</strong>, E. Kotwa, H.Aa. Nielsen, H. Madsen</p>
     <p class="pub-venue">Wind Energy 14(1), pp. 43-60</p>
     <p class="pub-links">
+      
       <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/we.401">Publisher page</a>
       
       
@@ -3239,13 +3441,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2011" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2011" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2011</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0306261911002868">Influence of local wind speed and direction on wind power dynamics – Application to offshore very short-term prediction</a></h3>
     <p class="pub-authors">C. Gallego, <strong>P. Pinson</strong>, H. Madsen, A. Costa, A. Cuerva</p>
     <p class="pub-venue">Applied Energy 88(11), pp. 4087-4096</p>
     <p class="pub-links">
+      
       <a href="https://www.sciencedirect.com/science/article/abs/pii/S0306261911002868">Publisher page</a>
       
       
@@ -3253,13 +3456,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2011" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2011" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2011</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0029801811000837">Forecasting ocean waves – The ECMWF wave model and time-series methods</a></h3>
     <p class="pub-authors">G. Reikard, <strong>P. Pinson</strong>, J. Bidlot</p>
     <p class="pub-venue">Ocean Engineering 38(10), pp. 1089-1099</p>
     <p class="pub-links">
+      
       <a href="https://www.sciencedirect.com/science/article/abs/pii/S0029801811000837">Publisher page</a>
       
       
@@ -3267,13 +3471,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2010" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2010" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2010</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://journals.ametsoc.org/view/journals/apme/49/2/2009jamc2058.1.xml">Resolving non-stationary spectral signals in wind speed time-series using the Hilbert-Huang transform</a></h3>
     <p class="pub-authors">C.L. Vincent, G. Giebel, <strong>P. Pinson</strong>, H. Madsen</p>
     <p class="pub-venue">Journal of Applied Meteorology and Climatology 49(2), pp. 253-267</p>
     <p class="pub-links">
+      
       <a href="https://journals.ametsoc.org/view/journals/apme/49/2/2009jamc2058.1.xml">Publisher page</a>
       
       
@@ -3281,13 +3486,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2010" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2010" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2010</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://rmets.onlinelibrary.wiley.com/doi/10.1002/qj.559">Reliability diagrams for nonparametric density forecasts of continuous variables: accounting for serial correlation</a></h3>
     <p class="pub-authors"><strong>P. Pinson</strong>, P. McSharry, H. Madsen</p>
     <p class="pub-venue">Quarterly Journal of the Royal Meteorological Society 136(646), pp. 77-90</p>
     <p class="pub-links">
+      
       <a href="https://rmets.onlinelibrary.wiley.com/doi/10.1002/qj.559">Publisher page</a>
       
       
@@ -3295,13 +3501,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2010" data-themes="forecasting markets" data-kind="article">
+<article class="pub" data-year="2010" data-themes="forecasting markets" data-kind="article" data-pdf="no">
   <div class="pub-year">2010</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.sciencedirect.com/science/article/pii/S0140988309002011">On the market impact of wind energy forecasts</a></h3>
     <p class="pub-authors">T. Jónsson, <strong>P. Pinson</strong>, H. Madsen</p>
     <p class="pub-venue">Energy Economics 32(2), pp. 313-320</p>
     <p class="pub-links">
+      
       <a href="https://www.sciencedirect.com/science/article/pii/S0140988309002011">Publisher page</a>
       
       
@@ -3309,13 +3516,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2010" data-themes="markets" data-kind="article">
+<article class="pub" data-year="2010" data-themes="markets" data-kind="article" data-pdf="no">
   <div class="pub-year">2010</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.sciencedirect.com/science/article/pii/S0140988309001625">Feedback, competition and stochasticity in a day-ahead electricity market</a></h3>
     <p class="pub-authors">P. Giabardo, M. Zugno, <strong>P. Pinson</strong>, H. Madsen</p>
     <p class="pub-venue">Energy Economics 32(2), pp. 292-301</p>
     <p class="pub-links">
+      
       <a href="https://www.sciencedirect.com/science/article/pii/S0140988309001625">Publisher page</a>
       
       
@@ -3323,13 +3531,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2010" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2010" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2010</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/we.395">Conditional weighted combination of wind power forecasts</a></h3>
     <p class="pub-authors">F. Thordarson, H. Madsen, H.Aa. Nielsen, <strong>P. Pinson</strong></p>
     <p class="pub-venue">Wind Energy 13(8), pp. 751-763</p>
     <p class="pub-links">
+      
       <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/we.395">Publisher page</a>
       
       
@@ -3337,13 +3546,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2010" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2010" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2010</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/5451173">Conditional prediction intervals of wind power generation</a></h3>
     <p class="pub-authors"><strong>P. Pinson</strong>, G. Kariniotakis</p>
     <p class="pub-venue">IEEE Transactions on Power Systems 25(4), pp. 1845-1856</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/5451173">Publisher page</a>
       
       
@@ -3351,13 +3561,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2009" data-themes="forecasting energy" data-kind="article">
+<article class="pub" data-year="2009" data-themes="forecasting energy" data-kind="article" data-pdf="no">
   <div class="pub-year">2009</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0377221707011939">Temperature prediction at critical points in district heating systems</a></h3>
     <p class="pub-authors"><strong>P. Pinson</strong>, T.S. Nielsen, H.Aa. Nielsen, N.K. Poulsen, H. Madsen</p>
     <p class="pub-venue">European Journal of Operational Research 194(1), pp. 163-176</p>
     <p class="pub-links">
+      
       <a href="https://www.sciencedirect.com/science/article/abs/pii/S0377221707011939">Publisher page</a>
       
       
@@ -3365,13 +3576,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2009" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2009" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2009</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0306261908002602">Skill forecasting from ensemble predictions of wind power</a></h3>
     <p class="pub-authors"><strong>P. Pinson</strong>, H.Aa. Nielsen, H. Madsen, G. Kariniotakis</p>
     <p class="pub-venue">Applied Energy 86(7-8), pp. 1326-1334</p>
     <p class="pub-links">
+      
       <a href="https://www.sciencedirect.com/science/article/abs/pii/S0306261908002602">Publisher page</a>
       
       
@@ -3379,13 +3591,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2009" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2009" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2009</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://onlinelibrary.wiley.com/doi/10.1002/we.284">From probabilistic forecasts to statistical scenarios of short-term wind power production</a></h3>
     <p class="pub-authors"><strong>P. Pinson</strong>, G. Papaefthymiou, B. Klöckl, H.Aa. Nielsen, H. Madsen</p>
     <p class="pub-venue">Wind Energy 12(1), pp. 51-62</p>
     <p class="pub-links">
+      
       <a href="https://onlinelibrary.wiley.com/doi/10.1002/we.284">Publisher page</a>
       
       
@@ -3393,13 +3606,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2009" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2009" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2009</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/we.309">Ensemble-based probabilistic forecasting at Horns Rev</a></h3>
     <p class="pub-authors"><strong>P. Pinson</strong>, H. Madsen</p>
     <p class="pub-venue">Wind Energy 12(2), pp. 137-155</p>
     <p class="pub-links">
+      
       <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/we.309">Publisher page</a>
       
       
@@ -3407,13 +3621,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2008" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2008" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2008</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0167610508001050">Regime-switching modelling of the fluctuations of offshore wind generation</a></h3>
     <p class="pub-authors"><strong>P. Pinson</strong>, L.E.A. Christensen, H. Madsen, P.E. Sørensen, M.H. Donovan, L.E. Jensen</p>
     <p class="pub-venue">Journal of Wind Engineering and Industrial Aerodynamics 96(12), pp. 2327-2347</p>
     <p class="pub-links">
+      
       <a href="https://www.sciencedirect.com/science/article/abs/pii/S0167610508001050">Publisher page</a>
       
       
@@ -3421,7 +3636,7 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2008" data-themes="energy" data-kind="article">
+<article class="pub" data-year="2008" data-themes="energy" data-kind="article" data-pdf="no">
   <div class="pub-year">2008</div>
   <div>
     <h3 class="pub-title anchored">Probabilistic tools for planning and operating power systems with distributed energy storage</h3>
@@ -3431,17 +3646,19 @@ window.Quarto = {
       
       
       
+      
     </p>
   </div>
 </article>
 
-<article class="pub" data-year="2008" data-themes="energy" data-kind="article">
+<article class="pub" data-year="2008" data-themes="energy" data-kind="article" data-pdf="no">
   <div class="pub-year">2008</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/we.246">Modelling of power fluctuations from large offshore wind farms</a></h3>
     <p class="pub-authors">P. Sørensen, N.A. Cutululis, A. Vigueras-Rodriguez, H. Madsen, <strong>P. Pinson</strong>, L.E. Jensen, J. Hjerrild, M. Donovan</p>
     <p class="pub-venue">Wind Energy 11(1), pp. 29-43</p>
     <p class="pub-links">
+      
       <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/we.246">Publisher page</a>
       
       
@@ -3449,13 +3666,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2008" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2008" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2008</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://link.springer.com/article/10.1007/s11222-007-9038-7">Local linear regression with adaptive orthogonal fitting for the wind power application</a></h3>
     <p class="pub-authors"><strong>P. Pinson</strong>, H.Aa. Nielsen, H. Madsen, T.S. Nielsen</p>
     <p class="pub-venue">Statistics and Computing 18(1), pp. 59-71</p>
     <p class="pub-links">
+      
       <a href="https://link.springer.com/article/10.1007/s11222-007-9038-7">Publisher page</a>
       
       
@@ -3463,7 +3681,7 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2007" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2007" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2007</div>
   <div>
     <h3 class="pub-title anchored">ViLab: a Virtual Laboratory for collaborative research on wind power forecasting</h3>
@@ -3473,17 +3691,19 @@ window.Quarto = {
       
       
       
+      
     </p>
   </div>
 </article>
 
-<article class="pub" data-year="2007" data-themes="forecasting markets" data-kind="article">
+<article class="pub" data-year="2007" data-themes="forecasting markets" data-kind="article" data-pdf="no">
   <div class="pub-year">2007</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://ieeexplore.ieee.org/document/4282048">Trading wind generation with short-term probabilistic forecasts of wind power</a></h3>
     <p class="pub-authors"><strong>P. Pinson</strong>, C. Chevallier, G. Kariniotakis</p>
     <p class="pub-venue">IEEE Transactions on Power Systems 22(3), pp. 1148-1156</p>
     <p class="pub-links">
+      
       <a href="https://ieeexplore.ieee.org/document/4282048">Publisher page</a>
       
       
@@ -3491,13 +3711,14 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2007" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2007" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2007</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/we.230">Nonparametric probabilistic forecasts of wind power: required properties and evaluation</a></h3>
     <p class="pub-authors"><strong>P. Pinson</strong>, H.Aa. Nielsen, J.K. Møller, H. Madsen, G. Kariniotakis</p>
     <p class="pub-venue">Wind Energy 10(6), pp. 497-516</p>
     <p class="pub-links">
+      
       <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/we.230">Publisher page</a>
       
       
@@ -3505,7 +3726,7 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-year="2005" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2005" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2005</div>
   <div>
     <h3 class="pub-title anchored">Standardizing the performance evaluation of short-term wind power prediction models</h3>
@@ -3515,17 +3736,19 @@ window.Quarto = {
       
       
       
+      
     </p>
   </div>
 </article>
 
-<article class="pub" data-year="2004" data-themes="forecasting" data-kind="article">
+<article class="pub" data-year="2004" data-themes="forecasting" data-kind="article" data-pdf="no">
   <div class="pub-year">2004</div>
   <div>
     <h3 class="pub-title anchored"><a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/we.114">On-line assessment of prediction risk for wind power production forecasts</a></h3>
     <p class="pub-authors"><strong>P. Pinson</strong>, G. Kariniotakis</p>
     <p class="pub-venue">Wind Energy 7(2), pp. 119-132</p>
     <p class="pub-links">
+      
       <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/we.114">Publisher page</a>
       
       
