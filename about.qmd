@@ -16,7 +16,7 @@ about:
     - text: LinkedIn
       href: https://www.linkedin.com/in/pierrepinson
     - text: CV (PDF)
-      href: https://pierrepinson.com/wp-content/uploads/2023/03/ppinsoncv.pdf
+      href: /files/ppinsoncv.pdf
 ---
 
 I am a Principal at [inCommodities](https://incommodities.com/), a data-driven energy trading company, and a Professor at [Imperial College London](https://www.imperial.ac.uk/), [Dyson School of Design Engineering](https://www.imperial.ac.uk/design-engineering/). I am an IEEE Fellow (class of 2020), an INFORMS member and an IIF director, and I was on the Clarivate Highly Cited Researchers list in 2019, 2020 and 2021 (cross-field) for work in statistics, meteorology, economics and power and energy engineering.

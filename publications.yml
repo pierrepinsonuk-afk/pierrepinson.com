@@ -1596,8 +1596,8 @@
   - Journal article
   themes: markets
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://backend.orbit.dtu.dk/ws/files/145259692/08301552.pdf
+  haspdf: 'yes'
 - title: Electricity market equilibrium under information asymmetry
   year: 2019
   venue: Operations Research Letters 47(6), pp. 521-526
@@ -1610,8 +1610,8 @@
   - Journal article
   themes: markets
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://arxiv.org/pdf/1905.09793
+  haspdf: 'yes'
 - title: Convex relaxations and approximations of chance-constrained AC-OPF problems
   year: 2019
   venue: IEEE Transactions on Power Systems 34(2), pp. 1459-1470
@@ -1625,8 +1625,8 @@
   - Journal article
   themes: optimisation energy
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://arxiv.org/pdf/1804.05754
+  haspdf: 'yes'
 - title: Consensus-based approach to peer-to-peer electricity markets with product differentiation
   year: 2019
   venue: IEEE Transactions on Power Systems 34(2), pp. 994-1004
@@ -1639,8 +1639,8 @@
   - Journal article
   themes: markets
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://arxiv.org/pdf/1804.03521
+  haspdf: 'yes'
 - title: An integrated market for electricity and natural gas systems with stochastic power producers
   year: 2019
   venue: European Journal of Operational Research 272(2), pp. 642-654
@@ -1654,8 +1654,8 @@
   - Journal article
   themes: markets optimisation
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://arxiv.org/pdf/1805.04414
+  haspdf: 'yes'
 - title: Visualizing big energy data
   year: 2018
   venue: IEEE Power and Energy Magazine 16(3), pp. 18-25
@@ -1684,8 +1684,8 @@
   - Journal article
   themes: markets optimisation
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://doi.org/10.1109/tpwrs.2018.2789683
+  haspdf: 'yes'
 - title: Real-time trading strategies of proactive DISCO with heterogeneous DG owners
   year: 2018
   venue: IEEE Transactions on Smart Grid 9(3), pp. 1688-1697
@@ -1698,8 +1698,8 @@
   - Journal article
   themes: markets
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://doi.org/10.1109/tsg.2016.2597263
+  haspdf: 'yes'
 - title: Real-time procurement strategies of a proactive distribution company with aggregator-based demand response
   year: 2018
   venue: IEEE Transactions on Smart Grid 9(2), pp. 766-776
@@ -1712,8 +1712,8 @@
   - Journal article
   themes: markets
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://doi.org/10.1109/tsg.2016.2565383
+  haspdf: 'yes'
 - title: Price-taker offering strategy in electricity pay-as-bid markets
   year: 2018
   venue: IEEE Transactions on Power Systems 33(2), pp. 2175-2183
@@ -1726,8 +1726,8 @@
   - Journal article
   themes: markets
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://orbit.dtu.dk/en/publications/5e6d5102-0fe1-49e9-a31c-e8624a42a1cb
+  haspdf: 'yes'
 - title: Prévision météorologique pour les énergies renouvelables
   year: 2018
   venue: La Météorologie 100, pp. 1-8
@@ -1769,8 +1769,8 @@
   - Journal article
   themes: forecasting
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://arxiv.org/pdf/1708.02703
+  haspdf: 'yes'
 - title: Cost-optimal ATCs in zonal electricity markets
   year: 2018
   venue: IEEE Transactions on Power Systems 33(4), pp. 3624-3633
@@ -1784,8 +1784,8 @@
   - Journal article
   themes: markets optimisation
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://backend.orbit.dtu.dk/ws/files/141011957/JensenKazempourPinson2016_1.pdf
+  haspdf: 'yes'
 - title: Correlation-constrained and sparsity-controlled vector autoregressive model for spatio-temporal wind power forecasting
   year: 2018
   venue: IEEE Transactions on Power Systems 33(5)
@@ -1798,8 +1798,8 @@
   - Journal article
   themes: forecasting
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://orbit.dtu.dk/en/publications/666d3af6-dffc-4d99-a508-84b49d3a3c79
+  haspdf: 'yes'
 - title: Benefits of spatio-temporal modelling for short term wind power forecasting at both individual and aggregated levels
   year: 2018
   venue: Environmetrics 29(3), art. no. e2493
@@ -1812,8 +1812,8 @@
   - Journal article
   themes: forecasting
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://arxiv.org/pdf/1704.07606
+  haspdf: 'yes'
 - title: Bayesian approach to unveiling supply curves in electricity markets
   year: 2018
   venue: IEEE Transactions on Power Systems 33(3), pp. 2610-2620
@@ -1856,8 +1856,8 @@
   - Journal article
   themes: markets energy
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://backend.orbit.dtu.dk/ws/files/140386547/Xiaoetal2017.pdf
+  haspdf: 'yes'
 - title: Towards fully renewable energy systems – Experience and trends in Denmark
   year: 2017
   venue: CSEE Journal of Power and Energy Systems 3(1), pp. 26-35
@@ -1871,8 +1871,8 @@
   - Journal article
   themes: energy markets
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://doi.org/10.17775/cseejpes.2017.0005
+  haspdf: 'yes'
 - title: The emergence of consumer-centric electricity markets
   year: 2017
   venue: Distribution & Utilization 34(12), pp. 27-31 (in Chinese)
@@ -1899,8 +1899,8 @@
   - Journal article
   themes: forecasting
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://link.springer.com/content/pdf/10.1007%2Fs00477-016-1329-0.pdf
+  haspdf: 'yes'
 - title: 'RE-Europe: a large-scale dataset for a future renewable-energy based European power system'
   year: 2017
   venue: Scientific Data 4, art. no. 170175
@@ -1929,8 +1929,8 @@
   - Journal article
   themes: markets optimisation
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://backend.orbit.dtu.dk/ws/files/132849109/07876745.pdf
+  haspdf: 'yes'
 - title: Optimal offering and allocation policies for wind power in energy and reserve markets
   year: 2017
   venue: Wind Energy 20(11), pp. 1851-1870
@@ -1958,8 +1958,8 @@
   - Journal article
   themes: forecasting markets
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://backend.orbit.dtu.dk/ws/files/130420389/Aggregate_Forecasts_F_1_.pdf
+  haspdf: 'yes'
 - title: From demand response evaluation to forecasting – Methods and results from the EcoGrid EU experiment
   year: 2017
   venue: Sustainable Energy, Grids and Networks 10, pp. 75-83
@@ -2002,8 +2002,8 @@
   - Journal article
   themes: markets
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://inria.hal.science/hal-01403913
+  haspdf: 'yes'
 - title: Very-short-term probabilistic wind power forecasts by sparse vector autoregression
   year: 2016
   venue: IEEE Transactions on Smart Grid 7(2), pp. 763-770
@@ -2016,8 +2016,8 @@
   - Journal article
   themes: forecasting
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://strathprints.strath.ac.uk/53822/1/Dowell_Pinsen_IEEE_TSG_2015_Very_short_term_probablistic_wind_power.pdf
+  haspdf: 'yes'
 - title: Very short-term nonparametric probabilistic forecasting of renewable energy generation – with application to solar energy
   year: 2016
   venue: IEEE Transactions on Power Systems 31(5), pp. 3850-3863
@@ -2030,8 +2030,8 @@
   - Journal article
   themes: forecasting
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://backend.orbit.dtu.dk/ws/files/118312018/Nonparametric_Probabilistic_Forecasting_LastEdition.pdf
+  haspdf: 'yes'
 - title: Trading strategies for distribution company with stochastic distributed energy resources
   year: 2016
   venue: Applied Energy 177, pp. 625-635
@@ -2044,8 +2044,8 @@
   - Journal article
   themes: markets
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://doi.org/10.1016/j.apenergy.2016.05.143
+  haspdf: 'yes'
 - title: 'Sharing wind power forecasts in electricity markets: A numerical analysis'
   year: 2016
   venue: Applied Energy 176, pp. 65-73
@@ -2059,8 +2059,8 @@
   - Journal article
   themes: forecasting markets
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://www.sciencedirect.com/science/article/am/pii/S0306261916306468?via%3Dihub
+  haspdf: 'yes'
 - title: Quantile forecast discrimination ability and value
   year: 2016
   venue: Quarterly Journal of the Royal Meteorological Society 141(693), pp. 3415-3424
@@ -2073,8 +2073,8 @@
   - Journal article
   themes: forecasting
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://arxiv.org/pdf/1504.04211
+  haspdf: 'yes'
 - title: 'Probabilistic energy forecasting: Global Energy Forecasting Competition 2014 and beyond'
   year: 2016
   venue: International Journal of Forecasting 32(3), pp. 896-913
@@ -2087,8 +2087,8 @@
   - Journal article
   themes: forecasting
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: http://orbit.dtu.dk/en/publications/probabilistic-energy-forecasting-global-energy-forecasting-competition-2014-and-beyond(5407773d-7770-4ae7-b5d7-fcd7df6fd9bc).html
+  haspdf: 'yes'
 - title: Optimal offering strategies for wind power in energy and primary reserve markets
   year: 2016
   venue: IEEE Transactions on Sustainable Energy 7(3), pp. 1036-1045
@@ -2101,8 +2101,8 @@
   - Journal article
   themes: markets
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://orbit.dtu.dk/files/121887341/07399764.pdf
+  haspdf: 'yes'
 - title: Optimal offering for wind-storage systems using linear decision rules
   year: 2016
   venue: IEEE Transactions on Power Systems 31(6), pp. 5061-5070
@@ -2131,8 +2131,8 @@
   - Journal article
   themes: markets optimisation
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://orbit.dtu.dk/files/110322139/Heetal2015.pdf
+  haspdf: 'yes'
 - title: Introducing distributed learning in wind power forecasting
   year: 2016
   venue: Proc. Probabilistic Methods Applied to Power Systems (PMAPS) 2016
@@ -2174,8 +2174,8 @@
   - Journal article
   themes: markets
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://backend.orbit.dtu.dk/ws/files/122899287/prob_elmarkets.pdf
+  haspdf: 'yes'
 - title: Impact of inter- and intra-regional coordination in markets with a large renewable component
   year: 2016
   venue: IEEE Transactions on Power Systems 31(6), pp. 4755-4764
@@ -2188,8 +2188,8 @@
   - Journal article
   themes: markets
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://orbit.dtu.dk/en/publications/263f8b3b-ebd3-448e-a4f0-e2fb00eab68a
+  haspdf: 'yes'
 - title: Identifying and characterizing the impact of turbine icing on wind farm power generation
   year: 2016
   venue: Wind Energy 19(8), pp. 1503-1518
@@ -2217,8 +2217,8 @@
   - Journal article
   themes: forecasting
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://arxiv.org/pdf/1511.05877
+  haspdf: 'yes'
 - title: Generation and evaluation of space-time trajectories of photovoltaic generation
   year: 2016
   venue: Applied Energy 176, pp. 80-91
@@ -2332,8 +2332,8 @@
   - Journal article
   themes: markets
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://ieeexplore.ieee.org/ielx7/59/7087410/07087434.pdf
+  haspdf: 'yes'
 - title: Forecasting for dynamic line rating
   year: 2015
   venue: Renewable and Sustainable Energy Reviews 52, pp. 1713-1730
@@ -2347,8 +2347,8 @@
   - Journal article
   themes: forecasting energy
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://minesparis-psl.hal.science/hal-01199238
+  haspdf: 'yes'
 - title: Weather radars – the new eyes of offshore wind farms
   year: 2014
   venue: Wind Energy 17(11), pp. 1767-1787
@@ -2361,8 +2361,8 @@
   - Journal article
   themes: forecasting
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://backend.orbit.dtu.dk/ws/files/60525370/Weather_radars_preprint.pdf
+  haspdf: 'yes'
 - title: Redefining the merit order of stochastic generation in forward markets
   year: 2014
   venue: IEEE Transactions on Power Systems 29(2), pp. 992-993 (letter)
@@ -2375,8 +2375,8 @@
   - Journal article
   themes: markets
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://backend.orbit.dtu.dk/ws/files/64425866/morales13_meritorder.pdf
+  haspdf: 'yes'
 - title: Probabilistic forecasts of wind power generation accounting for geographically dispersed information
   year: 2014
   venue: IEEE Transactions on Smart Grid 5(1), pp. 480-489
@@ -2389,8 +2389,8 @@
   - Journal article
   themes: forecasting
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://backend.orbit.dtu.dk/ws/files/61116377/probspattemp_final.pdf
+  haspdf: 'yes'
 - title: Probabilistic forecasting of wind power generation using extreme learning machine
   year: 2014
   venue: IEEE Transactions on Power Systems 29(3), pp. 1033-1044
@@ -2403,8 +2403,8 @@
   - Journal article
   themes: forecasting
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://backend.orbit.dtu.dk/ws/files/61212710/wan2013_elm.pdf
+  haspdf: 'yes'
 - title: Optimal prediction intervals of wind power generation
   year: 2014
   venue: IEEE Transactions on Power Systems 29(3), pp. 1166-1174
@@ -2417,8 +2417,8 @@
   - Journal article
   themes: forecasting
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://orbit.dtu.dk/files/61216667/wan2013_opt.pdf
+  haspdf: 'yes'
 - title: 'Guest editorial: Special section on analytics for energy forecasting with applications to smart grid'
   year: 2014
   venue: IEEE Transactions on Smart Grid 5(1), pp. 399-401
@@ -2459,8 +2459,8 @@
   - Journal article
   themes: markets
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://link.springer.com/content/pdf/10.1007/s40565-014-0048-0.pdf
+  haspdf: 'yes'
 - title: Exponential smoothing approaches for prediction in real-time electricity markets
   year: 2014
   venue: Energies 7(6), pp. 3710-3732
@@ -2474,8 +2474,8 @@
   - Journal article
   themes: forecasting markets
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://www.mdpi.com/1996-1073/7/6/3710/pdf?version=1426593641
+  haspdf: 'yes'
 - title: Electricity market clearing with improved dispatch of stochastic producers
   year: 2014
   venue: European Journal of Operational Research 235(3), pp. 765-774
@@ -2517,8 +2517,8 @@
   - Journal article
   themes: forecasting
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://backend.orbit.dtu.dk/ws/files/93684466/Discussion_of_Prediction_intervals.pdf
+  haspdf: 'yes'
 - title: Density forecasting of day-ahead electricity prices using time-adaptive quantile regression
   year: 2014
   venue: Energies 7(9), pp. 5523-5547
@@ -2546,8 +2546,8 @@
   - Journal article
   themes: forecasting
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://link.springer.com/content/pdf/10.1007/s11749-014-0352-z.pdf
+  haspdf: 'yes'
 - title: 'Benefits and challenges of electric demand response: A critical review'
   year: 2014
   venue: Renewable and Sustainable Energy Reviews 39, pp. 686-699
@@ -2574,8 +2574,8 @@
   - Journal article
   themes: forecasting
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://backend.orbit.dtu.dk/ws/files/64506702/trombe_etal_jstars_2012.pdf
+  haspdf: 'yes'
 - title: 'Wind energy: Forecasting challenges for its optimal management'
   year: 2013
   venue: Statistical Science 28(4), pp. 564-585
@@ -2633,8 +2633,8 @@
   - Journal article
   themes: markets optimisation
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: http://orbit.dtu.dk/en/publications/pool-strategy-of-a-pricemaker-wind-power-producer(49e645cb-9c1d-4306-af40-fa059ba1d88c).html
+  haspdf: 'yes'
 - title: Forecasting day-ahead electricity prices accounting for the impact of wind power generation
   year: 2013
   venue: IEEE Transactions on Sustainable Energy 4(1), pp. 210-218
@@ -2662,8 +2662,8 @@
   - Journal article
   themes: forecasting
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://doi.org/10.1109/tpwrs.2013.2258824
+  haspdf: 'yes'
 - title: Controlling electricity consumption by forecasting its response to varying prices
   year: 2013
   venue: IEEE Transactions on Power Systems 28(1), pp. 421-429
@@ -2692,8 +2692,8 @@
   - Journal article
   themes: optimisation energy
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://backend.orbit.dtu.dk/ws/files/61181288/dorinietal13.pdf
+  haspdf: 'yes'
 - title: A comparison between the ECMWF and COSMO Ensemble Prediction Systems applied to short-term wind power forecasting
   year: 2013
   venue: Applied Energy 107, pp. 271-280
@@ -2735,8 +2735,8 @@
   - Journal article
   themes: forecasting
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://academic.oup.com/jrsssc/article-pdf/61/4/555/49549555/jrsssc_61_4_555.pdf
+  haspdf: 'yes'
 - title: Verification of the ECMWF ensemble forecasts of wind speed against analyses and observations
   year: 2012
   venue: Meteorological Applications 19(4), pp. 484-500
@@ -2749,8 +2749,8 @@
   - Journal article
   themes: forecasting
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://backend.orbit.dtu.dk/ws/files/51218986/met283.pdf
+  haspdf: 'yes'
 - title: Probabilistic forecasting of the wave energy flux
   year: 2012
   venue: Applied Energy 93, pp. 364-370
@@ -2764,8 +2764,8 @@
   - Journal article
   themes: forecasting energy
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://backend.orbit.dtu.dk/ws/files/10493598/pinsonetal11_probwave_rev2.pdf
+  haspdf: 'yes'
 - title: Evaluating the quality of scenarios of short-term wind power generation
   year: 2012
   venue: Applied Energy 96, pp. 12-20
@@ -2778,8 +2778,8 @@
   - Journal article
   themes: forecasting
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://backend.orbit.dtu.dk/ws/files/6380631/pinsongirard11.pdf
+  haspdf: 'yes'
 - title: Adaptive modeling and forecasting of wind power fluctuations with Markov-switching autoregressive models
   year: 2012
   venue: Journal of Forecasting 31(4), pp. 281-313
@@ -2792,8 +2792,8 @@
   - Journal article
   themes: forecasting
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://backend.orbit.dtu.dk/ws/files/5826922/pinson_adaptoffshfore.pdf
+  haspdf: 'yes'
 - title: Adaptive calibration of (u,v)-wind ensemble forecasts
   year: 2012
   venue: Quarterly Journal of the Royal Meteorological Society 138(666), pp. 1273-1284
@@ -2806,8 +2806,8 @@
   - Journal article
   themes: forecasting
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/qj.1873
+  haspdf: 'yes'
 - title: A transmission-cost-based model to estimate the amount of market-integrable wind resources
   year: 2012
   venue: IEEE Transactions on Power Systems 27(2), pp. 1060-1069
@@ -2835,8 +2835,8 @@
   - Journal article
   themes: forecasting
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://doi.org/10.3390/en5030621
+  haspdf: 'yes'
 - title: Wind fluctuations over the North Sea
   year: 2011
   venue: International Journal of Climatology 31(11), pp. 1584-1595
@@ -2863,8 +2863,8 @@
   - Journal article
   themes: forecasting
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://backend.orbit.dtu.dk/ws/files/6380046/tastuetal09_rev.pdf
+  haspdf: 'yes'
 - title: Influence of local wind speed and direction on wind power dynamics – Application to offshore very short-term prediction
   year: 2011
   venue: Applied Energy 88(11), pp. 4087-4096
@@ -2877,8 +2877,8 @@
   - Journal article
   themes: forecasting
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://oa.upm.es/14216/
+  haspdf: 'yes'
 - title: Forecasting ocean waves – The ECMWF wave model and time-series methods
   year: 2011
   venue: Ocean Engineering 38(10), pp. 1089-1099
@@ -2891,8 +2891,8 @@
   - Journal article
   themes: forecasting
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: http://orbit.dtu.dk/en/publications/forecasting-ocean-wave-energy-a-comparison-of-the-ecmwf-wave-model-with-time-series-methods(65d2319f-8c3c-4ca5-8f23-a1cbe6d881e2).html
+  haspdf: 'yes'
 - title: Resolving non-stationary spectral signals in wind speed time-series using the Hilbert-Huang transform
   year: 2010
   venue: Journal of Applied Meteorology and Climatology 49(2), pp. 253-267
@@ -2919,8 +2919,8 @@
   - Journal article
   themes: forecasting
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://backend.orbit.dtu.dk/ws/files/4901981/pinsonetal09_reliability_rev.pdf
+  haspdf: 'yes'
 - title: On the market impact of wind energy forecasts
   year: 2010
   venue: Energy Economics 32(2), pp. 313-320
@@ -2934,8 +2934,8 @@
   - Journal article
   themes: forecasting markets
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://backend.orbit.dtu.dk/ws/files/4965860/Jonsson09_impact.pdf
+  haspdf: 'yes'
 - title: Feedback, competition and stochasticity in a day-ahead electricity market
   year: 2010
   venue: Energy Economics 32(2), pp. 292-301
@@ -2948,8 +2948,8 @@
   - Journal article
   themes: markets
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://backend.orbit.dtu.dk/ws/files/5151939/giabardoetal09.pdf
+  haspdf: 'yes'
 - title: Conditional weighted combination of wind power forecasts
   year: 2010
   venue: Wind Energy 13(8), pp. 751-763
@@ -2976,8 +2976,8 @@
   - Journal article
   themes: forecasting
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://minesparis-psl.hal.science/hal-00614425
+  haspdf: 'yes'
 - title: Temperature prediction at critical points in district heating systems
   year: 2009
   venue: European Journal of Operational Research 194(1), pp. 163-176
@@ -2991,8 +2991,8 @@
   - Journal article
   themes: forecasting energy
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://backend.orbit.dtu.dk/ws/files/4902240/pinsonetal_temppred_rev2.pdf
+  haspdf: 'yes'
 - title: Skill forecasting from ensemble predictions of wind power
   year: 2009
   venue: Applied Energy 86(7-8), pp. 1326-1334
@@ -3005,8 +3005,8 @@
   - Journal article
   themes: forecasting
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://minesparis-psl.hal.science/hal-00812349
+  haspdf: 'yes'
 - title: From probabilistic forecasts to statistical scenarios of short-term wind power production
   year: 2009
   venue: Wind Energy 12(1), pp. 51-62
@@ -3019,8 +3019,8 @@
   - Journal article
   themes: forecasting
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://orbit.dtu.dk/files/4900902/pinsonetal_wpfscenarios_fin.pdf
+  haspdf: 'yes'
 - title: Ensemble-based probabilistic forecasting at Horns Rev
   year: 2009
   venue: Wind Energy 12(2), pp. 137-155
@@ -3033,8 +3033,8 @@
   - Journal article
   themes: forecasting
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://backend.orbit.dtu.dk/ws/files/4900645/pinsonmadsen_ensforehorns_rev.pdf
+  haspdf: 'yes'
 - title: Regime-switching modelling of the fluctuations of offshore wind generation
   year: 2008
   venue: Journal of Wind Engineering and Industrial Aerodynamics 96(12), pp. 2327-2347
@@ -3047,8 +3047,8 @@
   - Journal article
   themes: forecasting
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://backend.orbit.dtu.dk/ws/files/5020024/pinsonetal_regswitch_final.pdf
+  haspdf: 'yes'
 - title: Probabilistic tools for planning and operating power systems with distributed energy storage
   year: 2008
   venue: e&i Elektrotechnik und Informationstechnik 125(12), pp. 460-465
@@ -3075,8 +3075,8 @@
   - Journal article
   themes: energy
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/we.246
+  haspdf: 'yes'
 - title: Local linear regression with adaptive orthogonal fitting for the wind power application
   year: 2008
   venue: Statistics and Computing 18(1), pp. 59-71
@@ -3089,8 +3089,8 @@
   - Journal article
   themes: forecasting
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://orbit.dtu.dk/files/4901531/pinsonetal_llr_ortfit_wpapp_rev.pdf
+  haspdf: 'yes'
 - title: 'ViLab: a Virtual Laboratory for collaborative research on wind power forecasting'
   year: 2007
   venue: Wind Engineering 31(2), pp. 117-121
@@ -3103,8 +3103,8 @@
   - Journal article
   themes: forecasting
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: http://orbit.dtu.dk/en/publications/vilab(45c49248-a235-4264-9a41-a13058188a69).html
+  haspdf: 'yes'
 - title: Trading wind generation with short-term probabilistic forecasts of wind power
   year: 2007
   venue: IEEE Transactions on Power Systems 22(3), pp. 1148-1156
@@ -3118,8 +3118,8 @@
   - Journal article
   themes: forecasting markets
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://minesparis-psl.hal.science/hal-00617685
+  haspdf: 'yes'
 - title: 'Nonparametric probabilistic forecasts of wind power: required properties and evaluation'
   year: 2007
   venue: Wind Energy 10(6), pp. 497-516
@@ -3146,8 +3146,8 @@
   - Journal article
   themes: forecasting
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://minesparis-psl.hal.science/hal-00527248
+  haspdf: 'yes'
 - title: On-line assessment of prediction risk for wind power production forecasts
   year: 2004
   venue: Wind Energy 7(2), pp. 119-132
@@ -3160,5 +3160,5 @@
   - Journal article
   themes: forecasting
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://minesparis-psl.hal.science/hal-01721503
+  haspdf: 'yes'

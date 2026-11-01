@@ -33,7 +33,7 @@ website:
         text: News
     right:
       - text: CV
-        href: https://pierrepinson.com/wp-content/uploads/2023/03/ppinsoncv.pdf
+        href: /files/ppinsoncv.pdf
       - icon: mortarboard
         href: https://scholar.google.com/citations?user=8Ai6cssAAAAJ
         aria-label: Google Scholar
