@@ -19,24 +19,22 @@ about:
       href: /files/ppinsoncv.pdf?v=2026-11
 ---
 
-I work on the mathematics and analytics of energy markets, with a focus on renewables, and more broadly on data science, forecasting and optimisation, with applications in energy, weather, logistics and shipping, and business analytics.
+[I work with the mathematics of energy markets.]{.lead}
 
-In October 2026 I joined [inCommodities](https://incommodities.com/), a Denmark-based energy trading company, as Principal, to lead research and translation. I remain a Professor at [Imperial College London](https://www.imperial.ac.uk/), in the [Dyson School of Design Engineering](https://www.imperial.ac.uk/design-engineering/). I am also Chief Scientific Advisor at Halfspace, a data and AI company in Copenhagen that was acquired by Accenture in 2025 and is now part of Faculty, and Editor-in-Chief of the [International Journal of Forecasting](ijf.qmd). Until 2026 I was a scientific advisor to and angel investor in Atmo, an AI-based weather forecasting company acquired by Vaisala.
+For more than 20 years, through research, teaching and consultancy, I have worked at the interface between data, AI and power systems and markets. My core focus is how to generate optimal value for society from data. I combine mathematics and statistics with applications in meteorology, power and energy, logistics and business analytics, and my main contributions are in forecasting, optimisation under uncertainty and game theory. That includes probabilistic energy forecasting, trading strategies for renewable assets, electricity market design (peer-to-peer, coordination between markets, new market products), and data markets.
 
-I am an IEEE Fellow, an INFORMS member and a director of the International Institute of Forecasters. I have been on the Clarivate Highly Cited Researchers list (cross-field) in 2019–2023 and 2025, for work in statistics, meteorology, economics and power and energy engineering. In 2024 I led the team, with Halfspace and Molslinjen, that won the INFORMS Franz Edelman Award for achievement in operations research, analytics and management science. In March 2026 I gave the Ørsted Lecture at the Technical University of Denmark, a yearly public lecture often given by Nobel laureates.
+I am Principal at [inCommodities](https://incommodities.com/), an energy trading company in Denmark, where I lead research and translation, and a Professor at [Imperial College London](https://www.imperial.ac.uk/), [Dyson School of Design Engineering](https://www.imperial.ac.uk/design-engineering/). I am also Chief Scientific Advisor at Halfspace and Editor-in-Chief of the [International Journal of Forecasting](ijf.qmd).
 
-Before Imperial, I spent many years at the Technical University of Denmark, as Professor of Energy Analytics and Markets and then of Operations Research. I have been a visiting researcher at the University of Oxford (Mathematical Institute) and the University of Washington (Department of Statistics), a visiting professor at École Normale Supérieure de Rennes, and a Simons Fellow at the Isaac Newton Institute for Mathematical Sciences in Cambridge. I also spent a year as a scientist at the [European Centre for Medium-Range Weather Forecasts](https://www.ecmwf.int/) (ECMWF), the world's leading organisation for global weather forecasting.
-
-What has interested me most is how to generate optimal value from data, for society and for the stakeholders involved. That brings together data science, analytics, operations research and management science, game theory and mechanism design. Some of the work I am known for includes probabilistic forecasting and forecast verification, peer-to-peer and community-based electricity markets, coordination of energy markets, and collaborative and market-based analytics such as data and analytics markets.
+I am an IEEE Fellow and a Clarivate Highly Cited Researcher, and in 2024 I led the team that won the INFORMS Franz Edelman Award. I care about teaching as much as research: I have taught in French, English and Danish, and my video courses on YouTube, including the open course [Renewables in Electricity Markets](teaching/index.qmd), have been viewed around 300,000 times. In March 2026 I gave the DTU Ørsted Lecture, "Can we predict the future of forecasting?".
 
 ## Positions
 
 ::: {.timeline}
 - [2026 –]{.when} Principal, inCommodities (Aarhus, Denmark)
 - [2022 –]{.when} Professor, Imperial College London, Dyson School of Design Engineering
-- [2022 –]{.when} Chief Scientist, Halfspace (Copenhagen; acquired by Accenture, now part of Faculty)
-- [2022 –]{.when} Affiliated Professor of Operations Research, Technical University of Denmark
-- [2023 –]{.when} International Research Fellow, CoRE, Aarhus University
+- [2022 –]{.when} Chief Scientific Advisor, Halfspace (Copenhagen; acquired by Accenture, now part of Faculty)
+- [2022 –]{.when} Affiliated Professor of Operations Research and Analytics, Technical University of Denmark, Department of Technology, Management and Economics
+- [2023 –]{.when} Associated Research Fellow, CoRE, Aarhus University
 - [2025 –]{.when} International Expert, Innovation Fund Denmark
 - [2019 – 2026]{.when} Scientific Advisor and Angel Investor, Atmo (acquired by Vaisala)
 - [2021 – 2022]{.when} Professor of Operations Research, Technical University of Denmark
