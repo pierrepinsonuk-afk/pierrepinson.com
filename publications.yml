@@ -11,6 +11,8 @@
   - Preprint
   themes: forecasting markets
   kind: preprint
+  pdf: https://arxiv.org/pdf/2609.37903
+  haspdf: 'yes'
 - title: 'Learning to fix: Optimisation-aware machine learning for accelerated unit commitment'
   year: 2026
   venue: Preprint (arXiv:2609.39396)
@@ -24,6 +26,8 @@
   - Preprint
   themes: optimisation energy
   kind: preprint
+  pdf: https://arxiv.org/pdf/2609.39396
+  haspdf: 'yes'
 - title: Stabilizing distribution-free probabilistic forecasts
   year: 2026
   venue: Preprint (arXiv:2605.28531)
@@ -36,6 +40,8 @@
   - Preprint
   themes: forecasting
   kind: preprint
+  pdf: https://arxiv.org/pdf/2605.28531
+  haspdf: 'yes'
 - title: Towards replication-robust analytics markets
   year: 2026
   venue: INFORMS Journal on Data Science, in press
@@ -48,6 +54,8 @@
   - Journal article
   themes: markets
   kind: article
+  pdf: https://arxiv.org/pdf/2310.06000
+  haspdf: 'yes'
 - title: How to purchase labels? A cost-effective approach using active learning markets
   year: 2026
   venue: INFORMS Journal on Data Science, in press
@@ -60,6 +68,8 @@
   - Journal article
   themes: markets
   kind: article
+  pdf: https://arxiv.org/pdf/2511.20605
+  haspdf: 'yes'
 - title: Value-oriented forecast reconciliation for renewables in electricity markets
   year: 2026
   venue: European Journal of Operational Research 332(2), pp. 492-504
@@ -73,6 +83,8 @@
   - Journal article
   themes: forecasting markets
   kind: article
+  pdf: https://arxiv.org/pdf/2501.16086
+  haspdf: 'yes'
 - title: 'Synergies between AI computing and power systems: Metrics, scheduling, and resilience'
   year: 2025
   venue: IEEE Energy Sustainability Magazine, in press
@@ -85,6 +97,8 @@
   - Journal article
   themes: energy
   kind: article
+  pdf: https://arxiv.org/pdf/2512.07001
+  haspdf: 'yes'
 - title: Seamless and multi-resolution energy forecasting
   year: 2025
   venue: IEEE Transactions on Smart Grid 16(1), pp. 383-395
@@ -97,6 +111,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: http://hub.hku.hk/bitstream/10722/350128/1/content.pdf
+  haspdf: 'yes'
 - title: Privacy-aware data acquisition under data similarity in regression markets
   year: 2025
   venue: IEEE Transactions on Neural Networks and Learning Systems
@@ -109,6 +125,8 @@
   - Journal article
   themes: markets
   kind: article
+  pdf: https://arxiv.org/pdf/2312.02611
+  haspdf: 'yes'
 - title: Prediction markets with intermittent contributions
   year: 2025
   venue: Preprint, under review
@@ -122,6 +140,8 @@
   - Preprint
   themes: forecasting markets
   kind: preprint
+  pdf: https://arxiv.org/pdf/2510.13385
+  haspdf: 'yes'
 - title: Predict-and-optimize robust unit commitment with statistical guarantees via weight combination
   year: 2025
   venue: IEEE Transactions on Power Systems, in press
@@ -135,6 +155,8 @@
   - Journal article
   themes: optimisation energy
   kind: article
+  pdf: https://arxiv.org/pdf/2411.03138
+  haspdf: 'yes'
 - title: Pooling probabilistic forecasts for cooperative wind power offering
   year: 2025
   venue: Preprint, under review
@@ -148,6 +170,8 @@
   - Preprint
   themes: forecasting markets
   kind: preprint
+  pdf: https://arxiv.org/pdf/2510.12382
+  haspdf: 'yes'
 - title: 'Load forecasting model trading: A cost-oriented and auction-based approach'
   year: 2025
   venue: IEEE Transactions on Smart Grid, in press
@@ -161,6 +185,8 @@
   - Journal article
   themes: forecasting markets
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: 'Inverse game theory: An incenter-based approach'
   year: 2025
   venue: 34th International Joint Conference on Artificial Intelligence (IJCAI 2025), pp. 3805-3813
@@ -173,6 +199,8 @@
   - Conference paper
   themes: optimisation
   kind: conference
+  pdf: https://www.ijcai.org/proceedings/2025/0423.pdf
+  haspdf: 'yes'
 - title: Integrated optimization of operations and capacity planning under uncertainty for drayage procurement in container logistics
   year: 2025
   venue: Preprint, under review
@@ -185,6 +213,8 @@
   - Preprint
   themes: optimisation
   kind: preprint
+  pdf: https://arxiv.org/pdf/2505.01808
+  haspdf: 'yes'
 - title: How long is long enough? Finite-horizon approximation of energy storage scheduling problems
   year: 2025
   venue: Preprint, under review
@@ -198,6 +228,8 @@
   - Preprint
   themes: optimisation energy
   kind: preprint
+  pdf: https://arxiv.org/pdf/2411.17463
+  haspdf: 'yes'
 - title: Generalizable simulation framework for the request-to-order process in the procurement of onboard vessel requisitions
   year: 2025
   venue: Preprint, under review
@@ -210,6 +242,8 @@
   - Preprint
   themes: optimisation
   kind: preprint
+  pdf: https://arxiv.org/pdf/2505.01806
+  haspdf: 'yes'
 - title: Fairness by design in shared-energy allocation problems
   year: 2025
   venue: Computational Management Science, in press
@@ -223,6 +257,8 @@
   - Journal article
   themes: optimisation markets
   kind: article
+  pdf: https://www.researchsquare.com/article/rs-3914653/latest.pdf
+  haspdf: 'yes'
 - title: Do we actually understand the impact of renewables on electricity prices? A causal inference approach
   year: 2025
   venue: iEnergy 4(4), pp. 247-258
@@ -236,6 +272,8 @@
   - Journal article
   themes: markets energy
   kind: article
+  pdf: https://arxiv.org/pdf/2501.10423
+  haspdf: 'yes'
 - title: Data are missing again -- Reconstruction of power generation data using k-Nearest Neighbors and spectral graph theory
   year: 2025
   venue: Wind Energy 28(1), art. no. 2962
@@ -249,6 +287,8 @@
   - Journal article
   themes: forecasting energy
   kind: article
+  pdf: https://www.authorea.com/doi/pdf/10.22541/au.170663898.88889975
+  haspdf: 'yes'
 - title: A negotiation-based incentive mechanism for efficient transmission expansion planning considering generation investment equilibrium in deregulated environment
   year: 2025
   venue: Applied Energy, in press
@@ -262,6 +302,8 @@
   - Journal article
   themes: markets energy
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: A causal analysis of balancing costs in the UK electricity market
   year: 2025
   venue: Preprint, under review
@@ -274,6 +316,8 @@
   - Preprint
   themes: markets
   kind: preprint
+  pdf: ''
+  haspdf: 'no'
 - title: Wind energy forecasting with missing values within a fully conditional specification framework
   year: 2024
   venue: International Journal of Forecasting 40(1), pp. 77-95
@@ -286,6 +330,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: https://arxiv.org/pdf/2203.08252
+  haspdf: 'yes'
 - title: Strategic coalition for data pricing in IoT data markets
   year: 2024
   venue: IEEE Internet of Things Journal 11(4), pp. 6454-6468
@@ -298,6 +344,8 @@
   - Journal article
   themes: markets
   kind: article
+  pdf: https://arxiv.org/pdf/2206.07785
+  haspdf: 'yes'
 - title: Robust generation dispatch with purchase of renewable power and load predictions
   year: 2024
   venue: IEEE Transactions on Sustainable Energy 15(3), pp. 1486-1501
@@ -311,6 +359,8 @@
   - Journal article
   themes: optimisation energy
   kind: article
+  pdf: https://arxiv.org/pdf/2210.00291
+  haspdf: 'yes'
 - title: On tracking varying bounds when forecasting bounded time series
   year: 2024
   venue: Technometrics 66(4), pp. 651-661
@@ -323,6 +373,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: https://arxiv.org/pdf/2306.13428
+  haspdf: 'yes'
 - title: On the efficiency of energy markets with non-merchant storage
   year: 2024
   venue: Energy Systems, in press
@@ -335,6 +387,8 @@
   - Journal article
   themes: markets
   kind: article
+  pdf: https://arxiv.org/pdf/2210.05305
+  haspdf: 'yes'
 - title: 'Data-driven at sea: Forecasting and revenue management at Molslinjen'
   year: 2024
   venue: INFORMS Journal on Applied Analytics (invited; INFORMS Edelman Award 2024 winner)
@@ -348,6 +402,8 @@
   - Journal article
   themes: forecasting analytics
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: CRPS-based online learning for nonlinear probabilistic forecast combination
   year: 2024
   venue: International Journal of Forecasting 40(4), pp. 1449-1466
@@ -360,6 +416,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: https://hal.science/hal-04408320v1/document
+  haspdf: 'yes'
 - title: 'Convolutional encoding and normalizing flows: a deep learning approach for offshore wind speed probabilistic forecasting in the Mediterranean Sea'
   year: 2024
   venue: Artificial Intelligence for the Earth Systems 3(3)
@@ -372,6 +430,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: https://imt-atlantique.hal.science/hal-04645705/document
+  haspdf: 'yes'
 - title: Bayesian regression markets
   year: 2024
   venue: Journal of Machine Learning Research 25(180), pp. 1-38
@@ -384,6 +444,8 @@
   - Journal article
   themes: markets
   kind: article
+  pdf: https://arxiv.org/pdf/2310.14992
+  haspdf: 'yes'
 - title: 'A market for trading forecasts: A wagering mechanism'
   year: 2024
   venue: International Journal of Forecasting 40(1), pp. 142-159
@@ -397,6 +459,8 @@
   - Journal article
   themes: forecasting markets
   kind: article
+  pdf: https://arxiv.org/pdf/2205.02668
+  haspdf: 'yes'
 - title: What may future electricity markets look like?
   year: 2023
   venue: Journal of Modern Power Systems and Clean Energy 11(3), pp. 698-706 (invited)
@@ -409,6 +473,8 @@
   - Journal article
   themes: markets
   kind: article
+  pdf: https://ieeexplore.ieee.org/ielx7/8685265/10136634/10049815.pdf
+  haspdf: 'yes'
 - title: 'Privacy-preserving convex optimization: When differential privacy meets stochastic programming'
   year: 2023
   venue: Preprint, under review
@@ -421,6 +487,8 @@
   - Preprint
   themes: optimisation
   kind: preprint
+  pdf: https://arxiv.org/pdf/2209.14152
+  haspdf: 'yes'
 - title: P2P market coordination methodologies with distribution grid management
   year: 2023
   venue: Sustainable Energy, Grids and Networks 34, art. no. 101075
@@ -433,6 +501,8 @@
   - Journal article
   themes: markets
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Online decision-making for trading wind energy
   year: 2023
   venue: Computational Management Science 20, art. no. 33
@@ -446,6 +516,8 @@
   - Journal article
   themes: markets optimisation
   kind: article
+  pdf: https://link.springer.com/content/pdf/10.1007/s10287-023-00462-2.pdf
+  haspdf: 'yes'
 - title: On the design of decentralised data markets
   year: 2023
   venue: Preprint, under review
@@ -458,6 +530,8 @@
   - Preprint
   themes: markets
   kind: preprint
+  pdf: https://arxiv.org/pdf/2206.06299
+  haspdf: 'yes'
 - title: On machine learning-based techniques for future sustainable and resilient energy systems
   year: 2023
   venue: IEEE Transactions on Sustainable Energy 14(2), pp. 1230-1243
@@ -470,6 +544,8 @@
   - Journal article
   themes: energy
   kind: article
+  pdf: https://orbit.dtu.dk/files/282943131/On_Machine_Learning_Based_Techniques_for_Future_Sustainable_and_Resilient_Energy_Systems.pdf
+  haspdf: 'yes'
 - title: Moving from linear to conic markets for electricity
   year: 2023
   venue: European Journal of Operational Research 309(2), pp. 762-783
@@ -483,6 +559,8 @@
   - Journal article
   themes: markets optimisation
   kind: article
+  pdf: https://arxiv.org/pdf/2103.12122
+  haspdf: 'yes'
 - title: Fair and scalable electric vehicle charging under electrical grid constraints
   year: 2023
   venue: IEEE Transactions on Intelligent Transportation Systems 24(12), pp. 15169-15177
@@ -496,6 +574,8 @@
   - Journal article
   themes: optimisation energy
   kind: article
+  pdf: https://pure.tue.nl/ws/files/316735503/Fair_and_Scalable_Electric_Vehicle_Charging_Under_Electrical_Grid_Constraints.pdf
+  haspdf: 'yes'
 - title: Distributionally robust trading strategies for renewable energy producers
   year: 2023
   venue: IEEE Transactions on Energy Markets, Policy and Regulation 1(1), pp. 37-47
@@ -509,6 +589,8 @@
   - Journal article
   themes: markets optimisation
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Chance-constrained economic dispatch of generic energy storage under decision-dependent uncertainty
   year: 2023
   venue: IEEE Transactions on Sustainable Energy 14(4), pp. 2234-2248
@@ -522,6 +604,8 @@
   - Journal article
   themes: optimisation energy
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Variable heat pricing to steer the flexibility of heat demand response in district heating systems
   year: 2022
   venue: Electric Power Systems Research 212, art. no. 108383
@@ -534,6 +618,8 @@
   - Journal article
   themes: energy
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: 'Trading data for wind power forecasting: A regression market with Lasso regularization'
   year: 2022
   venue: Electric Power Systems Research 212, art. no. 108442
@@ -547,6 +633,8 @@
   - Journal article
   themes: forecasting markets
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: To share or not to share? Alternative views on a future of collaborative forecasting
   year: 2022
   venue: Foresight 67, pp. 8-15
@@ -559,6 +647,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Stochastic control and pricing for natural gas networks
   year: 2022
   venue: IEEE Transactions on Control of Network Systems 9(1), pp. 450-462
@@ -572,6 +662,8 @@
   - Journal article
   themes: optimisation energy
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Reliability-aware probabilistic reserve procurement
   year: 2022
   venue: Electric Power Systems Research 212, art. no. 108345
@@ -585,6 +677,8 @@
   - Journal article
   themes: optimisation energy
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Regression markets and application to energy forecasting
   year: 2022
   venue: TOP 30, pp. 533-573
@@ -598,6 +692,8 @@
   - Journal article
   themes: forecasting markets
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: 'Pandemics and forecasting: The way forward through the Taleb-Ioannidis debate'
   year: 2022
   venue: International Journal of Forecasting 38(2), pp. 410-412
@@ -610,6 +706,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: 'North Sea energy islands: Impact on national markets and grids'
   year: 2022
   venue: Energy Policy 167, art. no. 112907
@@ -623,6 +721,8 @@
   - Journal article
   themes: markets energy
   kind: article
+  pdf: https://arxiv.org/pdf/2103.17056
+  haspdf: 'yes'
 - title: Multi-stage linear decision rules for stochastic control of natural gas networks with linepack
   year: 2022
   venue: Electric Power Systems Research 212, art. no. 108388
@@ -636,6 +736,8 @@
   - Journal article
   themes: optimisation energy
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: 'Forecasting: theory and practice'
   year: 2022
   venue: International Journal of Forecasting 38(3), pp. 705-871
@@ -648,6 +750,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: 'Editorial: Epidemics and forecasting with focus on COVID-19'
   year: 2022
   venue: International Journal of Forecasting 38(2), pp. 407-409
@@ -660,6 +764,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: 'Continuous and distribution-free probabilistic wind power forecasting: A conditional normalizing flow approach'
   year: 2022
   venue: IEEE Transactions on Sustainable Energy 13(4), pp. 2250-2263
@@ -672,6 +778,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: An asynchronous online negotiation mechanism for real-time peer-to-peer electricity markets
   year: 2022
   venue: IEEE Transactions on Power Systems 37(3), pp. 1868-1880
@@ -684,6 +792,8 @@
   - Journal article
   themes: markets
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: A network-aware market mechanism for decentralized district heating systems
   year: 2022
   venue: Applied Energy, art. no. 117956
@@ -697,6 +807,8 @@
   - Journal article
   themes: markets energy
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: What do prosumer marginal utility functions look like? Derivation and analysis
   year: 2021
   venue: IEEE Transactions on Power Systems 36(5), pp. 4322-4330
@@ -709,6 +821,8 @@
   - Journal article
   themes: markets
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Transactive energy for flexible prosumers using algorithmic game theory
   year: 2021
   venue: IEEE Transactions on Sustainable Energy 12(3), pp. 1571-1581
@@ -721,6 +835,8 @@
   - Journal article
   themes: markets
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Towards data markets in renewable energy forecasting
   year: 2021
   venue: IEEE Transactions on Sustainable Energy 12(1), pp. 533-542
@@ -734,6 +850,8 @@
   - Journal article
   themes: forecasting markets
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Privacy-preserving distributed learning for renewable energy forecasting
   year: 2021
   venue: IEEE Transactions on Sustainable Energy 12(3), pp. 1777-1787
@@ -746,6 +864,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Price-region bids in electricity markets
   year: 2021
   venue: European Journal of Operational Research 295(3), pp. 1056-1073
@@ -758,6 +878,8 @@
   - Journal article
   themes: markets
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Online optimization for real-time peer-to-peer electricity market mechanisms
   year: 2021
   venue: IEEE Transactions on Smart Grid 12(5), pp. 4151-4163
@@ -771,6 +893,8 @@
   - Journal article
   themes: markets optimisation
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Online forecast reconciliation in wind power prediction
   year: 2021
   venue: Electric Power Systems Research 190, art. no. 106637
@@ -783,6 +907,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Online distributed learning in wind power forecasting
   year: 2021
   venue: International Journal of Forecasting 37(1), pp. 205-223
@@ -795,6 +921,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: 'Monetizing customer load data for an energy retailer: A cooperative game approach'
   year: 2021
   venue: Proc. Probabilistic Methods Applied to Power Systems (PMAPS) 2021
@@ -807,6 +935,8 @@
   - Conference paper
   themes: markets
   kind: conference
+  pdf: https://arxiv.org/pdf/2012.05519
+  haspdf: 'yes'
 - title: Mechanism design for fair and efficient DSO flexibility markets
   year: 2021
   venue: IEEE Transactions on Smart Grid 12(3), pp. 2249-2260
@@ -819,6 +949,8 @@
   - Journal article
   themes: markets
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Managing distributed flexibility under uncertainty by combining deep learning with duality
   year: 2021
   venue: IEEE Transactions on Sustainable Energy 12(4), pp. 2195-2204
@@ -832,6 +964,8 @@
   - Journal article
   themes: optimisation energy
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Forecasting and market design advances
   year: 2021
   venue: IEEE Power and Energy Magazine 19(6), pp. 75-85
@@ -845,6 +979,8 @@
   - Journal article
   themes: forecasting markets
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Energy and reserve dispatch with distributionally robust joint chance constraints
   year: 2021
   venue: Operations Research Letters 49(3), pp. 291-299
@@ -857,6 +993,8 @@
   - Journal article
   themes: optimisation
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Electric demand response and bounded rationality – Mean-field control for large populations of heterogeneous bounded-rational agents
   year: 2021
   venue: Philosophical Transactions of the Royal Society A 379(2202), art. no. 20190429
@@ -870,6 +1008,8 @@
   - Journal article
   themes: optimisation energy
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Dynamic reserve and transmission capacity allocation in wind-dominated power systems
   year: 2021
   venue: IEEE Transactions on Power Systems 36(4), pp. 3017-3028
@@ -883,6 +1023,8 @@
   - Journal article
   themes: markets optimisation
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Design and game-theoretical analysis of community-based market mechanisms in heat and electricity systems
   year: 2021
   venue: Omega 99, art. no. 102177
@@ -895,6 +1037,8 @@
   - Journal article
   themes: markets
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Coordination of power and natural gas markets via financial instruments
   year: 2021
   venue: Computational Management Science 18, pp. 505-538
@@ -907,6 +1051,8 @@
   - Journal article
   themes: markets
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Chance-constrained peer-to-peer joint energy and reserve market based on consensus ADMM
   year: 2021
   venue: IEEE Transactions on Smart Grid 12(1), pp. 798-809
@@ -920,6 +1066,8 @@
   - Journal article
   themes: markets optimisation
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Adaptive generalized logit-Normal distributions for wind power short-term forecasting
   year: 2021
   venue: Proc. Probabilistic Methods Applied to Power Systems (PMAPS) 2021
@@ -932,6 +1080,8 @@
   - Conference paper
   themes: forecasting
   kind: conference
+  pdf: https://arxiv.org/pdf/2012.08910
+  haspdf: 'yes'
 - title: A self-adaptive multikernel machine based on Recursive Least-Squares applied to very short-term wind power forecasting
   year: 2021
   venue: IEEE Access 9, pp. 104761-104772
@@ -944,6 +1094,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: A critical overview of privacy-preserving approaches for collaborative forecasting
   year: 2021
   venue: International Journal of Forecasting 37(1), pp. 322-342
@@ -956,6 +1108,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Loss allocation in joint transmission and distribution peer-to-peer markets
   year: 2021
   venue: IEEE Transactions on Power Systems 36(3), pp. 1833-1842
@@ -968,6 +1122,8 @@
   - Journal article
   themes: markets
   kind: article
+  pdf: https://arxiv.org/pdf/2001.05396
+  haspdf: 'yes'
 - title: Differentially private optimal power flow for distribution grids
   year: 2021
   venue: IEEE Transactions on Power Systems 36(3), pp. 2186-2196
@@ -981,6 +1137,8 @@
   - Journal article
   themes: optimisation energy
   kind: article
+  pdf: https://arxiv.org/pdf/2004.03921
+  haspdf: 'yes'
 - title: Transactive energy based aggregation of prosumers as a retailer
   year: 2020
   venue: IEEE Transactions on Smart Grid 11(4), pp. 3302-3312
@@ -993,6 +1151,8 @@
   - Journal article
   themes: markets
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: The future of forecasting for renewable energy
   year: 2020
   venue: WIREs Energy and Environment 9(2), art. no. e365
@@ -1006,6 +1166,8 @@
   - Journal article
   themes: forecasting energy
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: 'The ethical smart grid: Enabling a fruitful and long-lasting relationship between utilities and customers'
   year: 2020
   venue: Energy Policy 140, art. no. 111258
@@ -1018,6 +1180,8 @@
   - Journal article
   themes: energy
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Statistical post-processing of turbulence-resolving weather forecasts for offshore wind power forecasting
   year: 2020
   venue: Wind Energy 23(4), pp. 884-897
@@ -1030,6 +1194,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Market-based coordination for integrated electricity and natural gas systems under uncertain supply
   year: 2020
   venue: European Journal of Operational Research 287(3), pp. 1105-1119
@@ -1043,6 +1209,8 @@
   - Journal article
   themes: markets optimisation
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Heterogeneous risk preferences in community-based electricity markets
   year: 2020
   venue: European Journal of Operational Research 287(1), pp. 36-48
@@ -1055,6 +1223,8 @@
   - Journal article
   themes: markets
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: 'Heat and electricity market coordination: A scalable complementarity approach'
   year: 2020
   venue: European Journal of Operational Research 283(3), pp. 1107-1123
@@ -1068,6 +1238,8 @@
   - Journal article
   themes: markets optimisation
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Evaluation of wind power forecasts – An up-to-date view
   year: 2020
   venue: Wind Energy 23(6), pp. 1461-1481
@@ -1080,6 +1252,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: 'Energy forecasting: A review and outlook'
   year: 2020
   venue: IEEE Open Access Journal of Power and Energy 7, pp. 376-388
@@ -1093,6 +1267,8 @@
   - Journal article
   themes: forecasting energy
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Editorial
   year: 2020
   venue: International Journal of Forecasting 36(2), pp. 229-231
@@ -1105,6 +1281,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Do unit commitment constraints affect generation expansion planning? A scalable stochastic model
   year: 2020
   venue: Energy Systems 11, pp. 247-282
@@ -1118,6 +1296,8 @@
   - Journal article
   themes: optimisation energy
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Distributionally robust chance-constrained generation expansion planning
   year: 2020
   venue: IEEE Transactions on Power Systems 35(4), pp. 2888-2903
@@ -1131,6 +1311,8 @@
   - Journal article
   themes: optimisation energy
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: 'Demand side management of heat in smart homes: Living-lab experiments'
   year: 2020
   venue: Energy 195, art. no. 116993
@@ -1143,6 +1325,8 @@
   - Journal article
   themes: energy
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Chance-constrained optimal power flow with nonparametric probability distributions of dynamic line ratings
   year: 2020
   venue: International Journal of Electrical Power and Energy Systems 114, art. no. 105389
@@ -1156,6 +1340,8 @@
   - Journal article
   themes: optimisation energy
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Big data analytics for future electricity grids
   year: 2020
   venue: Electric Power Systems Research 189, art. no. 106788
@@ -1168,6 +1354,8 @@
   - Journal article
   themes: energy
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Affine policies for flexibility provision by natural gas networks to power systems
   year: 2020
   venue: Electric Power Systems Research 189, art. no. 106565
@@ -1181,6 +1369,8 @@
   - Journal article
   themes: optimisation energy
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Added-value of ensemble prediction system on the quality of solar irradiance probabilistic forecasts
   year: 2020
   venue: Renewable Energy 162, pp. 1321-1339
@@ -1193,6 +1383,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: 'A mid-term DSO market for capacity limits: How to estimate opportunity costs of aggregators?'
   year: 2020
   venue: IEEE Transactions on Smart Grid 11(1), pp. 334-345
@@ -1205,6 +1397,8 @@
   - Journal article
   themes: markets
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: A local market mechanism for physical storage rights
   year: 2020
   venue: IEEE Transactions on Power Systems 35(4), pp. 3087-3099
@@ -1217,6 +1411,8 @@
   - Journal article
   themes: markets
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Verification of solar irradiance probabilistic forecasts
   year: 2019
   venue: Solar Energy 194, pp. 254-271
@@ -1229,6 +1425,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Trading wind power through physically settled options and short-term electricity markets
   year: 2019
   venue: Wind Energy 22(11), pp. 1487-1499
@@ -1241,6 +1439,8 @@
   - Journal article
   themes: markets
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Temporal hierarchies with autocorrelation for load forecasting
   year: 2019
   venue: European Journal of Operational Research 280(3), pp. 876-888
@@ -1253,6 +1453,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Polyhedral predictive regions for power system applications
   year: 2019
   venue: IEEE Transactions on Power Systems 34(1), pp. 693-704
@@ -1266,6 +1468,8 @@
   - Journal article
   themes: forecasting optimisation
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: 'Peer-to-peer and community-driven markets: a comprehensive review'
   year: 2019
   venue: Renewable and Sustainable Energy Reviews 104, pp. 367-378
@@ -1278,6 +1482,8 @@
   - Journal article
   themes: markets
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Optimal allocation of HVDC interconnections for exchange of energy and reserve capacity services
   year: 2019
   venue: Energy Systems 10(3), pp. 635-675
@@ -1291,6 +1497,8 @@
   - Journal article
   themes: markets optimisation
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Online adaptive LASSO estimation in Vector Auto Regressive models for wind power forecasting in high dimension
   year: 2019
   venue: International Journal of Forecasting 35(4), pp. 1485-1498
@@ -1303,6 +1511,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Online adaptive clustering algorithm for load profiling
   year: 2019
   venue: Sustainable Energy, Grids and Networks 17, art. no. 100181
@@ -1316,6 +1526,8 @@
   - Journal article
   themes: analytics energy
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Incentive-compatibility in a two-stage stochastic electricity market with high wind power penetration
   year: 2019
   venue: IEEE Transactions on Power Systems 34(4), pp. 2846-2858
@@ -1328,6 +1540,8 @@
   - Journal article
   themes: markets
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: 'Guest editorial: Energy forecasting in the big data world'
   year: 2019
   venue: International Journal of Forecasting 35(4), pp. 1387-1388
@@ -1340,6 +1554,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Forecast reconciliation in day-ahead wind power forecasting
   year: 2019
   venue: Energies 12, art. no. 1112
@@ -1352,6 +1568,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Exogenous approach to grid cost allocation in peer-to-peer electricity markets
   year: 2019
   venue: IEEE Transactions on Power Systems 34(4), pp. 2553-2564
@@ -1364,6 +1582,8 @@
   - Journal article
   themes: markets
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: 'Energy Collectives: a community and fairness based approach to future electricity markets'
   year: 2019
   venue: IEEE Transactions on Power Systems 34(5), pp. 3994-4004
@@ -1376,6 +1596,8 @@
   - Journal article
   themes: markets
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Electricity market equilibrium under information asymmetry
   year: 2019
   venue: Operations Research Letters 47(6), pp. 521-526
@@ -1388,6 +1610,8 @@
   - Journal article
   themes: markets
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Convex relaxations and approximations of chance-constrained AC-OPF problems
   year: 2019
   venue: IEEE Transactions on Power Systems 34(2), pp. 1459-1470
@@ -1401,6 +1625,8 @@
   - Journal article
   themes: optimisation energy
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Consensus-based approach to peer-to-peer electricity markets with product differentiation
   year: 2019
   venue: IEEE Transactions on Power Systems 34(2), pp. 994-1004
@@ -1413,6 +1639,8 @@
   - Journal article
   themes: markets
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: An integrated market for electricity and natural gas systems with stochastic power producers
   year: 2019
   venue: European Journal of Operational Research 272(2), pp. 642-654
@@ -1426,6 +1654,8 @@
   - Journal article
   themes: markets optimisation
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Visualizing big energy data
   year: 2018
   venue: IEEE Power and Energy Magazine 16(3), pp. 18-25
@@ -1439,6 +1669,8 @@
   - Journal article
   themes: analytics energy
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: 'Stochastic market design with revenue adequacy and cost recovery by scenario: benefits and costs'
   year: 2018
   venue: IEEE Transactions on Power Systems 33(4), pp. 3531-3545
@@ -1452,6 +1684,8 @@
   - Journal article
   themes: markets optimisation
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Real-time trading strategies of proactive DISCO with heterogeneous DG owners
   year: 2018
   venue: IEEE Transactions on Smart Grid 9(3), pp. 1688-1697
@@ -1464,6 +1698,8 @@
   - Journal article
   themes: markets
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Real-time procurement strategies of a proactive distribution company with aggregator-based demand response
   year: 2018
   venue: IEEE Transactions on Smart Grid 9(2), pp. 766-776
@@ -1476,6 +1712,8 @@
   - Journal article
   themes: markets
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Price-taker offering strategy in electricity pay-as-bid markets
   year: 2018
   venue: IEEE Transactions on Power Systems 33(2), pp. 2175-2183
@@ -1488,6 +1726,8 @@
   - Journal article
   themes: markets
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Prévision météorologique pour les énergies renouvelables
   year: 2018
   venue: La Météorologie 100, pp. 1-8
@@ -1500,6 +1740,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Evaluating price-based demand response in practice – With application to the EcoGrid EU experiment
   year: 2018
   venue: IEEE Transactions on Smart Grid 9(3), pp. 2304-2313
@@ -1513,6 +1755,8 @@
   - Journal article
   themes: energy analytics
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Ellipsoidal prediction regions for multivariate uncertainty characterization
   year: 2018
   venue: IEEE Transactions on Power Systems 33(4), pp. 4519-4530
@@ -1525,6 +1769,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Cost-optimal ATCs in zonal electricity markets
   year: 2018
   venue: IEEE Transactions on Power Systems 33(4), pp. 3624-3633
@@ -1538,6 +1784,8 @@
   - Journal article
   themes: markets optimisation
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Correlation-constrained and sparsity-controlled vector autoregressive model for spatio-temporal wind power forecasting
   year: 2018
   venue: IEEE Transactions on Power Systems 33(5)
@@ -1550,6 +1798,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Benefits of spatio-temporal modelling for short term wind power forecasting at both individual and aggregated levels
   year: 2018
   venue: Environmetrics 29(3), art. no. e2493
@@ -1562,6 +1812,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Bayesian approach to unveiling supply curves in electricity markets
   year: 2018
   venue: IEEE Transactions on Power Systems 33(3), pp. 2610-2620
@@ -1574,6 +1826,8 @@
   - Journal article
   themes: markets
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Active distribution grid management based on robust AC optimal power flow
   year: 2018
   venue: IEEE Transactions on Smart Grid 9(6), pp. 6229-6241
@@ -1587,6 +1841,8 @@
   - Journal article
   themes: optimisation energy
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: A local energy market for electricity and hydrogen
   year: 2018
   venue: IEEE Transactions on Power Systems 33(4), pp. 3898-3908
@@ -1600,6 +1856,8 @@
   - Journal article
   themes: markets energy
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Towards fully renewable energy systems – Experience and trends in Denmark
   year: 2017
   venue: CSEE Journal of Power and Energy Systems 3(1), pp. 26-35
@@ -1613,6 +1871,8 @@
   - Journal article
   themes: energy markets
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: The emergence of consumer-centric electricity markets
   year: 2017
   venue: Distribution & Utilization 34(12), pp. 27-31 (in Chinese)
@@ -1625,6 +1885,8 @@
   - Journal article
   themes: markets
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Spatial models for probabilistic prediction of wind power with application to yearly average and high temporal resolution data
   year: 2017
   venue: Stochastic Environmental Research and Risk Assessment 31(7), pp. 1615-1631
@@ -1637,6 +1899,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: 'RE-Europe: a large-scale dataset for a future renewable-energy based European power system'
   year: 2017
   venue: Scientific Data 4, art. no. 170175
@@ -1650,6 +1914,8 @@
   - Journal article
   themes: energy analytics
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Optimal offering and operating strategy for a large wind-storage system as a price maker
   year: 2017
   venue: IEEE Transactions on Power Systems 32(6), pp. 4904-4913
@@ -1663,6 +1929,8 @@
   - Journal article
   themes: markets optimisation
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Optimal offering and allocation policies for wind power in energy and reserve markets
   year: 2017
   venue: Wind Energy 20(11), pp. 1851-1870
@@ -1675,6 +1943,8 @@
   - Journal article
   themes: markets
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Impact of public aggregate wind forecasts on electricity market outcomes
   year: 2017
   venue: IEEE Transactions on Sustainable Energy 8(4), pp. 1394-1405
@@ -1688,6 +1958,8 @@
   - Journal article
   themes: forecasting markets
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: From demand response evaluation to forecasting – Methods and results from the EcoGrid EU experiment
   year: 2017
   venue: Sustainable Energy, Grids and Networks 10, pp. 75-83
@@ -1701,6 +1973,8 @@
   - Journal article
   themes: forecasting energy
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Decision-dependent stochastic generation expansion planning with large amounts of wind power
   year: 2017
   venue: IEEE Transactions on Power Systems 32(4), pp. 3015-3026
@@ -1714,6 +1988,8 @@
   - Journal article
   themes: optimisation energy
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Attribution mechanisms for ancillary service costs induced by variability in power delivery
   year: 2017
   venue: IEEE Transactions on Power Systems 32(3), pp. 1891-1901
@@ -1726,6 +2002,8 @@
   - Journal article
   themes: markets
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Very-short-term probabilistic wind power forecasts by sparse vector autoregression
   year: 2016
   venue: IEEE Transactions on Smart Grid 7(2), pp. 763-770
@@ -1738,6 +2016,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Very short-term nonparametric probabilistic forecasting of renewable energy generation – with application to solar energy
   year: 2016
   venue: IEEE Transactions on Power Systems 31(5), pp. 3850-3863
@@ -1750,6 +2030,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Trading strategies for distribution company with stochastic distributed energy resources
   year: 2016
   venue: Applied Energy 177, pp. 625-635
@@ -1762,6 +2044,8 @@
   - Journal article
   themes: markets
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: 'Sharing wind power forecasts in electricity markets: A numerical analysis'
   year: 2016
   venue: Applied Energy 176, pp. 65-73
@@ -1775,6 +2059,8 @@
   - Journal article
   themes: forecasting markets
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Quantile forecast discrimination ability and value
   year: 2016
   venue: Quarterly Journal of the Royal Meteorological Society 141(693), pp. 3415-3424
@@ -1787,6 +2073,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: 'Probabilistic energy forecasting: Global Energy Forecasting Competition 2014 and beyond'
   year: 2016
   venue: International Journal of Forecasting 32(3), pp. 896-913
@@ -1799,6 +2087,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Optimal offering strategies for wind power in energy and primary reserve markets
   year: 2016
   venue: IEEE Transactions on Sustainable Energy 7(3), pp. 1036-1045
@@ -1811,6 +2101,8 @@
   - Journal article
   themes: markets
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Optimal offering for wind-storage systems using linear decision rules
   year: 2016
   venue: IEEE Transactions on Power Systems 31(6), pp. 5061-5070
@@ -1824,6 +2116,8 @@
   - Journal article
   themes: markets optimisation
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Optimal bidding strategy of battery storage in power markets considering performance based regulation and battery cycle life
   year: 2016
   venue: IEEE Transactions on Smart Grid 7(5), pp. 2359-2367
@@ -1837,6 +2131,8 @@
   - Journal article
   themes: markets optimisation
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Introducing distributed learning in wind power forecasting
   year: 2016
   venue: Proc. Probabilistic Methods Applied to Power Systems (PMAPS) 2016
@@ -1849,6 +2145,8 @@
   - Conference paper
   themes: forecasting
   kind: conference
+  pdf: ''
+  haspdf: 'no'
 - title: Integrated bidding and operating strategies for wind farms enhanced with storage
   year: 2016
   venue: IEEE Transactions on Sustainable Energy 7(1), pp. 163-172
@@ -1862,6 +2160,8 @@
   - Journal article
   themes: markets optimisation
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: 'Information uncertainty in electricity markets: Introducing probabilistic offers'
   year: 2016
   venue: IEEE Transactions on Power Systems 31(6), pp. 5202-5203
@@ -1874,6 +2174,8 @@
   - Journal article
   themes: markets
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Impact of inter- and intra-regional coordination in markets with a large renewable component
   year: 2016
   venue: IEEE Transactions on Power Systems 31(6), pp. 4755-4764
@@ -1886,6 +2188,8 @@
   - Journal article
   themes: markets
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Identifying and characterizing the impact of turbine icing on wind farm power generation
   year: 2016
   venue: Wind Energy 19(8), pp. 1503-1518
@@ -1899,6 +2203,8 @@
   - Journal article
   themes: forecasting energy
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Generation of scenarios from calibrated ensemble forecasts with a dynamic ensemble copula coupling approach
   year: 2016
   venue: Monthly Weather Review 144(12), pp. 4737-4750
@@ -1911,6 +2217,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Generation and evaluation of space-time trajectories of photovoltaic generation
   year: 2016
   venue: Applied Energy 176, pp. 80-91
@@ -1923,6 +2231,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Economic dispatch of demand-side balancing through asymmetric block offers
   year: 2016
   venue: IEEE Transactions on Power Systems 31(4), pp. 2999-3007
@@ -1936,6 +2246,8 @@
   - Journal article
   themes: markets optimisation
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Adaptive robust polynomial regression for power curve modeling with application to wind power forecasting
   year: 2016
   venue: Wind Energy 19(12), pp. 2321-2336
@@ -1948,6 +2260,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: A multi-period OPF model under renewable generation uncertainty and demand-side flexibility
   year: 2016
   venue: IEEE Transactions on Smart Grid 7(3), pp. 1495-1503
@@ -1961,6 +2275,8 @@
   - Journal article
   themes: optimisation energy
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: The "WIRE" benchmarking exercise on short-term forecasting models for renewable power generation
   year: 2015
   venue: Energies 8(9), pp. 9594-9619
@@ -1973,6 +2289,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Probabilistic maximum-value wind prediction for offshore environments
   year: 2015
   venue: Wind Energy 18(10), pp. 1725-1738
@@ -1985,6 +2303,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Offering strategies for hybrid concentrated solar-fossil power plants through robust optimization
   year: 2015
   venue: International Journal of Electrical Power and Energy Systems 67, pp. 639-650
@@ -1998,6 +2318,8 @@
   - Journal article
   themes: markets optimisation
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: 'Foreword for the special section on wind and solar energy: uncovering and accommodating their impacts on electricity markets'
   year: 2015
   venue: IEEE Transactions on Power Systems 30(3), pp. 1557-1559
@@ -2010,6 +2332,8 @@
   - Journal article
   themes: markets
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Forecasting for dynamic line rating
   year: 2015
   venue: Renewable and Sustainable Energy Reviews 52, pp. 1713-1730
@@ -2023,6 +2347,8 @@
   - Journal article
   themes: forecasting energy
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Weather radars – the new eyes of offshore wind farms
   year: 2014
   venue: Wind Energy 17(11), pp. 1767-1787
@@ -2035,6 +2361,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Redefining the merit order of stochastic generation in forward markets
   year: 2014
   venue: IEEE Transactions on Power Systems 29(2), pp. 992-993 (letter)
@@ -2047,6 +2375,8 @@
   - Journal article
   themes: markets
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Probabilistic forecasts of wind power generation accounting for geographically dispersed information
   year: 2014
   venue: IEEE Transactions on Smart Grid 5(1), pp. 480-489
@@ -2059,6 +2389,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Probabilistic forecasting of wind power generation using extreme learning machine
   year: 2014
   venue: IEEE Transactions on Power Systems 29(3), pp. 1033-1044
@@ -2071,6 +2403,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Optimal prediction intervals of wind power generation
   year: 2014
   venue: IEEE Transactions on Power Systems 29(3), pp. 1166-1174
@@ -2083,6 +2417,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: 'Guest editorial: Special section on analytics for energy forecasting with applications to smart grid'
   year: 2014
   venue: IEEE Transactions on Smart Grid 5(1), pp. 399-401
@@ -2095,6 +2431,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Global Energy Forecasting Competition 2012 (GEFCom2012)
   year: 2014
   venue: International Journal of Forecasting 30(2), pp. 357-363
@@ -2107,6 +2445,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: FLECH – A Danish market solution for DSO congestion management through DER flexibility services
   year: 2014
   venue: Journal of Modern Power Systems and Clean Energy 2(2), pp. 126-133
@@ -2119,6 +2459,8 @@
   - Journal article
   themes: markets
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Exponential smoothing approaches for prediction in real-time electricity markets
   year: 2014
   venue: Energies 7(6), pp. 3710-3732
@@ -2132,6 +2474,8 @@
   - Journal article
   themes: forecasting markets
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Electricity market clearing with improved dispatch of stochastic producers
   year: 2014
   venue: European Journal of Operational Research 235(3), pp. 765-774
@@ -2145,6 +2489,8 @@
   - Journal article
   themes: markets optimisation
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Early warnings of extreme winds utilising the ECMWF Extreme Forecast Index
   year: 2014
   venue: Meteorological Applications 21(2), pp. 171-185
@@ -2157,6 +2503,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Discussion of "Prediction intervals for short-term wind farm generation forecasts" and "Combined nonparametric prediction intervals for wind power generation"
   year: 2014
   venue: IEEE Transactions on Sustainable Energy 5(3), pp. 1018-1019
@@ -2169,6 +2517,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Density forecasting of day-ahead electricity prices using time-adaptive quantile regression
   year: 2014
   venue: Energies 7(9), pp. 5523-5547
@@ -2182,6 +2532,8 @@
   - Journal article
   themes: forecasting markets
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: 'Comments on: Space-time wind speed forecasting for improved power system dispatch'
   year: 2014
   venue: TEST 23(1), pp. 26-29
@@ -2194,6 +2546,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: 'Benefits and challenges of electric demand response: A critical review'
   year: 2014
   venue: Renewable and Sustainable Energy Reviews 39, pp. 686-699
@@ -2206,6 +2560,8 @@
   - Journal article
   themes: energy
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Automatic classification of offshore wind regimes with weather radar observations
   year: 2014
   venue: IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing 7(1), pp. 116-125
@@ -2218,6 +2574,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: 'Wind energy: Forecasting challenges for its optimal management'
   year: 2013
   venue: Statistical Science 28(4), pp. 564-585
@@ -2230,6 +2588,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Trading wind energy on the basis of probabilistic forecasts of both wind generation and market quantities
   year: 2013
   venue: Wind Energy 16(6), pp. 909-926
@@ -2243,6 +2603,8 @@
   - Journal article
   themes: forecasting markets
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: The impact of wind power on European cross-border power flows
   year: 2013
   venue: IEEE Transactions on Power Systems 28(4), pp. 3566-3575
@@ -2256,6 +2618,8 @@
   - Journal article
   themes: markets energy
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Pool strategy of a price-maker wind power producer
   year: 2013
   venue: IEEE Transactions on Power Systems 28(3), pp. 3440-3450
@@ -2269,6 +2633,8 @@
   - Journal article
   themes: markets optimisation
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Forecasting day-ahead electricity prices accounting for the impact of wind power generation
   year: 2013
   venue: IEEE Transactions on Sustainable Energy 4(1), pp. 210-218
@@ -2282,6 +2648,8 @@
   - Journal article
   themes: forecasting markets
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Direct interval forecasting of wind power
   year: 2013
   venue: IEEE Transactions on Power Systems 28(4), pp. 4877-4878 (letter)
@@ -2294,6 +2662,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Controlling electricity consumption by forecasting its response to varying prices
   year: 2013
   venue: IEEE Transactions on Power Systems 28(1), pp. 421-429
@@ -2307,6 +2677,8 @@
   - Journal article
   themes: forecasting energy
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Chance-constrained optimization of demand response to price signals
   year: 2013
   venue: IEEE Transactions on Smart Grid 4(4), pp. 2072-2080
@@ -2320,6 +2692,8 @@
   - Journal article
   themes: optimisation energy
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: A comparison between the ECMWF and COSMO Ensemble Prediction Systems applied to short-term wind power forecasting
   year: 2013
   venue: Applied Energy 107, pp. 271-280
@@ -2332,6 +2706,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: A bilevel model for electricity retailers' participation in a demand response market environment
   year: 2013
   venue: Energy Economics 36, pp. 182-197
@@ -2345,6 +2721,8 @@
   - Journal article
   themes: markets optimisation
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Very short-term probabilistic forecasting of wind power with generalized logit-Normal distributions
   year: 2012
   venue: Journal of the Royal Statistical Society, Series C 61(4), pp. 555-576
@@ -2357,6 +2735,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Verification of the ECMWF ensemble forecasts of wind speed against analyses and observations
   year: 2012
   venue: Meteorological Applications 19(4), pp. 484-500
@@ -2369,6 +2749,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Probabilistic forecasting of the wave energy flux
   year: 2012
   venue: Applied Energy 93, pp. 364-370
@@ -2382,6 +2764,8 @@
   - Journal article
   themes: forecasting energy
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Evaluating the quality of scenarios of short-term wind power generation
   year: 2012
   venue: Applied Energy 96, pp. 12-20
@@ -2394,6 +2778,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Adaptive modeling and forecasting of wind power fluctuations with Markov-switching autoregressive models
   year: 2012
   venue: Journal of Forecasting 31(4), pp. 281-313
@@ -2406,6 +2792,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Adaptive calibration of (u,v)-wind ensemble forecasts
   year: 2012
   venue: Quarterly Journal of the Royal Meteorological Society 138(666), pp. 1273-1284
@@ -2418,6 +2806,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: A transmission-cost-based model to estimate the amount of market-integrable wind resources
   year: 2012
   venue: IEEE Transactions on Power Systems 27(2), pp. 1060-1069
@@ -2431,6 +2821,8 @@
   - Journal article
   themes: markets energy
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: A general probabilistic forecasting framework for offshore wind power fluctuations
   year: 2012
   venue: Energies 5(3), pp. 621-657
@@ -2443,6 +2835,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Wind fluctuations over the North Sea
   year: 2011
   venue: International Journal of Climatology 31(11), pp. 1584-1595
@@ -2455,6 +2849,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Spatio-temporal analysis and modeling of wind power forecast errors
   year: 2011
   venue: Wind Energy 14(1), pp. 43-60
@@ -2467,6 +2863,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Influence of local wind speed and direction on wind power dynamics – Application to offshore very short-term prediction
   year: 2011
   venue: Applied Energy 88(11), pp. 4087-4096
@@ -2479,6 +2877,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Forecasting ocean waves – The ECMWF wave model and time-series methods
   year: 2011
   venue: Ocean Engineering 38(10), pp. 1089-1099
@@ -2491,6 +2891,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Resolving non-stationary spectral signals in wind speed time-series using the Hilbert-Huang transform
   year: 2010
   venue: Journal of Applied Meteorology and Climatology 49(2), pp. 253-267
@@ -2503,6 +2905,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: 'Reliability diagrams for nonparametric density forecasts of continuous variables: accounting for serial correlation'
   year: 2010
   venue: Quarterly Journal of the Royal Meteorological Society 136(646), pp. 77-90
@@ -2515,6 +2919,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: On the market impact of wind energy forecasts
   year: 2010
   venue: Energy Economics 32(2), pp. 313-320
@@ -2528,6 +2934,8 @@
   - Journal article
   themes: forecasting markets
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Feedback, competition and stochasticity in a day-ahead electricity market
   year: 2010
   venue: Energy Economics 32(2), pp. 292-301
@@ -2540,6 +2948,8 @@
   - Journal article
   themes: markets
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Conditional weighted combination of wind power forecasts
   year: 2010
   venue: Wind Energy 13(8), pp. 751-763
@@ -2552,6 +2962,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Conditional prediction intervals of wind power generation
   year: 2010
   venue: IEEE Transactions on Power Systems 25(4), pp. 1845-1856
@@ -2564,6 +2976,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Temperature prediction at critical points in district heating systems
   year: 2009
   venue: European Journal of Operational Research 194(1), pp. 163-176
@@ -2577,6 +2991,8 @@
   - Journal article
   themes: forecasting energy
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Skill forecasting from ensemble predictions of wind power
   year: 2009
   venue: Applied Energy 86(7-8), pp. 1326-1334
@@ -2589,6 +3005,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: From probabilistic forecasts to statistical scenarios of short-term wind power production
   year: 2009
   venue: Wind Energy 12(1), pp. 51-62
@@ -2601,6 +3019,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Ensemble-based probabilistic forecasting at Horns Rev
   year: 2009
   venue: Wind Energy 12(2), pp. 137-155
@@ -2613,6 +3033,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Regime-switching modelling of the fluctuations of offshore wind generation
   year: 2008
   venue: Journal of Wind Engineering and Industrial Aerodynamics 96(12), pp. 2327-2347
@@ -2625,6 +3047,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Probabilistic tools for planning and operating power systems with distributed energy storage
   year: 2008
   venue: e&i Elektrotechnik und Informationstechnik 125(12), pp. 460-465
@@ -2637,6 +3061,8 @@
   - Journal article
   themes: energy
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Modelling of power fluctuations from large offshore wind farms
   year: 2008
   venue: Wind Energy 11(1), pp. 29-43
@@ -2649,6 +3075,8 @@
   - Journal article
   themes: energy
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Local linear regression with adaptive orthogonal fitting for the wind power application
   year: 2008
   venue: Statistics and Computing 18(1), pp. 59-71
@@ -2661,6 +3089,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: 'ViLab: a Virtual Laboratory for collaborative research on wind power forecasting'
   year: 2007
   venue: Wind Engineering 31(2), pp. 117-121
@@ -2673,6 +3103,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Trading wind generation with short-term probabilistic forecasts of wind power
   year: 2007
   venue: IEEE Transactions on Power Systems 22(3), pp. 1148-1156
@@ -2686,6 +3118,8 @@
   - Journal article
   themes: forecasting markets
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: 'Nonparametric probabilistic forecasts of wind power: required properties and evaluation'
   year: 2007
   venue: Wind Energy 10(6), pp. 497-516
@@ -2698,6 +3132,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Standardizing the performance evaluation of short-term wind power prediction models
   year: 2005
   venue: Wind Engineering 29(6), pp. 475-489
@@ -2710,6 +3146,8 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: On-line assessment of prediction risk for wind power production forecasts
   year: 2004
   venue: Wind Energy 7(2), pp. 119-132
@@ -2722,3 +3160,5 @@
   - Journal article
   themes: forecasting
   kind: article
+  pdf: ''
+  haspdf: 'no'

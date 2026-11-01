@@ -70,7 +70,7 @@
   const ex = document.getElementById("pub-explorer");
   if (ex) {
     const items = Array.from(document.querySelectorAll(".pub[data-year]"));
-    const state = { year: null, theme: null, kind: null, q: "" };
+    const state = { year: null, theme: null, kind: null, pdf: null, q: "" };
     const hash = new URLSearchParams(location.hash.slice(1));
     if (hash.get("theme")) state.theme = hash.get("theme");
     const years = items.map(i => +i.dataset.year);
@@ -89,11 +89,12 @@
     }));
     ex.querySelector(".pub-search").addEventListener("input", (e) => { state.q = e.target.value.trim().toLowerCase(); update(); });
     ex.querySelector(".pub-reset").addEventListener("click", () => {
-      Object.assign(state, { year: null, theme: null, kind: null, q: "" }); ex.querySelector(".pub-search").value = ""; update(); });
+      Object.assign(state, { year: null, theme: null, kind: null, pdf: null, q: "" }); ex.querySelector(".pub-search").value = ""; update(); });
 
     const match = (it, skipYear) => (skipYear || !state.year || +it.dataset.year === state.year)
       && (!state.theme || it.dataset.themes.split(" ").includes(state.theme))
       && (!state.kind || it.dataset.kind === state.kind)
+      && (!state.pdf || it.dataset.pdf === state.pdf)
       && (!state.q || it.textContent.toLowerCase().includes(state.q));
 
     function update() {
