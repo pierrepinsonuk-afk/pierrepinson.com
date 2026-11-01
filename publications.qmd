@@ -39,7 +39,7 @@ listing:
     <button type="button" class="pub-reset">Clear filters</button>
     <span class="spacer"></span>
     <a href="files/pinson-publications.bib">Download BibTeX</a>
-    <a href="https://scholar.google.com/citations?user=8Ai6cssAAAAJ">Google Scholar</a>
+    <a href="https://scholar.google.com/citations?user=V3DJKFkAAAAJ&hl=en">Google Scholar</a>
   </div>
 </section>
 ```

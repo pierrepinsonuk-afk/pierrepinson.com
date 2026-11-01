@@ -12,7 +12,7 @@ about:
     - text: Email
       href: mailto:p.pinson@imperial.ac.uk
     - text: Google Scholar
-      href: https://scholar.google.com/citations?user=8Ai6cssAAAAJ
+      href: https://scholar.google.com/citations?user=V3DJKFkAAAAJ&hl=en
     - text: LinkedIn
       href: https://www.linkedin.com/in/pierrepinson
     - text: CV (PDF)
@@ -29,7 +29,7 @@ What has interested me most over the last decades is how to generate optimal val
 
 ::: {.timeline}
 - [2026 –]{.when} Principal, inCommodities (Aarhus, Denmark)
-- [2022 –]{.when} Professor, Imperial College London, Dyson School of Design Engineering (Chair of Data-centric Design Engineering from 2022)
+- [2022 –]{.when} Professor, Imperial College London, Dyson School of Design Engineering (Chair of Data-centric Design Engineering 2022-2026)
 - [2022 – 2026]{.when} Chief Scientist, Halfspace (Copenhagen, Denmark)
 - [2021 – 2022]{.when} Professor of Operations Research, Technical University of Denmark, Department of Technology, Management and Economics
 - [2013 – 2020]{.when} Professor of Energy Analytics and Markets, Technical University of Denmark, Department of Electrical Engineering
