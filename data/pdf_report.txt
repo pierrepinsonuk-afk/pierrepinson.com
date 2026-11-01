@@ -1,0 +1,215 @@
+PDF found for 160 of 220 papers.
+
+75 links could not be confirmed as PDFs (often just a publisher blocking scripts; open them in a browser and block any wrong ones in data/pdf_overrides.yml):
+  2025  Seamless and multi-resolution energy forecasting
+        http://hub.hku.hk/bitstream/10722/350128/1/content.pdf
+  2025  Data are missing again -- Reconstruction of power generation data using k-Nearest Neighbors and spectral graph theory
+        https://www.authorea.com/doi/pdf/10.22541/au.170663898.88889975
+  2024  CRPS-based online learning for nonlinear probabilistic forecast combination
+        https://hal.science/hal-04408320v1/document
+  2024  Convolutional encoding and normalizing flows: a deep learning approach for offshore wind speed probabilistic forecasting in the Mediterranean Sea
+        https://imt-atlantique.hal.science/hal-04645705/document
+  2023  What may future electricity markets look like?
+        https://ieeexplore.ieee.org/ielx7/8685265/10136634/10049815.pdf
+  2023  Online decision-making for trading wind energy
+        https://link.springer.com/content/pdf/10.1007/s10287-023-00462-2.pdf
+  2023  On machine learning-based techniques for future sustainable and resilient energy systems
+        https://orbit.dtu.dk/files/282943131/On_Machine_Learning_Based_Techniques_for_Future_Sustainable_and_Resilient_Energy_Systems.pdf
+  2022  Variable heat pricing to steer the flexibility of heat demand response in district heating systems
+        https://orbit.dtu.dk/en/publications/d19b5318-4763-4f60-a140-bdcce7a4d58b
+  2022  Trading data for wind power forecasting: A regression market with Lasso regularization
+        https://www.sciencedirect.com/science/article/pii/S0378779622005831/pdf
+  2022  Reliability-aware probabilistic reserve procurement
+        https://ars.els-cdn.com/content/image/1-s2.0-S0378779622005193-ga1_lrg.jpg
+  2022  Regression markets and application to energy forecasting
+        https://link.springer.com/content/pdf/10.1007/s11750-022-00631-7.pdf
+  2022  Pandemics and forecasting: The way forward through the Taleb-Ioannidis debate
+        https://www.ncbi.nlm.nih.gov/pmc/articles/8846955
+  2022  Multi-stage linear decision rules for stochastic control of natural gas networks with linepack
+        https://www.sciencedirect.com/science/article/pii/S0378779622005375
+  2022  Editorial: Epidemics and forecasting with focus on COVID-19
+        https://www.ncbi.nlm.nih.gov/pmc/articles/8783207
+  2022  Continuous and distribution-free probabilistic wind power forecasting: A conditional normalizing flow approach
+        https://www.techrxiv.org/articles/preprint/Continuous_and_Distribution-free_Probabilistic_Wind_Power_Forecasting/16866280/1/files/31178587.pdf
+  2022  A network-aware market mechanism for decentralized district heating systems
+        https://www.sciencedirect.com/science/article/pii/S0306261921012563/pdf
+  2021  Transactive energy for flexible prosumers using algorithmic game theory
+        https://www.techrxiv.org/articles/preprint/Transactive_Energy_for_Flexible_Prosumers_Using_Algorithmic_Game_Theory/13725967/1/files/26370256.pdf
+  2021  Towards data markets in renewable energy forecasting
+        https://orbit.dtu.dk/en/publications/f4463a15-d73d-48fd-a30e-80dd69604d30
+  2021  Privacy-preserving distributed learning for renewable energy forecasting
+        https://orbit.dtu.dk/en/publications/c0f0fdc9-7819-4ff2-a51e-485c072af9e5
+  2021  Mechanism design for fair and efficient DSO flexibility markets
+        https://www.techrxiv.org/articles/preprint/Mechanism_Design_for_Fair_and_Efficient_DSO_Flexibility_Markets/13490712/1/files/25895211.pdf
+  2021  Managing distributed flexibility under uncertainty by combining deep learning with duality
+        https://www.techrxiv.org/articles/preprint/Managing_Distributed_Flexibility_under_Uncertainty_by_Combining_Deep_Learning_with_Duality/13732120/files/26377291.pdf
+  2021  Energy and reserve dispatch with distributionally robust joint chance constraints
+        http://infoscience.epfl.ch/record/261318
+  2021  Electric demand response and bounded rationality – Mean-field control for large populations of heterogeneous bounded-rational agents
+        https://royalsocietypublishing.org/doi/pdf/10.1098/rsta.2019.0429
+  2021  A self-adaptive multikernel machine based on Recursive Least-Squares applied to very short-term wind power forecasting
+        https://ieeexplore.ieee.org/ielx7/6287639/9312710/09495822.pdf
+  2020  The future of forecasting for renewable energy
+        http://hdl.handle.net/10197/11503
+  2020  The ethical smart grid: Enabling a fruitful and long-lasting relationship between utilities and customers
+        https://orbit.dtu.dk/en/publications/05c5973b-5335-4c1a-8720-6ff09f261e82
+  2020  Heterogeneous risk preferences in community-based electricity markets
+        https://orbit.dtu.dk/en/publications/77d03c0d-548f-4187-9097-c4978be86cb3
+  2020  Heat and electricity market coordination: A scalable complementarity approach
+        https://orbit.dtu.dk/en/publications/7d5e8e1a-3c5a-4b7b-a162-e2a838031777
+  2020  Evaluation of wind power forecasts – An up-to-date view
+        https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/we.2497?download=true
+  2020  Energy forecasting: A review and outlook
+        https://ieeexplore.ieee.org/ielx7/8784343/8889549/09218967.pdf
+  2020  Do unit commitment constraints affect generation expansion planning? A scalable stochastic model
+        https://link.springer.com/content/pdf/10.1007/s12667-018-00321-z.pdf
+  2020  Distributionally robust chance-constrained generation expansion planning
+        https://orbit.dtu.dk/en/publications/331d2acf-fc47-40a1-855f-6ddfcb9e90f1
+  2020  Demand side management of heat in smart homes: Living-lab experiments
+        https://www.sciencedirect.com/science/article/pii/S0360544220301006
+  2020  Affine policies for flexibility provision by natural gas networks to power systems
+        https://orbit.dtu.dk/files/222354849/Paper_3_.pdf
+  2020  Added-value of ensemble prediction system on the quality of solar irradiance probabilistic forecasts
+        https://www.sciencedirect.com/science/article/am/pii/S0960148120311186
+  2020  A mid-term DSO market for capacity limits: How to estimate opportunity costs of aggregators?
+        https://orbit.dtu.dk/en/publications/090c8d4f-4b2c-4d7e-8125-718fe161f7d5
+  2019  Temporal hierarchies with autocorrelation for load forecasting
+        https://orbit.dtu.dk/en/publications/6eb9b051-7f56-41db-8573-f07bd83ab56e
+  2019  Optimal allocation of HVDC interconnections for exchange of energy and reserve capacity services
+        https://www.research-collection.ethz.ch/bitstream/20.500.11850/353486/3/s12667-018-0288-6.pdf
+  2018  Stochastic market design with revenue adequacy and cost recovery by scenario: benefits and costs
+        https://doi.org/10.1109/tpwrs.2018.2789683
+  2018  Real-time trading strategies of proactive DISCO with heterogeneous DG owners
+        https://doi.org/10.1109/tsg.2016.2597263
+  2018  Real-time procurement strategies of a proactive distribution company with aggregator-based demand response
+        https://doi.org/10.1109/tsg.2016.2565383
+  2018  Price-taker offering strategy in electricity pay-as-bid markets
+        https://orbit.dtu.dk/en/publications/5e6d5102-0fe1-49e9-a31c-e8624a42a1cb
+  2018  Ellipsoidal prediction regions for multivariate uncertainty characterization
+        https://arxiv.org/pdf/1708.02703
+  2018  Correlation-constrained and sparsity-controlled vector autoregressive model for spatio-temporal wind power forecasting
+        https://orbit.dtu.dk/en/publications/666d3af6-dffc-4d99-a508-84b49d3a3c79
+  2017  Towards fully renewable energy systems – Experience and trends in Denmark
+        https://doi.org/10.17775/cseejpes.2017.0005
+  2017  Spatial models for probabilistic prediction of wind power with application to yearly average and high temporal resolution data
+        https://link.springer.com/content/pdf/10.1007%2Fs00477-016-1329-0.pdf
+  2017  Attribution mechanisms for ancillary service costs induced by variability in power delivery
+        https://inria.hal.science/hal-01403913
+  2016  Trading strategies for distribution company with stochastic distributed energy resources
+        https://doi.org/10.1016/j.apenergy.2016.05.143
+  2016  Sharing wind power forecasts in electricity markets: A numerical analysis
+        https://www.sciencedirect.com/science/article/am/pii/S0306261916306468?via%3Dihub
+  2016  Probabilistic energy forecasting: Global Energy Forecasting Competition 2014 and beyond
+        http://orbit.dtu.dk/en/publications/probabilistic-energy-forecasting-global-energy-forecasting-competition-2014-and-beyond(5407773d-7770-4ae7-b5d7-fcd7df6fd9bc).html
+  2016  Optimal offering strategies for wind power in energy and primary reserve markets
+        https://orbit.dtu.dk/files/121887341/07399764.pdf
+  2016  Optimal bidding strategy of battery storage in power markets considering performance based regulation and battery cycle life
+        https://orbit.dtu.dk/files/110322139/Heetal2015.pdf
+  2016  Impact of inter- and intra-regional coordination in markets with a large renewable component
+        https://orbit.dtu.dk/en/publications/263f8b3b-ebd3-448e-a4f0-e2fb00eab68a
+  2015  Foreword for the special section on wind and solar energy: uncovering and accommodating their impacts on electricity markets
+        https://ieeexplore.ieee.org/ielx7/59/7087410/07087434.pdf
+  2015  Forecasting for dynamic line rating
+        https://minesparis-psl.hal.science/hal-01199238
+  2014  Optimal prediction intervals of wind power generation
+        https://orbit.dtu.dk/files/61216667/wan2013_opt.pdf
+  2014  FLECH – A Danish market solution for DSO congestion management through DER flexibility services
+        https://link.springer.com/content/pdf/10.1007/s40565-014-0048-0.pdf
+  2014  Exponential smoothing approaches for prediction in real-time electricity markets
+        https://www.mdpi.com/1996-1073/7/6/3710/pdf?version=1426593641
+  2014  Comments on: Space-time wind speed forecasting for improved power system dispatch
+        https://link.springer.com/content/pdf/10.1007/s11749-014-0352-z.pdf
+  2013  Pool strategy of a price-maker wind power producer
+        http://orbit.dtu.dk/en/publications/pool-strategy-of-a-pricemaker-wind-power-producer(49e645cb-9c1d-4306-af40-fa059ba1d88c).html
+  2013  Direct interval forecasting of wind power
+        https://doi.org/10.1109/tpwrs.2013.2258824
+  2012  Very short-term probabilistic forecasting of wind power with generalized logit-Normal distributions
+        https://academic.oup.com/jrsssc/article-pdf/61/4/555/49549555/jrsssc_61_4_555.pdf
+  2012  Adaptive calibration of (u,v)-wind ensemble forecasts
+        https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/qj.1873
+  2012  A general probabilistic forecasting framework for offshore wind power fluctuations
+        https://doi.org/10.3390/en5030621
+  2011  Influence of local wind speed and direction on wind power dynamics – Application to offshore very short-term prediction
+        https://oa.upm.es/14216/
+  2011  Forecasting ocean waves – The ECMWF wave model and time-series methods
+        http://orbit.dtu.dk/en/publications/forecasting-ocean-wave-energy-a-comparison-of-the-ecmwf-wave-model-with-time-series-methods(65d2319f-8c3c-4ca5-8f23-a1cbe6d881e2).html
+  2010  Conditional prediction intervals of wind power generation
+        https://minesparis-psl.hal.science/hal-00614425
+  2009  Skill forecasting from ensemble predictions of wind power
+        https://minesparis-psl.hal.science/hal-00812349
+  2009  From probabilistic forecasts to statistical scenarios of short-term wind power production
+        https://orbit.dtu.dk/files/4900902/pinsonetal_wpfscenarios_fin.pdf
+  2008  Modelling of power fluctuations from large offshore wind farms
+        https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/we.246
+  2008  Local linear regression with adaptive orthogonal fitting for the wind power application
+        https://orbit.dtu.dk/files/4901531/pinsonetal_llr_ortfit_wpapp_rev.pdf
+  2007  ViLab: a Virtual Laboratory for collaborative research on wind power forecasting
+        http://orbit.dtu.dk/en/publications/vilab(45c49248-a235-4264-9a41-a13058188a69).html
+  2007  Trading wind generation with short-term probabilistic forecasts of wind power
+        https://minesparis-psl.hal.science/hal-00617685
+  2005  Standardizing the performance evaluation of short-term wind power prediction models
+        https://minesparis-psl.hal.science/hal-00527248
+  2004  On-line assessment of prediction risk for wind power production forecasts
+        https://minesparis-psl.hal.science/hal-01721503
+
+No free PDF found for 60 papers:
+  2025  Load forecasting model trading: A cost-oriented and auction-based approach
+  2025  A negotiation-based incentive mechanism for efficient transmission expansion planning considering generation investment equilibrium in deregulated environment
+  2025  A causal analysis of balancing costs in the UK electricity market
+  2024  Data-driven at sea: Forecasting and revenue management at Molslinjen
+  2023  P2P market coordination methodologies with distribution grid management
+  2023  Chance-constrained economic dispatch of generic energy storage under decision-dependent uncertainty
+  2022  To share or not to share? Alternative views on a future of collaborative forecasting
+  2021  Online distributed learning in wind power forecasting
+  2021  Forecasting and market design advances
+  2021  Coordination of power and natural gas markets via financial instruments
+  2021  Chance-constrained peer-to-peer joint energy and reserve market based on consensus ADMM
+  2020  Editorial
+  2020  Chance-constrained optimal power flow with nonparametric probability distributions of dynamic line ratings
+  2020  Big data analytics for future electricity grids
+  2019  Verification of solar irradiance probabilistic forecasts
+  2019  Online adaptive LASSO estimation in Vector Auto Regressive models for wind power forecasting in high dimension
+  2019  Online adaptive clustering algorithm for load profiling
+  2019  Incentive-compatibility in a two-stage stochastic electricity market with high wind power penetration
+  2019  Guest editorial: Energy forecasting in the big data world
+  2019  Forecast reconciliation in day-ahead wind power forecasting
+  2018  Visualizing big energy data
+  2018  Prévision météorologique pour les énergies renouvelables
+  2018  Evaluating price-based demand response in practice – With application to the EcoGrid EU experiment
+  2018  Bayesian approach to unveiling supply curves in electricity markets
+  2018  Active distribution grid management based on robust AC optimal power flow
+  2017  The emergence of consumer-centric electricity markets
+  2017  RE-Europe: a large-scale dataset for a future renewable-energy based European power system
+  2017  Optimal offering and allocation policies for wind power in energy and reserve markets
+  2017  From demand response evaluation to forecasting – Methods and results from the EcoGrid EU experiment
+  2017  Decision-dependent stochastic generation expansion planning with large amounts of wind power
+  2016  Optimal offering for wind-storage systems using linear decision rules
+  2016  Introducing distributed learning in wind power forecasting
+  2016  Integrated bidding and operating strategies for wind farms enhanced with storage
+  2016  Identifying and characterizing the impact of turbine icing on wind farm power generation
+  2016  Generation and evaluation of space-time trajectories of photovoltaic generation
+  2016  Economic dispatch of demand-side balancing through asymmetric block offers
+  2016  Adaptive robust polynomial regression for power curve modeling with application to wind power forecasting
+  2016  A multi-period OPF model under renewable generation uncertainty and demand-side flexibility
+  2015  The "WIRE" benchmarking exercise on short-term forecasting models for renewable power generation
+  2015  Probabilistic maximum-value wind prediction for offshore environments
+  2015  Offering strategies for hybrid concentrated solar-fossil power plants through robust optimization
+  2014  Guest editorial: Special section on analytics for energy forecasting with applications to smart grid
+  2014  Global Energy Forecasting Competition 2012 (GEFCom2012)
+  2014  Electricity market clearing with improved dispatch of stochastic producers
+  2014  Early warnings of extreme winds utilising the ECMWF Extreme Forecast Index
+  2014  Density forecasting of day-ahead electricity prices using time-adaptive quantile regression
+  2014  Benefits and challenges of electric demand response: A critical review
+  2013  Wind energy: Forecasting challenges for its optimal management
+  2013  Trading wind energy on the basis of probabilistic forecasts of both wind generation and market quantities
+  2013  The impact of wind power on European cross-border power flows
+  2013  Forecasting day-ahead electricity prices accounting for the impact of wind power generation
+  2013  Controlling electricity consumption by forecasting its response to varying prices
+  2013  A comparison between the ECMWF and COSMO Ensemble Prediction Systems applied to short-term wind power forecasting
+  2013  A bilevel model for electricity retailers' participation in a demand response market environment
+  2012  A transmission-cost-based model to estimate the amount of market-integrable wind resources
+  2011  Wind fluctuations over the North Sea
+  2010  Resolving non-stationary spectral signals in wind speed time-series using the Hilbert-Huang transform
+  2010  Conditional weighted combination of wind power forecasts
+  2008  Probabilistic tools for planning and operating power systems with distributed energy storage
+  2007  Nonparametric probabilistic forecasts of wind power: required properties and evaluation
