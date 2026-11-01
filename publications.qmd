@@ -30,6 +30,9 @@ listing:
       <button type="button" class="chip" data-group="kind" data-value="conference">Conference</button>
       <button type="button" class="chip" data-group="kind" data-value="preprint">Preprint</button>
     </div>
+    <div class="chips" role="group" aria-label="Access">
+      <button type="button" class="chip" data-group="pdf" data-value="yes">Free PDF</button>
+    </div>
   </div>
   <div class="pub-status-row">
     <span class="pub-count" aria-live="polite"></span>

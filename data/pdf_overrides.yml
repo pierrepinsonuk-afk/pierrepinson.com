@@ -1,0 +1,11 @@
+# Manual PDF links: these always win over what scripts/find_pdfs.py finds.
+# Use the paper title exactly as in publications.txt (case and punctuation don't matter).
+#
+#   To set a link:        "Paper title": https://example.org/paper.pdf
+#   To use your own copy: "Paper title": /files/papers/my-paper.pdf   (put the file in files/papers/)
+#   To remove a wrong one: "Paper title": none
+#
+# Examples (delete the # to use):
+# "Distributionally robust trading strategies for renewable energy producers": /files/papers/pinson2023dro.pdf
+# "Some paper with a wrong match": none
+{}

@@ -1,15 +1,5 @@
 {
   "listingMap": {
-    "pierrepinson-quarto/index.qmd": [
-      "publications.yml",
-      "news/posts"
-    ],
-    "pierrepinson-quarto/publications.qmd": [
-      "publications.yml"
-    ],
-    "pierrepinson-quarto/news/index.qmd": [
-      "posts"
-    ],
     "index.qmd": [
       "publications.yml",
       "news/posts"

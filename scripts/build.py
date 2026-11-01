@@ -27,6 +27,35 @@ def slug(s):
     return re.sub(r"[^A-Za-z]", "", s)
 
 
+def title_key(t):
+    return re.sub(r"[^a-z0-9]", "", unicodedata.normalize("NFKD", t).encode("ascii", "ignore").decode().lower())
+
+
+ARXIV_ID = re.compile(r"arxiv\.org/(?:abs|pdf)/(\d{4}\.\d{4,5}|[a-z\-]+(?:\.[A-Z]{2})?/\d{7})", re.I)
+
+
+def pdf_links(pubs):
+    """PDF link per paper: data/pdf_overrides.yml first, then data/pdf_links.yml, then any arXiv link."""
+    def load(name):
+        f = DATA / name
+        return (yaml.safe_load(f.read_text(encoding="utf-8")) or {}) if f.exists() else {}
+    overrides = {title_key(k): v for k, v in load("pdf_overrides.yml").items()}
+    found = load("pdf_links.yml")
+    out = {}
+    for p in pubs:
+        k = title_key(p["title"])
+        if k in overrides:
+            v = overrides[k]
+            out[k] = "" if not v or str(v).lower() == "none" else str(v)
+            continue
+        hit = (found.get(k) or {}).get("pdf")
+        if not hit:
+            m = ARXIV_ID.search(p["preprint"] or "") or ARXIV_ID.search(p["url"] or "")
+            hit = f"https://arxiv.org/pdf/{m.group(1)}" if m else ""
+        out[k] = hit
+    return out
+
+
 def load_pubs():
     pubs = []
     for raw in (DATA / "publications.txt").read_text(encoding="utf-8").splitlines():
@@ -45,6 +74,7 @@ def load_pubs():
 
 
 def write_listing(pubs):
+    pdfs = pdf_links(pubs)
     items = []
     for p in pubs:
         inpress = "in press" in p["venue"].lower()
@@ -60,6 +90,8 @@ def write_listing(pubs):
             "categories": cats,
             "themes": " ".join(p["themes"]),
             "kind": p["type"],
+            "pdf": pdfs.get(title_key(p["title"]), ""),
+            "haspdf": "yes" if pdfs.get(title_key(p["title"])) else "no",
         })
     with open(ROOT / "publications.yml", "w", encoding="utf-8") as fh:
         yaml.safe_dump(items, fh, allow_unicode=True, sort_keys=False, width=1000)

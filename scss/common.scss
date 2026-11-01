@@ -158,3 +158,11 @@ a { text-underline-offset: 0.18em; }
 .pub-reset { font: inherit; background: none; border: 0; padding: 0; color: var(--pp-accent); cursor: pointer; visibility: hidden; }
 .pub-explorer.is-filtered .pub-reset { visibility: visible; }
 @media (max-width: 860px) { .pub-hist { height: 56px; } }
+
+/* PDF links */
+a.pub-pdf { display: inline-flex; align-items: center; gap: .3rem; font-weight: 600; text-decoration: none;
+  padding: .05rem .5rem; border: 1px solid var(--pp-accent); border-radius: 4px; color: var(--pp-accent); }
+a.pub-pdf::before { content: ""; width: .7em; height: .85em; background: currentColor;
+  clip-path: polygon(0 0, 65% 0, 100% 30%, 100% 100%, 0 100%); }
+a.pub-pdf:hover { background: var(--pp-accent); color: var(--pp-on-accent); }
+.pub-venue a.pub-pdf { font-style: normal; font-size: .8rem; padding: 0 .4rem; }

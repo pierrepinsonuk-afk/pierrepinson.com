@@ -1,0 +1,315 @@
+acausalanalysisofbalancingcostsintheukelectricitymarket:
+  checked: '2026-11-01'
+  doi: null
+  pdf: null
+  source: null
+  title: A causal analysis of balancing costs in the UK electricity market
+  year: 2025
+amarketfortradingforecastsawageringmechanism:
+  checked: '2026-11-01'
+  doi: null
+  pdf: https://arxiv.org/pdf/2205.02668
+  source: arxiv (from your data)
+  title: 'A market for trading forecasts: A wagering mechanism'
+  verified: true
+  year: 2024
+? anegotiationbasedincentivemechanismforefficienttransmissionexpansionplanningconsideringgenerationinvestmentequilibriuminderegulatedenvironment
+: checked: '2026-11-01'
+  doi: 10.1016/j.apenergy.2025.125495
+  pdf: null
+  source: null
+  title: A negotiation-based incentive mechanism for efficient transmission expansion planning considering generation investment equilibrium in deregulated environment
+  year: 2025
+bayesianregressionmarkets:
+  checked: '2026-11-01'
+  doi: 10.48550/arxiv.2310.14992
+  pdf: https://arxiv.org/pdf/2310.14992
+  source: openalex
+  title: Bayesian regression markets
+  verified: true
+  year: 2024
+? convolutionalencodingandnormalizingflowsadeeplearningapproachforoffshorewindspeedprobabilisticforecastinginthemediterraneansea
+: checked: '2026-11-01'
+  doi: 10.1175/aies-d-23-0112.1
+  pdf: https://imt-atlantique.hal.science/hal-04645705/document
+  source: semantic scholar
+  title: 'Convolutional encoding and normalizing flows: a deep learning approach for offshore wind speed probabilistic forecasting in the Mediterranean Sea'
+  verified: false
+  year: 2024
+crpsbasedonlinelearningfornonlinearprobabilisticforecastcombination:
+  checked: '2026-11-01'
+  doi: 10.1016/j.ijforecast.2023.12.005
+  pdf: https://hal.science/hal-04408320v1/document
+  source: openalex
+  title: CRPS-based online learning for nonlinear probabilistic forecast combination
+  verified: false
+  year: 2024
+dataaremissingagainreconstructionofpowergenerationdatausingknearestneighborsandspectralgraphtheory:
+  checked: '2026-11-01'
+  doi: 10.22541/au.170663898.88889975/v1
+  pdf: https://www.authorea.com/doi/pdf/10.22541/au.170663898.88889975
+  source: openalex
+  title: Data are missing again -- Reconstruction of power generation data using k-Nearest Neighbors and spectral graph theory
+  verified: false
+  year: 2025
+datadrivenatseaforecastingandrevenuemanagementatmolslinjen:
+  checked: '2026-11-01'
+  doi: 10.1287/inte.2024.0177
+  pdf: null
+  source: null
+  title: 'Data-driven at sea: Forecasting and revenue management at Molslinjen'
+  year: 2024
+doweactuallyunderstandtheimpactofrenewablesonelectricitypricesacausalinferenceapproach:
+  checked: '2026-11-01'
+  doi: 10.23919/ien.2025.0027
+  pdf: https://arxiv.org/pdf/2501.10423
+  source: openalex
+  title: Do we actually understand the impact of renewables on electricity prices? A causal inference approach
+  verified: true
+  year: 2025
+fairandscalableelectricvehiclechargingunderelectricalgridconstraints:
+  checked: '2026-11-01'
+  doi: 10.1109/tits.2023.3311509
+  pdf: https://pure.tue.nl/ws/files/316735503/Fair_and_Scalable_Electric_Vehicle_Charging_Under_Electrical_Grid_Constraints.pdf
+  source: openalex
+  title: Fair and scalable electric vehicle charging under electrical grid constraints
+  verified: true
+  year: 2023
+fairnessbydesigninsharedenergyallocationproblems:
+  checked: '2026-11-01'
+  doi: 10.21203/rs.3.rs-3914653/v1
+  pdf: https://www.researchsquare.com/article/rs-3914653/latest.pdf
+  source: openalex
+  title: Fairness by design in shared-energy allocation problems
+  verified: true
+  year: 2025
+fromintradayorderbooktoimbalancepriceunderstandingcrossmarketinteraction:
+  checked: '2026-11-01'
+  doi: null
+  pdf: https://arxiv.org/pdf/2609.37903
+  source: arxiv (from your data)
+  title: 'From intraday orderbook to imbalance price: Understanding cross-market interaction'
+  verified: true
+  year: 2026
+generalizablesimulationframeworkfortherequesttoorderprocessintheprocurementofonboardvesselrequisitions:
+  checked: '2026-11-01'
+  doi: 10.48550/arxiv.2505.01806
+  pdf: https://arxiv.org/pdf/2505.01806
+  source: openalex
+  title: Generalizable simulation framework for the request-to-order process in the procurement of onboard vessel requisitions
+  verified: true
+  year: 2025
+howlongislongenoughfinitehorizonapproximationofenergystorageschedulingproblems:
+  checked: '2026-11-01'
+  doi: null
+  pdf: https://arxiv.org/pdf/2411.17463
+  source: arxiv (from your data)
+  title: How long is long enough? Finite-horizon approximation of energy storage scheduling problems
+  verified: true
+  year: 2025
+howtopurchaselabelsacosteffectiveapproachusingactivelearningmarkets:
+  checked: '2026-11-01'
+  doi: null
+  pdf: https://arxiv.org/pdf/2511.20605
+  source: arxiv (from your data)
+  title: How to purchase labels? A cost-effective approach using active learning markets
+  verified: true
+  year: 2026
+integratedoptimizationofoperationsandcapacityplanningunderuncertaintyfordrayageprocurementincontainerlogistics:
+  checked: '2026-11-01'
+  doi: 10.48550/arxiv.2505.01808
+  pdf: https://arxiv.org/pdf/2505.01808
+  source: openalex
+  title: Integrated optimization of operations and capacity planning under uncertainty for drayage procurement in container logistics
+  verified: true
+  year: 2025
+inversegametheoryanincenterbasedapproach:
+  checked: '2026-11-01'
+  doi: 10.24963/ijcai.2025/423
+  pdf: https://www.ijcai.org/proceedings/2025/0423.pdf
+  source: openalex
+  title: 'Inverse game theory: An incenter-based approach'
+  verified: true
+  year: 2025
+learningtofixoptimisationawaremachinelearningforacceleratedunitcommitment:
+  checked: '2026-11-01'
+  doi: null
+  pdf: https://arxiv.org/pdf/2609.39396
+  source: arxiv (from your data)
+  title: 'Learning to fix: Optimisation-aware machine learning for accelerated unit commitment'
+  verified: true
+  year: 2026
+loadforecastingmodeltradingacostorientedandauctionbasedapproach:
+  checked: '2026-11-01'
+  doi: 10.1109/tsg.2025.3614766
+  pdf: null
+  source: null
+  title: 'Load forecasting model trading: A cost-oriented and auction-based approach'
+  year: 2025
+movingfromlineartoconicmarketsforelectricity:
+  checked: '2026-11-01'
+  doi: null
+  pdf: https://arxiv.org/pdf/2103.12122
+  source: arxiv (from your data)
+  title: Moving from linear to conic markets for electricity
+  verified: true
+  year: 2023
+onlinedecisionmakingfortradingwindenergy:
+  checked: '2026-11-01'
+  doi: 10.1007/s10287-023-00462-2
+  pdf: https://link.springer.com/content/pdf/10.1007/s10287-023-00462-2.pdf
+  source: openalex
+  title: Online decision-making for trading wind energy
+  verified: false
+  year: 2023
+onmachinelearningbasedtechniquesforfuturesustainableandresilientenergysystems:
+  checked: '2026-11-01'
+  doi: 10.1109/tste.2022.3194728
+  pdf: https://orbit.dtu.dk/files/282943131/On_Machine_Learning_Based_Techniques_for_Future_Sustainable_and_Resilient_Energy_Systems.pdf
+  source: openalex
+  title: On machine learning-based techniques for future sustainable and resilient energy systems
+  verified: false
+  year: 2023
+onthedesignofdecentraliseddatamarkets:
+  checked: '2026-11-01'
+  doi: null
+  pdf: https://arxiv.org/pdf/2206.06299
+  source: arxiv (from your data)
+  title: On the design of decentralised data markets
+  verified: true
+  year: 2023
+ontheefficiencyofenergymarketswithnonmerchantstorage:
+  checked: '2026-11-01'
+  doi: null
+  pdf: https://arxiv.org/pdf/2210.05305
+  source: arxiv (from your data)
+  title: On the efficiency of energy markets with non-merchant storage
+  verified: true
+  year: 2024
+ontrackingvaryingboundswhenforecastingboundedtimeseries:
+  checked: '2026-11-01'
+  doi: 10.1080/00401706.2024.2350421
+  pdf: https://arxiv.org/pdf/2306.13428
+  source: arxiv search
+  title: On tracking varying bounds when forecasting bounded time series
+  verified: true
+  year: 2024
+p2pmarketcoordinationmethodologieswithdistributiongridmanagement:
+  checked: '2026-11-01'
+  doi: 10.1016/j.segan.2023.101075
+  pdf: null
+  source: null
+  title: P2P market coordination methodologies with distribution grid management
+  year: 2023
+poolingprobabilisticforecastsforcooperativewindpoweroffering:
+  checked: '2026-11-01'
+  doi: null
+  pdf: https://arxiv.org/pdf/2510.12382
+  source: arxiv (from your data)
+  title: Pooling probabilistic forecasts for cooperative wind power offering
+  verified: true
+  year: 2025
+predictandoptimizerobustunitcommitmentwithstatisticalguaranteesviaweightcombination:
+  checked: '2026-11-01'
+  doi: 10.1109/tpwrs.2025.3613360
+  pdf: https://arxiv.org/pdf/2411.03138
+  source: openalex
+  title: Predict-and-optimize robust unit commitment with statistical guarantees via weight combination
+  verified: true
+  year: 2025
+predictionmarketswithintermittentcontributions:
+  checked: '2026-11-01'
+  doi: null
+  pdf: https://arxiv.org/pdf/2510.13385
+  source: arxiv (from your data)
+  title: Prediction markets with intermittent contributions
+  verified: true
+  year: 2025
+privacyawaredataacquisitionunderdatasimilarityinregressionmarkets:
+  checked: '2026-11-01'
+  doi: null
+  pdf: https://arxiv.org/pdf/2312.02611
+  source: arxiv (from your data)
+  title: Privacy-aware data acquisition under data similarity in regression markets
+  verified: true
+  year: 2025
+privacypreservingconvexoptimizationwhendifferentialprivacymeetsstochasticprogramming:
+  checked: '2026-11-01'
+  doi: null
+  pdf: https://arxiv.org/pdf/2209.14152
+  source: arxiv (from your data)
+  title: 'Privacy-preserving convex optimization: When differential privacy meets stochastic programming'
+  verified: true
+  year: 2023
+robustgenerationdispatchwithpurchaseofrenewablepowerandloadpredictions:
+  checked: '2026-11-01'
+  doi: 10.1109/tste.2024.3353779
+  pdf: https://arxiv.org/pdf/2210.00291
+  source: openalex
+  title: Robust generation dispatch with purchase of renewable power and load predictions
+  verified: true
+  year: 2024
+seamlessandmultiresolutionenergyforecasting:
+  checked: '2026-11-01'
+  doi: 10.1109/tsg.2024.3447162
+  pdf: http://hub.hku.hk/bitstream/10722/350128/1/content.pdf
+  source: openalex
+  title: Seamless and multi-resolution energy forecasting
+  verified: false
+  year: 2025
+stabilizingdistributionfreeprobabilisticforecasts:
+  checked: '2026-11-01'
+  doi: null
+  pdf: https://arxiv.org/pdf/2605.28531
+  source: arxiv (from your data)
+  title: Stabilizing distribution-free probabilistic forecasts
+  verified: true
+  year: 2026
+strategiccoalitionfordatapricinginiotdatamarkets:
+  checked: '2026-11-01'
+  doi: 10.1109/jiot.2023.3310660
+  pdf: https://arxiv.org/pdf/2206.07785
+  source: openalex
+  title: Strategic coalition for data pricing in IoT data markets
+  verified: true
+  year: 2024
+synergiesbetweenaicomputingandpowersystemsmetricsschedulingandresilience:
+  checked: '2026-11-01'
+  doi: 10.48550/arxiv.2512.07001
+  pdf: https://arxiv.org/pdf/2512.07001
+  source: openalex
+  title: 'Synergies between AI computing and power systems: Metrics, scheduling, and resilience'
+  verified: true
+  year: 2025
+towardsreplicationrobustanalyticsmarkets:
+  checked: '2026-11-01'
+  doi: null
+  pdf: https://arxiv.org/pdf/2310.06000
+  source: arxiv (from your data)
+  title: Towards replication-robust analytics markets
+  verified: true
+  year: 2026
+valueorientedforecastreconciliationforrenewablesinelectricitymarkets:
+  checked: '2026-11-01'
+  doi: null
+  pdf: https://arxiv.org/pdf/2501.16086
+  source: arxiv (from your data)
+  title: Value-oriented forecast reconciliation for renewables in electricity markets
+  verified: true
+  year: 2026
+whatmayfutureelectricitymarketslooklike:
+  checked: '2026-11-01'
+  doi: 10.35833/mpce.2023.000073
+  pdf: https://ieeexplore.ieee.org/ielx7/8685265/10136634/10049815.pdf
+  source: openalex
+  title: What may future electricity markets look like?
+  verified: false
+  year: 2023
+windenergyforecastingwithmissingvalueswithinafullyconditionalspecificationframework:
+  checked: '2026-11-01'
+  doi: null
+  pdf: https://arxiv.org/pdf/2203.08252
+  source: arxiv (from your data)
+  title: Wind energy forecasting with missing values within a fully conditional specification framework
+  verified: true
+  year: 2024
