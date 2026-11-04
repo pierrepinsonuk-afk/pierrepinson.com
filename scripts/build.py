@@ -292,8 +292,8 @@ def write_highlights(pubs):
     n = lambda key: sum(key in p["themes"] for p in pubs)
     cards = [
         # Row 1: forecasting
-        ("edelman", "2024 · Award", "INFORMS Franz Edelman Award",
-         "Led the team, with Halfspace, that put forecasting and revenue management into daily operation at Molslinjen.",
+         ("edelman", "2024 · Award", "INFORMS Franz Edelman Award",
+         "Led the team, at Halfspace, that pitched the case of how forecasting, optimisation and dynamic pricing radically changed daily operations at Molslinjen.",
          "news/posts/2024-edelman/index.html", "Read the story"),
         ("forecasting", f"Research · {n('forecasting')} papers", "Probabilistic energy forecasting",
          "From early work on wind power to methods for wind, solar, wave, load and market quantities, and how to verify them.",
