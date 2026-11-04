@@ -6,8 +6,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -19,8 +21,10 @@
   preprint: ''
   status: ''
   categories:
+  - Energy
+  - Analytics
   - Journal article
-  themes: ''
+  themes: energy analytics
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -32,8 +36,10 @@
   preprint: ''
   status: ''
   categories:
+  - Energy
+  - Optimisation
   - Journal article
-  themes: ''
+  themes: energy optimisation
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -45,8 +51,10 @@
   preprint: https://arxiv.org/abs/2605.04555
   status: Preprint
   categories:
+  - Optimisation
+  - Analytics
   - Preprint
-  themes: ''
+  themes: optimisation analytics
   kind: preprint
   pdf: https://arxiv.org/pdf/2605.04555
   haspdf: 'yes'
@@ -58,8 +66,9 @@
   preprint: https://arxiv.org/abs/2606.02151
   status: ''
   categories:
+  - Forecasting
   - Journal article
-  themes: ''
+  themes: forecasting
   kind: article
   pdf: https://arxiv.org/pdf/2606.02151
   haspdf: 'yes'
@@ -71,9 +80,11 @@
   preprint: https://arxiv.org/abs/2606.17805
   status: Preprint
   categories:
+  - Markets
+  - Analytics
   - Datamarkets
   - Preprint
-  themes: datamarkets
+  themes: markets analytics datamarkets
   kind: preprint
   pdf: https://arxiv.org/pdf/2606.17805
   haspdf: 'yes'
@@ -85,8 +96,11 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
+  - Analytics
   - Journal article
-  themes: ''
+  themes: forecasting energy analytics
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -98,8 +112,9 @@
   preprint: ''
   status: ''
   categories:
+  - Energy
   - Conference paper
-  themes: ''
+  themes: energy
   kind: conference
   pdf: ''
   haspdf: 'no'
@@ -111,8 +126,11 @@
   preprint: https://arxiv.org/abs/2608.09335
   status: Preprint
   categories:
+  - Forecasting
+  - Optimisation
+  - Analytics
   - Preprint
-  themes: ''
+  themes: forecasting optimisation analytics
   kind: preprint
   pdf: https://arxiv.org/pdf/2608.09335
   haspdf: 'yes'
@@ -124,8 +142,9 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
   - Journal article
-  themes: ''
+  themes: forecasting
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -137,8 +156,9 @@
   preprint: https://arxiv.org/abs/2609.23200
   status: Preprint
   categories:
+  - Analytics
   - Preprint
-  themes: ''
+  themes: analytics
   kind: preprint
   pdf: https://arxiv.org/pdf/2609.23200
   haspdf: 'yes'
@@ -150,8 +170,9 @@
   preprint: ''
   status: Preprint
   categories:
+  - Optimisation
   - Preprint
-  themes: ''
+  themes: optimisation
   kind: preprint
   pdf: ''
   haspdf: 'no'
@@ -163,8 +184,10 @@
   preprint: https://arxiv.org/abs/2609.37214
   status: Preprint
   categories:
+  - Markets
+  - Energy
   - Preprint
-  themes: ''
+  themes: markets energy
   kind: preprint
   pdf: https://arxiv.org/pdf/2609.37214
   haspdf: 'yes'
@@ -176,8 +199,9 @@
   preprint: ''
   status: ''
   categories:
+  - Energy
   - Journal article
-  themes: ''
+  themes: energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -325,8 +349,10 @@
   preprint: ''
   status: ''
   categories:
+  - Markets
+  - Energy
   - Conference paper
-  themes: ''
+  themes: markets energy
   kind: conference
   pdf: ''
   haspdf: 'no'
@@ -338,8 +364,10 @@
   preprint: ''
   status: ''
   categories:
+  - Energy
+  - Analytics
   - Conference paper
-  themes: ''
+  themes: energy analytics
   kind: conference
   pdf: ''
   haspdf: 'no'
@@ -351,8 +379,10 @@
   preprint: http://arxiv.org/abs/2508.12999
   status: Preprint
   categories:
+  - Optimisation
+  - Energy
   - Preprint
-  themes: ''
+  themes: optimisation energy
   kind: preprint
   pdf: https://arxiv.org/pdf/2508.12999
   haspdf: 'yes'
@@ -364,8 +394,9 @@
   preprint: http://arxiv.org/abs/2505.01813
   status: Preprint
   categories:
+  - Optimisation
   - Preprint
-  themes: ''
+  themes: optimisation
   kind: preprint
   pdf: https://arxiv.org/pdf/2505.01813
   haspdf: 'yes'
@@ -377,9 +408,12 @@
   preprint: ''
   status: ''
   categories:
+  - Markets
+  - Optimisation
+  - Analytics
   - Datamarkets
   - Journal article
-  themes: datamarkets
+  themes: markets optimisation analytics datamarkets
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -391,9 +425,11 @@
   preprint: https://arxiv.org/abs/2510.13385
   status: Preprint
   categories:
+  - Forecasting
+  - Markets
   - Datamarkets
   - Preprint
-  themes: datamarkets
+  themes: forecasting markets datamarkets
   kind: preprint
   pdf: https://arxiv.org/pdf/2510.13385
   haspdf: 'yes'
@@ -405,8 +441,9 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
   - Journal article
-  themes: ''
+  themes: forecasting
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -667,8 +704,10 @@
   preprint: ''
   status: ''
   categories:
+  - Energy
+  - Analytics
   - Journal article
-  themes: ''
+  themes: energy analytics
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -680,8 +719,11 @@
   preprint: http://arxiv.org/abs/2206.06299
   status: ''
   categories:
+  - Markets
+  - Optimisation
+  - Analytics
   - Journal article
-  themes: ''
+  themes: markets optimisation analytics
   kind: article
   pdf: https://arxiv.org/pdf/2206.06299
   haspdf: 'yes'
@@ -693,8 +735,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Optimisation
   - Conference paper
-  themes: ''
+  themes: forecasting optimisation
   kind: conference
   pdf: ''
   haspdf: 'no'
@@ -706,8 +750,9 @@
   preprint: http://arxiv.org/abs/2409.19718
   status: Preprint
   categories:
+  - Forecasting
   - Preprint
-  themes: ''
+  themes: forecasting
   kind: preprint
   pdf: https://arxiv.org/pdf/2409.19718
   haspdf: 'yes'
@@ -719,8 +764,11 @@
   preprint: http://arxiv.org/abs/2403.03631
   status: Preprint
   categories:
+  - Forecasting
+  - Energy
+  - Analytics
   - Preprint
-  themes: ''
+  themes: forecasting energy analytics
   kind: preprint
   pdf: https://arxiv.org/pdf/2403.03631
   haspdf: 'yes'
@@ -732,8 +780,9 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
   - Journal article
-  themes: ''
+  themes: forecasting
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -745,8 +794,9 @@
   preprint: http://arxiv.org/abs/2409.08721
   status: ''
   categories:
+  - Energy
   - Conference paper
-  themes: ''
+  themes: energy
   kind: conference
   pdf: https://arxiv.org/pdf/2409.08721
   haspdf: 'yes'
@@ -933,8 +983,10 @@
   preprint: http://arxiv.org/abs/2310.02618
   status: Preprint
   categories:
+  - Forecasting
+  - Energy
   - Preprint
-  themes: ''
+  themes: forecasting energy
   kind: preprint
   pdf: https://arxiv.org/pdf/2310.02618
   haspdf: 'yes'
@@ -946,8 +998,10 @@
   preprint: http://arxiv.org/abs/2303.12765
   status: Preprint
   categories:
+  - Optimisation
+  - Analytics
   - Preprint
-  themes: ''
+  themes: optimisation analytics
   kind: preprint
   pdf: https://arxiv.org/pdf/2303.12765
   haspdf: 'yes'
@@ -959,8 +1013,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -972,8 +1028,9 @@
   preprint: ''
   status: ''
   categories:
+  - Energy
   - Conference paper
-  themes: ''
+  themes: energy
   kind: conference
   pdf: ''
   haspdf: 'no'
@@ -1161,8 +1218,11 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
+  - Analytics
   - Journal article
-  themes: ''
+  themes: forecasting energy analytics
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -1174,8 +1234,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -1187,8 +1249,11 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Optimisation
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting optimisation energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -1265,8 +1330,8 @@
   - Journal article
   themes: optimisation energy
   kind: article
-  pdf: https://ars.els-cdn.com/content/image/1-s2.0-S0378779622005193-ga1_lrg.jpg
-  haspdf: 'yes'
+  pdf: ''
+  haspdf: 'no'
 - title: Regression markets and application to energy forecasting
   year: 2022
   venue: TOP 30, pp. 533-573
@@ -1406,8 +1471,11 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Markets
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting markets energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -1419,8 +1487,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -1432,8 +1502,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -1445,8 +1517,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -1458,8 +1532,9 @@
   preprint: ''
   status: ''
   categories:
+  - Energy
   - Journal article
-  themes: ''
+  themes: energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -1471,8 +1546,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -1484,8 +1561,9 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
   - Journal article
-  themes: ''
+  themes: forecasting
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -1830,8 +1908,11 @@
   preprint: ''
   status: ''
   categories:
+  - Markets
+  - Optimisation
+  - Energy
   - Journal article
-  themes: ''
+  themes: markets optimisation energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -1843,8 +1924,10 @@
   preprint: ''
   status: ''
   categories:
+  - Optimisation
+  - Energy
   - Conference paper
-  themes: ''
+  themes: optimisation energy
   kind: conference
   pdf: ''
   haspdf: 'no'
@@ -1856,8 +1939,9 @@
   preprint: http://arxiv.org/abs/1910.10136
   status: ''
   categories:
+  - Energy
   - Conference paper
-  themes: ''
+  themes: energy
   kind: conference
   pdf: https://arxiv.org/pdf/1910.10136
   haspdf: 'yes'
@@ -1869,8 +1953,11 @@
   preprint: ''
   status: ''
   categories:
+  - Markets
+  - Energy
+  - Analytics
   - Journal article
-  themes: ''
+  themes: markets energy analytics
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -1882,8 +1969,9 @@
   preprint: ''
   status: ''
   categories:
+  - Energy
   - Journal article
-  themes: ''
+  themes: energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -1895,8 +1983,10 @@
   preprint: ''
   status: ''
   categories:
+  - Markets
+  - Optimisation
   - Journal article
-  themes: ''
+  themes: markets optimisation
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -1908,8 +1998,12 @@
   preprint: http://arxiv.org/abs/2005.11749
   status: ''
   categories:
+  - Forecasting
+  - Markets
+  - Optimisation
+  - Energy
   - Conference paper
-  themes: ''
+  themes: forecasting markets optimisation energy
   kind: conference
   pdf: https://arxiv.org/pdf/2005.11749
   haspdf: 'yes'
@@ -1921,8 +2015,9 @@
   preprint: ''
   status: ''
   categories:
+  - Energy
   - Journal article
-  themes: ''
+  themes: energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -1934,8 +2029,9 @@
   preprint: http://arxiv.org/abs/2006.12338
   status: Preprint
   categories:
+  - Optimisation
   - Preprint
-  themes: ''
+  themes: optimisation
   kind: preprint
   pdf: https://arxiv.org/pdf/2006.12338
   haspdf: 'yes'
@@ -1947,8 +2043,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -1960,8 +2058,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -1973,8 +2073,9 @@
   preprint: ''
   status: ''
   categories:
+  - Energy
   - Journal article
-  themes: ''
+  themes: energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -1986,8 +2087,10 @@
   preprint: ''
   status: ''
   categories:
+  - Markets
+  - Energy
   - Journal article
-  themes: ''
+  themes: markets energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -1999,8 +2102,10 @@
   preprint: ''
   status: ''
   categories:
+  - Markets
+  - Energy
   - Journal article
-  themes: ''
+  themes: markets energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -2286,8 +2391,10 @@
   preprint: https://arxiv.org/abs/1803.02159
   status: ''
   categories:
+  - Markets
+  - Energy
   - Journal article
-  themes: ''
+  themes: markets energy
   kind: article
   pdf: https://arxiv.org/pdf/1803.02159
   haspdf: 'yes'
@@ -2299,8 +2406,9 @@
   preprint: ''
   status: ''
   categories:
+  - Markets
   - Journal article
-  themes: ''
+  themes: markets
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -2312,8 +2420,9 @@
   preprint: ''
   status: ''
   categories:
+  - Energy
   - Journal article
-  themes: ''
+  themes: energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -2325,8 +2434,10 @@
   preprint: ''
   status: ''
   categories:
+  - Markets
+  - Energy
   - Conference paper
-  themes: ''
+  themes: markets energy
   kind: conference
   pdf: ''
   haspdf: 'no'
@@ -2338,8 +2449,10 @@
   preprint: ''
   status: ''
   categories:
+  - Markets
+  - Energy
   - Conference paper
-  themes: ''
+  themes: markets energy
   kind: conference
   pdf: ''
   haspdf: 'no'
@@ -2351,8 +2464,10 @@
   preprint: ''
   status: ''
   categories:
+  - Markets
+  - Energy
   - Journal article
-  themes: ''
+  themes: markets energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -2364,8 +2479,10 @@
   preprint: ''
   status: ''
   categories:
+  - Markets
+  - Energy
   - Journal article
-  themes: ''
+  themes: markets energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -2377,8 +2494,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -2390,8 +2509,10 @@
   preprint: ''
   status: ''
   categories:
+  - Markets
+  - Energy
   - Conference paper
-  themes: ''
+  themes: markets energy
   kind: conference
   pdf: ''
   haspdf: 'no'
@@ -2403,8 +2524,9 @@
   preprint: ''
   status: ''
   categories:
+  - Energy
   - Journal article
-  themes: ''
+  themes: energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -2416,8 +2538,10 @@
   preprint: ''
   status: ''
   categories:
+  - Markets
+  - Energy
   - Journal article
-  themes: ''
+  themes: markets energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -2429,8 +2553,9 @@
   preprint: ''
   status: ''
   categories:
+  - Energy
   - Journal article
-  themes: ''
+  themes: energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -2442,8 +2567,11 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Markets
+  - Analytics
   - Journal article
-  themes: ''
+  themes: forecasting markets analytics
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -2455,8 +2583,10 @@
   preprint: ''
   status: ''
   categories:
+  - Energy
+  - Analytics
   - Journal article
-  themes: ''
+  themes: energy analytics
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -2468,8 +2598,10 @@
   preprint: ''
   status: ''
   categories:
+  - Markets
+  - Energy
   - Journal article
-  themes: ''
+  themes: markets energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -2481,8 +2613,11 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
+  - Analytics
   - Journal article
-  themes: ''
+  themes: forecasting energy analytics
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -2494,8 +2629,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -2507,8 +2644,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -2763,8 +2902,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -2776,8 +2917,10 @@
   preprint: ''
   status: ''
   categories:
+  - Markets
+  - Energy
   - Conference paper
-  themes: ''
+  themes: markets energy
   kind: conference
   pdf: ''
   haspdf: 'no'
@@ -2789,8 +2932,10 @@
   preprint: ''
   status: ''
   categories:
+  - Markets
+  - Analytics
   - Conference paper
-  themes: ''
+  themes: markets analytics
   kind: conference
   pdf: ''
   haspdf: 'no'
@@ -2802,8 +2947,10 @@
   preprint: ''
   status: ''
   categories:
+  - Energy
+  - Analytics
   - Journal article
-  themes: ''
+  themes: energy analytics
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -2815,8 +2962,10 @@
   preprint: http://arxiv.org/abs/1711.04620
   status: ''
   categories:
+  - Markets
+  - Energy
   - Conference paper
-  themes: ''
+  themes: markets energy
   kind: conference
   pdf: https://arxiv.org/pdf/1711.04620
   haspdf: 'yes'
@@ -2828,8 +2977,9 @@
   preprint: ''
   status: ''
   categories:
+  - Markets
   - Conference paper
-  themes: ''
+  themes: markets
   kind: conference
   pdf: ''
   haspdf: 'no'
@@ -2841,8 +2991,9 @@
   preprint: ''
   status: ''
   categories:
+  - Energy
   - Journal article
-  themes: ''
+  themes: energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -2854,8 +3005,10 @@
   preprint: ''
   status: ''
   categories:
+  - Markets
+  - Optimisation
   - Conference paper
-  themes: ''
+  themes: markets optimisation
   kind: conference
   pdf: ''
   haspdf: 'no'
@@ -2867,8 +3020,9 @@
   preprint: ''
   status: ''
   categories:
+  - Energy
   - Journal article
-  themes: ''
+  themes: energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -2880,8 +3034,10 @@
   preprint: ''
   status: ''
   categories:
+  - Markets
+  - Analytics
   - Journal article
-  themes: ''
+  themes: markets analytics
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -2893,8 +3049,11 @@
   preprint: ''
   status: ''
   categories:
+  - Markets
+  - Optimisation
+  - Energy
   - Journal article
-  themes: ''
+  themes: markets optimisation energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -2906,8 +3065,11 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
+  - Analytics
   - Conference paper
-  themes: ''
+  themes: forecasting energy analytics
   kind: conference
   pdf: ''
   haspdf: 'no'
@@ -2919,8 +3081,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -3134,8 +3298,11 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Markets
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting markets energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -3147,8 +3314,10 @@
   preprint: ''
   status: ''
   categories:
+  - Markets
+  - Energy
   - Journal article
-  themes: ''
+  themes: markets energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -3160,8 +3329,9 @@
   preprint: ''
   status: ''
   categories:
+  - Analytics
   - Journal article
-  themes: ''
+  themes: analytics
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -3173,8 +3343,10 @@
   preprint: ''
   status: ''
   categories:
+  - Markets
+  - Energy
   - Journal article
-  themes: ''
+  themes: markets energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -3186,8 +3358,9 @@
   preprint: ''
   status: ''
   categories:
+  - Optimisation
   - Journal article
-  themes: ''
+  themes: optimisation
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -3199,8 +3372,9 @@
   preprint: ''
   status: ''
   categories:
+  - Energy
   - Journal article
-  themes: ''
+  themes: energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -3212,8 +3386,9 @@
   preprint: ''
   status: ''
   categories:
+  - Energy
   - Journal article
-  themes: ''
+  themes: energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -3225,8 +3400,10 @@
   preprint: ''
   status: ''
   categories:
+  - Energy
+  - Analytics
   - Journal article
-  themes: ''
+  themes: energy analytics
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -3238,8 +3415,10 @@
   preprint: ''
   status: ''
   categories:
+  - Optimisation
+  - Energy
   - Conference paper
-  themes: ''
+  themes: optimisation energy
   kind: conference
   pdf: ''
   haspdf: 'no'
@@ -3251,8 +3430,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -3264,8 +3445,10 @@
   preprint: ''
   status: ''
   categories:
+  - Energy
+  - Analytics
   - Journal article
-  themes: ''
+  themes: energy analytics
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -3277,8 +3460,10 @@
   preprint: ''
   status: ''
   categories:
+  - Optimisation
+  - Energy
   - Journal article
-  themes: ''
+  themes: optimisation energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -3290,8 +3475,10 @@
   preprint: ''
   status: ''
   categories:
+  - Energy
+  - Analytics
   - Journal article
-  themes: ''
+  themes: energy analytics
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -3303,8 +3490,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -3316,8 +3505,9 @@
   preprint: ''
   status: ''
   categories:
+  - Energy
   - Journal article
-  themes: ''
+  themes: energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -3329,8 +3519,11 @@
   preprint: https://arxiv.org/abs/1711.04620v1
   status: Preprint
   categories:
+  - Markets
+  - Optimisation
+  - Energy
   - Preprint
-  themes: ''
+  themes: markets optimisation energy
   kind: preprint
   pdf: https://arxiv.org/pdf/1711.04620
   haspdf: 'yes'
@@ -3488,8 +3681,10 @@
   preprint: ''
   status: ''
   categories:
+  - Markets
+  - Energy
   - Journal article
-  themes: ''
+  themes: markets energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -3501,8 +3696,10 @@
   preprint: ''
   status: ''
   categories:
+  - Optimisation
+  - Energy
   - Journal article
-  themes: ''
+  themes: optimisation energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -3514,8 +3711,11 @@
   preprint: ''
   status: ''
   categories:
+  - Markets
+  - Optimisation
+  - Energy
   - Journal article
-  themes: ''
+  themes: markets optimisation energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -3527,8 +3727,9 @@
   preprint: ''
   status: ''
   categories:
+  - Energy
   - Conference paper
-  themes: ''
+  themes: energy
   kind: conference
   pdf: ''
   haspdf: 'no'
@@ -3540,8 +3741,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Analytics
   - Conference paper
-  themes: ''
+  themes: forecasting analytics
   kind: conference
   pdf: ''
   haspdf: 'no'
@@ -3553,8 +3756,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -3566,8 +3771,11 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Markets
+  - Optimisation
   - Conference paper
-  themes: ''
+  themes: forecasting markets optimisation
   kind: conference
   pdf: ''
   haspdf: 'no'
@@ -3579,8 +3787,10 @@
   preprint: ''
   status: ''
   categories:
+  - Markets
+  - Optimisation
   - Conference paper
-  themes: ''
+  themes: markets optimisation
   kind: conference
   pdf: ''
   haspdf: 'no'
@@ -3592,8 +3802,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -3605,8 +3817,11 @@
   preprint: ''
   status: ''
   categories:
+  - Markets
+  - Energy
+  - Analytics
   - Conference paper
-  themes: ''
+  themes: markets energy analytics
   kind: conference
   pdf: ''
   haspdf: 'no'
@@ -3618,8 +3833,11 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Markets
+  - Energy
   - Conference paper
-  themes: ''
+  themes: forecasting markets energy
   kind: conference
   pdf: ''
   haspdf: 'no'
@@ -3631,8 +3849,10 @@
   preprint: ''
   status: ''
   categories:
+  - Markets
+  - Energy
   - Conference paper
-  themes: ''
+  themes: markets energy
   kind: conference
   pdf: ''
   haspdf: 'no'
@@ -3644,8 +3864,10 @@
   preprint: ''
   status: ''
   categories:
+  - Markets
+  - Energy
   - Journal article
-  themes: ''
+  themes: markets energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -3657,8 +3879,11 @@
   preprint: ''
   status: ''
   categories:
+  - Markets
+  - Optimisation
+  - Energy
   - Conference paper
-  themes: ''
+  themes: markets optimisation energy
   kind: conference
   pdf: ''
   haspdf: 'no'
@@ -3670,8 +3895,10 @@
   preprint: ''
   status: ''
   categories:
+  - Energy
+  - Analytics
   - Journal article
-  themes: ''
+  themes: energy analytics
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -3683,8 +3910,9 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
   - Journal article
-  themes: ''
+  themes: forecasting
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -3696,8 +3924,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -3709,8 +3939,10 @@
   preprint: ''
   status: ''
   categories:
+  - Markets
+  - Energy
   - Conference paper
-  themes: ''
+  themes: markets energy
   kind: conference
   pdf: ''
   haspdf: 'no'
@@ -3722,8 +3954,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -3735,8 +3969,10 @@
   preprint: ''
   status: ''
   categories:
+  - Markets
+  - Energy
   - Journal article
-  themes: ''
+  themes: markets energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -3748,8 +3984,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Conference paper
-  themes: ''
+  themes: forecasting energy
   kind: conference
   pdf: ''
   haspdf: 'no'
@@ -4035,8 +4273,10 @@
   preprint: ''
   status: ''
   categories:
+  - Markets
+  - Energy
   - Journal article
-  themes: ''
+  themes: markets energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -4048,8 +4288,9 @@
   preprint: http://arxiv.org/abs/1407.2744
   status: ''
   categories:
+  - Energy
   - Journal article
-  themes: ''
+  themes: energy
   kind: article
   pdf: https://arxiv.org/pdf/1407.2744
   haspdf: 'yes'
@@ -4061,8 +4302,9 @@
   preprint: ''
   status: ''
   categories:
+  - Energy
   - Journal article
-  themes: ''
+  themes: energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -4074,8 +4316,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -4087,8 +4331,9 @@
   preprint: ''
   status: ''
   categories:
+  - Energy
   - Journal article
-  themes: ''
+  themes: energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -4100,8 +4345,10 @@
   preprint: ''
   status: ''
   categories:
+  - Markets
+  - Energy
   - Conference paper
-  themes: ''
+  themes: markets energy
   kind: conference
   pdf: ''
   haspdf: 'no'
@@ -4113,8 +4360,9 @@
   preprint: ''
   status: ''
   categories:
+  - Optimisation
   - Journal article
-  themes: ''
+  themes: optimisation
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -4126,8 +4374,10 @@
   preprint: ''
   status: ''
   categories:
+  - Markets
+  - Energy
   - Journal article
-  themes: ''
+  themes: markets energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -4139,8 +4389,10 @@
   preprint: ''
   status: ''
   categories:
+  - Markets
+  - Energy
   - Conference paper
-  themes: ''
+  themes: markets energy
   kind: conference
   pdf: ''
   haspdf: 'no'
@@ -4152,8 +4404,10 @@
   preprint: ''
   status: ''
   categories:
+  - Markets
+  - Energy
   - Conference paper
-  themes: ''
+  themes: markets energy
   kind: conference
   pdf: ''
   haspdf: 'no'
@@ -4165,8 +4419,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -4178,8 +4434,11 @@
   preprint: ''
   status: ''
   categories:
+  - Markets
+  - Optimisation
+  - Energy
   - Journal article
-  themes: ''
+  themes: markets optimisation energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -4191,8 +4450,9 @@
   preprint: ''
   status: ''
   categories:
+  - Energy
   - Journal article
-  themes: ''
+  themes: energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -4204,8 +4464,9 @@
   preprint: ''
   status: ''
   categories:
+  - Analytics
   - Journal article
-  themes: ''
+  themes: analytics
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -4217,8 +4478,10 @@
   preprint: ''
   status: ''
   categories:
+  - Markets
+  - Energy
   - Conference paper
-  themes: ''
+  themes: markets energy
   kind: conference
   pdf: ''
   haspdf: 'no'
@@ -4230,8 +4493,11 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Markets
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting markets energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -4243,8 +4509,10 @@
   preprint: ''
   status: ''
   categories:
+  - Markets
+  - Energy
   - Journal article
-  themes: ''
+  themes: markets energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -4328,8 +4596,11 @@
   preprint: ''
   status: ''
   categories:
+  - Markets
+  - Optimisation
+  - Energy
   - Journal article
-  themes: ''
+  themes: markets optimisation energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -4341,8 +4612,12 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Markets
+  - Energy
+  - Analytics
   - Journal article
-  themes: ''
+  themes: forecasting markets energy analytics
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -4354,8 +4629,10 @@
   preprint: ''
   status: ''
   categories:
+  - Markets
+  - Energy
   - Conference paper
-  themes: ''
+  themes: markets energy
   kind: conference
   pdf: ''
   haspdf: 'no'
@@ -4367,8 +4644,10 @@
   preprint: ''
   status: ''
   categories:
+  - Markets
+  - Energy
   - Journal article
-  themes: ''
+  themes: markets energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -4380,8 +4659,11 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Optimisation
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting optimisation energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -4393,8 +4675,10 @@
   preprint: ''
   status: ''
   categories:
+  - Markets
+  - Energy
   - Journal article
-  themes: ''
+  themes: markets energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -4406,8 +4690,10 @@
   preprint: ''
   status: ''
   categories:
+  - Markets
+  - Energy
   - Journal article
-  themes: ''
+  themes: markets energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -4419,8 +4705,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Optimisation
   - Conference paper
-  themes: ''
+  themes: forecasting optimisation
   kind: conference
   pdf: ''
   haspdf: 'no'
@@ -4432,8 +4720,10 @@
   preprint: ''
   status: ''
   categories:
+  - Markets
+  - Optimisation
   - Journal article
-  themes: ''
+  themes: markets optimisation
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -4445,8 +4735,9 @@
   preprint: ''
   status: ''
   categories:
+  - Energy
   - Journal article
-  themes: ''
+  themes: energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -4458,8 +4749,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -4471,8 +4764,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -4484,8 +4779,10 @@
   preprint: ''
   status: ''
   categories:
+  - Markets
+  - Energy
   - Conference paper
-  themes: ''
+  themes: markets energy
   kind: conference
   pdf: ''
   haspdf: 'no'
@@ -4718,15 +5015,19 @@
   haspdf: 'yes'
 - title: Integrating Renewables in Electricity Markets
   year: 2013
-  venue: International series in management science/operations research/International series in operations research & management science
+  venue: Springer, International Series in Operations Research & Management Science 205
   authors: J.M. Morales, A.J. Conejo, H. Madsen, P. Pinson, M. Zugno
   url: https://doi.org/10.1007/978-1-4614-9411-9
   preprint: ''
-  status: ''
+  status: Book
   categories:
-  - Journal article
-  themes: ''
-  kind: article
+  - Markets
+  - Forecasting
+  - Optimisation
+  - Energy
+  - Book
+  themes: markets forecasting optimisation energy
+  kind: book
   pdf: ''
   haspdf: 'no'
 - title: Electricity market clearing with improved scheduling of stochastic production
@@ -4737,8 +5038,11 @@
   preprint: ''
   status: ''
   categories:
+  - Markets
+  - Optimisation
+  - Energy
   - Journal article
-  themes: ''
+  themes: markets optimisation energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -4750,47 +5054,9 @@
   preprint: ''
   status: ''
   categories:
+  - Energy
   - Journal article
-  themes: ''
-  kind: article
-  pdf: ''
-  haspdf: 'no'
-- title: Trading Stochastic Production in Electricity Pools
-  year: 2013
-  venue: International series in management science/operations research/International series in operations research & management science, pp. 205-242
-  authors: J.M. Morales, A.J. Conejo, H. Madsen, P. Pinson, M. Zugno
-  url: https://doi.org/10.1007/978-1-4614-9411-9_7
-  preprint: ''
-  status: ''
-  categories:
-  - Journal article
-  themes: ''
-  kind: article
-  pdf: ''
-  haspdf: 'no'
-- title: Virtual Power Plants
-  year: 2013
-  venue: International series in management science/operations research/International series in operations research & management science, pp. 243-287
-  authors: J.M. Morales, A.J. Conejo, H. Madsen, P. Pinson, M. Zugno
-  url: https://doi.org/10.1007/978-1-4614-9411-9_8
-  preprint: ''
-  status: ''
-  categories:
-  - Journal article
-  themes: ''
-  kind: article
-  pdf: ''
-  haspdf: 'no'
-- title: Renewable Energy Sources—Modeling and Forecasting
-  year: 2013
-  venue: International series in management science/operations research/International series in operations research & management science, pp. 15-56
-  authors: J.M. Morales, A.J. Conejo, H. Madsen, P. Pinson, M. Zugno
-  url: https://doi.org/10.1007/978-1-4614-9411-9_2
-  preprint: ''
-  status: ''
-  categories:
-  - Journal article
-  themes: ''
+  themes: energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -4802,60 +5068,9 @@
   preprint: ''
   status: ''
   categories:
+  - Energy
   - Journal article
-  themes: ''
-  kind: article
-  pdf: ''
-  haspdf: 'no'
-- title: Managing Uncertainty with Flexibility
-  year: 2013
-  venue: International series in management science/operations research/International series in operations research & management science, pp. 137-171
-  authors: J.M. Morales, A.J. Conejo, H. Madsen, P. Pinson, M. Zugno
-  url: https://doi.org/10.1007/978-1-4614-9411-9_5
-  preprint: ''
-  status: ''
-  categories:
-  - Journal article
-  themes: ''
-  kind: article
-  pdf: ''
-  haspdf: 'no'
-- title: Impact of Stochastic Renewable Energy Generation on Market Quantities
-  year: 2013
-  venue: International series in management science/operations research/International series in operations research & management science, pp. 173-203
-  authors: J.M. Morales, A.J. Conejo, H. Madsen, P. Pinson, M. Zugno
-  url: https://doi.org/10.1007/978-1-4614-9411-9_6
-  preprint: ''
-  status: ''
-  categories:
-  - Journal article
-  themes: ''
-  kind: article
-  pdf: ''
-  haspdf: 'no'
-- title: Clearing the Day-Ahead Market with a High Penetration of Stochastic Production
-  year: 2013
-  venue: International series in management science/operations research/International series in operations research & management science, pp. 57-100
-  authors: J.M. Morales, A.J. Conejo, H. Madsen, P. Pinson, M. Zugno
-  url: https://doi.org/10.1007/978-1-4614-9411-9_3
-  preprint: ''
-  status: ''
-  categories:
-  - Journal article
-  themes: ''
-  kind: article
-  pdf: ''
-  haspdf: 'no'
-- title: Facilitating Renewable Integration by Demand Response
-  year: 2013
-  venue: International series in management science/operations research/International series in operations research & management science, pp. 289-329
-  authors: J.M. Morales, A.J. Conejo, H. Madsen, P. Pinson, M. Zugno
-  url: https://doi.org/10.1007/978-1-4614-9411-9_9
-  preprint: ''
-  status: ''
-  categories:
-  - Journal article
-  themes: ''
+  themes: energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -4867,35 +5082,11 @@
   preprint: ''
   status: ''
   categories:
+  - Optimisation
+  - Energy
   - Conference paper
-  themes: ''
+  themes: optimisation energy
   kind: conference
-  pdf: ''
-  haspdf: 'no'
-- title: Balancing Markets
-  year: 2013
-  venue: International series in management science/operations research/International series in operations research & management science, pp. 101-136
-  authors: J.M. Morales, A.J. Conejo, H. Madsen, P. Pinson, M. Zugno
-  url: https://doi.org/10.1007/978-1-4614-9411-9_4
-  preprint: ''
-  status: ''
-  categories:
-  - Journal article
-  themes: ''
-  kind: article
-  pdf: ''
-  haspdf: 'no'
-- title: Introduction
-  year: 2013
-  venue: International series in management science/operations research/International series in operations research & management science, pp. 1-13
-  authors: J.M. Morales, A.J. Conejo, H. Madsen, P. Pinson, M. Zugno
-  url: https://doi.org/10.1007/978-1-4614-9411-9_1
-  preprint: ''
-  status: ''
-  categories:
-  - Journal article
-  themes: ''
-  kind: article
   pdf: ''
   haspdf: 'no'
 - title: Proper Evaluation of Neural Network and Learning Systems based Prediction Intervals
@@ -4906,8 +5097,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Analytics
   - Journal article
-  themes: ''
+  themes: forecasting analytics
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -4919,8 +5112,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -4932,8 +5127,9 @@
   preprint: ''
   status: ''
   categories:
+  - Energy
   - Journal article
-  themes: ''
+  themes: energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -4945,8 +5141,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Optimisation
   - Journal article
-  themes: ''
+  themes: forecasting optimisation
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -4958,8 +5156,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -4971,8 +5171,9 @@
   preprint: ''
   status: ''
   categories:
+  - Energy
   - Journal article
-  themes: ''
+  themes: energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -4984,8 +5185,9 @@
   preprint: ''
   status: ''
   categories:
+  - Energy
   - Journal article
-  themes: ''
+  themes: energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -5144,8 +5346,11 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Markets
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting markets energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -5157,8 +5362,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -5170,8 +5377,11 @@
   preprint: ''
   status: ''
   categories:
+  - Markets
+  - Optimisation
+  - Energy
   - Journal article
-  themes: ''
+  themes: markets optimisation energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -5183,8 +5393,11 @@
   preprint: ''
   status: ''
   categories:
+  - Markets
+  - Energy
+  - Analytics
   - Conference paper
-  themes: ''
+  themes: markets energy analytics
   kind: conference
   pdf: ''
   haspdf: 'no'
@@ -5196,8 +5409,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -5209,8 +5424,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -5336,8 +5553,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -5349,8 +5568,9 @@
   preprint: ''
   status: ''
   categories:
+  - Energy
   - Journal article
-  themes: ''
+  themes: energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -5362,8 +5582,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -5375,8 +5597,9 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
   - Journal article
-  themes: ''
+  themes: forecasting
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -5388,8 +5611,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -5401,8 +5626,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -5470,8 +5697,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -5483,8 +5712,11 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Markets
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting markets energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -5496,8 +5728,9 @@
   preprint: ''
   status: ''
   categories:
+  - Energy
   - Journal article
-  themes: ''
+  themes: energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -5509,8 +5742,9 @@
   preprint: ''
   status: ''
   categories:
+  - Energy
   - Journal article
-  themes: ''
+  themes: energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -5607,8 +5841,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Conference paper
-  themes: ''
+  themes: forecasting energy
   kind: conference
   pdf: ''
   haspdf: 'no'
@@ -5620,8 +5856,9 @@
   preprint: ''
   status: ''
   categories:
+  - Energy
   - Journal article
-  themes: ''
+  themes: energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -5633,8 +5870,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -5646,8 +5885,9 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
   - Journal article
-  themes: ''
+  themes: forecasting
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -5659,8 +5899,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -5672,8 +5914,9 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
   - Journal article
-  themes: ''
+  themes: forecasting
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -5685,8 +5928,9 @@
   preprint: ''
   status: ''
   categories:
+  - Energy
   - Journal article
-  themes: ''
+  themes: energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -5755,8 +5999,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -5768,8 +6014,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -5781,8 +6029,9 @@
   preprint: ''
   status: ''
   categories:
+  - Energy
   - Journal article
-  themes: ''
+  themes: energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -5794,8 +6043,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -5807,8 +6058,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -5820,8 +6073,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -5833,8 +6088,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -5846,8 +6103,11 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Optimisation
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting optimisation energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -5859,8 +6119,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -5928,8 +6190,11 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
+  - Analytics
   - Journal article
-  themes: ''
+  themes: forecasting energy analytics
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -5941,8 +6206,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -5954,8 +6221,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -5967,8 +6236,10 @@
   preprint: ''
   status: ''
   categories:
+  - Optimisation
+  - Energy
   - Journal article
-  themes: ''
+  themes: optimisation energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -5980,8 +6251,9 @@
   preprint: ''
   status: ''
   categories:
+  - Energy
   - Journal article
-  themes: ''
+  themes: energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -5993,8 +6265,9 @@
   preprint: ''
   status: ''
   categories:
+  - Energy
   - Journal article
-  themes: ''
+  themes: energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -6006,8 +6279,10 @@
   preprint: ''
   status: ''
   categories:
+  - Energy
+  - Analytics
   - Journal article
-  themes: ''
+  themes: energy analytics
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -6019,8 +6294,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -6032,8 +6309,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -6045,8 +6324,9 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
   - Journal article
-  themes: ''
+  themes: forecasting
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -6058,8 +6338,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -6071,8 +6353,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -6084,8 +6368,9 @@
   preprint: ''
   status: ''
   categories:
+  - Energy
   - Journal article
-  themes: ''
+  themes: energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -6140,8 +6425,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -6153,8 +6440,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -6166,8 +6455,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Conference paper
-  themes: ''
+  themes: forecasting energy
   kind: conference
   pdf: ''
   haspdf: 'no'
@@ -6179,8 +6470,11 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
+  - Analytics
   - Journal article
-  themes: ''
+  themes: forecasting energy analytics
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -6192,8 +6486,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -6205,8 +6501,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -6218,8 +6516,11 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
+  - Analytics
   - Journal article
-  themes: ''
+  themes: forecasting energy analytics
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -6245,8 +6546,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -6258,8 +6561,11 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
+  - Analytics
   - Journal article
-  themes: ''
+  themes: forecasting energy analytics
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -6271,8 +6577,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -6284,8 +6592,12 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Markets
+  - Optimisation
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting markets optimisation energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -6297,8 +6609,11 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
+  - Analytics
   - Journal article
-  themes: ''
+  themes: forecasting energy analytics
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -6310,8 +6625,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -6323,8 +6640,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -6336,8 +6655,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -6363,8 +6684,11 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
+  - Analytics
   - Journal article
-  themes: ''
+  themes: forecasting energy analytics
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -6376,8 +6700,10 @@
   preprint: ''
   status: ''
   categories:
+  - Forecasting
+  - Energy
   - Journal article
-  themes: ''
+  themes: forecasting energy
   kind: article
   pdf: ''
   haspdf: 'no'

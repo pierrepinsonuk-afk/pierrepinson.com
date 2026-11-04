@@ -39,14 +39,22 @@ For more than 20 years, through research, teaching and consultancy, I have worke
 
 I care about teaching as much as research. I have taught in French, English and Danish, and my video courses on YouTube, including the open course [Renewables in Electricity Markets](teaching/index.qmd), have been viewed around 300,000 times. In March 2026 I gave the DTU Ørsted Lecture, ["Can we predict the future of forecasting?"](https://www.youtube.com/watch?v=tOe7jf_pcB8).
 
-```{=html}
-<section class="ab-facts" aria-label="In short">
-  <div><span class="ab-n">20+</span><span class="ab-l">years in forecasting and energy markets</span></div>
-  <div><span class="ab-n">220+</span><span class="ab-l"><a href="publications.html">publications</a></span></div>
-  <div><span class="ab-n">6×</span><span class="ab-l">Clarivate Highly Cited Researcher</span></div>
-  <div><span class="ab-n">3</span><span class="ab-l">teaching languages: French, English, Danish</span></div>
-</section>
+::: {.ab-facts}
+::: {}
+[20+]{.ab-n} [years in forecasting and energy markets]{.ab-l}
+:::
+::: {}
+[{{< var pubs.rounded >}}]{.ab-n} [[publications](publications.qmd)]{.ab-l}
+:::
+::: {}
+[6×]{.ab-n} [Clarivate Highly Cited Researcher]{.ab-l}
+:::
+::: {}
+[3]{.ab-n} [teaching languages: French, English, Danish]{.ab-l}
+:::
+:::
 
+```{=html}
 <section class="ab-career column-page">
   <h2>Career at a glance</h2>
   <p class="ab-hint">Hover or tap a bar or a milestone for details.</p>

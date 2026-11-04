@@ -55,7 +55,7 @@ listing:
 ::: {#recent-pubs}
 :::
 
-[All 220 publications](publications.qmd) · [Download BibTeX](files/pinson-publications.bib)
+[All {{< var pubs.total >}} publications](publications.qmd) · [Download BibTeX](files/pinson-publications.bib)
 :::
 
 ::: {}
