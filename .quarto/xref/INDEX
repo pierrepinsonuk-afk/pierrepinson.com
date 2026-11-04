@@ -118,5 +118,14 @@
   },
   "pierrepinson-quarto/teaching/module-01.qmd": {
     "module-01.html": "b648ea9f"
+  },
+  "research/markets.qmd": {
+    "markets.html": "924dfe90"
+  },
+  "research/data-markets.qmd": {
+    "data-markets.html": "917d4dcf"
+  },
+  "research/forecasting.qmd": {
+    "forecasting.html": "7ed5db2f"
   }
 }
