@@ -297,9 +297,9 @@ def write_highlights(pubs):
         ("ijf", "2019 – 2026 · Editorial", "Editor-in-Chief, International Journal of Forecasting",
          "Seven years leading the flagship journal of the International Institute of Forecasters.",
          "ijf.html", "About the journal"),
-        ("orsted", "2026 · Lecture", "DTU Ørsted Lecture",
+         ("orsted", "2026 · Lecture", "DTU Ørsted Lecture",
          "“Can we predict the future of forecasting?”, the yearly public lecture at the Technical University of Denmark.",
-         "about.html", "More about me"),
+         "https://www.youtube.com/watch?v=tOe7jf_pcB8", "Watch the lecture"),
     ]
     out = []
     for key, kicker, title, text, href, cta in cards:
