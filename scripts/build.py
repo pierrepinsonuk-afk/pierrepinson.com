@@ -287,13 +287,13 @@ def write_highlights(pubs):
          "news/posts/2024-edelman/index.html", "Read the story"),
         ("forecasting", f"Research · {n('forecasting')} papers", "Probabilistic energy forecasting",
          "From early work on wind power to methods for wind, solar, wave, load and market quantities, and how to verify them.",
-         "publications.html#theme=forecasting", "See the papers"),
+         "research/forecasting.html", "Explore the work"),
         ("markets", f"Research · {n('markets')} papers", "Energy markets",
          "Trading strategies for renewables, and market design and clearing under uncertainty, from coordinated to peer-to-peer markets.",
-         "publications.html#theme=markets", "See the papers"),
+         "research/markets.html", "Explore the work"),
         ("datamarkets", f"Research · {n('datamarkets')} papers", "Data and analytics markets",
          "Mechanisms to value, share and trade data, forecasts and models.",
-         "publications.html#theme=datamarkets", "See the papers"),
+         "research/data-markets.html", "Explore the work"),
         ("ijf", "2019 – 2026 · Editorial", "Editor-in-Chief, International Journal of Forecasting",
          "Seven years leading the flagship journal of the International Institute of Forecasters.",
          "ijf.html", "About the journal"),
@@ -311,6 +311,59 @@ def write_highlights(pubs):
     (ROOT / "_highlights.md").write_text(block, encoding="utf-8")
 
 
+KEY_PAPERS = {
+    "forecasting": [
+        "Nonparametric probabilistic forecasts of wind power: required properties",
+        "From probabilistic forecasts to statistical scenarios",
+        "Conditional prediction intervals of wind power generation",
+        "Very short-term probabilistic forecasting of wind power with generalized logit",
+        "Wind energy: Forecasting challenges",
+        "Probabilistic forecasts of wind power generation accounting for geographically",
+        "Probabilistic energy forecasting: Global Energy Forecasting Competition 2014",
+        "Online distributed learning in wind power forecasting",
+        "Value-oriented forecast reconciliation",
+    ],
+    "markets": [
+        "Trading wind generation with short-term probabilistic forecasts",
+        "Pool strategy of a price-maker wind power producer",
+        "Distributionally robust trading strategies",
+        "Electricity market clearing with improved dispatch of stochastic producers",
+        "Stochastic market design with revenue adequacy",
+        "An integrated market for electricity and natural gas systems",
+        "Peer-to-peer and community-driven markets",
+        "Energy Collectives",
+        "What may future electricity markets look like",
+    ],
+    "data-markets": [
+        "Towards data markets in renewable energy forecasting",
+        "A critical overview of privacy-preserving approaches",
+        "Regression markets and application to energy forecasting",
+        "Bayesian regression markets",
+        "A market for trading forecasts: A wagering mechanism",
+        "Towards replication-robust analytics markets",
+        "Prediction markets with intermittent contributions",
+    ],
+}
+
+
+def write_key_papers(pubs):
+    pdfs = pdf_links(pubs)
+    (ROOT / "research").mkdir(exist_ok=True)
+    for topic, prefixes in KEY_PAPERS.items():
+        lines = ['::: {.key-papers}']
+        for pre in prefixes:
+            hit = next((p for p in pubs if p["title"].lower().startswith(pre.lower())), None)
+            if not hit:
+                print(f"  key paper not found, skipped: {pre}")
+                continue
+            link = pdfs.get(title_key(hit["title"])) or hit["url"] or hit["preprint"]
+            title = f"[{hit['title']}]({link})" if link else hit["title"]
+            authors = hit["authors"].replace(ME, f"**{ME}**")
+            lines.append(f"- {title}  \n  [{authors} · *{hit['venue']}* · {hit['year']}]{{.kp-meta}}")
+        lines.append(":::")
+        (ROOT / "research" / f"_papers-{topic}.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
 if __name__ == "__main__":
     pubs = load_pubs()
     tag_data_markets(pubs)
@@ -320,4 +373,5 @@ if __name__ == "__main__":
     write_interviews()
     write_exercises()
     write_highlights(pubs)
+    write_key_papers(pubs)
     print(f"{len(pubs)} publications; course pages written.")

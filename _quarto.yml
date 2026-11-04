@@ -17,6 +17,14 @@ website:
     left:
       - href: about.qmd
         text: About
+      - text: Research
+        menu:
+          - href: research/forecasting.qmd
+            text: Probabilistic forecasting
+          - href: research/markets.qmd
+            text: Energy markets
+          - href: research/data-markets.qmd
+            text: Data and analytics markets
       - href: publications.qmd
         text: Publications
       - text: Teaching

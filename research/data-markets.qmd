@@ -1,0 +1,57 @@
+---
+title: "Data and analytics markets"
+subtitle: "Valuing, sharing and trading data, forecasts and models"
+include-after-body:
+  - text: |
+      <script src="/assets/research.js" defer></script>
+---
+
+[Better forecasts often depend on data held by others: neighbouring wind farms, weather providers, other market participants. Data and analytics markets give them a reason to share, by paying each for what their data is actually worth.]{.lead}
+
+Collaborative forecasting can improve accuracy a great deal, but data owners rarely share for free, and they may worry about privacy. My recent work develops markets that allocate the value created by data, forecasts and models fairly among those who contribute them, starting from privacy-preserving collaborative learning and leading to regression markets, wagering mechanisms for forecasts, and analytics markets that are robust to strategic behaviour such as replicating data.
+
+## A regression market
+
+In a regression market, a forecaster states how much an improvement in forecast quality is worth to them. Data sellers offer their data, a model is fitted with it, and each seller is paid according to their marginal contribution to the improvement, measured with Shapley values from cooperative game theory. Useful data earns money, redundant data earns less, and irrelevant data earns nothing.
+
+```{=html}
+<figure id="w-regmarket" class="widget">
+  <div class="rm-grid">
+    <fieldset class="rm-sellers">
+      <legend>Data sellers</legend>
+      <label><input type="checkbox" checked> Neighbouring wind farm A</label>
+      <label><input type="checkbox" checked> Wind farm B, close to A</label>
+      <label><input type="checkbox"> Unrelated sensor C</label>
+      <label class="rm-price">Value of better forecasts <input type="range" name="price" min="10" max="200" value="100"> <span>€<span class="v-price"></span> per unit of error reduced</span></label>
+    </fieldset>
+    <div class="rm-out">
+      <p class="rm-err-head">Forecast error</p>
+      <div class="rm-err"><div class="rm-err-fill"></div></div>
+      <p class="rm-err-txt"></p>
+      <div class="rm-pays">
+        <div class="rm-pay"><span class="rm-name">Wind farm A</span><span class="rm-track"><span class="rm-fill"></span></span><span class="rm-amt"></span></div>
+        <div class="rm-pay"><span class="rm-name">Wind farm B</span><span class="rm-track"><span class="rm-fill"></span></span><span class="rm-amt"></span></div>
+        <div class="rm-pay"><span class="rm-name">Sensor C</span><span class="rm-track"><span class="rm-fill"></span></span><span class="rm-amt"></span></div>
+      </div>
+    </div>
+  </div>
+  <p class="w-summary" aria-live="polite"></p>
+  <figcaption>Simulated data. A forecaster predicts its own wind power from its own measurements, and can buy data from three sellers. Wind farm B's data partly overlaps with A's, so B earns less when both sell; sensor C's data is irrelevant and earns nothing. The illustration follows the regression markets introduced in our 2022 paper.</figcaption>
+</figure>
+```
+
+## Main contributions
+
+**Collaborative and privacy-preserving forecasting.** Distributed and privacy-preserving learning so that renewable energy producers can forecast better together, and early proposals for data markets in renewable energy forecasting.
+
+**Regression markets.** Mechanisms that pay data owners for their contribution to a regression task, in-sample and out-of-sample, with Bayesian and regularised extensions and applications to energy forecasting.
+
+**Markets for forecasts.** Wagering and prediction-market mechanisms that pay forecasters for the quality of their probabilistic forecasts, including when contributions are intermittent.
+
+**Robust analytics markets.** Market designs that remain fair when participants act strategically, for instance by replicating their data, and markets for labels and models.
+
+## Key papers
+
+{{< include _papers-data-markets.md >}}
+
+[All data markets papers](../publications.html#theme=datamarkets){.btn-pp}

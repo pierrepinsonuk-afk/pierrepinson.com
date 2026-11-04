@@ -1,0 +1,44 @@
+---
+title: "Probabilistic forecasting"
+subtitle: "Forecasting the full range of what may happen, not just a single number"
+include-after-body:
+  - text: |
+      <script src="/assets/research.js" defer></script>
+---
+
+[A forecast is only as useful as the decisions it supports. For most decisions in energy, from trading to grid operation, that means knowing not only the most likely outcome but how uncertain it is.]{.lead}
+
+When I started working on wind power forecasting in the early 2000s, forecasts were almost always single values. My work since then has helped make *probabilistic* forecasts the norm in energy: forecasts given as full predictive distributions, quantiles, intervals or scenarios. That has meant developing the methods to produce them, the tools to check that they can be trusted, and showing how decision-makers can use them.
+
+## From prediction intervals to scenarios
+
+Many decisions depend on how a quantity evolves over time, for instance how much energy to store, or how much flexibility to keep for the next hours. Prediction intervals for each hour taken separately are then not enough: two very different futures can share exactly the same intervals. Scenarios fill that gap by describing whole trajectories, with realistic dependence from one hour to the next.
+
+```{=html}
+<figure id="w-scenarios" class="widget">
+  <svg viewBox="0 0 640 300" role="img" aria-label="Wind power prediction intervals for the next 48 hours, with ten scenarios drawn inside them. A slider changes how strongly consecutive hours depend on each other."></svg>
+  <div class="w-controls">
+    <label>Temporal dependence <input type="range" min="0" max="99" value="95" aria-describedby="w-sc-note"> <span class="w-value"></span></label>
+    <button type="button" class="w-btn">New scenarios</button>
+  </div>
+  <figcaption id="w-sc-note">The shaded bands are the 50% and 80% prediction intervals, and the dashed line the median. Hour by hour, the scenarios are consistent with these intervals, so about one in five falls outside the 80% band at any given time. With low dependence they jump around implausibly from hour to hour; with high dependence they behave like real wind power trajectories. The approach follows our 2009 paper on generating scenarios from probabilistic forecasts.</figcaption>
+</figure>
+```
+
+## Main contributions
+
+**Methods.** Nonparametric and parametric approaches to probabilistic forecasting of wind, solar, wave, load and market quantities, including generalised logit-Normal distributions that respect the bounds of wind power generation, regime-switching models for offshore wind fluctuations, and conditional prediction intervals.
+
+**Verification.** A framework for assessing probabilistic forecasts, based on reliability, sharpness and skill, that is now widely used to evaluate energy forecasts, along with work on reliability diagrams that accounts for serial correlation.
+
+**Space, time and dependence.** Scenario generation from probabilistic forecasts, spatio-temporal models that exploit information from geographically dispersed sites, and sparse and online vector autoregressive models for high-dimensional forecasting.
+
+**Learning from distributed data.** Distributed, online and privacy-preserving learning, so that wind and solar farms can improve their forecasts together without sharing raw data, and value-oriented forecast reconciliation for decision-making.
+
+**Building the field.** Co-organising the Global Energy Forecasting Competitions (GEFCom2012 and GEFCom2014), which set benchmarks for the community, and serving as Editor-in-Chief of the *International Journal of Forecasting* from 2019 to 2026.
+
+## Key papers
+
+{{< include _papers-forecasting.md >}}
+
+[All forecasting papers](../publications.html#theme=forecasting){.btn-pp}
