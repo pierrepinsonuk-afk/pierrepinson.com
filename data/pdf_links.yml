@@ -1,6 +1,6 @@
 abilevelmodelforelectricityretailersparticipationinademandresponsemarketenvironment:
-  checked: '2026-11-01'
-  doi: null
+  checked: '2026-11-04'
+  doi: 10.1016/j.eneco.2012.12.010
   pdf: null
   source: null
   title: A bilevel model for electricity retailers' participation in a demand response market environment
@@ -13,8 +13,8 @@ acausalanalysisofbalancingcostsintheukelectricitymarket:
   title: A causal analysis of balancing costs in the UK electricity market
   year: 2025
 acomparisonbetweentheecmwfandcosmoensemblepredictionsystemsappliedtoshorttermwindpowerforecasting:
-  checked: '2026-11-01'
-  doi: null
+  checked: '2026-11-04'
+  doi: 10.1016/j.apenergy.2013.02.041
   pdf: null
   source: null
   title: A comparison between the ECMWF and COSMO Ensemble Prediction Systems applied to short-term wind power forecasting
@@ -59,8 +59,8 @@ adaptivemodelingandforecastingofwindpowerfluctuationswithmarkovswitchingautoregr
   verified: true
   year: 2012
 adaptiverobustpolynomialregressionforpowercurvemodelingwithapplicationtowindpowerforecasting:
-  checked: '2026-11-01'
-  doi: null
+  checked: '2026-11-04'
+  doi: 10.1002/we.1985
   pdf: null
   source: null
   title: Adaptive robust polynomial regression for power curve modeling with application to wind power forecasting
@@ -122,7 +122,7 @@ amidtermdsomarketforcapacitylimitshowtoestimateopportunitycostsofaggregators:
   verified: false
   year: 2020
 amultiperiodopfmodelunderrenewablegenerationuncertaintyanddemandsideflexibility:
-  checked: '2026-11-01'
+  checked: '2026-11-04'
   doi: null
   pdf: null
   source: null
@@ -168,8 +168,8 @@ aselfadaptivemultikernelmachinebasedonrecursiveleastsquaresappliedtoveryshortter
   verified: false
   year: 2021
 atransmissioncostbasedmodeltoestimatetheamountofmarketintegrablewindresources:
-  checked: '2026-11-01'
-  doi: null
+  checked: '2026-11-04'
+  doi: 10.1109/tpwrs.2011.2177281
   pdf: null
   source: null
   title: A transmission-cost-based model to estimate the amount of market-integrable wind resources
@@ -206,7 +206,7 @@ bayesianregressionmarkets:
   verified: true
   year: 2024
 benefitsandchallengesofelectricdemandresponseacriticalreview:
-  checked: '2026-11-01'
+  checked: '2026-11-04'
   doi: null
   pdf: null
   source: null
@@ -301,8 +301,8 @@ conditionalpredictionintervalsofwindpowergeneration:
   verified: false
   year: 2010
 conditionalweightedcombinationofwindpowerforecasts:
-  checked: '2026-11-01'
-  doi: null
+  checked: '2026-11-04'
+  doi: 10.1002/we.395
   pdf: null
   source: null
   title: Conditional weighted combination of wind power forecasts
@@ -324,8 +324,8 @@ continuousanddistributionfreeprobabilisticwindpowerforecastingaconditionalnormal
   verified: false
   year: 2022
 controllingelectricityconsumptionbyforecastingitsresponsetovaryingprices:
-  checked: '2026-11-01'
-  doi: null
+  checked: '2026-11-04'
+  doi: 10.1109/tpwrs.2012.2197027
   pdf: null
   source: null
   title: Controlling electricity consumption by forecasting its response to varying prices
@@ -415,7 +415,7 @@ demandsidemanagementofheatinsmarthomeslivinglabexperiments:
   verified: false
   year: 2020
 densityforecastingofdayaheadelectricitypricesusingtimeadaptivequantileregression:
-  checked: '2026-11-01'
+  checked: '2026-11-04'
   doi: null
   pdf: null
   source: null
@@ -494,14 +494,14 @@ dynamicreserveandtransmissioncapacityallocationinwinddominatedpowersystems:
   verified: true
   year: 2021
 earlywarningsofextremewindsutilisingtheecmwfextremeforecastindex:
-  checked: '2026-11-01'
+  checked: '2026-11-04'
   doi: null
   pdf: null
   source: null
   title: Early warnings of extreme winds utilising the ECMWF Extreme Forecast Index
   year: 2014
 economicdispatchofdemandsidebalancingthroughasymmetricblockoffers:
-  checked: '2026-11-01'
+  checked: '2026-11-04'
   doi: null
   pdf: null
   source: null
@@ -531,7 +531,7 @@ electricdemandresponseandboundedrationalitymeanfieldcontrolforlargepopulationsof
   verified: false
   year: 2021
 electricitymarketclearingwithimproveddispatchofstochasticproducers:
-  checked: '2026-11-01'
+  checked: '2026-11-04'
   doi: null
   pdf: null
   source: null
@@ -664,7 +664,7 @@ forecastingandmarketdesignadvances:
   title: Forecasting and market design advances
   year: 2021
 forecastingdayaheadelectricitypricesaccountingfortheimpactofwindpowergeneration:
-  checked: '2026-11-01'
+  checked: '2026-11-04'
   doi: null
   pdf: null
   source: null
@@ -748,10 +748,10 @@ generalizablesimulationframeworkfortherequesttoorderprocessintheprocurementofonb
   verified: true
   year: 2025
 generationandevaluationofspacetimetrajectoriesofphotovoltaicgeneration:
-  checked: '2026-11-01'
-  doi: null
-  pdf: null
-  source: null
+  checked: '2026-11-04'
+  doi: 10.1016/j.apenergy.2016.05.025
+  pdf: https://arxiv.org/pdf/1603.06649
+  source: openalex
   title: Generation and evaluation of space-time trajectories of photovoltaic generation
   year: 2016
 generationofscenariosfromcalibratedensembleforecastswithadynamicensemblecopulacouplingapproach:
@@ -763,7 +763,7 @@ generationofscenariosfromcalibratedensembleforecastswithadynamicensemblecopulaco
   verified: true
   year: 2016
 globalenergyforecastingcompetition2012gefcom2012:
-  checked: '2026-11-01'
+  checked: '2026-11-04'
   doi: null
   pdf: null
   source: null
@@ -777,7 +777,7 @@ guesteditorialenergyforecastinginthebigdataworld:
   title: 'Guest editorial: Energy forecasting in the big data world'
   year: 2019
 guesteditorialspecialsectiononanalyticsforenergyforecastingwithapplicationstosmartgrid:
-  checked: '2026-11-01'
+  checked: '2026-11-04'
   doi: null
   pdf: null
   source: null
@@ -816,8 +816,8 @@ howtopurchaselabelsacosteffectiveapproachusingactivelearningmarkets:
   verified: true
   year: 2026
 identifyingandcharacterizingtheimpactofturbineicingonwindfarmpowergeneration:
-  checked: '2026-11-01'
-  doi: null
+  checked: '2026-11-04'
+  doi: 10.1002/we.1933
   pdf: null
   source: null
   title: Identifying and characterizing the impact of turbine icing on wind farm power generation
@@ -862,7 +862,7 @@ informationuncertaintyinelectricitymarketsintroducingprobabilisticoffers:
   verified: true
   year: 2016
 integratedbiddingandoperatingstrategiesforwindfarmsenhancedwithstorage:
-  checked: '2026-11-01'
+  checked: '2026-11-04'
   doi: null
   pdf: null
   source: null
@@ -979,7 +979,7 @@ multistagelineardecisionrulesforstochasticcontrolofnaturalgasnetworkswithlinepac
   verified: false
   year: 2022
 nonparametricprobabilisticforecastsofwindpowerrequiredpropertiesandevaluation:
-  checked: '2026-11-01'
+  checked: '2026-11-04'
   doi: null
   pdf: null
   source: null
@@ -994,7 +994,7 @@ northseaenergyislandsimpactonnationalmarketsandgrids:
   verified: true
   year: 2022
 offeringstrategiesforhybridconcentratedsolarfossilpowerplantsthroughrobustoptimization:
-  checked: '2026-11-01'
+  checked: '2026-11-04'
   doi: null
   pdf: null
   source: null
@@ -1297,15 +1297,15 @@ probabilisticforecastsofwindpowergenerationaccountingforgeographicallydispersedi
   verified: true
   year: 2014
 probabilisticmaximumvaluewindpredictionforoffshoreenvironments:
-  checked: '2026-11-01'
-  doi: null
+  checked: '2026-11-04'
+  doi: 10.1002/we.1787
   pdf: null
   source: null
   title: Probabilistic maximum-value wind prediction for offshore environments
   year: 2015
 probabilistictoolsforplanningandoperatingpowersystemswithdistributedenergystorage:
-  checked: '2026-11-01'
-  doi: null
+  checked: '2026-11-04'
+  doi: 10.1007/s00502-008-0600-6
   pdf: null
   source: null
   title: Probabilistic tools for planning and operating power systems with distributed energy storage
@@ -1382,10 +1382,10 @@ reliabilitydiagramsfornonparametricdensityforecastsofcontinuousvariablesaccounti
   verified: true
   year: 2010
 resolvingnonstationaryspectralsignalsinwindspeedtimeseriesusingthehilberthuangtransform:
-  checked: '2026-11-01'
-  doi: null
-  pdf: null
-  source: null
+  checked: '2026-11-04'
+  doi: 10.1175/2009jamc2058.1
+  pdf: https://journals.ametsoc.org/downloadpdf/journals/apme/49/2/2009jamc2058.1.pdf
+  source: openalex
   title: Resolving non-stationary spectral signals in wind speed time-series using the Hilbert-Huang transform
   year: 2010
 robustgenerationdispatchwithpurchaseofrenewablepowerandloadpredictions:
@@ -1539,14 +1539,14 @@ thefutureofforecastingforrenewableenergy:
   verified: false
   year: 2020
 theimpactofwindpoweroneuropeancrossborderpowerflows:
-  checked: '2026-11-01'
+  checked: '2026-11-04'
   doi: null
   pdf: null
   source: null
   title: The impact of wind power on European cross-border power flows
   year: 2013
 thewirebenchmarkingexerciseonshorttermforecastingmodelsforrenewablepowergeneration:
-  checked: '2026-11-01'
+  checked: '2026-11-04'
   doi: null
   pdf: null
   source: null
@@ -1607,8 +1607,8 @@ tradingstrategiesfordistributioncompanywithstochasticdistributedenergyresources:
   verified: false
   year: 2016
 tradingwindenergyonthebasisofprobabilisticforecastsofbothwindgenerationandmarketquantities:
-  checked: '2026-11-01'
-  doi: null
+  checked: '2026-11-04'
+  doi: 10.1002/we.1531
   pdf: null
   source: null
   title: Trading wind energy on the basis of probabilistic forecasts of both wind generation and market quantities
@@ -1740,10 +1740,10 @@ whatmayfutureelectricitymarketslooklike:
   verified: false
   year: 2023
 windenergyforecastingchallengesforitsoptimalmanagement:
-  checked: '2026-11-01'
-  doi: null
-  pdf: null
-  source: null
+  checked: '2026-11-04'
+  doi: 10.1214/13-sts445
+  pdf: https://arxiv.org/pdf/1312.6471
+  source: openalex
   title: 'Wind energy: Forecasting challenges for its optimal management'
   year: 2013
 windenergyforecastingwithmissingvalueswithinafullyconditionalspecificationframework:
@@ -1755,8 +1755,8 @@ windenergyforecastingwithmissingvalueswithinafullyconditionalspecificationframew
   verified: true
   year: 2024
 windfluctuationsoverthenorthsea:
-  checked: '2026-11-01'
-  doi: null
+  checked: '2026-11-04'
+  doi: 10.1002/joc.2175
   pdf: null
   source: null
   title: Wind fluctuations over the North Sea

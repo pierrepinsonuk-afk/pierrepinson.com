@@ -1,3 +1,186 @@
+- title: Developing an open-source and Europe-wide wind power forecasting platform
+  year: 2027
+  venue: Electric Power Systems Research
+  authors: P. Alexander, P. Pinson, O. Banovic, S. Bouchkati, A. Ulbig
+  url: https://doi.org/10.18154/rwth-2026-07128
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: 'AI for Science in Next-Gen Power Systems: A Perspective'
+  year: 2026
+  venue: Engineering
+  authors: W. Liu, J. Zhao, Z. Lin, Z.Y. Dong, P. Pinson
+  url: https://doi.org/10.1016/j.eng.2026.06.007
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Railway operation inputs for ERES capacity assessment
+  year: 2026
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+  authors: C. Wan, X. Mu, Z. He, H. Liu, P. Pinson, P. Ju, Q. Xu
+  url: https://doi.org/10.5281/zenodo.21736267
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: 'Counter-Dyna: Data-Efficient RL-Based HVAC Control using Counterfactual Building Models'
+  year: 2026
+  venue: Preprint
+  authors: J.M.R.d. Vargas, F. Raisch, Z. Nagy, P. Pinson, C. Goebel
+  url: https://doi.org/10.48550/arxiv.2605.04555
+  preprint: https://arxiv.org/abs/2605.04555
+  status: Preprint
+  categories:
+  - Preprint
+  themes: ''
+  kind: preprint
+  pdf: https://arxiv.org/pdf/2605.04555
+  haspdf: 'yes'
+- title: 'S3TS: Stochastic Scenario-Structured Tree Search for advanced planning under uncertainty'
+  year: 2026
+  venue: Energy and AI 26, art. no. 100920
+  authors: F. Pavirani, B. Claessens, P. Pinson, C. Develder
+  url: https://doi.org/10.1016/j.egyai.2026.100920
+  preprint: https://arxiv.org/abs/2606.02151
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: https://arxiv.org/pdf/2606.02151
+  haspdf: 'yes'
+- title: 'QueryMarket: Cost-Aware Online Active Learning in Data Markets'
+  year: 2026
+  venue: Preprint
+  authors: X. Huang, P. Pinson
+  url: https://doi.org/10.48550/arxiv.2606.17805
+  preprint: https://arxiv.org/abs/2606.17805
+  status: Preprint
+  categories:
+  - Datamarkets
+  - Preprint
+  themes: datamarkets
+  kind: preprint
+  pdf: https://arxiv.org/pdf/2606.17805
+  haspdf: 'yes'
+- title: Penalising forecast accuracy? Data valuation challenges in power distribution systems
+  year: 2026
+  venue: Electric Power Systems Research 263, art. no. 113574
+  authors: A. Churkin, P. Pinson, D. Pozo, J.W. Bialek
+  url: https://doi.org/10.1016/j.epsr.2026.113574
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Recovering Missing Photovoltaic Signal (Gaps) With Low Dimensional Manifold Model
+  year: 2026
+  venue: ISES Solar World Congress (SWC), pp. 1-5
+  authors: J. Filho, L. Cardoso, É.C.d. Santana, P. Pinson, D. Riffel
+  url: https://doi.org/10.18086/swc.2025.04.38
+  preprint: ''
+  status: ''
+  categories:
+  - Conference paper
+  themes: ''
+  kind: conference
+  pdf: ''
+  haspdf: 'no'
+- title: Control-Oriented Scenario Tree Construction through Reinforcement Learning
+  year: 2026
+  venue: Preprint
+  authors: F. Pavirani, B. Claessens, P. Pinson, C. Develder
+  url: https://doi.org/10.48550/arxiv.2608.09335
+  preprint: https://arxiv.org/abs/2608.09335
+  status: Preprint
+  categories:
+  - Preprint
+  themes: ''
+  kind: preprint
+  pdf: https://arxiv.org/pdf/2608.09335
+  haspdf: 'yes'
+- title: 'Editorial: Reproducibility at the International Journal of Forecasting'
+  year: 2026
+  venue: International Journal of Forecasting
+  authors: P. Pinson, C. Pérignon, O. Akmansoy, N. Dali, B. Rostami-Tabar
+  url: https://doi.org/10.1016/j.ijforecast.2026.08.004
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Suboptimality Loss for Inverse Learning from Imperfect Equilibria
+  year: 2026
+  venue: Preprint
+  authors: A. Feik, P. Pinson, D. Paccagnan
+  url: https://doi.org/10.48550/arxiv.2609.23200
+  preprint: https://arxiv.org/abs/2609.23200
+  status: Preprint
+  categories:
+  - Preprint
+  themes: ''
+  kind: preprint
+  pdf: https://arxiv.org/pdf/2609.23200
+  haspdf: 'yes'
+- title: 'Stochastic drayage procurement under correlated uncertainty: SDDP with Gaussian copula and integrated capacity optimization'
+  year: 2026
+  venue: Preprint
+  authors: G. Vassos, R.M. Lusby, P. Pinson
+  url: https://doi.org/10.2139/ssrn.7520358
+  preprint: ''
+  status: Preprint
+  categories:
+  - Preprint
+  themes: ''
+  kind: preprint
+  pdf: ''
+  haspdf: 'no'
+- title: 'Ancillary Services in High-Renewable Power Systems: Comparing Market Design, Emerging Trends, and Future Challenges'
+  year: 2026
+  venue: Preprint
+  authors: A. Makrides, A. Churkin, F. Teng, P. Pinson
+  url: https://doi.org/10.48550/arxiv.2609.37214
+  preprint: https://arxiv.org/abs/2609.37214
+  status: Preprint
+  categories:
+  - Preprint
+  themes: ''
+  kind: preprint
+  pdf: https://arxiv.org/pdf/2609.37214
+  haspdf: 'yes'
+- title: Transforming electrified railway into mechanical energy storage for electricity system decarbonization
+  year: 2026
+  venue: Nature Communications
+  authors: C. Wan, X. Mu, Z. He, H. Liu, P. Pinson, P. Ju, Q. Xu
+  url: https://doi.org/10.1038/s41467-026-78711-6
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Decision-calibrated prediction sets for robust power system operations
   year: 2026
   venue: Preprint (arXiv:2606.02081)
@@ -131,6 +314,99 @@
   - Datamarkets
   - Journal article
   themes: forecasting markets datamarkets
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Causal Impact of Wind Energy on the UK Day-Ahead Market
+  year: 2025
+  venue: International Conference on the European Energy Market (EEM), pp. 1-6
+  authors: D. Cacciarelli, P. Pinson, F. Panagiotopoulos, D. Dixon, L. Blaxland
+  url: https://doi.org/10.1109/eem64765.2025.11050275
+  preprint: ''
+  status: ''
+  categories:
+  - Conference paper
+  themes: ''
+  kind: conference
+  pdf: ''
+  haspdf: 'no'
+- title: 'Data Sharing between Wind Energy Producers: Economic Incentives and Strategic Behavior'
+  year: 2025
+  venue: ACM International Conference on Future Energy Systems (e-Energy), pp. 505-514
+  authors: J.M.R.d. Vargas, A. Schneider, P. Pinson, C. Goebel
+  url: https://doi.org/10.1145/3679240.3734596
+  preprint: ''
+  status: ''
+  categories:
+  - Conference paper
+  themes: ''
+  kind: conference
+  pdf: ''
+  haspdf: 'no'
+- title: Sufficient A Priori Conditions for the Linear Relaxation of the Energy Storage Scheduling Problem
+  year: 2025
+  venue: Preprint
+  authors: E. Prat, R.M. Lusby, P. Pinson
+  url: https://doi.org/10.48550/arxiv.2508.12999
+  preprint: http://arxiv.org/abs/2508.12999
+  status: Preprint
+  categories:
+  - Preprint
+  themes: ''
+  kind: preprint
+  pdf: https://arxiv.org/pdf/2508.12999
+  haspdf: 'yes'
+- title: Multistage stochastic optimization for drayage procurement in container logistics using stochastic dual dynamic programming
+  year: 2025
+  venue: Preprint
+  authors: G. Vassos, R.M. Lusby, P. Pinson
+  url: https://doi.org/10.48550/arxiv.2505.01813
+  preprint: http://arxiv.org/abs/2505.01813
+  status: Preprint
+  categories:
+  - Preprint
+  themes: ''
+  kind: preprint
+  pdf: https://arxiv.org/pdf/2505.01813
+  haspdf: 'yes'
+- title: Code and Data for "Toward Replication-Robust Analytics Markets"
+  year: 2025
+  venue: INFORMS Journal on Data Science
+  authors: T. Falconer, J. Kazempour, P. Pinson
+  url: https://doi.org/10.1287/ijds.2025.0075.cd
+  preprint: ''
+  status: ''
+  categories:
+  - Datamarkets
+  - Journal article
+  themes: datamarkets
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Probabilistic Prediction Markets with Intermittent Contributions
+  year: 2025
+  venue: Preprint
+  authors: M. Vitali, P. Pinson
+  url: https://doi.org/10.48550/arxiv.2510.13385
+  preprint: https://arxiv.org/abs/2510.13385
+  status: Preprint
+  categories:
+  - Datamarkets
+  - Preprint
+  themes: datamarkets
+  kind: preprint
+  pdf: https://arxiv.org/pdf/2510.13385
+  haspdf: 'yes'
+- title: Editorial and introduction to the special section on the Bernanke’s review of the Bank of England’s forecasting activities
+  year: 2025
+  venue: International Journal of Forecasting 42(1), pp. 1-2
+  authors: P. Pinson
+  url: https://doi.org/10.1016/j.ijforecast.2025.11.002
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -383,6 +659,97 @@
   kind: preprint
   pdf: ''
   haspdf: 'no'
+- title: 'Artificial Intelligence for Microgrid Resilience: A Data-Driven and Model-Free Approach'
+  year: 2024
+  venue: IEEE Power and Energy Magazine 22(6), pp. 18-27
+  authors: D. Qiu, G. Štrbac, Y. Wang, Y. Ye, J. Wang, P. Pinson, V. Silva, F. Teng
+  url: https://doi.org/10.1109/mpe.2024.3405893
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: An adversarially robust data-market for spatial, crowd-sourced data
+  year: 2024
+  venue: Distributed Ledger Technologies Research and Practice
+  authors: A.M. Kharman, C. Jursitzky, Q.Z. Zhou, P. Ferraro, J. Mareček, P. Pinson, R.N. Shorten
+  url: https://doi.org/10.1145/3703464
+  preprint: http://arxiv.org/abs/2206.06299
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: https://arxiv.org/pdf/2206.06299
+  haspdf: 'yes'
+- title: Reliability-aware Probabilistic Reserve Procurement under Decision-dependent Uncertainty
+  year: 2024
+  venue: IEEE Power Engineering Society General Meeting, pp. 1-5
+  authors: N. Qi, L. Cheng, K. Huang, A. Mujeeb, F. Liu, P. Pinson
+  url: https://doi.org/10.1109/pesgm51994.2024.10689050
+  preprint: ''
+  status: ''
+  categories:
+  - Conference paper
+  themes: ''
+  kind: conference
+  pdf: ''
+  haspdf: 'no'
+- title: Evolving Multi-Scale Normalization for Time Series Forecasting under Distribution Shifts
+  year: 2024
+  venue: Preprint
+  authors: D. Qin, L. Yehui, W. Chen, Z. Zhu, Q. Wen, L. Sun, P. Pinson, Y. Wang
+  url: https://doi.org/10.48550/arxiv.2409.19718
+  preprint: http://arxiv.org/abs/2409.19718
+  status: Preprint
+  categories:
+  - Preprint
+  themes: ''
+  kind: preprint
+  pdf: https://arxiv.org/pdf/2409.19718
+  haspdf: 'yes'
+- title: 'Marginalize, Rather than Impute: Probabilistic Wind Power Forecasting with Incomplete Data'
+  year: 2024
+  venue: Preprint
+  authors: H. Wen, P. Pinson, J. Gu, Z. Jin
+  url: https://doi.org/10.48550/arxiv.2403.03631
+  preprint: http://arxiv.org/abs/2403.03631
+  status: Preprint
+  categories:
+  - Preprint
+  themes: ''
+  kind: preprint
+  pdf: https://arxiv.org/pdf/2403.03631
+  haspdf: 'yes'
+- title: 'Guest editorial: Forecasting for social good'
+  year: 2024
+  venue: International Journal of Forecasting 41(1), pp. 1-2
+  authors: B. Rostami-Tabar, P. Pinson, M.D. Porter
+  url: https://doi.org/10.1016/j.ijforecast.2024.08.007
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Optimal Operation of a Building with Electricity-Heat Networks and Seasonal Storage
+  year: 2024
+  venue: IEEE PES Innovative Smart Grid Technologies Europe, pp. 1-5
+  authors: E. Prat, P. Pinson, R.M. Lusby, R. Plougonven, J. Badosa, P. Drobinski
+  url: https://doi.org/10.1109/isgteurope62998.2024.10863412
+  preprint: http://arxiv.org/abs/2409.08721
+  status: ''
+  categories:
+  - Conference paper
+  themes: ''
+  kind: conference
+  pdf: https://arxiv.org/pdf/2409.08721
+  haspdf: 'yes'
 - title: 'Catégorisation de séquences temporelles : application à l''analyse de parcours de soins'
   year: 2024
   venue: Proc. Extraction et Gestion des Connaissances (EGC) 2024, pp. 119-130
@@ -558,6 +925,58 @@
   kind: article
   pdf: https://arxiv.org/pdf/2205.02668
   haspdf: 'yes'
+- title: Uncertainty of short-term Wind Power Forecasts -- A methodology for on-line Assessment
+  year: 2023
+  venue: Preprint
+  authors: G. Kariniotakis, P. Pinson
+  url: https://doi.org/10.48550/arxiv.2310.02618
+  preprint: http://arxiv.org/abs/2310.02618
+  status: Preprint
+  categories:
+  - Preprint
+  themes: ''
+  kind: preprint
+  pdf: https://arxiv.org/pdf/2310.02618
+  haspdf: 'yes'
+- title: A simulation framework of procurement operations in the container logistics industry
+  year: 2023
+  venue: Preprint
+  authors: G. Vassos, K.K. Holst, P. Pinson, R.M. Lusby
+  url: https://doi.org/10.48550/arxiv.2303.12765
+  preprint: http://arxiv.org/abs/2303.12765
+  status: Preprint
+  categories:
+  - Preprint
+  themes: ''
+  kind: preprint
+  pdf: https://arxiv.org/pdf/2303.12765
+  haspdf: 'yes'
+- title: Next Generation Forecasting Solutions for Wind Energy – Results from the Smart4RES Project
+  year: 2023
+  venue: HAL
+  authors: G. Kariniotakis, S. Camal, M.D.v. Der, K. Parginos, L. Santosuosso, A.C. Stratigakos, G. Giebel, T. Göçmen, L. Han, P. Pinson, R.J. Bessa, C. Gonçalves, S. Rui, I. Aleksovska, B. Alonzo, M. Cassas, Q. Libois, M. Magnaldo, L. Raynaud, G.A.R.v. Dalum, G. Deen, D. Houf, R. Verzijlbergh, L. Matthias, B. Witha, N.B. Blum, J. Lezaca, B. Nouri, S. Wilbert, M.I. Marques, C.M. Martins, M.F. Silva, W.D. Boer, M. Eijgelaar, G. Sauba, J. Karakitsios, T. Konstantinou, D. Lagos, G. Sideratos, T. Anastopoulou, E. Korka, C. Vitellas, P. Stephanie, C. Coujard
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Cost-effective and Resilient Operation of Distribution Grids and 5G Telecommunication
+  year: 2023
+  venue: IEEE Power Engineering Society General Meeting, pp. 1-5
+  authors: J. Wang, D. Qiu, Y. Wang, S. Ghosh, P. Pinson, S. Dudley, G. Štrbac
+  url: https://doi.org/10.1109/pesgm52003.2023.10252696
+  preprint: ''
+  status: ''
+  categories:
+  - Conference paper
+  themes: ''
+  kind: conference
+  pdf: ''
+  haspdf: 'no'
 - title: On the contribution of pre-trained models to accuracy and utility in modeling distributed energy resources
   year: 2023
   venue: Preprint (arXiv:2302.11679)
@@ -734,6 +1153,45 @@
   kind: article
   pdf: https://arxiv.org/pdf/2201.06407
   haspdf: 'yes'
+- title: Data Science for Next Generation Renewable Energy Forecasting - Highlight Results from the Smart4RES Project
+  year: 2022
+  venue: IET conference proceedings. 2021(12), pp. 181-184
+  authors: G. Kariniotakis, S. Camal, F. Sossan, B. Nouri, J. Lezaca, M. Lange, B. Alonzo, Q. Libois, P. Pinson, R.J. Bessa, C. Gonçalves
+  url: https://doi.org/10.1049/icp.2021.2499
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: 'Guest Editorial for the Special Section on Advances in Renewable Energy Forecasting: Predictability, Business Models and Applications in the Power Industry'
+  year: 2022
+  venue: IEEE Transactions on Sustainable Energy 13(2), pp. 1166-1168
+  authors: R.J. Bessa, P. Pinson, G. Kariniotakis, D. Srinivasan, C. Smith, N. Amjady, H. Zareipour
+  url: https://doi.org/10.1109/tste.2022.3157009
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Games and other news from IEA wind task 36 forecasting for wind energy
+  year: 2022
+  venue: IET conference proceedings. 2021(13), pp. 99-103
+  authors: G. Giebel, W.J. Shaw, H.P. Frank, C. Draxl, J.W. Zack, P. Pinson, C. Möhrlen, G. Kariniotakis, R.J. Bessa
+  url: https://doi.org/10.1049/icp.2021.2605
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Variable heat pricing to steer the flexibility of heat demand response in district heating systems
   year: 2022
   venue: Electric Power Systems Research 212, art. no. 108383
@@ -940,6 +1398,97 @@
   kind: article
   pdf: https://www.sciencedirect.com/science/article/pii/S0306261921012563/pdf
   haspdf: 'yes'
+- title: 'Forecasting and Market Design Advances: Supporting an Increasing Share of Renewable Energy'
+  year: 2021
+  venue: IEEE Power and Energy Magazine 19(6), pp. 77-85
+  authors: J. Fox, E.G. Ela, B.F. Hobbs, J. Sharp, J. Novacheck, A. Motley, R.J. Bessa, P. Pinson, G. Kariniotakis
+  url: https://doi.org/10.1109/mpe.2021.3104132
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: 'Smart4RES: Next generation solutions for renewable energy forecasting and applications with focus on distribution grids'
+  year: 2021
+  venue: IET conference proceedings. 2021(6), pp. 2899-2903
+  authors: S. Camal, G. Kariniotakis, F. Sossan, Q. Libois, R. Legrand, L. Raynaud, M. Lange, A.R. Mehrens, P. Pinson, A. Pierrot, G. Giebel, T. Göçmen, R.J. Bessa, J. Gouveia, L.R. Teixeira, A. Neto, R.M. Santos, G.P. Mendes, B. Nouri, J. Lezaca, R. Verziljbergh, G. Deen, G. Sideratos, C. Vitellas, G. Sauba, M. Eijgelaar, S. Petit
+  url: https://doi.org/10.1049/icp.2021.1829
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Research directions and results in the Smart4RES project for improving renewable energy forecasting
+  year: 2021
+  venue: HAL
+  authors: G. Kariniotakis, S. Camal, v.D.M. Dennis, P. Pinson, G. Giebel, L. Han, R.J. Bessa, Q. Libois, M. Cassas, B. Alonzo, M. Lange, S. Wilbert, B. Nouri, N. Alexandre, R. Verzijlbergh, G. Deen, G. Sauba, G. Sideratos, C. Vitellas
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: IEA Wind Task 36 – International Collaboration on Forecast Improvements
+  year: 2021
+  venue: Unknown venue
+  authors: G. Giebel, W.J. Shaw, H.P. Frank, C. Draxl, J.W. Zack, P. Pinson, C. Möhrlen, G. Kariniotakis, R.J. Bessa
+  url: https://doi.org/10.5194/egusphere-egu21-13417
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Recommendations from the CITIES project - Centre for IT-Intelligent Energy Systems
+  year: 2021
+  venue: Technical University of Denmark, DTU Orbit (Technical University of Denmark, DTU)
+  authors: H. Madsen, D. Guericke, P.S. Nielsen, T.R. Nielsen, X. Liu, C. Rode, J.B. Jørgensen, D.F. Dominković, P. Pinson, K. Sperling
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: IEA Wind Task 36 - Forecast Improvements
+  year: 2021
+  venue: HAL
+  authors: G. Giebel, W.J. Shaw, H.P. Frank, C. Möhrlen, C. Draxl, J.W. Zack, P. Pinson, G. Kariniotakis, R.J. Bessa
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Identification of new forecasting products
+  year: 2021
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+  authors: P. Pinson, A. Pierrot, L. Han, R.J. Bessa, J. Gouveia, C. Moreira, S. Camal
+  url: https://doi.org/10.5281/zenodo.5836716
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: What do prosumer marginal utility functions look like? Derivation and analysis
   year: 2021
   venue: IEEE Transactions on Power Systems 36(5), pp. 4322-4330
@@ -1273,6 +1822,188 @@
   kind: article
   pdf: https://arxiv.org/pdf/2004.03921
   haspdf: 'yes'
+- title: Chance-Constrained Peer-to-Peer Joint Energy and Reserve Market Considering Renewable Generation Uncertainty
+  year: 2020
+  venue: IEEE Transactions on Smart Grid 12(1), pp. 798-809
+  authors: Z. Guo, P. Pinson, S. Chen, Q. Yang, Z. Yang
+  url: https://doi.org/10.1109/tsg.2020.3019603
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: 'Max-min Fairness for Demand Side Management Under High RES Penetration: Dealing With Undefined Consumer Valuation Functions'
+  year: 2020
+  venue: International Conference on Smart Energy Systems and Technologies (SEST)
+  authors: Γ. Τσαούσογλου, P. Pinson, N.G. Paterakis
+  url: https://doi.org/10.1109/sest48500.2020.9203247
+  preprint: ''
+  status: ''
+  categories:
+  - Conference paper
+  themes: ''
+  kind: conference
+  pdf: ''
+  haspdf: 'no'
+- title: Differentially Private Distributed Optimal Power Flow
+  year: 2020
+  venue: IEEE Conference on Decision and Control (CDC), pp. 2092-2097
+  authors: Д.В. Валентинович, P.V. Hentenryck, J. Kazempour, P. Pinson
+  url: https://doi.org/10.1109/cdc42340.2020.9303768
+  preprint: http://arxiv.org/abs/1910.10136
+  status: ''
+  categories:
+  - Conference paper
+  themes: ''
+  kind: conference
+  pdf: https://arxiv.org/pdf/1910.10136
+  haspdf: 'yes'
+- title: Demand Response through Price-setting Multi-agent Reinforcement Learning
+  year: 2020
+  venue: ', pp. 1-5'
+  authors: M.H. Christensen, C. Ernewein, P. Pinson
+  url: https://doi.org/10.1145/3427773.3427862
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: 'Interpreting Atypical Conditions in Systems with Deep Conditional Autoencoders: The Case of Electrical Consumption'
+  year: 2020
+  venue: Lecture notes in computer science 11908, pp. 638-654
+  authors: A. Marot, A. Rosin, L. Crochepierre, B. Donnot, P. Pinson, L. Boudjeloud-Assala
+  url: https://doi.org/10.1007/978-3-030-46133-1_38
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Negotiation Approaches for Sharing Systems
+  year: 2020
+  venue: Springer eBooks, pp. 151-171
+  authors: P. Pinson, F. Moret, T. Baroche, A. Papakonstantinou
+  url: https://doi.org/10.1007/978-3-030-35032-1_10
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Chance-Constrained Equilibrium in Electricity Markets With Asymmetric Forecasts
+  year: 2020
+  venue: International Conference on Probabilistic Methods Applied to Power Systems (PMAPS), pp. 1-6
+  authors: Д.В. Валентинович, J. Kazempour, P. Pinson
+  url: https://doi.org/10.1109/pmaps47429.2020.9183423
+  preprint: http://arxiv.org/abs/2005.11749
+  status: ''
+  categories:
+  - Conference paper
+  themes: ''
+  kind: conference
+  pdf: https://arxiv.org/pdf/2005.11749
+  haspdf: 'yes'
+- title: IEA Wind Task 36 -An Overview
+  year: 2020
+  venue: HAL
+  authors: G. Giebel, W.J. Shaw, H.P. Frank, C. Draxl, J.W. Zack, P. Pinson, C. Möhrlen, G. Kariniotakis, R.J. Bessa
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Differentially Private Convex Optimization with Feasibility Guarantees
+  year: 2020
+  venue: Preprint
+  authors: Д.В. Валентинович, F. Fioretto, P.V. Hentenryck, J. Kazempour, P. Pinson
+  url: https://doi.org/10.48550/arxiv.2006.12338
+  preprint: http://arxiv.org/abs/2006.12338
+  status: Preprint
+  categories:
+  - Preprint
+  themes: ''
+  kind: preprint
+  pdf: https://arxiv.org/pdf/2006.12338
+  haspdf: 'yes'
+- title: 'Smart4RES: Towards next generation forecasting tools of renewable energy production'
+  year: 2020
+  venue: Unknown venue
+  authors: G. Kariniotakis, S. Camal, R.J. Bessa, P. Pinson, G. Giebel, Q. Libois, R. Legrand, M. Lange, S. Wilbert, B. Nouri, A. Neto, R. Verzijlbergh, G. Sauba, G. Sideratos, E. Korka, S. Petit
+  url: https://doi.org/10.5194/egusphere-egu2020-20205
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: IEA Wind Task 36 Forecasting
+  year: 2020
+  venue: Unknown venue
+  authors: G. Giebel, W.J. Shaw, H.P. Frank, P. Pinson, C. Draxl, J.W. Zack, C. Möhrlen, G. Kariniotakis, R.J. Bessa
+  url: https://doi.org/10.5194/egusphere-egu2020-14253
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Smarte Energisystemer er vejen frem:DTU Sektorudviklingsrapport
+  year: 2020
+  venue: Technical University of Denmark, DTU Orbit (Technical University of Denmark, DTU)
+  authors: T.R. Nielsen, E. Kindler, H. Madsen, L.E. Christiansen, M.B. Riis, F. Frost, H.W. Bindner, J. Østergaard, P. Pinson, R. Bjørk, P.V. Hendriksen, L. Dittmann, P.C.K. Vesborg, H.K. Jacobsen, K. Skytte, B. Elmegaard, P.E. Sørensen, G.A. Mackenzie, L.M. Hansen, J. Kejlberg, L.F. Hansen, P. Driscoll, U.H. Jørgensen, P.E. Morthorst, M.H. Odgaard
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: 'Coupled Electricity and Natural Gas Markets: Exploiting Flexibility in Coupled Electricity and Natural Gas Markets: A PriceBased Approach'
+  year: 2020
+  venue: Unknown venue
+  authors: C. Ordoudis, S. Delikaraoglou, P. Pinson, J. Kazempour
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: 'Integrated Market for Electricity and Natural Gas: an integrated market for electricity and natural gas systems with stochastic power producers'
+  year: 2020
+  venue: Unknown venue
+  authors: C. Ordoudis, P. Pinson, J.M. Morales
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Transactive energy based aggregation of prosumers as a retailer
   year: 2020
   venue: IEEE Transactions on Smart Grid 11(4), pp. 3302-3312
@@ -1547,6 +2278,240 @@
   kind: article
   pdf: https://orbi.umons.ac.be/bitstream/20.500.12907/3763/1/IEEE_Trans._Power_Systems_vol.35-n4_Jul_2020.pdf
   haspdf: 'yes'
+- title: Exogenous Cost Allocation in Peer-to-Peer Electricity Markets
+  year: 2019
+  venue: IEEE Transactions on Power Systems 34(4), pp. 2553-2564
+  authors: T. Baroche, P. Pinson, R.L.G. Latimier, H.B. Ahmed
+  url: https://doi.org/10.1109/tpwrs.2019.2896654
+  preprint: https://arxiv.org/abs/1803.02159
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: https://arxiv.org/pdf/1803.02159
+  haspdf: 'yes'
+- title: 'Prosumer Markets: A Unified Formulation'
+  year: 2019
+  venue: ', pp. 1-6'
+  authors: T. Baroche, F. Moret, P. Pinson
+  url: https://doi.org/10.1109/ptc.2019.8810474
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: 'Coordination of Power and Natural Gas Systems: Convexification Approaches for Linepack Modeling'
+  year: 2019
+  venue: ', pp. 1-6'
+  authors: A. Schwele, C. Ordoudis, J. Kazempour, P. Pinson
+  url: https://doi.org/10.1109/ptc.2019.8810632
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Coordinating Consumer-Centric Market and Grid Operation on Distribution Grid
+  year: 2019
+  venue: International Conference on the European Energy Market (EEM), pp. 1-6
+  authors: T. Orlandini, T.A. Soares, T.M. Sousa, P. Pinson
+  url: https://doi.org/10.1109/eem.2019.8916247
+  preprint: ''
+  status: ''
+  categories:
+  - Conference paper
+  themes: ''
+  kind: conference
+  pdf: ''
+  haspdf: 'no'
+- title: How far along are Local Energy Markets in the DACH+ Region?
+  year: 2019
+  venue: ACM International Conference on Future Energy Systems (e-Energy), pp. 544-549
+  authors: C. Weinhardt, E. Mengelkamp, W. Cramer, S. Hambridge, A. Hobert, E. Kremers, W.J.B.W.K.D. Otter, P. Pinson, V. Tiefenbeck, M. Zadé
+  url: https://doi.org/10.1145/3307772.3335318
+  preprint: ''
+  status: ''
+  categories:
+  - Conference paper
+  themes: ''
+  kind: conference
+  pdf: ''
+  haspdf: 'no'
+- title: A DSO-Level Contract Market for Conditional Demand Response
+  year: 2019
+  venue: ', pp. 1-6'
+  authors: C. Kok, J. Kazempour, P. Pinson
+  url: https://doi.org/10.1109/ptc.2019.8810943
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Accommodating Bounded Rationality in Pricing Demand Response
+  year: 2019
+  venue: ', pp. 1-6'
+  authors: A.M. Radoszynski, Д.В. Валентинович, P. Pinson
+  url: https://doi.org/10.1109/ptc.2019.8810419
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Distributed Reconciliation in Day-Ahead Wind Power Forecasting
+  year: 2019
+  venue: Energies 12(6), art. no. 1112
+  authors: L. Bai, P. Pinson
+  url: https://doi.org/10.3390/en12061112
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Exploring Market Properties of Policy-based Reserve Procurement for Power Systems
+  year: 2019
+  venue: IEEE Conference on Decision and Control (CDC), pp. 7498-7505
+  authors: A. Ratha, J. Kazempour, A. Virag, P. Pinson
+  url: https://doi.org/10.1109/cdc40024.2019.9029777
+  preprint: ''
+  status: ''
+  categories:
+  - Conference paper
+  themes: ''
+  kind: conference
+  pdf: ''
+  haspdf: 'no'
+- title: Detection and Characterization of Domestic Heat Pumps
+  year: 2019
+  venue: 36, pp. 1-6
+  authors: G.L. Ray, M.H. Christensen, P. Pinson
+  url: https://doi.org/10.1109/ptc.2019.8810930
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Online matching and preferences in future electricity markets
+  year: 2019
+  venue: Unknown venue
+  authors: H.S. Esch, F. Moret, P. Pinson, A.M. Radoszynski
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Provision of flexibility services through energy communities
+  year: 2019
+  venue: CIRED
+  authors: M. Garella, T.M. Sousa, P. Pinson
+  url: https://doi.org/10.34890/588
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Data-driven learning from dynamic pricing data - Classification and forecasting
+  year: 2019
+  venue: ', pp. 1-6'
+  authors: M.H. Christensen, D. Caviedes-Nozal, I. Kavadakis, P. Pinson
+  url: https://doi.org/10.1109/ptc.2019.8810769
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Data-driven study on individual occupant comfort using heating setpoints and window openings in new low-energy apartments – preliminary insights
+  year: 2019
+  venue: E3S Web of Conferences 111, art. no. 04063
+  authors: L. Sarran, M.H. Christensen, C.A. Hviid, A.M. Radoszynski, C. Rode, P. Pinson
+  url: https://doi.org/10.1051/e3sconf/201911104063
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Feasibility study on the adoption of peer-to-peer trading integrated on existing retail market and distribution grid
+  year: 2019
+  venue: CIRED
+  authors: T.M. Sousa, F. Ehsan, A. RadoszynskiI, P. Pinson
+  url: https://doi.org/10.34890/602
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Energy forecasting in the big data world
+  year: 2019
+  venue: International Journal of Forecasting 35(4), pp. 1387-1388
+  authors: T. Hong, P. Pinson
+  url: https://doi.org/10.1016/j.ijforecast.2019.05.004
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: IEA Wind Task 36 Forecasting – Phase II
+  year: 2019
+  venue: HAL 21, pp. EGU2019-16557
+  authors: G. Giebel, W.J. Shaw, F. Helmut, C. Draxl, P. Pinson, J. Zack, G. Kariniotakis, C. Möhrlen, R.J. Bessa
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: 'IEA Wind Task 36: The second phase for the Forecasting Task'
+  year: 2019
+  venue: HAL
+  authors: G. Giebel, W.J. Shaw, H.P. Frank, P. Pinson, C. Draxl, G. Kariniotakis, C. Möhrlen
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Verification of solar irradiance probabilistic forecasts
   year: 2019
   venue: Solar Energy 194, pp. 254-271
@@ -1790,6 +2755,175 @@
   kind: article
   pdf: https://arxiv.org/pdf/1805.04414
   haspdf: 'yes'
+- title: Online adaptive lasso estimation in vector autoregressive models for high dimensional wind power forecasting
+  year: 2018
+  venue: International Journal of Forecasting 35(4), pp. 1485-1498
+  authors: J.W. Messner, P. Pinson
+  url: https://doi.org/10.1016/j.ijforecast.2018.02.001
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: 'Negotiation Algorithms for Peer-to-Peer Electricity Markets: Computational Properties'
+  year: 2018
+  venue: Power Systems Computation Conference, pp. 1-7
+  authors: F. Moret, T. Baroche, E. Sorin, P. Pinson
+  url: https://doi.org/10.23919/pscc.2018.8442914
+  preprint: ''
+  status: ''
+  categories:
+  - Conference paper
+  themes: ''
+  kind: conference
+  pdf: ''
+  haspdf: 'no'
+- title: Data-driven Security-Constrained AC-OPF for Operations and Markets
+  year: 2018
+  venue: Power Systems Computation Conference, pp. 1-7
+  authors: L. Halilbašić, F. Thams, A. Venzke, S. Chatzivasileiadis, P. Pinson
+  url: https://doi.org/10.23919/pscc.2018.8442786
+  preprint: ''
+  status: ''
+  categories:
+  - Conference paper
+  themes: ''
+  kind: conference
+  pdf: ''
+  haspdf: 'no'
+- title: 'Visualizing Big Energy Data: Solutions for This Crucial Component of Data Analysis'
+  year: 2018
+  venue: IEEE Power and Energy Magazine 16(3), pp. 18-25
+  authors: R.J. Hyndman, X.A. Liu, P. Pinson
+  url: https://doi.org/10.1109/mpe.2018.2801441
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: A Consensus-ADMM Approach for Strategic Generation Investment in Electricity Markets
+  year: 2018
+  venue: IEEE Conference on Decision and Control (CDC), pp. 780-785
+  authors: Д.В. Валентинович, J. Kazempour, L. Baringo, P. Pinson
+  url: https://doi.org/10.1109/cdc.2018.8619240
+  preprint: http://arxiv.org/abs/1711.04620
+  status: ''
+  categories:
+  - Conference paper
+  themes: ''
+  kind: conference
+  pdf: https://arxiv.org/pdf/1711.04620
+  haspdf: 'yes'
+- title: Offering Strategy of a Flexibility Aggregator in a Balancing Market Using Asymmetric Block Offers
+  year: 2018
+  venue: Power Systems Computation Conference, pp. 1-7
+  authors: L. Bobo, S. Delikaraoglou, N. Vespermann, J. Kazempour, P. Pinson
+  url: https://doi.org/10.23919/pscc.2018.8443038
+  preprint: ''
+  status: ''
+  categories:
+  - Conference paper
+  themes: ''
+  kind: conference
+  pdf: ''
+  haspdf: 'no'
+- title: Application of Postprocessing for Renewable Energy
+  year: 2018
+  venue: Elsevier eBooks, pp. 241-266
+  authors: P. Pinson, J.W. Messner
+  url: https://doi.org/10.1016/b978-0-12-812372-0.00009-1
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Optimal Offering Strategy of an EV Aggregator in the Frequency-Controlled Normal Operation Reserve Market
+  year: 2018
+  venue: International Conference on the European Energy Market (EEM), pp. 1-6
+  authors: T.A. Soares, T.M. Sousa, P.B. Andersen, P. Pinson
+  url: https://doi.org/10.1109/eem.2018.8469922
+  preprint: ''
+  status: ''
+  categories:
+  - Conference paper
+  themes: ''
+  kind: conference
+  pdf: ''
+  haspdf: 'no'
+- title: Smart grids innovation challenge
+  year: 2018
+  venue: ', pp. 37-46'
+  authors: J. Østergaard, T. Weckesser, D.E.M. Bondy, P.B. Norgard, P. Pinson, L. Martini, H. Madsen
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: The P2P-Ieee 14 Bus System Data Set
+  year: 2018
+  venue: Figshare
+  authors: T.M. Sousa, T.A. Soares, P. Pinson, F. Moret, T. Baroche, E. Sorin
+  url: https://doi.org/10.5281/zenodo.1220934
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Efficiency and Incentive Compatibility in A Co-Optimized Energy and Reserves Electricity Market
+  year: 2018
+  venue: ORBi UMONS
+  authors: L. Exizidis, Z.D. Grève, F. Vallée, J. Kazempour, A. Papakonstantinou, P. Pinson
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Statistical postprocessing of turbulence resolving wind power forecasts
+  year: 2018
+  venue: EGU General Assembly Conference Abstracts, art. no. 12007
+  authors: J.W. Messner, P. Pinson, P. Trombe, R. Verzijlbergh, P.v. Dorp, H.J.J. Jonker
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Conference paper
+  themes: ''
+  kind: conference
+  pdf: ''
+  haspdf: 'no'
+- title: IEA Wind Task 36 Forecasting for Wind Energy
+  year: 2018
+  venue: HAL 20, art. no. EGU2018-6942-1
+  authors: G. Giebel, W.J. Shaw, H.P. Frank, P. Pinson, B. Hodge, G. Kariniotakis, C. Draxl, C. Möhrlen, J.W. Messner
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Visualizing big energy data
   year: 2018
   venue: IEEE Power and Energy Magazine 16(3), pp. 18-25
@@ -1992,6 +3126,214 @@
   kind: article
   pdf: https://backend.orbit.dtu.dk/ws/files/140386547/Xiaoetal2017.pdf
   haspdf: 'yes'
+- title: Wind power in electricity markets and the value of forecasting
+  year: 2017
+  venue: Elsevier eBooks, pp. 259-278
+  authors: N. Mazzi, P. Pinson
+  url: https://doi.org/10.1016/b978-0-08-100504-0.00010-x
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Offering strategy of a price-maker energy storage system in day-ahead and balancing markets
+  year: 2017
+  venue: ', pp. 1-6'
+  authors: N. Vespermann, S. Delikaraoglou, P. Pinson
+  url: https://doi.org/10.1109/ptc.2017.7981050
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Data-Driven Security-Constrained OPF
+  year: 2017
+  venue: Unknown venue
+  authors: F. Thams, L. Halilbašić, P. Pinson, S. Chatzivasileiadis, R. Eriksson
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: 'Exploiting flexibility in coupled electricity and natural gas markets: A price-based approach'
+  year: 2017
+  venue: ', pp. 1-6'
+  authors: C. Ordoudis, S. Delikaraoglou, P. Pinson, J. Kazempour
+  url: https://doi.org/10.1109/ptc.2017.7981047
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Decision support program for congestion management using demand side flexibility
+  year: 2017
+  venue: ', pp. 1-6'
+  authors: A. Esmat, P. Pinson, J. Usaola
+  url: https://doi.org/10.1109/ptc.2017.7980976
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Optimal planning of integrated multi-energy systems
+  year: 2017
+  venue: ', pp. 1-6'
+  authors: I.v. Beuzekom, M. Gibescu, P. Pinson, J.G. Slootweg
+  url: https://doi.org/10.1109/ptc.2017.7980886
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Coordinating flexibility under uncertainty in multi-area AC and DC grids
+  year: 2017
+  venue: ', pp. 1-6'
+  authors: L. Halilbašić, S. Chatzivasileiadis, P. Pinson
+  url: https://doi.org/10.1109/ptc.2017.7981034
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Data-driven demand response characterization and quantification
+  year: 2017
+  venue: 62, pp. 1-6
+  authors: G.L. Ray, P. Pinson, E.M. Larsen
+  url: https://doi.org/10.1109/ptc.2017.7981009
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Modeling the transient security constraints of natural gas network in day-ahead power system scheduling
+  year: 2017
+  venue: IEEE Power Engineering Society General Meeting, pp. 1-5
+  authors: J. Yang, N. Zhang, C. Kang, P. Pinson
+  url: https://doi.org/10.1109/pesgm.2017.8274497
+  preprint: ''
+  status: ''
+  categories:
+  - Conference paper
+  themes: ''
+  kind: conference
+  pdf: ''
+  haspdf: 'no'
+- title: Spatio-temporal modelling for short term wind power forecasts. Why, when and how.
+  year: 2017
+  venue: EGUGA, art. no. 3633
+  authors: A. Lenzi, I. Steinsland, P. Pinson
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: RE-Europe, a large-scale dataset for modeling a highly renewable European electricity system
+  year: 2017
+  venue: Scientific Data 4(1), art. no. 170175
+  authors: T. Jensen, P. Pinson
+  url: https://doi.org/10.1038/sdata.2017.175
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Guest Editorial - Special Section on Emerging Informatics for Risk Hedging and Decision Making in Smart Grids
+  year: 2017
+  venue: IEEE Transactions on Industrial Informatics 13(5), pp. 2507-2510
+  authors: Z. Xu, L.L. Lai, K.P. Wong, P. Pinson, F.F. Li
+  url: https://doi.org/10.1109/tii.2017.2740319
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Statistical modelling of space-time processes with application to wind power.
+  year: 2017
+  venue: Unknown venue
+  authors: A. Lenzi, B.K. Ersbøll, L.K.H. Clemmensen, P. Pinson
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Task 36 Forecasting for Wind Power
+  year: 2017
+  venue: HAL 19, pp. EGU2017-18663
+  authors: G. Giebel, H. Frank, J. Cline, W.J. Shaw, P. Pinson, B.S. Hodge, J.W. Messner, G. Kariniotakis, C. Draxl, C. Möhrlen
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: 電力供給の変動によるアンシラリーサービスコストの帰属機構【Powered by NICT】
+  year: 2017
+  venue: IEEE Transactions on Power Systems 32(3), art. no. 1901
+  authors: B. Francesca, N. Gast, J.L. Boudec, P. Pinson, D. Tomozei
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: A Scalable Solution to Multi-Stage Strategic Generation Investment Problems
+  year: 2017
+  venue: Preprint
+  authors: Д.В. Валентинович, J. Kazempour, L. Baringo, P. Pinson
+  url: ''
+  preprint: https://arxiv.org/abs/1711.04620v1
+  status: Preprint
+  categories:
+  - Preprint
+  themes: ''
+  kind: preprint
+  pdf: https://arxiv.org/pdf/1711.04620
+  haspdf: 'yes'
 - title: Towards fully renewable energy systems – Experience and trends in Denmark
   year: 2017
   venue: CSEE Journal of Power and Energy Systems 3(1), pp. 26-35
@@ -2138,6 +3480,279 @@
   kind: article
   pdf: https://inria.hal.science/hal-01403913
   haspdf: 'yes'
+- title: An Updated Version of the IEEE RTS 24-Bus System for Electricity Market and Power System Operation Studies.
+  year: 2016
+  venue: Unknown venue
+  authors: C. Ordoudis, P. Pinson, J.M.M. González, M. Zugno
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Generation Expansion Planning With Large Amounts of Wind Power via Decision-Dependent Stochastic Programming
+  year: 2016
+  venue: IEEE Transactions on Power Systems 32(4), pp. 3015-3026
+  authors: Y. Zhan, Q.P. Zheng, J. Wang, P. Pinson
+  url: https://doi.org/10.1109/tpwrs.2016.2626958
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Optimal Offering and Operating Strategies for Wind-Storage Systems With Linear Decision Rules
+  year: 2016
+  venue: IEEE Transactions on Power Systems 31(6), pp. 4755-4764
+  authors: H. Ding, P. Pinson, Z. Hu, Y. Song
+  url: https://doi.org/10.1109/tpwrs.2016.2521177
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: 'Optimal coupling of heat and electricity systems: A stochastic hierarchical approach'
+  year: 2016
+  venue: International Conference on Probabilistic Methods Applied to Power Systems (PMAPS), pp. 1-6
+  authors: L. Mitridati, P. Pinson
+  url: https://doi.org/10.1109/pmaps.2016.7764188
+  preprint: ''
+  status: ''
+  categories:
+  - Conference paper
+  themes: ''
+  kind: conference
+  pdf: ''
+  haspdf: 'no'
+- title: Demand forecasting at low aggregation levels using Factored Conditional Restricted Boltzmann Machine
+  year: 2016
+  venue: Power Systems Computation Conference, pp. 1-7
+  authors: E. Mocanu, P.H. Nguyen, M. Gibescu, E.M. Larsen, P. Pinson
+  url: https://doi.org/10.1109/pscc.2016.7540994
+  preprint: ''
+  status: ''
+  categories:
+  - Conference paper
+  themes: ''
+  kind: conference
+  pdf: ''
+  haspdf: 'no'
+- title: 'RESGen: Renewable Energy Scenario Generation Platform'
+  year: 2016
+  venue: Unknown venue
+  authors: J.E.B. Iversen, P. Pinson
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: A robust optimisation approach using CVaR for unit commitment in a market with probabilistic offers
+  year: 2016
+  venue: IEEE International Energy Conference (ENERGYCON), pp. 1-6
+  authors: W. Bukhsh, A. Papakonstantinou, P. Pinson
+  url: https://doi.org/10.1109/energycon.2016.7514076
+  preprint: ''
+  status: ''
+  categories:
+  - Conference paper
+  themes: ''
+  kind: conference
+  pdf: ''
+  haspdf: 'no'
+- title: 'Effects of risk aversion on market outcomes: A stochastic two-stage equilibrium model'
+  year: 2016
+  venue: International Conference on Probabilistic Methods Applied to Power Systems (PMAPS), pp. 1-6
+  authors: J. Kazempour, P. Pinson
+  url: https://doi.org/10.1109/pmaps.2016.7764200
+  preprint: ''
+  status: ''
+  categories:
+  - Conference paper
+  themes: ''
+  kind: conference
+  pdf: ''
+  haspdf: 'no'
+- title: 'Wind power forecasting: IEA Wind Task 36 & future research issues'
+  year: 2016
+  venue: Journal of Physics Conference Series 753, art. no. 032042
+  authors: G. Giebel, J.W. Cline, H.P. Frank, W.J. Shaw, P. Pinson, B. Hodge, G. Kariniotakis, J. Madsen, C. Möhrlen
+  url: https://doi.org/10.1088/1742-6596/753/3/032042
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Purely data-driven approaches to trading of renewable energy generation
+  year: 2016
+  venue: International Conference on the European Energy Market (EEM), pp. 1-5
+  authors: N. Mazzi, P. Pinson
+  url: https://doi.org/10.1109/eem.2016.7521323
+  preprint: ''
+  status: ''
+  categories:
+  - Conference paper
+  themes: ''
+  kind: conference
+  pdf: ''
+  haspdf: 'no'
+- title: Impact of renewable energy forecast imperfections on market-clearing outcomes
+  year: 2016
+  venue: IEEE International Energy Conference (ENERGYCON), pp. 1-6
+  authors: C. Ordoudis, P. Pinson
+  url: https://doi.org/10.1109/energycon.2016.7513962
+  preprint: ''
+  status: ''
+  categories:
+  - Conference paper
+  themes: ''
+  kind: conference
+  pdf: ''
+  haspdf: 'no'
+- title: Strategic wind power trading considering rival wind power production
+  year: 2016
+  venue: IEEE Innovative Smart Grid Technologies-Asia 2016, pp. 873-878
+  authors: L. Exizidis, J. Kazempour, P. Pinson, Z.D. Grève, F. Vallée
+  url: https://doi.org/10.1109/isgt-asia.2016.7796500
+  preprint: ''
+  status: ''
+  categories:
+  - Conference paper
+  themes: ''
+  kind: conference
+  pdf: ''
+  haspdf: 'no'
+- title: Wind offering in energy and reserve markets
+  year: 2016
+  venue: Journal of Physics Conference Series 749, art. no. 012021
+  authors: T.A. Soares, P. Pinson, H.G.V. Morais
+  url: https://doi.org/10.1088/1742-6596/749/1/012021
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: 'Population dynamics for renewables in electricity markets: A minority game view'
+  year: 2016
+  venue: International Conference on Probabilistic Methods Applied to Power Systems (PMAPS) 14, pp. 1-6
+  authors: A. Papakonstantinou, P. Pinson
+  url: https://doi.org/10.1109/pmaps.2016.7764068
+  preprint: ''
+  status: ''
+  categories:
+  - Conference paper
+  themes: ''
+  kind: conference
+  pdf: ''
+  haspdf: 'no'
+- title: Ranking Method for Peak-Load Shifting Considering Different Types of Data
+  year: 2016
+  venue: Journal of Energy Engineering 142(4)
+  authors: P. Wang, F. Wen, P. Pinson, J. Østergaard
+  url: https://doi.org/10.1061/(asce)ey.1943-7897.0000357
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: 'Discussion on ‘Of quantiles and expectiles: consistent scoring functions, Choquet representations and forecast rankings’ by Werner Ehm, Tilmann Gneiting, Alexander Jordan and Fabian Krüger'
+  year: 2016
+  venue: Technical University of Denmark, DTU Orbit (Technical University of Denmark, DTU)
+  authors: P. Pinson
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Renewable Energy Forecasting
+  year: 2016
+  venue: Wiley eBooks, pp. 1-21
+  authors: R.J. Bessa, J. Dowell, P. Pinson
+  url: https://doi.org/10.1002/9781118755471.sgd050
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Accountability for Uncertainty in Electricity Markets
+  year: 2016
+  venue: 'Energy: Expectations and Uncertainty,39th IAEE International Conference,Jun 19-22, 2016'
+  authors: A. Papakonstantinou, P. Pinson
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Conference paper
+  themes: ''
+  kind: conference
+  pdf: ''
+  haspdf: 'no'
+- title: IEA Wind Task 36 on Wind Power Forecasting
+  year: 2016
+  venue: HAL
+  authors: G. Giebel, J.W. Cline, H.P. Frank, W.J. Shaw, B.S. Hodge, P. Pinson, G. Kariniotakis, C. Draxl
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Stochastic Integrated Market for Electric Power and Natural Gas Systems
+  year: 2016
+  venue: Unknown venue
+  authors: C. Ordoudis, P. Pinson, J.M.M. González
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Ensemble forecasting for renewable energy applications - status and current challenges for their generation and verification
+  year: 2016
+  venue: EGU General Assembly Conference Abstracts
+  authors: P. Pinson
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Conference paper
+  themes: ''
+  kind: conference
+  pdf: ''
+  haspdf: 'no'
 - title: Very-short-term probabilistic wind power forecasts by sparse vector autoregression
   year: 2016
   venue: IEEE Transactions on Smart Grid 7(2), pp. 763-770
@@ -2366,8 +3981,8 @@
   - Journal article
   themes: forecasting
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://arxiv.org/pdf/1603.06649
+  haspdf: 'yes'
 - title: Economic dispatch of demand-side balancing through asymmetric block offers
   year: 2016
   venue: IEEE Transactions on Power Systems 31(4), pp. 2999-3007
@@ -2409,6 +4024,227 @@
   - Energy
   - Journal article
   themes: optimisation energy
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Integrated Bidding and Operating Strategies for Wind-Storage Systems
+  year: 2015
+  venue: IEEE Transactions on Sustainable Energy 7(1), pp. 163-172
+  authors: H. Ding, P. Pinson, Z. Hu, Y. Song
+  url: https://doi.org/10.1109/tste.2015.2472576
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: An Integrated Multiperiod OPF Model With Demand Response and Renewable Generation Uncertainty
+  year: 2015
+  venue: IEEE Transactions on Smart Grid 7(3), pp. 1495-1503
+  authors: W. Bukhsh, C. Zhang, P. Pinson
+  url: https://doi.org/10.1109/tsg.2015.2502723
+  preprint: http://arxiv.org/abs/1407.2744
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: https://arxiv.org/pdf/1407.2744
+  haspdf: 'yes'
+- title: On quantification of flexibility in power systems
+  year: 2015
+  venue: ', pp. 1-6'
+  authors: M.A. Bucher, S. Delikaraoglou, K. Heussen, P. Pinson, G. Andersson
+  url: https://doi.org/10.1109/ptc.2015.7232514
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: The “Weather Intelligence for Renewable Energies” Benchmarking Exercise on Short-Term Forecasting of Wind and Solar Power Generation
+  year: 2015
+  venue: Energies 8(9), pp. 9594-9619
+  authors: S. Sperati, S. Alessandrini, P. Pinson, G. Kariniotakis
+  url: https://doi.org/10.3390/en8099594
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: 'Space-Time Trajectories of Wind Power Generation: Parametrized Precision Matrices Under a Gaussian Copula Approach'
+  year: 2015
+  venue: Lecture notes in statistics, pp. 267-296
+  authors: J. Tastu, P. Pinson, H. Madsen
+  url: https://doi.org/10.1007/978-3-319-18732-7_14
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Price-maker wind power producer participating in a joint day-ahead and real-time market
+  year: 2015
+  venue: International Conference on the European Energy Market (EEM), pp. 1-5
+  authors: S. Delikaraoglou, A. Papakonstantinou, C. Ordoudis, P. Pinson
+  url: https://doi.org/10.1109/eem.2015.7216701
+  preprint: ''
+  status: ''
+  categories:
+  - Conference paper
+  themes: ''
+  kind: conference
+  pdf: ''
+  haspdf: 'no'
+- title: Stochastic unit commitment via Progressive Hedging — extensive analysis of solution methods
+  year: 2015
+  venue: ', pp. 1-6'
+  authors: C. Ordoudis, P. Pinson, M. Zugno, J.M. Morales
+  url: https://doi.org/10.1109/ptc.2015.7232629
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Improving offering strategies for wind farms enhanced with storage capability
+  year: 2015
+  venue: ', pp. 1-6'
+  authors: H. Ding, Z. Hu, Y. Song, P. Pinson
+  url: https://doi.org/10.1109/ptc.2015.7232244
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Demonstration of market-based real-time electricity pricing on a congested feeder
+  year: 2015
+  venue: International Conference on the European Energy Market (EEM) 102, pp. 1-5
+  authors: E.M. Larsen, P. Pinson, G.L. Ray, G. Giannopoulos
+  url: https://doi.org/10.1109/eem.2015.7216777
+  preprint: ''
+  status: ''
+  categories:
+  - Conference paper
+  themes: ''
+  kind: conference
+  pdf: ''
+  haspdf: 'no'
+- title: Analysis of strategic wind power participation in energy market using MASCEM simulator
+  year: 2015
+  venue: International Conference on Intelligent System Applications to Power Systems 21, pp. 1-6
+  authors: T.A. Soares, G. Santos, T.d.O. Pinto, H.G.V. Morais, P. Pinson, Z. Vale
+  url: https://doi.org/10.1109/isap.2015.7325552
+  preprint: ''
+  status: ''
+  categories:
+  - Conference paper
+  themes: ''
+  kind: conference
+  pdf: ''
+  haspdf: 'no'
+- title: Extreme value models for wind power forecast errors
+  year: 2015
+  venue: EGUGA, art. no. 13916
+  authors: P. Bacher, H. Madsen, P. Pinson, S.B. Mortensen, H.A. Nielsen
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Optimal dynamic capacity allocation of HVDC interconnections for cross-border exchange of balancing services in presence of uncertainty.
+  year: 2015
+  venue: Unknown venue
+  authors: S. Delikaraoglou, P. Pinson, R. Eriksson, T. Weckesser
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: A Spatial Model for the Instantaneous Estimation of Wind Power at a Large Number of Unobserved Sites
+  year: 2015
+  venue: Procedia Environmental Sciences 26, pp. 131-134
+  authors: A. Lenzi, G. Guillot, P. Pinson
+  url: https://doi.org/10.1016/j.proenv.2015.05.017
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: The Re-Europe Data Set
+  year: 2015
+  venue: Zenodo (CERN European Organization for Nuclear Research)
+  authors: T. Jensen, H.d. Sevin, M. Greiner, P. Pinson
+  url: https://doi.org/10.5281/zenodo.620228
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: The Cobweb Effect in Balancing Markets withDemand Response
+  year: 2015
+  venue: International Conference on the European Energy Market (EEM)
+  authors: E.M. Larsen, P. Pinson, J. Wang, Y. Ding
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Conference paper
+  themes: ''
+  kind: conference
+  pdf: ''
+  haspdf: 'no'
+- title: Methodology and forecast products for the optimal offering of ancillary services from wind in a market environment
+  year: 2015
+  venue: Unknown venue
+  authors: P. Bacher, H. Madsen, P. Pinson, S.B. Mortensen, H.A. Nielsen
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Future Electricity Markets
+  year: 2015
+  venue: Technical University of Denmark, DTU Orbit (Technical University of Denmark, DTU)
+  authors: P. Pinson
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -2484,6 +4320,175 @@
   kind: article
   pdf: https://minesparis-psl.hal.science/hal-01199238
   haspdf: 'yes'
+- title: Robust optimisation for self-scheduling and bidding strategies of hybrid CSP–fossil power plants
+  year: 2014
+  venue: International Journal of Electrical Power & Energy Systems 67, pp. 639-650
+  authors: H.M.I. Pousinho, J. Contreras, P. Pinson, V.M.F. Mendes
+  url: https://doi.org/10.1016/j.ijepes.2014.12.052
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Predictive Densities for Day-Ahead Electricity Prices Using Time-Adaptive Quantile Regression
+  year: 2014
+  venue: Energies 7(9), pp. 5523-5547
+  authors: T. Jónsson, P. Pinson, H. Madsen, H.A. Nielsen
+  url: https://doi.org/10.3390/en7095523
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Regulating power from supermarket refrigeration
+  year: 2014
+  venue: IEEE PES Innovative Smart Grid Technologies Europe, pp. 1-6
+  authors: N. O’Connell, H. Madsen, P. Pinson, M. O’Malley, T. Green
+  url: https://doi.org/10.1109/isgteurope.2014.7028781
+  preprint: ''
+  status: ''
+  categories:
+  - Conference paper
+  themes: ''
+  kind: conference
+  pdf: ''
+  haspdf: 'no'
+- title: Analysis of the Impact of Wind Power Participating in Both Energy and Ancillary Services Markets – The Danish Case
+  year: 2014
+  venue: Unknown venue
+  authors: T.A. Soares, H.G.V. Morais, P. Pinson
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: High-quality Wind Power Scenario Forecasts for Decision-making Under Uncertainty in Power Systems
+  year: 2014
+  venue: Unknown venue
+  authors: S. Delikaraoglou, P. Pinson
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Modelling and Assessment of the Capabilities of a Supermarket Refrigeration System for the Provision of Regulating Power
+  year: 2014
+  venue: Unknown venue
+  authors: N. O’Connell, H. Madsen, P. Pinson, M. O’Malley
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Towards electricity markets accommodating uncertain offers
+  year: 2014
+  venue: Unknown venue
+  authors: A. Papakonstantinou, P. Pinson
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Operational strategies for predictive dispatch of control reserves in view of stochastic generation
+  year: 2014
+  venue: Power Systems Computation Conference, pp. 1-7
+  authors: S. Delikaraoglou, K. Heussen, P. Pinson
+  url: https://doi.org/10.1109/pscc.2014.7038417
+  preprint: ''
+  status: ''
+  categories:
+  - Conference paper
+  themes: ''
+  kind: conference
+  pdf: ''
+  haspdf: 'no'
+- title: Model Identification for Control of Display Units in Supermarket Refrigeration Systems
+  year: 2014
+  venue: Unknown venue
+  authors: N. O’Connell, H. Madsen, P.H.D. Andersen, P. Pinson, M. O’Malley
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: IceWind Inter-comparison of Icing Production Loss Models
+  year: 2014
+  venue: Technical University of Denmark, DTU Orbit (Technical University of Denmark, DTU)
+  authors: N. Davis, A.N. Hahmann, N. Clausen, P. Pinson, M. Žagar, Ø. Byrkjedal, T. Karlsson, T. Wallenius, V. Turkia, S. Söderberg, M. Baltscheffsky
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Wind resourceassessmentand wind powerforecasting
+  year: 2014
+  venue: ', pp. 72-78'
+  authors: H. Madsen, J.M. Morales, P. Trombe, G. Giebel, H.E. Jørgensen, P. Pinson
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Prévoir l’électricité produite par nos énergies renouvelables
+  year: 2014
+  venue: Unknown venue
+  authors: P. Pinson
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Renewables in Electricity Markets
+  year: 2014
+  venue: DTU Sustain Conference
+  authors: C. Ordoudis, A. Papakonstantinou, P. Pinson
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Conference paper
+  themes: ''
+  kind: conference
+  pdf: ''
+  haspdf: 'no'
 - title: Weather radars – the new eyes of offshore wind farms
   year: 2014
   venue: Wind Energy 17(11), pp. 1767-1787
@@ -2711,6 +4716,279 @@
   kind: article
   pdf: https://backend.orbit.dtu.dk/ws/files/64506702/trombe_etal_jstars_2012.pdf
   haspdf: 'yes'
+- title: Integrating Renewables in Electricity Markets
+  year: 2013
+  venue: International series in management science/operations research/International series in operations research & management science
+  authors: J.M. Morales, A.J. Conejo, H. Madsen, P. Pinson, M. Zugno
+  url: https://doi.org/10.1007/978-1-4614-9411-9
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Electricity market clearing with improved scheduling of stochastic production
+  year: 2013
+  venue: European Journal of Operational Research 235(3), pp. 765-774
+  authors: J.M. Morales, M. Zugno, S. Pineda, P. Pinson
+  url: https://doi.org/10.1016/j.ejor.2013.11.013
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Discrimination ability of the Energy score
+  year: 2013
+  venue: Unknown venue
+  authors: P. Pinson, J. Tastu
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Trading Stochastic Production in Electricity Pools
+  year: 2013
+  venue: International series in management science/operations research/International series in operations research & management science, pp. 205-242
+  authors: J.M. Morales, A.J. Conejo, H. Madsen, P. Pinson, M. Zugno
+  url: https://doi.org/10.1007/978-1-4614-9411-9_7
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Virtual Power Plants
+  year: 2013
+  venue: International series in management science/operations research/International series in operations research & management science, pp. 243-287
+  authors: J.M. Morales, A.J. Conejo, H. Madsen, P. Pinson, M. Zugno
+  url: https://doi.org/10.1007/978-1-4614-9411-9_8
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Renewable Energy Sources—Modeling and Forecasting
+  year: 2013
+  venue: International series in management science/operations research/International series in operations research & management science, pp. 15-56
+  authors: J.M. Morales, A.J. Conejo, H. Madsen, P. Pinson, M. Zugno
+  url: https://doi.org/10.1007/978-1-4614-9411-9_2
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Renewable Energy Resources – Onshore/Offshore Wind Energy
+  year: 2013
+  venue: Elsevier eBooks, pp. 53-64
+  authors: P. Pinson, G. Giebel, N. Clausen
+  url: https://doi.org/10.1016/b978-0-12-384703-4.00310-5
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Managing Uncertainty with Flexibility
+  year: 2013
+  venue: International series in management science/operations research/International series in operations research & management science, pp. 137-171
+  authors: J.M. Morales, A.J. Conejo, H. Madsen, P. Pinson, M. Zugno
+  url: https://doi.org/10.1007/978-1-4614-9411-9_5
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Impact of Stochastic Renewable Energy Generation on Market Quantities
+  year: 2013
+  venue: International series in management science/operations research/International series in operations research & management science, pp. 173-203
+  authors: J.M. Morales, A.J. Conejo, H. Madsen, P. Pinson, M. Zugno
+  url: https://doi.org/10.1007/978-1-4614-9411-9_6
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Clearing the Day-Ahead Market with a High Penetration of Stochastic Production
+  year: 2013
+  venue: International series in management science/operations research/International series in operations research & management science, pp. 57-100
+  authors: J.M. Morales, A.J. Conejo, H. Madsen, P. Pinson, M. Zugno
+  url: https://doi.org/10.1007/978-1-4614-9411-9_3
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Facilitating Renewable Integration by Demand Response
+  year: 2013
+  venue: International series in management science/operations research/International series in operations research & management science, pp. 289-329
+  authors: J.M. Morales, A.J. Conejo, H. Madsen, P. Pinson, M. Zugno
+  url: https://doi.org/10.1007/978-1-4614-9411-9_9
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Regime-based supervisory control to reduce power fluctuations from offshore wind power plants
+  year: 2013
+  venue: IEEE Grenoble Conference 136, pp. 1-6
+  authors: B. Barahona, N.A. Cutululis, P. Trombe, P. Pinson
+  url: https://doi.org/10.1109/ptc.2013.6652369
+  preprint: ''
+  status: ''
+  categories:
+  - Conference paper
+  themes: ''
+  kind: conference
+  pdf: ''
+  haspdf: 'no'
+- title: Balancing Markets
+  year: 2013
+  venue: International series in management science/operations research/International series in operations research & management science, pp. 101-136
+  authors: J.M. Morales, A.J. Conejo, H. Madsen, P. Pinson, M. Zugno
+  url: https://doi.org/10.1007/978-1-4614-9411-9_4
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Introduction
+  year: 2013
+  venue: International series in management science/operations research/International series in operations research & management science, pp. 1-13
+  authors: J.M. Morales, A.J. Conejo, H. Madsen, P. Pinson, M. Zugno
+  url: https://doi.org/10.1007/978-1-4614-9411-9_1
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Proper Evaluation of Neural Network and Learning Systems based Prediction Intervals
+  year: 2013
+  venue: Unknown venue
+  authors: P. Pinson, J. Tastu
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Forecasting the Conditional Dynamic Elasticity of Electricity Consumers.
+  year: 2013
+  venue: ERCIM news/ERCIM news online edition 2013
+  authors: P. Pinson, H. Madsen
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Weather radars for wind energy applications
+  year: 2013
+  venue: Unknown venue
+  authors: P. Trombe, P. Pinson, H. Vedel, B. Barahona, H. Madsen
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Using forecast information for storm ride-through control
+  year: 2013
+  venue: '3'
+  authors: B. Barahona, P. Trombe, C. Vincent, P. Pinson, G. Giebel, N.A. Cutululis
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Forecasting Production Losses at a Swedish Wind Farm
+  year: 2013
+  venue: Technical University of Denmark, DTU Orbit (Technical University of Denmark, DTU)
+  authors: N. Davis, A.N. Hahmann, N. Clausen, M. Žagar, P. Pinson
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Monitoring and characterizing offshore wind variability with weather radars for wind energy applications
+  year: 2013
+  venue: Unknown venue
+  authors: P. Trombe, P. Pinson
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Stochastic power generation
+  year: 2013
+  venue: Technical University of Denmark, DTU Orbit (Technical University of Denmark, DTU), art. no. 24-28 - Chapter 6
+  authors: P. Pinson, R. Girard, P. McSharry
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: 'Wind energy: Forecasting challenges for its optimal management'
   year: 2013
   venue: Statistical Science 28(4), pp. 564-585
@@ -2723,8 +5001,8 @@
   - Journal article
   themes: forecasting
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://arxiv.org/pdf/1312.6471
+  haspdf: 'yes'
 - title: Trading wind energy on the basis of probabilistic forecasts of both wind generation and market quantities
   year: 2013
   venue: Wind Energy 16(6), pp. 909-926
@@ -2858,6 +5136,84 @@
   kind: article
   pdf: ''
   haspdf: 'no'
+- title: Forecasting Electricity Spot Prices Accounting for Wind Power Predictions
+  year: 2012
+  venue: IEEE Transactions on Sustainable Energy 4(1), pp. 210-218
+  authors: T. Jónsson, P. Pinson, H.A. Nielsen, H. Madsen, T.S. Nielsen
+  url: https://doi.org/10.1109/tste.2012.2212731
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: The influence of the new ECMWF Ensemble Prediction System resolution on wind power forecast accuracy and uncertainty estimation
+  year: 2012
+  venue: Advances in science and research 8(1), pp. 143-147
+  authors: S. Alessandrini, S. Sperati, P. Pinson
+  url: https://doi.org/10.5194/asr-8-143-2012
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Modeling Demand Response in Electricity Retail Markets as a Stackelberg Game
+  year: 2012
+  venue: Unknown venue
+  authors: M. Zugno, J.M.M. González, P. Pinson, H. Madsen
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Statistical analysis of the impact of wind power on market quantities and power flows
+  year: 2012
+  venue: IEEE Power Engineering Society General Meeting, pp. 1-8
+  authors: P. Pinson, T. Jónsson, M. Zugno, J.M. Morales, H. Madsen
+  url: https://doi.org/10.1109/pesgm.2012.6345490
+  preprint: ''
+  status: ''
+  categories:
+  - Conference paper
+  themes: ''
+  kind: conference
+  pdf: ''
+  haspdf: 'no'
+- title: The use of different ensemble forecasting systems for wind power prediction on a real case in the South of Italy
+  year: 2012
+  venue: Technical University of Denmark, DTU Orbit (Technical University of Denmark, DTU)
+  authors: S. Alessandrini, S. Sperati, P. Pinson
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Advances In Short-Term Wind Power Forecasting With Focus on 'Extreme' Situations - SafeWind
+  year: 2012
+  venue: HAL, art. no. 12 pages - Oral presentation
+  authors: G. Kariniotakis, R. Girard, G. Giebel, M.S. Courtney, M. Lange, L.v. Bremen, T.I. Petroliagis, P. Pinson, J.L. Sanz, I. Waldl
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Very short-term probabilistic forecasting of wind power with generalized logit-Normal distributions
   year: 2012
   venue: Journal of the Royal Statistical Society, Series C 61(4), pp. 555-576
@@ -2972,6 +5328,84 @@
   kind: article
   pdf: https://doi.org/10.3390/en5030621
   haspdf: 'yes'
+- title: An application of ensemble/multi model approach for wind power production forecasting
+  year: 2011
+  venue: Advances in science and research 6(1), pp. 35-37
+  authors: S. Alessandrini, P. Pinson, R. Hagedorn, G. Decimi, S. Sperati
+  url: https://doi.org/10.5194/asr-6-35-2011
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Meso- scale Wind Variability. Final Report
+  year: 2011
+  venue: Technical University of Denmark, DTU Orbit (Technical University of Denmark, DTU)
+  authors: S.E. Larsen, X.G. Larsén, C. Vincent, P.E. Sørensen, P. Pinson, P. Trombe, H. Madsen, N.A. Cutululis
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Radar@Sea - Towards improving short-term wind power forecasts
+  year: 2011
+  venue: European geosciences union general assembly
+  authors: P. Trombe, P. Pinson, S.C. Thomsen, H. Madsen
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: 'Scenario generation: A review'
+  year: 2011
+  venue: Unknown venue
+  authors: S. Otterson, H. Madsen, P. Pinson, T. Jónsson
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Benefits from the increased contribution of the European weather forecasting community to wind power prediction
+  year: 2011
+  venue: HAL
+  authors: P. Pinson, T.I. Petroliagis, R. Girard, G. Kariniotakis, F. Chavaux, R. Buizza
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Ensemble and probabilistic forecasting of (u,v)-wind for the energy application
+  year: 2011
+  venue: Unknown venue
+  authors: P. Pinson
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Wind fluctuations over the North Sea
   year: 2011
   venue: International Journal of Climatology 31(11), pp. 1584-1595
@@ -3028,6 +5462,58 @@
   kind: article
   pdf: http://orbit.dtu.dk/en/publications/forecasting-ocean-wave-energy-a-comparison-of-the-ecmwf-wave-model-with-time-series-methods(65d2319f-8c3c-4ca5-8f23-a1cbe6d881e2).html
   haspdf: 'yes'
+- title: Multivariate conditional parametric models for a spatio-temporal analysis of short-term wind power forecast errors
+  year: 2010
+  venue: Technical University of Denmark, DTU Orbit (Technical University of Denmark, DTU)
+  authors: J. Tastu, P. Pinson, H. Madsen
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: On the Market Impact of Wind Power (Forecasts) - An Overview of the Effects of Large-scale Integration of Wind Power on the Electricity Market
+  year: 2010
+  venue: Unknown venue
+  authors: T. Jónsson, M. Zugno, H. Madsen, P. Pinson
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: WIRE - Weather Intelligence for Renewable Energies
+  year: 2010
+  venue: ems
+  authors: A. Heimo, R. Cattin, B. Calpini, P. Pinson, G. Kariniotakis, G. Giebel, F. Kuik, A.M. Sempreviva
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Idealised simulations of open cellular convection and horizontal wind fluctuations over the North Sea
+  year: 2010
+  venue: Technical University of Denmark, DTU Orbit (Technical University of Denmark, DTU), art. no. 11025
+  authors: C. Vincent, A.N. Hahmann, P. Pinson, G. Giebel
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Resolving non-stationary spectral signals in wind speed time-series using the Hilbert-Huang transform
   year: 2010
   venue: Journal of Applied Meteorology and Climatology 49(2), pp. 253-267
@@ -3040,8 +5526,8 @@
   - Journal article
   themes: forecasting
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://journals.ametsoc.org/downloadpdf/journals/apme/49/2/2009jamc2058.1.pdf
+  haspdf: 'yes'
 - title: 'Reliability diagrams for nonparametric density forecasts of continuous variables: accounting for serial correlation'
   year: 2010
   venue: Quarterly Journal of the Royal Meteorological Society 136(646), pp. 77-90
@@ -3113,6 +5599,97 @@
   kind: article
   pdf: https://minesparis-psl.hal.science/hal-00614425
   haspdf: 'yes'
+- title: Dynamic sizing of energy storage for hedging wind power forecast uncertainty
+  year: 2009
+  venue: IEEE Power Engineering Society General Meeting, pp. 1-8
+  authors: P. Pinson, G. Papaefthymiou, B. Klöckl, J. Verboomen
+  url: https://doi.org/10.1109/pes.2009.5275816
+  preprint: ''
+  status: ''
+  categories:
+  - Conference paper
+  themes: ''
+  kind: conference
+  pdf: ''
+  haspdf: 'no'
+- title: Power fluctuations from large wind farms - Final report
+  year: 2009
+  venue: Technical University of Denmark, DTU Orbit (Technical University of Denmark, DTU)
+  authors: P.E. Sørensen, P. Pinson, N.A. Cutululis, H. Madsen, L.E. Jensen, J. Hjerrild, M.H. Donovan, J.R. Kristoffersen, A. Vigueras‐Rodríguez
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: 'Communication of wind power forecast uncertainty: towards a standard'
+  year: 2009
+  venue: Unknown venue
+  authors: P. Pinson, H. Madsen, o.N.H. Aalborg, T.S. Nielsen, G. Giebel, M. Lange
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: 'Ensemble-based forecasting at Horns Rev: Ensemble conversion and kernel dressing'
+  year: 2009
+  venue: Unknown venue
+  authors: P. Pinson, H. Madsen
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Prediction of waves, wakes and offshore wind - the results of the POW'WOW project
+  year: 2009
+  venue: Technical University of Denmark, DTU Orbit (Technical University of Denmark, DTU), art. no. 7 pages - http://orbit.dtu.dk/recid/241168
+  authors: G. Giebel, T. Pontes, P. Pinson, R.J. Barthelmie, G. Kariniotakis, I.S. Pérez, S. Lozano, B. Lange, L.v. Bremen, A.M. Sempreviva, K. Michałowska, M. Lange, U. Focken, I. Sánchez, A.d.L. Pereira, P.A.C. Rosas, A. Sood, G. Kallos, G.N. Galanis
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Spectral verification of a mesoscale ensemble
+  year: 2009
+  venue: Technical University of Denmark, DTU Orbit (Technical University of Denmark, DTU) 6, art. no. 8743
+  authors: C. Vincent, C. Draxl, G. Giebel, P. Pinson, C. Möhrlen, J.R. Jorgensen
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Characterisation of wind variability at the Horns Reef wind farm
+  year: 2009
+  venue: Technical University of Denmark, DTU Orbit (Technical University of Denmark, DTU)
+  authors: C. Vincent, G. Giebel, P. Pinson
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Temperature prediction at critical points in district heating systems
   year: 2009
   venue: European Journal of Operational Research 194(1), pp. 163-176
@@ -3170,6 +5747,123 @@
   kind: article
   pdf: https://backend.orbit.dtu.dk/ws/files/4900645/pinsonmadsen_ensforehorns_rev.pdf
   haspdf: 'yes'
+- title: Modeling of Spatial Dependence in Wind Power Forecast Uncertainty
+  year: 2008
+  venue: Technical University of Denmark, DTU Orbit (Technical University of Denmark, DTU), pp. 1-9
+  authors: G. Papaefthymiou, P. Pinson
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Probabilistic Forecasting of Wind Power at the Minute Time-Scale with Markov-Switching Autoregressive Models
+  year: 2008
+  venue: Technical University of Denmark, DTU Orbit (Technical University of Denmark, DTU), pp. 1-8
+  authors: P. Pinson, H. Madsen
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: 'Ecogrid.dk Phase 1 WP4 report: New measures for integration of large scale renewable energy'
+  year: 2008
+  venue: Technical University of Denmark, DTU Orbit (Technical University of Denmark, DTU)
+  authors: P.E. Sørensen, M. Togeby, T. Ackermann, D.K. Chandrashekhara, J.P.F. Horstmann, H. Jóhannsson, A.H. Nielsen, P. Nyeng, T.W. Rasmussen, Z. Xu, J. Østergaard, H. Madsen, P. Pinson, B. Poulsen, N.K. Poulsen, T. Cronin, A.D. Hansen, S.G. Jensen, P. Meibom, N. Juul, P.B. Norgard
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: 'Forecasting of wind generation : recent advances and future challenges'
+  year: 2008
+  venue: HAL, art. no. http://www.ewec2008proceedings.info/index.php
+  authors: P. Pinson, H. Madsen, G. Giebel, G. Kariniotakis, L.v. Bremen, I. Martí
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Forecasting of wind generation - The wind power of tomorrow on your screen today!
+  year: 2008
+  venue: 4(8), pp. 32-35
+  authors: P. Pinson, G. Giebel, H. Madsen
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Spatio-temporal modeling of wind power prediction errors
+  year: 2008
+  venue: Unknown venue
+  authors: J. Vlasova, E. Kotwa, o.N.H. Aalborg, H. Madsen, P. Pinson
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Workshops and virtual laboratories of the Pow'Wow project
+  year: 2008
+  venue: HAL, art. no. 7 pages - http://www.ewec2008proceedings.info/index.php
+  authors: G. Giebel, R.J. Barthelmie, A.M. Sempreviva, A. Sood, C.v. Ossietzky, B. Lange, P. Pinson, I. Martí, G. Kariniotakis, P. Teresa, P.A.C. Rosas, A. Pereira
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Modelling the nonlinear temperature response of district heating systems for model predictive control applications
+  year: 2008
+  venue: Technical University of Denmark, DTU Orbit (Technical University of Denmark, DTU)
+  authors: P. Pinson, H. Madsen, o.N.H. Aalborg, T.S. Nielsen, N.K. Poulsen
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Forecasting the potential magnitude of power fluctuations at large offshore wind farms with an adaptive Markov-switching approach
+  year: 2008
+  venue: Technical University of Denmark, DTU Orbit (Technical University of Denmark, DTU)
+  authors: P. Pinson, H. Madsen, P.E. Sørensen, J.R. Kristoffersen, L.E. Jensen
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Regime-switching modelling of the fluctuations of offshore wind generation
   year: 2008
   venue: Journal of Wind Engineering and Industrial Aerodynamics 96(12), pp. 2327-2347
@@ -3226,6 +5920,175 @@
   kind: article
   pdf: https://orbit.dtu.dk/files/4901531/pinsonetal_llr_ortfit_wpapp_rev.pdf
   haspdf: 'yes'
+- title: Generation of Statistical Scenarios of Short-term Wind Power Production
+  year: 2007
+  venue: ', pp. 491-496'
+  authors: P. Pinson, G. Papaefthymiou, B. Klöckl, H.A. Nielsen
+  url: https://doi.org/10.1109/pct.2007.4538366
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Temperature Prediction in District Heating Systems with cFIR models
+  year: 2007
+  venue: Technical University of Denmark, DTU Orbit (Technical University of Denmark, DTU)
+  authors: P. Pinson, T.S. Nielsen, o.H.A. Nielsen, N.K. Poulsen, H. Madsen
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Skill forecasting from different wind power ensemble prediction methods
+  year: 2007
+  venue: Journal of Physics Conference Series 75(1), art. no. 012046
+  authors: P. Pinson, H.A. Nielsen, H. Madsen, G. Kariniotakis
+  url: https://doi.org/10.1088/1742-6596/75/1/012046
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Robust estimation of time-varying coefficient functions - Application to the modeling of wind power production
+  year: 2007
+  venue: Unknown venue
+  authors: P. Pinson, H.A. Nielsen, H. Madsen
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Adaptive modelling of offshore wind power fluctuations
+  year: 2007
+  venue: Unknown venue
+  authors: P. Pinson, H. Madsen, P.E. Sørensen, N.A. Cutululis
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Towards smart integration of wind generation
+  year: 2007
+  venue: HAL, art. no. 7 pages - ISBN 978-87-550-3640-6
+  authors: G. Giebel, P. Meibom, P. Pinson, G. Kariniotakis
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: 'Fluctuations of offshore wind generation: Statistical modelling'
+  year: 2007
+  venue: Technical University of Denmark, DTU Orbit (Technical University of Denmark, DTU)
+  authors: P. Pinson, L.E. Christensen, H. Madsen, P.E. Sørensen, M.H. Donovan, L.E. Jensen
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Evaluation of Nonparametric Probabilistic Forecasts of Wind Power
+  year: 2007
+  venue: ', art. no. 32'
+  authors: P. Pinson, J.K. Møller, H. Madsen, G. Kariniotakis, S. Antipolis
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: POW'WOW Virtual Laboratory for Wind Power Forecasting – ViLab.
+  year: 2007
+  venue: HAL, art. no. http://www.ewec2007proceedings.info/ 3 pages
+  authors: G. Kariniotakis, P. Pinson, I. Martí, S. Lozano, G. Giebel
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: 'Ensemble predictions: Understanding uncertainties'
+  year: 2007
+  venue: Technical University of Denmark, DTU Orbit (Technical University of Denmark, DTU)
+  authors: L. Landberg, G. Giebel, J. Badger, H.A. Nielsen, N.T. S., H. Madsen, P. Pinson, K. Sattler, H. Feddersen, H. Vedel
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: 'CUT-IN NOTE. Research in Progress ViLab: a Virtual Laboratory for Collaborative Research on Wind Power Forecasting'
+  year: 2007
+  venue: Unknown venue
+  authors: P. Pinson, S. Lozano, I. Martí, G. Kariniotakis, G. Giebel
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: 'Intelligent wind power prediction systems: Final report'
+  year: 2007
+  venue: Unknown venue
+  authors: H.A. Nielsen, P. Pinson, T.S. Nielsen, L.E. Christiansen, H. Madsen, G. Giebel, J. Badger, X.G. Larsén, H.V. Ravn, J. Tøfting, L. Voulund
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Adaptive Markov-switching modelling for offshore wind power fluctuations
+  year: 2007
+  venue: Technical University of Denmark, DTU Orbit (Technical University of Denmark, DTU)
+  authors: P. Pinson, H. Madsen, P.E. Sørensen, N.A. Cutululis
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: 'ViLab: a Virtual Laboratory for collaborative research on wind power forecasting'
   year: 2007
   venue: Wind Engineering 31(2), pp. 117-121
@@ -3269,6 +6132,97 @@
   kind: article
   pdf: ''
   haspdf: 'no'
+- title: Properties of Quantile and Interval Forecasts of Wind Generation and their Evaluation
+  year: 2006
+  venue: ', pp. 128-133'
+  authors: P. Pinson, G. Kariniotakis, H.A. Nielsen, T.S. Nielsen, H. Madsen
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Evaluation of Advanced Wind Power Forecasting Models – Results of the Anemos Project
+  year: 2006
+  venue: ', art. no. 9 pages'
+  authors: I. Martí, G. Kariniotakis, P. Pinson, I. Sánchez, N.T. S., H. Madsen, G. Giebel, J. Usaola, A. Palomares, R.A. Brownsword, J. Tambke, U. Focken, M. Lange, G. Sideratos, G. Descombes
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: On the Quality and Value of Probabilistic Forecasts of Wind Generation
+  year: 2006
+  venue: International Conference on Probabilistic Methods Applied to Power Systems (PMAPS), pp. 1-7
+  authors: P. Pinson, J. Juban, G. Kariniotakis
+  url: https://doi.org/10.1109/pmaps.2006.360290
+  preprint: ''
+  status: ''
+  categories:
+  - Conference paper
+  themes: ''
+  kind: conference
+  pdf: ''
+  haspdf: 'no'
+- title: Short-term Wind Power Forecasting Using Advanced Statistical Methods
+  year: 2006
+  venue: ', art. no. 9 pages'
+  authors: N.T. S., H. Madsen, H.A. Nielsen, P. Pinson, G. Kariniotakis, N. Siebert, I. Martí, M. Lange, U. Focken, L.v. Bremen, G. Louka, K. George, G.N. Galanis
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Estimation of the uncertainty in wind power forecasting
+  year: 2006
+  venue: OpenGrey (Institut de l'Information Scientifique et Technique)
+  authors: P. Pinson
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Estimation de l’incertitude des prédictions de production eolienne
+  year: 2006
+  venue: HAL
+  authors: P. Pinson
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Advanced statistical modeling and uncertainty assessment for wind power forecasting
+  year: 2006
+  venue: Technical University of Denmark, DTU Orbit (Technical University of Denmark, DTU)
+  authors: N.T. Skov, N.H.A.O.t. 2009, H. Madsen, P. Pinson, G. Kariniotakis, N. Siebert, I. Martí, M. Lange, U. Focken, L.v. Bremen, P. Louka, G. Kallos, G.N. Galanis
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: Standardizing the performance evaluation of short-term wind power prediction models
   year: 2005
   venue: Wind Engineering 29(6), pp. 475-489
@@ -3283,6 +6237,110 @@
   kind: article
   pdf: https://minesparis-psl.hal.science/hal-00527248
   haspdf: 'yes'
+- title: The state of the art in short term prediction of wind power - from an offshore perspective
+  year: 2004
+  venue: HAL
+  authors: G. Kariniotakis, P. Pinson, N. Siebert, G. Giebel, R.J. Barthelmie
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Wind power forecasting using fuzzy neural networks enhanced with on-line prediction risk assessment
+  year: 2004
+  venue: 2, pp. 64-71
+  authors: P. Pinson, G.N. Katiniotakis
+  url: https://doi.org/10.1109/ptc.2003.1304289
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: What performance can be expected by short-term wind power prediction models depending on site characteristics?
+  year: 2004
+  venue: HAL
+  authors: G. Kariniotakis, I. Martí, D. Casas, P. Pinson, N.T. S., M. H., G. G., U. J., S. I., P.A. M., B. R., T. J., F. U., L. M., P. Louka, K. G., C. Lac, S. G., D. G.
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Optimizing Benefits from wind power participation in electricity market using advanced tools for wind power forecasting and uncertainty assessment
+  year: 2004
+  venue: HAL, art. no. http://www.2004ewec.info/index.php
+  authors: P. Pinson, C. Chevallier, G. Kariniotakis
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Short-term Wind Power Prediction for Offshore Wind Farms- Evaluation of Fuzzy-Neural Network Based Models
+  year: 2004
+  venue: ', art. no. CD ROM'
+  authors: P. Pinson, T. Ranchin, G. Kariniotakis
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: On-line adaptation of confidence intervals based on weather stability for wind power forecasting
+  year: 2004
+  venue: HAL
+  authors: P. Pinson, G. Kariniotakis
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Uncertainty and Prediction Risk Assessment of short-term wind power forecasts
+  year: 2004
+  venue: HAL, art. no. CD ROM
+  authors: P. Pinson, G. Kariniotakis
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Incertitude des prédictions court terme de la production éolienne -intervalles de confiance et évaluation en-ligne du risque météorologique
+  year: 2004
+  venue: HAL, pp. CD-ROM
+  authors: P. Pinson, G. Kariniotakis
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
 - title: On-line assessment of prediction risk for wind power production forecasts
   year: 2004
   venue: Wind Energy 7(2), pp. 119-132
@@ -3297,3 +6355,29 @@
   kind: article
   pdf: https://minesparis-psl.hal.science/hal-01721503
   haspdf: 'yes'
+- title: Forecasting of regional wind generation by a dynamic fuzzy-neural networks based upscaling approach
+  year: 2003
+  venue: HAL, art. no. 5 pages - CD ROM
+  authors: P. Pinson, N. Siebert, G. Kariniotakis
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Evaluation of the MORE-CARE wind power prediction platform. Perfrmance of the fuzzy logic based models
+  year: 2003
+  venue: HAL
+  authors: G. Kariniotakis, P. Pinson
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Journal article
+  themes: ''
+  kind: article
+  pdf: ''
+  haspdf: 'no'

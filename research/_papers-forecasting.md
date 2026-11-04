@@ -7,7 +7,7 @@
   [**P. Pinson**, G. Kariniotakis · *IEEE Transactions on Power Systems 25(4), pp. 1845-1856* · 2010]{.kp-meta}
 - [Very short-term probabilistic forecasting of wind power with generalized logit-Normal distributions](https://academic.oup.com/jrsssc/article-pdf/61/4/555/49549555/jrsssc_61_4_555.pdf)  
   [**P. Pinson** · *Journal of the Royal Statistical Society, Series C 61(4), pp. 555-576* · 2012]{.kp-meta}
-- [Wind energy: Forecasting challenges for its optimal management](https://projecteuclid.org/euclid.ss/1386078879)  
+- [Wind energy: Forecasting challenges for its optimal management](https://arxiv.org/pdf/1312.6471)  
   [**P. Pinson** · *Statistical Science 28(4), pp. 564-585* · 2013]{.kp-meta}
 - [Probabilistic forecasts of wind power generation accounting for geographically dispersed information](https://backend.orbit.dtu.dk/ws/files/61116377/probspattemp_final.pdf)  
   [J. Tastu, **P. Pinson**, P.-J. Trombe, H. Madsen · *IEEE Transactions on Smart Grid 5(1), pp. 480-489* · 2014]{.kp-meta}
