@@ -234,6 +234,15 @@ def tag_data_markets(pubs):
 
 SVG = '<svg viewBox="0 0 160 96" aria-hidden="true" focusable="false">{}</svg>'
 ILLUSTRATIONS = {
+    "future": (
+        '<path class="il-grid" d="M8 84 h144"/>'
+        '<path class="il-line" d="M30 84 L32 38 L34 84"/>'
+        '<g class="il-rotor"><path class="il-line il-thick" d="M32 36 L32 14 M32 36 L13 47 M32 36 L51 47"/></g>'
+        '<circle class="il-dot" cx="32" cy="36" r="3"/>'
+        '<path class="il-line" d="M76 84 v-22 l14 -12 l14 12 v22 z M120 84 v-22 l14 -12 l14 12 v22 z"/>'
+        '<path class="il-fill" d="M80 60 l10 -8.5 l6 5 l-10 8.5 z M124 60 l10 -8.5 l6 5 l-10 8.5 z"/>'
+        '<path class="il-acc il-flow" d="M44 30 Q66 18 86 42 M100 46 Q114 30 130 44 M134 40 Q100 4 50 26"/>'),
+
     "edelman": (
         '<path class="il-grid" d="M12 30h136M12 50h136"/>'
         '<path class="il-acc il-draw" pathLength="1" d="M14 58 C30 52 40 56 52 46 S74 40 86 44 S110 26 122 28 S140 18 148 14"/>'
@@ -282,24 +291,26 @@ ILLUSTRATIONS = {
 def write_highlights(pubs):
     n = lambda key: sum(key in p["themes"] for p in pubs)
     cards = [
+        # Row 1: forecasting
         ("edelman", "2024 · Award", "INFORMS Franz Edelman Award",
          "Led the team, with Halfspace, that put forecasting and revenue management into daily operation at Molslinjen.",
          "news/posts/2024-edelman/index.html", "Read the story"),
         ("forecasting", f"Research · {n('forecasting')} papers", "Probabilistic energy forecasting",
          "From early work on wind power to methods for wind, solar, wave, load and market quantities, and how to verify them.",
          "research/forecasting.html", "Explore the work"),
+        ("orsted", "2026 · Lecture", "DTU Ørsted Lecture",
+         "“Can we predict the future of forecasting?”, the yearly public lecture at the Technical University of Denmark.",
+         "https://www.youtube.com/watch?v=tOe7jf_pcB8", "Watch the lecture"),
+        # Row 2: energy markets
         ("markets", f"Research · {n('markets')} papers", "Energy markets",
          "Trading strategies for renewables, and market design and clearing under uncertainty, from coordinated to peer-to-peer markets.",
          "research/markets.html", "Explore the work"),
         ("datamarkets", f"Research · {n('datamarkets')} papers", "Data and analytics markets",
          "Mechanisms to value, share and trade data, forecasts and models.",
          "research/data-markets.html", "Explore the work"),
-        ("ijf", "2019 – 2026 · Editorial", "Editor-in-Chief, International Journal of Forecasting",
-         "Seven years leading the flagship journal of the International Institute of Forecasters.",
-         "ijf.html", "About the journal"),
-         ("orsted", "2026 · Lecture", "DTU Ørsted Lecture",
-         "“Can we predict the future of forecasting?”, the yearly public lecture at the Technical University of Denmark.",
-         "https://www.youtube.com/watch?v=tOe7jf_pcB8", "Watch the lecture"),
+        ("future", "2023 · Perspective", "My take on future electricity markets",
+         "How electricity markets should evolve for a power system built on renewables and flexible, active consumers, from my paper “What may future electricity markets look like?”.",
+         "https://arxiv.org/abs/2302.02833", "Read the paper"),
     ]
     out = []
     for key, kicker, title, text, href, cta in cards:
