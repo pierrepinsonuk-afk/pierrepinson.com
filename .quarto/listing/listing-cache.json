@@ -3,6 +3,12 @@
     "index.qmd": [
       "publications.yml",
       "news/posts"
+    ],
+    "publications.qmd": [
+      "publications.yml"
+    ],
+    "news/index.qmd": [
+      "posts"
     ]
   }
 }
