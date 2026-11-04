@@ -51,8 +51,9 @@
   status: In press
   categories:
   - Markets
+  - Datamarkets
   - Journal article
-  themes: markets
+  themes: markets datamarkets
   kind: article
   pdf: https://arxiv.org/pdf/2310.06000
   haspdf: 'yes'
@@ -65,8 +66,9 @@
   status: In press
   categories:
   - Markets
+  - Datamarkets
   - Journal article
-  themes: markets
+  themes: markets datamarkets
   kind: article
   pdf: https://arxiv.org/pdf/2511.20605
   haspdf: 'yes'
@@ -122,8 +124,9 @@
   status: ''
   categories:
   - Markets
+  - Datamarkets
   - Journal article
-  themes: markets
+  themes: markets datamarkets
   kind: article
   pdf: https://arxiv.org/pdf/2312.02611
   haspdf: 'yes'
@@ -137,8 +140,9 @@
   categories:
   - Forecasting
   - Markets
+  - Datamarkets
   - Preprint
-  themes: forecasting markets
+  themes: forecasting markets datamarkets
   kind: preprint
   pdf: https://arxiv.org/pdf/2510.13385
   haspdf: 'yes'
@@ -182,8 +186,9 @@
   categories:
   - Forecasting
   - Markets
+  - Datamarkets
   - Journal article
-  themes: forecasting markets
+  themes: forecasting markets datamarkets
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -341,8 +346,9 @@
   status: ''
   categories:
   - Markets
+  - Datamarkets
   - Journal article
-  themes: markets
+  themes: markets datamarkets
   kind: article
   pdf: https://arxiv.org/pdf/2206.07785
   haspdf: 'yes'
@@ -441,8 +447,9 @@
   status: ''
   categories:
   - Markets
+  - Datamarkets
   - Journal article
-  themes: markets
+  themes: markets datamarkets
   kind: article
   pdf: https://arxiv.org/pdf/2310.14992
   haspdf: 'yes'
@@ -456,8 +463,9 @@
   categories:
   - Forecasting
   - Markets
+  - Datamarkets
   - Journal article
-  themes: forecasting markets
+  themes: forecasting markets datamarkets
   kind: article
   pdf: https://arxiv.org/pdf/2205.02668
   haspdf: 'yes'
@@ -527,8 +535,9 @@
   status: Preprint
   categories:
   - Markets
+  - Datamarkets
   - Preprint
-  themes: markets
+  themes: markets datamarkets
   kind: preprint
   pdf: https://arxiv.org/pdf/2206.06299
   haspdf: 'yes'
@@ -630,8 +639,9 @@
   categories:
   - Forecasting
   - Markets
+  - Datamarkets
   - Journal article
-  themes: forecasting markets
+  themes: forecasting markets datamarkets
   kind: article
   pdf: https://www.sciencedirect.com/science/article/pii/S0378779622005831/pdf
   haspdf: 'yes'
@@ -644,8 +654,9 @@
   status: ''
   categories:
   - Forecasting
+  - Datamarkets
   - Journal article
-  themes: forecasting
+  themes: forecasting datamarkets
   kind: article
   pdf: ''
   haspdf: 'no'
@@ -689,8 +700,9 @@
   categories:
   - Forecasting
   - Markets
+  - Datamarkets
   - Journal article
-  themes: forecasting markets
+  themes: forecasting markets datamarkets
   kind: article
   pdf: https://link.springer.com/content/pdf/10.1007/s11750-022-00631-7.pdf
   haspdf: 'yes'
@@ -847,8 +859,9 @@
   categories:
   - Forecasting
   - Markets
+  - Datamarkets
   - Journal article
-  themes: forecasting markets
+  themes: forecasting markets datamarkets
   kind: article
   pdf: https://orbit.dtu.dk/en/publications/f4463a15-d73d-48fd-a30e-80dd69604d30
   haspdf: 'yes'
@@ -932,8 +945,9 @@
   status: ''
   categories:
   - Markets
+  - Datamarkets
   - Conference paper
-  themes: markets
+  themes: markets datamarkets
   kind: conference
   pdf: https://arxiv.org/pdf/2012.05519
   haspdf: 'yes'
@@ -1105,8 +1119,9 @@
   status: ''
   categories:
   - Forecasting
+  - Datamarkets
   - Journal article
-  themes: forecasting
+  themes: forecasting datamarkets
   kind: article
   pdf: https://arxiv.org/pdf/2004.09612
   haspdf: 'yes'
@@ -2056,8 +2071,9 @@
   categories:
   - Forecasting
   - Markets
+  - Datamarkets
   - Journal article
-  themes: forecasting markets
+  themes: forecasting markets datamarkets
   kind: article
   pdf: https://www.sciencedirect.com/science/article/am/pii/S0306261916306468?via%3Dihub
   haspdf: 'yes'

@@ -219,29 +219,105 @@ def write_exercises():
     (ROOT / "teaching" / "exercises.qmd").write_text("\n".join(L) + "\n", encoding="utf-8")
 
 
-HOME_THEMES = [
-    ("forecasting", "Forecasting", "Probabilistic forecasting and forecast verification, for energy, meteorology and business."),
-    ("markets", "Markets", "Electricity market design and trading, and markets for data, analytics and forecasts."),
-    ("optimisation", "Optimisation under uncertainty", "Stochastic and robust decision-making, from unit commitment to logistics."),
-]
+# Papers on data, forecast and model markets get the "datamarkets" theme automatically.
+# You can also add the theme by hand in publications.txt.
+DATA_MARKET_TERMS = ["data market", "analytics market", "regression market", "wagering", "trading forecasts",
+                     "prediction markets", "model trading", "data pricing", "data acquisition", "monetizing",
+                     "purchase labels", "collaborative forecasting", "sharing wind power forecasts", "trading data"]
 
 
-def write_home_themes(pubs):
-    cells = []
-    for key, name, text in HOME_THEMES:
-        n = sum(key in p["themes"] for p in pubs)
-        cells.append(f'<a class="theme" href="publications.html#theme={key}"><h2>{name}</h2>'
-                     f'<p>{text}</p><span class="theme-count">{n} papers</span></a>')
-    html_block = '```{=html}\n<section class="themes" aria-label="Research themes">' + "".join(cells) + "</section>\n```\n"
-    (ROOT / "_home_themes.md").write_text(html_block, encoding="utf-8")
+def tag_data_markets(pubs):
+    for p in pubs:
+        if any(t in p["title"].lower() for t in DATA_MARKET_TERMS) and "datamarkets" not in p["themes"]:
+            p["themes"].append("datamarkets")
+
+
+SVG = '<svg viewBox="0 0 160 96" aria-hidden="true" focusable="false">{}</svg>'
+ILLUSTRATIONS = {
+    "edelman": (
+        '<path class="il-grid" d="M12 30h136M12 50h136"/>'
+        '<path class="il-acc il-draw" pathLength="1" d="M14 58 C30 52 40 56 52 46 S74 40 86 44 S110 26 122 28 S140 18 148 14"/>'
+        '<circle class="il-dot" cx="148" cy="14" r="3.5"/>'
+        '<path class="il-fill" d="M40 66 h76 l-9 11 h-58 z"/>'
+        '<path class="il-line" d="M58 66 v-8 h36 v8 M66 58 v-5 h18 v5"/>'
+        '<path class="il-line il-wave" d="M10 84 q8 -5 16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0"/>'),
+    "forecasting": (
+        '<path class="il-fill o1" d="M70 52 C96 30 124 22 150 16 L150 88 C124 82 96 74 70 52Z"/>'
+        '<path class="il-fill o2" d="M70 52 C96 40 124 36 150 33 L150 72 C124 68 96 62 70 52Z"/>'
+        '<path class="il-fill o3" d="M70 52 C96 47 124 47 150 47 L150 58 C124 57 96 55 70 52Z"/>'
+        '<path class="il-line il-thick" d="M10 60 C22 54 30 62 42 56 S60 50 70 52"/>'
+        '<path class="il-acc" stroke-dasharray="4 4" d="M70 52 C96 51 124 52 150 53"/>'
+        '<path class="il-grid" d="M70 10 v80"/><circle class="il-dot" cx="70" cy="52" r="3.5"/>'),
+    "markets": (
+        '<path class="il-grid" d="M20 10 v76 h130"/>'
+        '<path class="il-acc il-thick" d="M20 80 h24 v-8 h22 v-10 h20 v-14 h18 v-18 h22 v-22"/>'
+        '<path class="il-line il-thick" d="M30 14 C60 34 90 52 146 76"/>'
+        '<path class="il-grid" stroke-dasharray="3 4" d="M20 48 h83 v38"/>'
+        '<circle class="il-dot pulse" cx="103" cy="48" r="4"/>'),
+    "datamarkets": (
+        '<path class="il-line" d="M80 48 L30 22 M80 48 L30 74 M80 48 L130 22 M80 48 L130 74 M80 48 L80 12"/>'
+        '<path class="il-acc il-flow" d="M80 48 L30 22 M80 48 L130 74 M80 48 L130 22"/>'
+        '<circle class="il-node" cx="30" cy="22" r="7"/><circle class="il-node" cx="30" cy="74" r="7"/>'
+        '<circle class="il-node" cx="130" cy="22" r="7"/><circle class="il-node" cx="130" cy="74" r="7"/>'
+        '<circle class="il-node" cx="80" cy="12" r="6"/>'
+        '<circle class="il-hub" cx="80" cy="48" r="12"/>'
+        '<path class="il-hubmark" d="M74 52 v-4 M78 52 v-8 M82 52 v-6 M86 52 v-10"/>'),
+    "ijf": (
+        '<rect class="il-line" x="58" y="14" width="56" height="72" rx="3"/>'
+        '<rect class="il-line" x="50" y="10" width="56" height="72" rx="3"/>'
+        '<rect class="il-cover" x="42" y="6" width="56" height="72" rx="3"/>'
+        '<path class="il-acc" d="M50 56 C58 50 64 54 70 46 S84 36 90 30"/>'
+        '<path class="il-grid" d="M50 66 h40 M50 71 h26"/>'
+        '<text class="il-text" x="50" y="24">IJF</text>'),
+    "orsted": (
+        '<rect class="il-line" x="26" y="8" width="108" height="56" rx="3"/>'
+        '<path class="il-fill o1" d="M70 40 C90 26 110 20 126 16 L126 60 C110 58 90 52 70 40Z"/>'
+        '<path class="il-fill o2" d="M70 40 C90 34 110 32 126 31 L126 49 C110 48 90 45 70 40Z"/>'
+        '<path class="il-line" d="M34 44 C44 40 52 46 60 40 S66 38 70 40"/>'
+        '<text class="il-q" x="96" y="44">?</text>'
+        '<path class="il-line" d="M80 64 v8 M62 88 l6 -16 h24 l6 16 z"/>'),
+}
+
+
+def write_highlights(pubs):
+    n = lambda key: sum(key in p["themes"] for p in pubs)
+    cards = [
+        ("edelman", "2024 · Award", "INFORMS Franz Edelman Award",
+         "Led the team, with Halfspace, that put forecasting and revenue management into daily operation at Molslinjen.",
+         "news/posts/2024-edelman/index.html", "Read the story"),
+        ("forecasting", f"Research · {n('forecasting')} papers", "Probabilistic energy forecasting",
+         "From early work on wind power to methods for wind, solar, wave, load and market quantities, and how to verify them.",
+         "publications.html#theme=forecasting", "See the papers"),
+        ("markets", f"Research · {n('markets')} papers", "Energy markets",
+         "Trading strategies for renewables, and market design and clearing under uncertainty, from coordinated to peer-to-peer markets.",
+         "publications.html#theme=markets", "See the papers"),
+        ("datamarkets", f"Research · {n('datamarkets')} papers", "Data and analytics markets",
+         "Mechanisms to value, share and trade data, forecasts and models.",
+         "publications.html#theme=datamarkets", "See the papers"),
+        ("ijf", "2019 – 2026 · Editorial", "Editor-in-Chief, International Journal of Forecasting",
+         "Seven years leading the flagship journal of the International Institute of Forecasters.",
+         "ijf.html", "About the journal"),
+        ("orsted", "2026 · Lecture", "DTU Ørsted Lecture",
+         "“Can we predict the future of forecasting?”, the yearly public lecture at the Technical University of Denmark.",
+         "about.html", "More about me"),
+    ]
+    out = []
+    for key, kicker, title, text, href, cta in cards:
+        out.append(f'<a class="hl-card" href="{href}"><div class="hl-art">{SVG.format(ILLUSTRATIONS[key])}</div>'
+                   f'<div class="hl-body"><span class="hl-kicker">{kicker}</span><h3>{title}</h3><p>{text}</p>'
+                   f'<span class="hl-cta">{cta}<span aria-hidden="true"> →</span></span></div></a>')
+    block = ('```{=html}\n<section class="highlights" aria-labelledby="hl-title"><h2 id="hl-title">Highlights</h2>'
+             '<div class="hl-grid">' + "".join(out) + "</div></section>\n```\n")
+    (ROOT / "_highlights.md").write_text(block, encoding="utf-8")
 
 
 if __name__ == "__main__":
     pubs = load_pubs()
+    tag_data_markets(pubs)
     write_listing(pubs)
     write_bib(pubs)
     write_modules()
     write_interviews()
     write_exercises()
-    write_home_themes(pubs)
+    write_highlights(pubs)
     print(f"{len(pubs)} publications; course pages written.")

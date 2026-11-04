@@ -46,7 +46,7 @@ listing:
 </section>
 ```
 
-{{< include _home_themes.md >}}
+{{< include _highlights.md >}}
 
 ::: {.home-cols}
 ::: {}

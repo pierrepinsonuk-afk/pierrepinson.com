@@ -2,17 +2,23 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.26">
+<meta name="generator" content="quarto-1.11.9">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>Pierre Pinson – Forecasting, analytics and decision sciences – Pierre Pinson</title>
 <style>
-code{white-space: pre-wrap;}
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -35,17 +41,17 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/scrollable-regions/scrollable-regions.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-20fc9822bcdcf8da166f19444734e5bc.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-2e4daac90d0b4ba0c23d0a77811efccc.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-18038207a4bfd50187eff2b2f0526436.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-8e85404a9d50edf7792bd4538a68c014.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-d73151def8349d5620b83862d1d1a4b2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-73c96f14c765fe940c6ec4487c579d28.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-4d1eceebd697b2a040a91d86ad285193.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-c5f4c241b24d24b3e2e256bafcb996a6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -96,12 +102,6 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
@@ -124,12 +124,6 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
   </script>
 <style>html{ scroll-behavior: smooth; }</style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -184,7 +178,7 @@ window.Quarto = {
 <meta property="og:site_name" content="Pierre Pinson">
 </head>
 
-<body class="nav-fixed home quarto-dark"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed home quarto-dark"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -207,6 +201,7 @@ window.Quarto = {
       for (let i=0; i < toggles.length; i++) {
         const toggle = toggles[i];
         if (toggle) {
+          toggle.setAttribute("aria-checked", alternate ? "true" : "false");
           if (alternate) {
             toggle.classList.add("alternate");
           } else {
@@ -236,13 +231,19 @@ window.Quarto = {
       manageTransitions('#quarto-margin-sidebar .nav-link', true);
       // Switch the toggles
       setColorSchemeToggle(alternate)
-      // Hack to workaround the fact that safari doesn't
-      // properly recolor the scrollbar when toggling (#1455)
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455).
+    // Not run on load: stylesheets are set before first paint there, and
+    // scrolling would undo the scroll to a URL fragment (#14973).
+    // The one pixel nudge keeps the reader where they were.
+    const refreshSafariScrollbar = () => {
       if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
         manageTransitions("body", false);
-        window.scrollTo(0, 1);
+        const scrollY = window.scrollY;
+        window.scrollTo(0, scrollY > 0 ? scrollY - 1 : 1);
         setTimeout(() => {
-          window.scrollTo(0, 0);
+          window.scrollTo(0, scrollY);
           manageTransitions("body", true);
         }, 40);
       }
@@ -334,6 +335,7 @@ window.Quarto = {
       // Read the current dark / light value
       let toAlternate = !hasAlternateSentinel();
       toggleColorMode(toAlternate);
+      refreshSafariScrollbar();
       setStyleSentinel(toAlternate);
       toggleGiscusIfUsed(toAlternate, darkModeDefault);
       window.dispatchEvent(new Event('resize'));
@@ -348,15 +350,14 @@ window.Quarto = {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark" aria-label="Site">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Pierre Pinson</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -415,8 +416,9 @@ window.Quarto = {
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+  <button type="button" role="switch" aria-checked="false" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode" aria-label="Toggle dark mode"><i class="bi"></i></button>
 </div>
+            <div id="quarto-search" class="" title="Search"></div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -426,7 +428,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content" tabindex="-1">
 
 
 <header id="title-block-header" class="quarto-title-block default">
@@ -469,7 +471,7 @@ window.Quarto = {
     <p class="fan-hint">Move across the chart to forecast from another moment.</p>
   </figure>
 </section>
-<section class="themes" aria-label="Research themes"><a class="theme" href="publications.html#theme=forecasting"><h2 class="anchored">Forecasting</h2><p>Probabilistic forecasting and forecast verification, for energy, meteorology and business.</p><span class="theme-count">106 papers</span></a><a class="theme" href="publications.html#theme=markets"><h2 class="anchored">Markets</h2><p>Electricity market design and trading, and markets for data, analytics and forecasts.</p><span class="theme-count">93 papers</span></a><a class="theme" href="publications.html#theme=optimisation"><h2 class="anchored">Optimisation under uncertainty</h2><p>Stochastic and robust decision-making, from unit commitment to logistics.</p><span class="theme-count">49 papers</span></a></section>
+<section class="highlights" aria-labelledby="hl-title"><h2 id="hl-title" class="anchored">Highlights</h2><div class="hl-grid"><a class="hl-card" href="news/posts/2024-edelman/index.html"><div class="hl-art"><svg viewbox="0 0 160 96" aria-hidden="true" focusable="false"><path class="il-grid" d="M12 30h136M12 50h136"></path><path class="il-acc il-draw" pathlength="1" d="M14 58 C30 52 40 56 52 46 S74 40 86 44 S110 26 122 28 S140 18 148 14"></path><circle class="il-dot" cx="148" cy="14" r="3.5"></circle><path class="il-fill" d="M40 66 h76 l-9 11 h-58 z"></path><path class="il-line" d="M58 66 v-8 h36 v8 M66 58 v-5 h18 v5"></path><path class="il-line il-wave" d="M10 84 q8 -5 16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0 t16 0"></path></svg></div><div class="hl-body"><span class="hl-kicker">2024 · Award</span><h3 class="anchored">INFORMS Franz Edelman Award</h3><p>Led the team, with Halfspace, that put forecasting and revenue management into daily operation at Molslinjen.</p><span class="hl-cta">Read the story<span aria-hidden="true"> →</span></span></div></a><a class="hl-card" href="publications.html#theme=forecasting"><div class="hl-art"><svg viewbox="0 0 160 96" aria-hidden="true" focusable="false"><path class="il-fill o1" d="M70 52 C96 30 124 22 150 16 L150 88 C124 82 96 74 70 52Z"></path><path class="il-fill o2" d="M70 52 C96 40 124 36 150 33 L150 72 C124 68 96 62 70 52Z"></path><path class="il-fill o3" d="M70 52 C96 47 124 47 150 47 L150 58 C124 57 96 55 70 52Z"></path><path class="il-line il-thick" d="M10 60 C22 54 30 62 42 56 S60 50 70 52"></path><path class="il-acc" stroke-dasharray="4 4" d="M70 52 C96 51 124 52 150 53"></path><path class="il-grid" d="M70 10 v80"></path><circle class="il-dot" cx="70" cy="52" r="3.5"></circle></svg></div><div class="hl-body"><span class="hl-kicker">Research · 106 papers</span><h3 class="anchored">Probabilistic energy forecasting</h3><p>From early work on wind power to methods for wind, solar, wave, load and market quantities, and how to verify them.</p><span class="hl-cta">See the papers<span aria-hidden="true"> →</span></span></div></a><a class="hl-card" href="publications.html#theme=markets"><div class="hl-art"><svg viewbox="0 0 160 96" aria-hidden="true" focusable="false"><path class="il-grid" d="M20 10 v76 h130"></path><path class="il-acc il-thick" d="M20 80 h24 v-8 h22 v-10 h20 v-14 h18 v-18 h22 v-22"></path><path class="il-line il-thick" d="M30 14 C60 34 90 52 146 76"></path><path class="il-grid" stroke-dasharray="3 4" d="M20 48 h83 v38"></path><circle class="il-dot pulse" cx="103" cy="48" r="4"></circle></svg></div><div class="hl-body"><span class="hl-kicker">Research · 93 papers</span><h3 class="anchored">Energy markets</h3><p>Trading strategies for renewables, and market design and clearing under uncertainty, from coordinated to peer-to-peer markets.</p><span class="hl-cta">See the papers<span aria-hidden="true"> →</span></span></div></a><a class="hl-card" href="publications.html#theme=datamarkets"><div class="hl-art"><svg viewbox="0 0 160 96" aria-hidden="true" focusable="false"><path class="il-line" d="M80 48 L30 22 M80 48 L30 74 M80 48 L130 22 M80 48 L130 74 M80 48 L80 12"></path><path class="il-acc il-flow" d="M80 48 L30 22 M80 48 L130 74 M80 48 L130 22"></path><circle class="il-node" cx="30" cy="22" r="7"></circle><circle class="il-node" cx="30" cy="74" r="7"></circle><circle class="il-node" cx="130" cy="22" r="7"></circle><circle class="il-node" cx="130" cy="74" r="7"></circle><circle class="il-node" cx="80" cy="12" r="6"></circle><circle class="il-hub" cx="80" cy="48" r="12"></circle><path class="il-hubmark" d="M74 52 v-4 M78 52 v-8 M82 52 v-6 M86 52 v-10"></path></svg></div><div class="hl-body"><span class="hl-kicker">Research · 16 papers</span><h3 class="anchored">Data and analytics markets</h3><p>Mechanisms to value, share and trade data, forecasts and models.</p><span class="hl-cta">See the papers<span aria-hidden="true"> →</span></span></div></a><a class="hl-card" href="ijf.html"><div class="hl-art"><svg viewbox="0 0 160 96" aria-hidden="true" focusable="false"><rect class="il-line" x="58" y="14" width="56" height="72" rx="3"></rect><rect class="il-line" x="50" y="10" width="56" height="72" rx="3"></rect><rect class="il-cover" x="42" y="6" width="56" height="72" rx="3"></rect><path class="il-acc" d="M50 56 C58 50 64 54 70 46 S84 36 90 30"></path><path class="il-grid" d="M50 66 h40 M50 71 h26"></path><text class="il-text" x="50" y="24">IJF</text></svg></div><div class="hl-body"><span class="hl-kicker">2019 – 2026 · Editorial</span><h3 class="anchored">Editor-in-Chief, International Journal of Forecasting</h3><p>Seven years leading the flagship journal of the International Institute of Forecasters.</p><span class="hl-cta">About the journal<span aria-hidden="true"> →</span></span></div></a><a class="hl-card" href="about.html"><div class="hl-art"><svg viewbox="0 0 160 96" aria-hidden="true" focusable="false"><rect class="il-line" x="26" y="8" width="108" height="56" rx="3"></rect><path class="il-fill o1" d="M70 40 C90 26 110 20 126 16 L126 60 C110 58 90 52 70 40Z"></path><path class="il-fill o2" d="M70 40 C90 34 110 32 126 31 L126 49 C110 48 90 45 70 40Z"></path><path class="il-line" d="M34 44 C44 40 52 46 60 40 S66 38 70 40"></path><text class="il-q" x="96" y="44">?</text><path class="il-line" d="M80 64 v8 M62 88 l6 -16 h24 l6 16 z"></path></svg></div><div class="hl-body"><span class="hl-kicker">2026 · Lecture</span><h3 class="anchored">DTU Ørsted Lecture</h3><p>“Can we predict the future of forecasting?”, the yearly public lecture at the Technical University of Denmark.</p><span class="hl-cta">More about me<span aria-hidden="true"> →</span></span></div></a></div></section>
 <div class="home-cols">
 <section id="recent-publications" class="level2">
 <h2 class="anchored" data-anchor-id="recent-publications">Recent publications</h2>
@@ -503,7 +505,7 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-index="3" data-categories="TWFya2V0cyUyQ0pvdXJuYWwlMjBhcnRpY2xl">
+<article class="pub" data-index="3" data-categories="TWFya2V0cyUyQ0RhdGFtYXJrZXRzJTJDSm91cm5hbCUyMGFydGljbGU=">
   <div class="pub-year">2026</div>
   <div>
     <h3 class="pub-title listing-title anchored"><a href="https://pubsonline.informs.org/doi/10.1287/ijds.2025.0075">Towards replication-robust analytics markets</a></h3>
@@ -512,7 +514,7 @@ window.Quarto = {
   </div>
 </article>
 
-<article class="pub" data-index="4" data-categories="TWFya2V0cyUyQ0pvdXJuYWwlMjBhcnRpY2xl">
+<article class="pub" data-index="4" data-categories="TWFya2V0cyUyQ0RhdGFtYXJrZXRzJTJDSm91cm5hbCUyMGFydGljbGU=">
   <div class="pub-year">2026</div>
   <div>
     <h3 class="pub-title listing-title anchored"><a href="https://arxiv.org/abs/2511.20605">How to purchase labels? A cost-effective approach using active learning markets</a></h3>
@@ -564,7 +566,7 @@ Title
 </thead>
 <tbody class="list">
 
-<tr data-index="0" data-listing-date-sort="1790805600000" data-listing-file-modified-sort="1792341317321" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="24" data-listing-title-sort="Joining inCommodities as Principal" data-listing-filename-sort="index.qmd">
+<tr data-index="0" data-listing-date-sort="1790805600000" data-listing-file-modified-sort="1793797130172" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="24" data-listing-title-sort="Joining inCommodities as Principal" data-listing-filename-sort="index.qmd">
 <td>
 <span class="listing-date">Oct 2026</span>
 </td>
@@ -574,7 +576,7 @@ Title
 
 </tr>
 
-<tr data-index="1" data-listing-date-sort="1713132000000" data-listing-file-modified-sort="1792341317321" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="51" data-listing-title-sort="Molslinjen and Halfspace win the INFORMS Edelman Award" data-listing-filename-sort="index.qmd">
+<tr data-index="1" data-listing-date-sort="1713132000000" data-listing-file-modified-sort="1793797130172" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="51" data-listing-title-sort="Molslinjen and Halfspace win the INFORMS Edelman Award" data-listing-filename-sort="index.qmd">
 <td>
 <span class="listing-date">Apr 2024</span>
 </td>
@@ -600,15 +602,50 @@ Title
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
     if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-      const a = window.document.createElement('a');
-      a.classList.add('top-right');
-      a.classList.add('quarto-color-scheme-toggle');
-      a.href = "";
-      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const toggle = window.document.createElement('button');
+      toggle.type = "button";
+      toggle.setAttribute("role", "switch");
+      toggle.setAttribute("aria-checked", "false");
+      toggle.classList.add('top-right');
+      toggle.classList.add('quarto-color-scheme-toggle');
+      toggle.setAttribute("aria-label", "Toggle dark mode");
+      toggle.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
       const i = window.document.createElement("i");
       i.classList.add('bi');
-      a.appendChild(i);
-      window.document.body.appendChild(a);
+      toggle.appendChild(i);
+      // Put the toggle in a landmark of its own, so that landmark navigation
+      // can reach it.
+      //
+      // The container is always a fresh direct child of body, and the toggle is
+      // never moved into page furniture that the theme or the author controls.
+      // The toggle is positioned against the page, so any ancestor that
+      // establishes a containing block captures it: a positioned element or a
+      // grid for position: absolute, and transform, filter, will-change or
+      // contain for position: fixed. A direct child of body has none of these
+      // to inherit, and the shift when one appears is silent and visual.
+      //
+      // ARIA says a document should have at most one banner, and axe reports a
+      // duplicate whether or not the banners carry distinct labels. So use a
+      // header when the page has no banner yet, and a named region otherwise.
+      //
+      // A header is a banner wherever it sits, unless it is inside sectioning
+      // content, so this cannot just look at the children of body: a custom
+      // page layout wraps the title block header in a plain div. An explicit
+      // role="banner" always counts.
+      const sectioning = 'article, aside, main, nav, section, [role="article"], [role="complementary"], [role="main"], [role="navigation"], [role="region"]';
+      const hasBanner = Array.from(
+        window.document.querySelectorAll('header:not([role]), [role="banner"]')
+      ).some(function(el) {
+        return el.hasAttribute("role") || el.closest(sectioning) === null;
+      });
+      const container = window.document.createElement(hasBanner ? "div" : "header");
+      if (hasBanner) {
+        container.setAttribute("role", "region");
+        container.setAttribute("aria-label", "Toggle dark mode");
+      }
+      container.classList.add('quarto-color-scheme-toggle-container');
+      container.appendChild(toggle);
+      window.document.body.appendChild(container);
     }
     setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
@@ -683,11 +720,30 @@ Title
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
         var filterRegex = new RegExp("https:\/\/pierrepinson\.com");
+      const newWindowLabel = "(opens in a new tab)";
+      const newWindowNoteId = "quarto-ext-newwindow-label";
+      // Links reference one hidden label through aria-describedby, so the
+      // announcement never changes their accessible name.
+      var describeNewWindow = (link) => {
+        if (!window.document.getElementById(newWindowNoteId)) {
+          var newWindowNote = window.document.createElement("span");
+          newWindowNote.id = newWindowNoteId;
+          newWindowNote.hidden = true;
+          newWindowNote.textContent = newWindowLabel;
+          window.document.body.appendChild(newWindowNote);
+        }
+        var describedBy = (link.getAttribute("aria-describedby") || "").split(/\s+/).filter(Boolean);
+        if (!describedBy.includes(newWindowNoteId)) {
+          describedBy.push(newWindowNoteId);
+          link.setAttribute("aria-describedby", describedBy.join(" "));
+        }
+      }
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
       // Inspect non-navigation links and adorn them if external
-     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      window.quartoDecorateExternalLinks = function (root) {
+     var links = (root || window.document).querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
       for (var i=0; i<links.length; i++) {
         const link = links[i];
         if (!isInternal(link.href)) {
@@ -701,8 +757,70 @@ Title
             if (link.getAttribute("rel") === null) {
               link.setAttribute("rel", "noopener");
             }
+            describeNewWindow(link);
+          if (!link.classList.contains('no-external-icon')) {
+          }
         }
       }
+      };
+      window.quartoDecorateExternalLinks(window.document);
+    // Esc closes the popup (WCAG 1.4.13) and focus leaving both trigger and
+    // popup closes it (WCAG 2.4.11); tippy handles neither for interactive popups.
+    const hideOnEscAndFocusOut = {
+      name: 'hideOnEscAndFocusOut',
+      defaultValue: true,
+      fn(instance) {
+        const dismiss = () => {
+          // A show scheduled by the trigger delay would otherwise reopen it
+          instance.clearDelayTimeouts();
+          instance.hide();
+        };
+        const onKeyDown = (event) => {
+          if (event.key !== 'Escape') {
+            return;
+          }
+          // Keep Esc from also reaching page handlers (e.g. reveal.js overview),
+          // except an open reveal.js slide menu, which Esc should close too.
+          // The menu handles keys only when its keyboard option is on.
+          const menuHandlesEsc = window.Reveal?.getPlugin?.('menu')?.isOpen() &&
+            window.Reveal.getConfig().menu?.keyboard !== false;
+          if (!menuHandlesEsc) {
+            event.stopPropagation();
+          }
+          if (instance.popper.contains(window.document.activeElement)) {
+            // Disabled while refocusing so the focus trigger does not reopen it
+            instance.disable();
+            instance.reference.focus();
+            instance.enable();
+          }
+          dismiss();
+        };
+        const onFocusOut = (event) => {
+          const target = event.relatedTarget;
+          if (target && !instance.reference.contains(target) &&
+              !instance.popper.contains(target)) {
+            dismiss();
+          }
+        };
+        // On the trigger too: a click trigger (code-annotations: select) has no
+        // blur handling. Attached for the instance's lifetime so leaving the
+        // trigger also cancels a show still pending on the trigger delay.
+        instance.reference.addEventListener('focusout', onFocusOut);
+        return {
+          onShow() {
+            window.document.addEventListener('keydown', onKeyDown, true);
+            instance.popper.addEventListener('focusout', onFocusOut);
+          },
+          onHide() {
+            window.document.removeEventListener('keydown', onKeyDown, true);
+            instance.popper.removeEventListener('focusout', onFocusOut);
+          },
+          onDestroy() {
+            instance.reference.removeEventListener('focusout', onFocusOut);
+          },
+        };
+      },
+    };
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
       const config = {
         allowHTML: true,
@@ -716,6 +834,7 @@ Title
         interactiveBorder: 10,
         theme: 'quarto',
         placement: 'bottom-start',
+        plugins: [hideOnEscAndFocusOut],
       };
       if (contentFn) {
         config.content = contentFn;
@@ -878,44 +997,54 @@ Title
           const lineIds = lines.map((line) => {
             return targetCell + "-" + line;
           })
-          let top = null;
-          let height = null;
-          let parent = null;
+          // Each band is positioned against its own containing block, which is
+          // not the offsetParent of the lines, so place it from client rects.
+          const placeBand = (band, firstEl, lastEl, codeBlock) => {
+            const container = band.offsetParent;
+            if (container === null) {
+              return;
+            }
+            const containerRect = container.getBoundingClientRect();
+            // Reveal.js scales slides with a transform, so convert client
+            // pixels back to the CSS pixels of the container.
+            const scale = containerRect.height / container.offsetHeight || 1;
+            const firstRect = firstEl.getBoundingClientRect();
+            const lastRect = lastEl.getBoundingClientRect();
+            const top = (firstRect.top - containerRect.top) / scale - container.clientTop + container.scrollTop;
+            const height = (lastRect.bottom - firstRect.top) / scale;
+            band.style.top = top - 2 + "px";
+            band.style.height = height + 4 + "px";
+            if (codeBlock) {
+              // Without the copy button wrapper, the containing block is wider
+              // than the code block, so span the code block explicitly.
+              const blockRect = codeBlock.getBoundingClientRect();
+              band.style.left = (blockRect.left - containerRect.left) / scale - container.clientLeft + container.scrollLeft + "px";
+              band.style.width = blockRect.width / scale + "px";
+            }
+          };
           if (lineIds.length > 0) {
-              //compute the position of the single el (top and bottom and make a div)
-              const el = window.document.getElementById(lineIds[0]);
-              top = el.offsetTop;
-              height = el.offsetHeight;
-              parent = el.parentElement.parentElement;
-            if (lineIds.length > 1) {
-              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-              height = bottom - top;
+            const el = window.document.getElementById(lineIds[0]);
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const parent = el.parentElement.parentElement;
+            // cook up a div (if necessary) and position it
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
             }
-            if (top !== null && height !== null && parent !== null) {
-              // cook up a div (if necessary) and position it 
-              let div = window.document.getElementById("code-annotation-line-highlight");
-              if (div === null) {
-                div = window.document.createElement("div");
-                div.setAttribute("id", "code-annotation-line-highlight");
-                div.style.position = 'absolute';
-                parent.appendChild(div);
-              }
-              div.style.top = top - 2 + "px";
-              div.style.height = height + 4 + "px";
-              div.style.left = 0;
-              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-              if (gutterDiv === null) {
-                gutterDiv = window.document.createElement("div");
-                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-                gutterDiv.style.position = 'absolute';
-                const codeCell = window.document.getElementById(targetCell);
-                const gutter = codeCell.querySelector('.code-annotation-gutter');
-                gutter.appendChild(gutterDiv);
-              }
-              gutterDiv.style.top = top - 2 + "px";
-              gutterDiv.style.height = height + 4 + "px";
+            placeBand(div, el, lastEl, parent.closest("div.sourceCode") || parent);
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
             }
+            placeBand(gutterDiv, el, lastEl);
             selectedAnnoteEl = annoteEl;
           }
         };
@@ -1013,6 +1142,9 @@ Title
       }
     }
   });
+  </script>
+  <script type="application/javascript">
+  window.quartoScrollableRegionsLabels = {"code":"Scrollable code","output":"Scrollable output"};
   </script>
 </div> <!-- /content -->
 <footer class="footer">

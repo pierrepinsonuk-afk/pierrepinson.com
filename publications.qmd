@@ -21,6 +21,7 @@ listing:
     <div class="chips" role="group" aria-label="Theme">
       <button type="button" class="chip" data-group="theme" data-value="forecasting">Forecasting</button>
       <button type="button" class="chip" data-group="theme" data-value="markets">Markets</button>
+      <button type="button" class="chip" data-group="theme" data-value="datamarkets">Data markets</button>
       <button type="button" class="chip" data-group="theme" data-value="optimisation">Optimisation</button>
       <button type="button" class="chip" data-group="theme" data-value="energy">Energy systems</button>
       <button type="button" class="chip" data-group="theme" data-value="analytics">Analytics</button>
