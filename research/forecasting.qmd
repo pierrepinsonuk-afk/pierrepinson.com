@@ -16,7 +16,9 @@ Many decisions depend on how a quantity evolves over time, for instance how much
 
 ```{=html}
 <figure id="w-scenarios" class="widget">
-  <svg viewBox="0 0 640 300" role="img" aria-label="Wind power prediction intervals for the next 48 hours, with ten scenarios drawn inside them. A slider changes how strongly consecutive hours depend on each other."></svg>
+  <div class="w-scroll">
+    <svg viewBox="0 0 640 300" role="img" aria-label="Wind power prediction intervals for the next 48 hours, with ten scenarios drawn inside them. A slider changes how strongly consecutive hours depend on each other."></svg>
+  </div>
   <div class="w-controls">
     <label>Temporal dependence <input type="range" min="0" max="99" value="95" aria-describedby="w-sc-note"> <span class="w-value"></span></label>
     <button type="button" class="w-btn">New scenarios</button>

@@ -167,3 +167,122 @@
     update();
   }
 })();
+
+/* ---------- 4. Future electricity markets: a stylised day-ahead market ---------- */
+(function () {
+  const root = document.getElementById("w-future");
+  if (!root) return;
+  const NS = "http://www.w3.org/2000/svg";
+  const el = (tag, attrs, parent) => { const e = document.createElementNS(NS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); if (parent) parent.appendChild(e); return e; };
+  const fmt = (x, d = 0) => x.toLocaleString("en-GB", { minimumFractionDigits: d, maximumFractionDigits: d });
+  const merit = root.querySelector(".fm-merit"), day = root.querySelector(".fm-day");
+  const sRen = root.querySelector("[name=ren]"), sFlex = root.querySelector("[name=flex]"), sHour = root.querySelector("[name=hour]");
+  const vRen = root.querySelector(".v-ren"), vHour = root.querySelector(".v-hour"), summary = root.querySelector(".w-summary");
+  const stat = (k) => root.querySelector(`[data-k=${k}]`);
+  const LCOE = 45, PCAP = 200, FLEX = 0.15;
+  const THERMAL = [{ n: "Nuclear", q: 12, c: 12 }, { n: "Coal", q: 16, c: 55 }, { n: "Gas", q: 26, c: 90 }, { n: "Peakers", q: 14, c: 160 }];
+  const H = 24, demand = [], solar = [], wind = [];
+  for (let h = 0; h < H; h++) {
+    demand.push(46 + 9 * Math.sin(((h - 7) / 24) * 2 * Math.PI) + 5 * Math.exp(-((h - 19) ** 2) / 6));
+    solar.push(Math.max(0, Math.sin(((h - 6) / 13) * Math.PI)) ** 1.3);
+    wind.push(0.42 + 0.14 * Math.cos(((h - 3) / 24) * 2 * Math.PI));
+  }
+  const ELAST = 6; // GW of price-responsive demand, from PCAP down to 0
+  function clear(D, R) { // returns {p, q, ren}
+    const steps = [{ q: R, c: 0 }, ...THERMAL.map((t) => ({ q: t.q, c: t.c }))];
+    const inv = (q) => (q <= D - ELAST ? PCAP : PCAP * (1 - (q - (D - ELAST)) / ELAST));
+    let Q = 0;
+    for (const s of steps) {
+      const Qn = Q + s.q;
+      const qAt = inv(Qn) >= s.c ? null : 0; // demand price at the end of this step below its cost?
+      const pAtStart = inv(Q);
+      if (pAtStart < s.c) return { p: pAtStart, q: Q }; // demand price falls below this step's cost before it is used
+      if (inv(Qn) <= s.c) { // crossing within this step at price s.c
+        const q = s.c >= PCAP ? D - ELAST : (D - ELAST) + ELAST * (1 - s.c / PCAP);
+        return { p: s.c, q: Math.max(Q, Math.min(Qn, q)) };
+      }
+      Q = Qn;
+    }
+    return { p: PCAP, q: Q };
+  }
+  function run() {
+    const cap = +sRen.value, flex = sFlex.checked;
+    const R = solar.map((s, h) => cap * (0.45 * s + 0.55 * wind[h]) * 0.7);
+    let D = demand.slice();
+    if (flex) { // shift up to FLEX of each hour's demand, flattening the residual demand (demand minus wind and solar)
+      const resid = D.map((d, h) => d - R[h]);
+      const shift = (L) => D.map((d, h) => Math.max(-FLEX * d, Math.min(2 * FLEX * d, L - resid[h])));
+      let lo = Math.min(...resid) - 100, hi = Math.max(...resid) + 100;
+      for (let k = 0; k < 60; k++) { const mid = (lo + hi) / 2; if (shift(mid).reduce((x, y) => x + y, 0) > 0) hi = mid; else lo = mid; }
+      const sh = shift((lo + hi) / 2);
+      D = D.map((d, h) => d + sh[h]);
+    }
+    const res = D.map((d, h) => { const r = clear(d, R[h]); return { ...r, D: d, R: R[h], ren: Math.min(R[h], r.q) }; });
+    return { res, cap };
+  }
+  // --- static drawing setup ---
+  const M = { W: 640, H: 230, L: 46, R: 14, T: 14, B: 30 }, QMAX = 110;
+  const mx = (q) => M.L + (q / QMAX) * (M.W - M.L - M.R), my = (p) => M.T + (1 - p / PCAP) * (M.H - M.T - M.B);
+  const gm = el("g", {}, merit);
+  [0, 50, 100, 150, 200].forEach((p) => { el("line", { x1: M.L, x2: M.W - M.R, y1: my(p), y2: my(p), class: "w-grid" }, gm);
+    el("text", { x: M.L - 8, y: my(p) + 4, class: "w-tick", "text-anchor": "end" }, gm).textContent = "€" + p; });
+  [0, 25, 50, 75, 100].forEach((q) => { el("text", { x: mx(q), y: M.H - 10, class: "w-tick", "text-anchor": "middle" }, gm).textContent = q + " GW"; });
+  const mLayer = el("g", {}, merit);
+  const DW = { W: 640, H: 170, L: 46, R: 14, T: 10, B: 26 };
+  const bw = (DW.W - DW.L - DW.R) / H, dx = (h) => DW.L + h * bw, dyP = (p) => DW.T + (1 - p / PCAP) * (DW.H - DW.T - DW.B);
+  const gd = el("g", {}, day);
+  [0, 100, 200].forEach((p) => { el("line", { x1: DW.L, x2: DW.W - DW.R, y1: dyP(p), y2: dyP(p), class: "w-grid" }, gd);
+    el("text", { x: DW.L - 8, y: dyP(p) + 4, class: "w-tick", "text-anchor": "end" }, gd).textContent = "€" + p; });
+  [0, 6, 12, 18, 23].forEach((h) => { el("text", { x: dx(h) + bw / 2, y: DW.H - 8, class: "w-tick", "text-anchor": "middle" }, gd).textContent = String(h).padStart(2, "0") + ":00"; });
+  const lcoe = el("line", { x1: DW.L, x2: DW.W - DW.R, y1: dyP(LCOE), y2: dyP(LCOE), class: "fm-lcoe" }, gd);
+  el("text", { x: DW.L + 4, y: dyP(LCOE) - 5, class: "w-tick fm-acc" }, gd).textContent = "€45: what wind and solar need";
+  el("text", { x: DW.W - DW.R, y: DW.T + 10, class: "w-tick", "text-anchor": "end" }, gd).textContent = "bars: hourly price · shaded: wind and solar available";
+  const renArea = el("path", { class: "fm-renarea" }, day);
+  const bars = [];
+  for (let h = 0; h < H; h++) {
+    const b = el("rect", { x: dx(h) + 2, width: bw - 4, class: "fm-bar", tabindex: -1 }, day);
+    b.addEventListener("click", () => { sHour.value = h; draw(); });
+    b.addEventListener("mouseenter", () => { sHour.value = h; draw(); });
+    bars.push(b);
+  }
+  function draw() {
+    const { res, cap } = run(), h = +sHour.value, r = res[h];
+    vRen.textContent = cap; vHour.textContent = String(h).padStart(2, "0") + ":00";
+    // merit order for the selected hour
+    mLayer.innerHTML = "";
+    const steps = [{ n: "Wind & solar", q: r.R, c: 0, ren: true }, ...THERMAL];
+    let Q = 0;
+    steps.forEach((s) => { if (s.q <= 0.01) return;
+      const used = Math.max(0, Math.min(s.q, r.q - Q));
+      el("rect", { x: mx(Q), y: my(Math.max(s.c, 2)), width: Math.max(0, mx(Q + s.q) - mx(Q)), height: Math.max(1.5, my(0) - my(Math.max(s.c, 2))),
+        class: "fm-step" + (s.ren ? " ren" : "") + (used > 0 ? " used" : "") }, mLayer);
+      if (mx(Q + s.q) - mx(Q) > 44 && Q < QMAX) el("text", { x: mx(Q) + 5, y: my(Math.max(s.c, 2)) - 5, class: "w-tick" }, mLayer).textContent = s.n;
+      Q += s.q; });
+    const Dd = r.D, dpts = [[mx(0), my(PCAP)], [mx(Dd - ELAST), my(PCAP)], [mx(Dd), my(0)]];
+    el("path", { d: dpts.map((p, i) => (i ? "L" : "M") + p[0] + " " + p[1]).join(" "), class: "fm-demand" }, mLayer);
+    el("line", { x1: M.L, x2: mx(r.q), y1: my(r.p), y2: my(r.p), class: "fm-price" }, mLayer);
+    el("circle", { cx: mx(r.q), cy: my(r.p), r: 5, class: "w-dot-opt" }, mLayer);
+    el("text", { x: Math.min(mx(r.q) + 8, M.W - 120), y: my(r.p) - 8, class: "w-tag acc" }, mLayer).textContent = "€" + fmt(r.p) + "/MWh";
+    el("text", { x: mx(Math.min(Dd - ELAST, QMAX - 12)) - 6, y: my(PCAP) + 16, class: "w-tick", "text-anchor": "end" }, mLayer).textContent = "demand";
+    // day profile
+    const rmax = 110; const ry = (g) => DW.T + (1 - g / rmax) * (DW.H - DW.T - DW.B);
+    const top = res.map((x, i) => [dx(i) + bw / 2, ry(Math.min(rmax, x.R))]);
+    renArea.setAttribute("d", `M${dx(0)} ${ry(0)} ` + top.map((p) => `L${p[0]} ${p[1]}`).join(" ") + ` L${dx(H)} ${ry(0)} Z`);
+    res.forEach((x, i) => { const b = bars[i]; const y = dyP(Math.max(x.p, 1.5));
+      b.setAttribute("y", y); b.setAttribute("height", dyP(0) - y); b.classList.toggle("sel", i === h); b.classList.toggle("zero", x.p < 1); });
+    // stats
+    const totD = res.reduce((a, x) => a + x.q, 0), avg = res.reduce((a, x) => a + x.p * x.q, 0) / totD;
+    const renE = res.reduce((a, x) => a + x.ren, 0), renAvail = res.reduce((a, x) => a + x.R, 0);
+    const capture = renE > 0 ? res.reduce((a, x) => a + x.p * x.ren, 0) / renE : 0;
+    const zero = res.filter((x) => x.p < 1).length, curt = renAvail > 0 ? 1 - renE / renAvail : 0;
+    stat("avg").textContent = "€" + fmt(avg); stat("zero").textContent = zero;
+    stat("capture").textContent = cap > 0 ? "€" + fmt(capture) : "–"; stat("curt").textContent = fmt(curt * 100) + "%";
+    root.querySelector("[data-k=capture]").classList.toggle("bad", cap > 0 && capture < LCOE);
+    summary.innerHTML = cap === 0 ? "No wind or solar yet: fossil plants set the price in every hour."
+      : capture >= LCOE ? `Wind and solar earn <strong>€${fmt(capture)}/MWh</strong> on average, enough to recover their investment.`
+      : `Wind and solar earn only <strong>€${fmt(capture)}/MWh</strong> on average, below the ~€${LCOE} they need: marginal pricing alone no longer pays for the investment.` +
+        (sFlex.checked ? " Flexible demand helps, but here there is more renewable energy than demand to shift." : " Try letting flexible demand follow supply.");
+  }
+  [sRen, sFlex, sHour].forEach((x) => x.addEventListener("input", draw));
+  draw();
+})();

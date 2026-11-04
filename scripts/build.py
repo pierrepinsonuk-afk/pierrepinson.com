@@ -310,7 +310,7 @@ def write_highlights(pubs):
          "research/data-markets.html", "Explore the work"),
         ("future", "2023 · Perspective", "My take on future electricity markets",
          "How electricity markets should evolve for a power system built on renewables and flexible, active consumers, from my paper “What may future electricity markets look like?”.",
-         "https://arxiv.org/abs/2302.02833", "Read the paper"),
+         "research/future-markets.html", "Explore the ideas"),
     ]
     out = []
     for key, kicker, title, text, href, cta in cards:

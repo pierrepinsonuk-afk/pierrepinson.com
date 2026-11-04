@@ -25,6 +25,8 @@ website:
             text: Energy markets
           - href: research/data-markets.qmd
             text: Data and analytics markets
+          - href: research/future-markets.qmd
+            text: Future electricity markets
       - href: publications.qmd
         text: Publications
       - text: Teaching

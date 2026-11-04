@@ -1,0 +1,65 @@
+---
+title: "My take on future electricity markets"
+subtitle: "From my paper “What may future electricity markets look like?”"
+include-after-body:
+  - text: |
+      <script src="/assets/research.js" defer></script>
+---
+
+[Should the organisation, design and functioning of electricity markets be taken for granted? Definitely not.]{.lead}
+
+After decades of liberalised electricity markets in places like the U.K., Scandinavia and Chile, it is tempting to think we found the right, future-proof model. My view is that we have not. Renewable generation, decentralisation, electrification and digitalisation are changing power systems so fundamentally that markets have to be redesigned to be *fit for purpose*. That means seeing them as mechanisms for organising and operating a socio-techno-economic system, not only as a way to exchange a commodity. Some basics are not negotiable, such as the laws of physics and marginal pricing of energy, but many other aspects can, and should, be rethought.
+
+## What markets are for: three perspectives
+
+**Economic.** Markets allocate resources, reveal prices for payments and revenues, and give signals for investment, while keeping desirable properties such as participants not entering at a loss, honest participation and budget balance.
+
+**Engineering.** Markets help operate the largest and most complex engineering system ever built. The hard question is where to draw the line between what can and should be handled through markets, and what cannot.
+
+**Environmental, social and governance.** Markets should support decarbonisation, but they also reflect how we want to produce, share and consume energy, with growing attention to fairness, energy poverty, community ownership and consumers' preferences about where their electricity comes from.
+
+## Seeing it in a simple market
+
+The illustration below clears a stylised day-ahead market for every hour of a day. Increase the share of wind and solar power, and watch what happens to prices and to what renewable producers earn. Then let part of the demand follow supply.
+
+```{=html}
+<figure id="w-future" class="widget">
+  <div class="w-scroll">
+    <svg class="fm-merit" viewBox="0 0 640 230" role="img" aria-label="Merit-order curve for the selected hour: supply offers sorted by price, the demand curve, and the market-clearing price where they cross."></svg>
+  </div>
+  <div class="w-scroll">
+    <svg class="fm-day" viewBox="0 0 640 170" role="img" aria-label="Market-clearing prices for the 24 hours of the day, with available renewable generation. Select an hour to see its merit order above."></svg>
+  </div>
+  <div class="w-controls">
+    <label>Wind and solar capacity <input type="range" name="ren" min="0" max="250" value="80"> <span><span class="v-ren"></span> GW</span></label>
+    <label class="fm-check"><input type="checkbox" name="flex"> Flexible demand follows supply</label>
+    <label>Hour <input type="range" name="hour" min="0" max="23" value="12"> <span class="v-hour"></span></label>
+  </div>
+  <div class="fm-stats" aria-live="polite">
+    <div><span class="fm-num" data-k="avg"></span><span class="fm-lab">average price</span></div>
+    <div><span class="fm-num" data-k="zero"></span><span class="fm-lab">hours at zero price</span></div>
+    <div><span class="fm-num" data-k="capture"></span><span class="fm-lab">earned by wind and solar</span></div>
+    <div><span class="fm-num" data-k="curt"></span><span class="fm-lab">renewable energy curtailed</span></div>
+  </div>
+  <p class="w-summary" aria-live="polite"></p>
+  <figcaption>Stylised illustration, not a model of any real market. Supply: wind and solar at zero marginal cost, then nuclear, coal, gas and peaking plants. Demand is mostly inflexible, with a small price-responsive part. Wind and solar are assumed to need about €45/MWh on average to recover their investment.</figcaption>
+</figure>
+```
+
+With little renewable generation, prices are set by fossil plants and renewables earn well. As their share grows, more and more hours clear at a price close to zero, so wind and solar earn less precisely when there is more of them, and marginal pricing alone no longer pays back the investment. Letting flexible demand follow supply, instead of supply following demand, absorbs surplus renewable energy and, at moderate shares of renewables, lifts what they earn. With very large surpluses, though, there is not enough demand to move, and prices stay near zero. That is one reason why a growing part of the remuneration of assets is likely to shift to auctions and capacity mechanisms.
+
+## Expected features of future electricity markets
+
+**Variability, uncertainty and flexibility.** Markets designed for controllable plants treat offers as deterministic. With weather-driven generation and new consumption such as heat pumps and electric vehicles, they should move towards *stochastic electricity markets*, allowing probabilistic offers, new products such as policy-based reserves and price-region bids, and pricing that reflects firmness of supply and flexibility of demand.
+
+**Distributed and coordinated.** Assets are increasingly small and distributed, so markets should let consumers and prosumers take part, through lower minimum bid sizes, aggregators, and community-based and peer-to-peer markets, possibly leading wholesale and retail markets to converge. Electricity, gas and heat markets also need better coordination, or joint markets, to integrate renewables.
+
+**Data-driven and fair.** Data and analytics already underpin new market designs. As decentralisation grows, AI-based approaches may help clear markets that would otherwise be computationally out of reach, and make room for fairness objectives alongside social welfare. With renewable energy close to free at the margin, data may even become more valuable than energy itself, which calls for data-sharing platforms that preserve privacy.
+
+**A changing role for wholesale markets.** Renewable-based systems shift costs from operation to investment. A growing part of the remuneration of assets is then likely to move to auctions and capacity mechanisms, while new, often more cooperative business models emerge on the retail side, from co-investing in wind farms to sharing surplus solar power.
+
+## Read the paper
+
+P. Pinson (2023). What may future electricity markets look like? *Journal of Modern Power Systems and Clean Energy* 11(3), pp. 698–706.
+
+[Read on arXiv (free)](https://arxiv.org/abs/2302.02833){.btn-pp .primary} [Journal version (IEEE Xplore)](https://ieeexplore.ieee.org/document/10049815/){.btn-pp}

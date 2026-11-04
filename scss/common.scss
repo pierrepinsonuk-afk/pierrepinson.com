@@ -285,3 +285,26 @@ a.pub-pdf:hover { background: var(--pp-accent); color: var(--pp-on-accent); }
   .hl-card:hover .il-rotor { animation-duration: 2.5s; }
   @keyframes spin { to { transform: rotate(360deg); } }
 }
+
+/* Future markets widget */
+.fm-day { margin-top: .6rem; }
+.fm-step { fill: var(--bs-body-color); opacity: .14; }
+.fm-step.used { opacity: .32; }
+.fm-step.ren { fill: var(--pp-accent); opacity: .3; } .fm-step.ren.used { opacity: .6; }
+.fm-demand { fill: none; stroke: var(--bs-body-color); stroke-width: 2.2; }
+.fm-price { stroke: var(--pp-accent); stroke-dasharray: 4 4; stroke-width: 1.5; }
+.fm-bar { fill: var(--bs-body-color); opacity: .5; cursor: pointer; transition: y .35s ease, height .35s ease, opacity .2s; }
+.fm-bar.zero { opacity: .2; }
+.fm-bar.sel { fill: var(--pp-accent); opacity: 1; }
+.fm-renarea { fill: var(--pp-accent); opacity: .12; }
+.fm-lcoe { stroke: var(--pp-accent); stroke-width: 1.2; stroke-dasharray: 2 4; }
+.fm-check { cursor: pointer; }
+.fm-stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: .8rem; margin-top: 1rem; }
+.fm-stats > div { display: flex; flex-direction: column; border-left: 2px solid var(--pp-rule); padding-left: .7rem; }
+.fm-num { font-family: "Space Grotesk", sans-serif; font-size: 1.35rem; font-weight: 600; font-variant-numeric: tabular-nums; }
+.fm-num.bad { color: var(--pp-accent); }
+.fm-lab { font-size: .8rem; color: var(--pp-muted); }
+@media (max-width: 700px) { .fm-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.fm-acc { fill: var(--pp-accent); }
+.w-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+@media (max-width: 600px) { .w-scroll svg { min-width: 560px; } .widget { padding: 1rem .9rem .8rem; } }
