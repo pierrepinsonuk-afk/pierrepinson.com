@@ -48,8 +48,8 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-8e85404a9d50edf7792bd4538a68c014.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-5b381c54279ae298db24260fc4cac6be.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-f0699062fdd99722efbcc2333afb70f3.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-53cf0335826ad12ec7260da696225fb0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-69b5f48cf4ab4230dbb5545bd0e923c7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -293,6 +293,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="dropdown-item" href="../research/data-markets.html">
  <span class="dropdown-text">Data and analytics markets</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../research/future-markets.html">
+ <span class="dropdown-text">Future electricity markets</span></a>
+  </li>  
     </ul>
   </li>
   <li class="nav-item">
@@ -386,7 +390,9 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="trading-wind-energy-with-probabilistic-forecasts">Trading wind energy with probabilistic forecasts</h2>
 <p>A wind farm must commit to its production a day ahead, before knowing the weather. Any deviation is settled in the balancing market, usually at a penalty. If falling short is penalised more than producing too much, the best offer is below the expected production, and the other way round. With a probabilistic forecast, the optimal offer is a specific quantile of the predictive distribution, set by the ratio of the two penalties. This is the classic newsvendor problem, and the insight behind our 2007 paper on trading wind generation.</p>
 <figure id="w-trading" class="widget figure">
-  <svg viewbox="0 0 640 330" role="img" aria-label="Predictive distribution of tomorrow's wind power and the expected revenue of each possible offer. Sliders set the imbalance penalties and the forecast uncertainty; markers show the optimal offer and the point forecast."></svg>
+  <div class="w-scroll">
+    <svg viewbox="0 0 640 330" role="img" aria-label="Predictive distribution of tomorrow's wind power and the expected revenue of each possible offer. Sliders set the imbalance penalties and the forecast uncertainty; markers show the optimal offer and the point forecast."></svg>
+  </div>
   <div class="w-controls">
     <label>Penalty for producing less than offered <input type="range" name="up" min="1" max="60" value="30"> <span>€<span class="v-up"></span>/MWh</span></label>
     <label>Penalty for producing more than offered <input type="range" name="down" min="1" max="60" value="10"> <span>€<span class="v-down"></span>/MWh</span></label>

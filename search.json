@@ -193,7 +193,7 @@
     "href": "research/forecasting.html#from-prediction-intervals-to-scenarios",
     "title": "Probabilistic forecasting",
     "section": "From prediction intervals to scenarios",
-    "text": "From prediction intervals to scenarios\nMany decisions depend on how a quantity evolves over time, for instance how much energy to store, or how much flexibility to keep for the next hours. Prediction intervals for each hour taken separately are then not enough: two very different futures can share exactly the same intervals. Scenarios fill that gap by describing whole trajectories, with realistic dependence from one hour to the next.\n\n  \n  \n    Temporal dependence  \n    New scenarios\n  \n  The shaded bands are the 50% and 80% prediction intervals, and the dashed line the median. Hour by hour, the scenarios are consistent with these intervals, so about one in five falls outside the 80% band at any given time. With low dependence they jump around implausibly from hour to hour; with high dependence they behave like real wind power trajectories. The approach follows our 2009 paper on generating scenarios from probabilistic forecasts."
+    "text": "From prediction intervals to scenarios\nMany decisions depend on how a quantity evolves over time, for instance how much energy to store, or how much flexibility to keep for the next hours. Prediction intervals for each hour taken separately are then not enough: two very different futures can share exactly the same intervals. Scenarios fill that gap by describing whole trajectories, with realistic dependence from one hour to the next.\n\n  \n    \n  \n  \n    Temporal dependence  \n    New scenarios\n  \n  The shaded bands are the 50% and 80% prediction intervals, and the dashed line the median. Hour by hour, the scenarios are consistent with these intervals, so about one in five falls outside the 80% band at any given time. With low dependence they jump around implausibly from hour to hour; with high dependence they behave like real wind power trajectories. The approach follows our 2009 paper on generating scenarios from probabilistic forecasts."
   },
   {
     "objectID": "research/forecasting.html#main-contributions",
@@ -208,34 +208,6 @@
     "title": "Probabilistic forecasting",
     "section": "Key papers",
     "text": "Key papers\n\n\nNonparametric probabilistic forecasts of wind power: required properties and evaluation\nP. Pinson, H.Aa. Nielsen, J.K. Møller, H. Madsen, G. Kariniotakis · Wind Energy 10(6), pp. 497-516 · 2007\nFrom probabilistic forecasts to statistical scenarios of short-term wind power production\nP. Pinson, G. Papaefthymiou, B. Klöckl, H.Aa. Nielsen, H. Madsen · Wind Energy 12(1), pp. 51-62 · 2009\nConditional prediction intervals of wind power generation\nP. Pinson, G. Kariniotakis · IEEE Transactions on Power Systems 25(4), pp. 1845-1856 · 2010\nVery short-term probabilistic forecasting of wind power with generalized logit-Normal distributions\nP. Pinson · Journal of the Royal Statistical Society, Series C 61(4), pp. 555-576 · 2012\nWind energy: Forecasting challenges for its optimal management\nP. Pinson · Statistical Science 28(4), pp. 564-585 · 2013\nProbabilistic forecasts of wind power generation accounting for geographically dispersed information\nJ. Tastu, P. Pinson, P.-J. Trombe, H. Madsen · IEEE Transactions on Smart Grid 5(1), pp. 480-489 · 2014\nProbabilistic energy forecasting: Global Energy Forecasting Competition 2014 and beyond\nT. Hong, P. Pinson, S. Fan, H. Zareipour, A. Troccoli, R.J. Hyndman · International Journal of Forecasting 32(3), pp. 896-913 · 2016\nOnline distributed learning in wind power forecasting\nB. Sommer, P. Pinson, J.W. Messner, D. Obst · International Journal of Forecasting 37(1), pp. 205-223 · 2021\nValue-oriented forecast reconciliation for renewables in electricity markets\nH. Wen, P. Pinson · European Journal of Operational Research 332(2), pp. 492-504 · 2026\n\n\nAll forecasting papers"
-  },
-  {
-    "objectID": "research/markets.html",
-    "href": "research/markets.html",
-    "title": "Energy markets",
-    "section": "",
-    "text": "Electricity markets were designed for controllable power plants. With large shares of wind and solar power, both how producers trade and how markets are organised need to account for uncertainty.\nMy work on energy markets follows two threads. The first is how renewable energy producers and other participants should trade, using probabilistic forecasts and decision-making under uncertainty. The second is how markets themselves should be designed and cleared, from stochastic market-clearing and coordination between electricity, gas and heat markets, to peer-to-peer and community-based markets."
-  },
-  {
-    "objectID": "research/markets.html#trading-wind-energy-with-probabilistic-forecasts",
-    "href": "research/markets.html#trading-wind-energy-with-probabilistic-forecasts",
-    "title": "Energy markets",
-    "section": "Trading wind energy with probabilistic forecasts",
-    "text": "Trading wind energy with probabilistic forecasts\nA wind farm must commit to its production a day ahead, before knowing the weather. Any deviation is settled in the balancing market, usually at a penalty. If falling short is penalised more than producing too much, the best offer is below the expected production, and the other way round. With a probabilistic forecast, the optimal offer is a specific quantile of the predictive distribution, set by the ratio of the two penalties. This is the classic newsvendor problem, and the insight behind our 2007 paper on trading wind generation.\n\n  \n  \n    Penalty for producing less than offered  €/MWh\n    Penalty for producing more than offered  €/MWh\n    Forecast uncertainty  \n  \n  \n  Day-ahead price set at €50/MWh. The predictive distribution is bounded by zero and the 100 MW capacity of the wind farm. Making the penalties asymmetric, or the forecast more uncertain, moves the optimal offer away from the point forecast and increases what is gained by using the full distribution."
-  },
-  {
-    "objectID": "research/markets.html#main-contributions",
-    "href": "research/markets.html#main-contributions",
-    "title": "Energy markets",
-    "section": "Main contributions",
-    "text": "Main contributions\nTrading strategies. Offering strategies for renewable producers based on probabilistic forecasts, extended to price-maker producers, wind-storage systems, energy and reserve markets, online decision-making and distributionally robust strategies.\nMarket design and clearing. Stochastic market-clearing that dispatches renewables while accounting for their uncertainty, with attention to revenue adequacy and cost recovery, as well as new market products and conic market formulations.\nCoordination between markets. Integrated and coordinated markets for electricity, natural gas and heat, and coordination across regions and between transmission and distribution levels.\nConsumer-centric markets. Peer-to-peer and community-based electricity markets, including the design of energy collectives, product differentiation, and fair allocation of grid costs."
-  },
-  {
-    "objectID": "research/markets.html#key-papers",
-    "href": "research/markets.html#key-papers",
-    "title": "Energy markets",
-    "section": "Key papers",
-    "text": "Key papers\n\n\nTrading wind generation with short-term probabilistic forecasts of wind power\nP. Pinson, C. Chevallier, G. Kariniotakis · IEEE Transactions on Power Systems 22(3), pp. 1148-1156 · 2007\nPool strategy of a price-maker wind power producer\nM. Zugno, J.M. Morales, P. Pinson, H. Madsen · IEEE Transactions on Power Systems 28(3), pp. 3440-3450 · 2013\nDistributionally robust trading strategies for renewable energy producers\nP. Pinson · IEEE Transactions on Energy Markets, Policy and Regulation 1(1), pp. 37-47 · 2023\nElectricity market clearing with improved dispatch of stochastic producers\nJ.M. Morales, M. Zugno, S. Pineda, P. Pinson · European Journal of Operational Research 235(3), pp. 765-774 · 2014\nStochastic market design with revenue adequacy and cost recovery by scenario: benefits and costs\nJ. Kazempour, P. Pinson, B.F. Hobbs · IEEE Transactions on Power Systems 33(4), pp. 3531-3545 · 2018\nAn integrated market for electricity and natural gas systems with stochastic power producers\nC. Ordoudis, P. Pinson, J.M. Morales · European Journal of Operational Research 272(2), pp. 642-654 · 2019\nPeer-to-peer and community-driven markets: a comprehensive review\nT. Sousa, T. Soares, P. Pinson, F. Moret, T. Baroche, E. Sorin · Renewable and Sustainable Energy Reviews 104, pp. 367-378 · 2019\nEnergy Collectives: a community and fairness based approach to future electricity markets\nF. Moret, P. Pinson · IEEE Transactions on Power Systems 34(5), pp. 3994-4004 · 2019\nWhat may future electricity markets look like?\nP. Pinson · Journal of Modern Power Systems and Clean Energy 11(3), pp. 698-706 (invited) · 2023\n\n\nAll market papers"
   },
   {
     "objectID": "research/data-markets.html",
@@ -264,6 +236,69 @@
     "title": "Data and analytics markets",
     "section": "Key papers",
     "text": "Key papers\n\n\nTowards data markets in renewable energy forecasting\nC. Goncalves, P. Pinson, R. Bessa · IEEE Transactions on Sustainable Energy 12(1), pp. 533-542 · 2021\nA critical overview of privacy-preserving approaches for collaborative forecasting\nC. Goncalves, R.J. Bessa, P. Pinson · International Journal of Forecasting 37(1), pp. 322-342 · 2021\nRegression markets and application to energy forecasting\nP. Pinson, L. Han, J. Kazempour · TOP 30, pp. 533-573 · 2022\nBayesian regression markets\nT. Falconer, J. Kazempour, P. Pinson · Journal of Machine Learning Research 25(180), pp. 1-38 · 2024\nA market for trading forecasts: A wagering mechanism\nA. Raja, J. Kazempour, P. Pinson, S. Grammatico · International Journal of Forecasting 40(1), pp. 142-159 · 2024\nTowards replication-robust analytics markets\nT. Falconer, P. Pinson, J. Kazempour · INFORMS Journal on Data Science, in press · 2026\nPrediction markets with intermittent contributions\nM. Vitali, P. Pinson · Preprint, under review · 2025\n\n\nAll data markets papers"
+  },
+  {
+    "objectID": "research/markets.html",
+    "href": "research/markets.html",
+    "title": "Energy markets",
+    "section": "",
+    "text": "Electricity markets were designed for controllable power plants. With large shares of wind and solar power, both how producers trade and how markets are organised need to account for uncertainty.\nMy work on energy markets follows two threads. The first is how renewable energy producers and other participants should trade, using probabilistic forecasts and decision-making under uncertainty. The second is how markets themselves should be designed and cleared, from stochastic market-clearing and coordination between electricity, gas and heat markets, to peer-to-peer and community-based markets."
+  },
+  {
+    "objectID": "research/markets.html#trading-wind-energy-with-probabilistic-forecasts",
+    "href": "research/markets.html#trading-wind-energy-with-probabilistic-forecasts",
+    "title": "Energy markets",
+    "section": "Trading wind energy with probabilistic forecasts",
+    "text": "Trading wind energy with probabilistic forecasts\nA wind farm must commit to its production a day ahead, before knowing the weather. Any deviation is settled in the balancing market, usually at a penalty. If falling short is penalised more than producing too much, the best offer is below the expected production, and the other way round. With a probabilistic forecast, the optimal offer is a specific quantile of the predictive distribution, set by the ratio of the two penalties. This is the classic newsvendor problem, and the insight behind our 2007 paper on trading wind generation.\n\n  \n    \n  \n  \n    Penalty for producing less than offered  €/MWh\n    Penalty for producing more than offered  €/MWh\n    Forecast uncertainty  \n  \n  \n  Day-ahead price set at €50/MWh. The predictive distribution is bounded by zero and the 100 MW capacity of the wind farm. Making the penalties asymmetric, or the forecast more uncertain, moves the optimal offer away from the point forecast and increases what is gained by using the full distribution."
+  },
+  {
+    "objectID": "research/markets.html#main-contributions",
+    "href": "research/markets.html#main-contributions",
+    "title": "Energy markets",
+    "section": "Main contributions",
+    "text": "Main contributions\nTrading strategies. Offering strategies for renewable producers based on probabilistic forecasts, extended to price-maker producers, wind-storage systems, energy and reserve markets, online decision-making and distributionally robust strategies.\nMarket design and clearing. Stochastic market-clearing that dispatches renewables while accounting for their uncertainty, with attention to revenue adequacy and cost recovery, as well as new market products and conic market formulations.\nCoordination between markets. Integrated and coordinated markets for electricity, natural gas and heat, and coordination across regions and between transmission and distribution levels.\nConsumer-centric markets. Peer-to-peer and community-based electricity markets, including the design of energy collectives, product differentiation, and fair allocation of grid costs."
+  },
+  {
+    "objectID": "research/markets.html#key-papers",
+    "href": "research/markets.html#key-papers",
+    "title": "Energy markets",
+    "section": "Key papers",
+    "text": "Key papers\n\n\nTrading wind generation with short-term probabilistic forecasts of wind power\nP. Pinson, C. Chevallier, G. Kariniotakis · IEEE Transactions on Power Systems 22(3), pp. 1148-1156 · 2007\nPool strategy of a price-maker wind power producer\nM. Zugno, J.M. Morales, P. Pinson, H. Madsen · IEEE Transactions on Power Systems 28(3), pp. 3440-3450 · 2013\nDistributionally robust trading strategies for renewable energy producers\nP. Pinson · IEEE Transactions on Energy Markets, Policy and Regulation 1(1), pp. 37-47 · 2023\nElectricity market clearing with improved dispatch of stochastic producers\nJ.M. Morales, M. Zugno, S. Pineda, P. Pinson · European Journal of Operational Research 235(3), pp. 765-774 · 2014\nStochastic market design with revenue adequacy and cost recovery by scenario: benefits and costs\nJ. Kazempour, P. Pinson, B.F. Hobbs · IEEE Transactions on Power Systems 33(4), pp. 3531-3545 · 2018\nAn integrated market for electricity and natural gas systems with stochastic power producers\nC. Ordoudis, P. Pinson, J.M. Morales · European Journal of Operational Research 272(2), pp. 642-654 · 2019\nPeer-to-peer and community-driven markets: a comprehensive review\nT. Sousa, T. Soares, P. Pinson, F. Moret, T. Baroche, E. Sorin · Renewable and Sustainable Energy Reviews 104, pp. 367-378 · 2019\nEnergy Collectives: a community and fairness based approach to future electricity markets\nF. Moret, P. Pinson · IEEE Transactions on Power Systems 34(5), pp. 3994-4004 · 2019\nWhat may future electricity markets look like?\nP. Pinson · Journal of Modern Power Systems and Clean Energy 11(3), pp. 698-706 (invited) · 2023\n\n\nAll market papers"
+  },
+  {
+    "objectID": "research/future-markets.html",
+    "href": "research/future-markets.html",
+    "title": "My take on future electricity markets",
+    "section": "",
+    "text": "Should the organisation, design and functioning of electricity markets be taken for granted? Definitely not.\nAfter decades of liberalised electricity markets in places like the U.K., Scandinavia and Chile, it is tempting to think we found the right, future-proof model. My view is that we have not. Renewable generation, decentralisation, electrification and digitalisation are changing power systems so fundamentally that markets have to be redesigned to be fit for purpose. That means seeing them as mechanisms for organising and operating a socio-techno-economic system, not only as a way to exchange a commodity. Some basics are not negotiable, such as the laws of physics and marginal pricing of energy, but many other aspects can, and should, be rethought."
+  },
+  {
+    "objectID": "research/future-markets.html#what-markets-are-for-three-perspectives",
+    "href": "research/future-markets.html#what-markets-are-for-three-perspectives",
+    "title": "My take on future electricity markets",
+    "section": "What markets are for: three perspectives",
+    "text": "What markets are for: three perspectives\nEconomic. Markets allocate resources, reveal prices for payments and revenues, and give signals for investment, while keeping desirable properties such as participants not entering at a loss, honest participation and budget balance.\nEngineering. Markets help operate the largest and most complex engineering system ever built. The hard question is where to draw the line between what can and should be handled through markets, and what cannot.\nEnvironmental, social and governance. Markets should support decarbonisation, but they also reflect how we want to produce, share and consume energy, with growing attention to fairness, energy poverty, community ownership and consumers’ preferences about where their electricity comes from."
+  },
+  {
+    "objectID": "research/future-markets.html#seeing-it-in-a-simple-market",
+    "href": "research/future-markets.html#seeing-it-in-a-simple-market",
+    "title": "My take on future electricity markets",
+    "section": "Seeing it in a simple market",
+    "text": "Seeing it in a simple market\nThe illustration below clears a stylised day-ahead market for every hour of a day. Increase the share of wind and solar power, and watch what happens to prices and to what renewable producers earn. Then let part of the demand follow supply.\n\n  \n    \n  \n  \n    \n  \n  \n    Wind and solar capacity   GW\n     Flexible demand follows supply\n    Hour  \n  \n  \n    average price\n    hours at zero price\n    earned by wind and solar\n    renewable energy curtailed\n  \n  \n  Stylised illustration, not a model of any real market. Supply: wind and solar at zero marginal cost, then nuclear, coal, gas and peaking plants. Demand is mostly inflexible, with a small price-responsive part. Wind and solar are assumed to need about €45/MWh on average to recover their investment.\n\nWith little renewable generation, prices are set by fossil plants and renewables earn well. As their share grows, more and more hours clear at a price close to zero, so wind and solar earn less precisely when there is more of them, and marginal pricing alone no longer pays back the investment. Letting flexible demand follow supply, instead of supply following demand, absorbs surplus renewable energy and, at moderate shares of renewables, lifts what they earn. With very large surpluses, though, there is not enough demand to move, and prices stay near zero. That is one reason why a growing part of the remuneration of assets is likely to shift to auctions and capacity mechanisms."
+  },
+  {
+    "objectID": "research/future-markets.html#expected-features-of-future-electricity-markets",
+    "href": "research/future-markets.html#expected-features-of-future-electricity-markets",
+    "title": "My take on future electricity markets",
+    "section": "Expected features of future electricity markets",
+    "text": "Expected features of future electricity markets\nVariability, uncertainty and flexibility. Markets designed for controllable plants treat offers as deterministic. With weather-driven generation and new consumption such as heat pumps and electric vehicles, they should move towards stochastic electricity markets, allowing probabilistic offers, new products such as policy-based reserves and price-region bids, and pricing that reflects firmness of supply and flexibility of demand.\nDistributed and coordinated. Assets are increasingly small and distributed, so markets should let consumers and prosumers take part, through lower minimum bid sizes, aggregators, and community-based and peer-to-peer markets, possibly leading wholesale and retail markets to converge. Electricity, gas and heat markets also need better coordination, or joint markets, to integrate renewables.\nData-driven and fair. Data and analytics already underpin new market designs. As decentralisation grows, AI-based approaches may help clear markets that would otherwise be computationally out of reach, and make room for fairness objectives alongside social welfare. With renewable energy close to free at the margin, data may even become more valuable than energy itself, which calls for data-sharing platforms that preserve privacy.\nA changing role for wholesale markets. Renewable-based systems shift costs from operation to investment. A growing part of the remuneration of assets is then likely to move to auctions and capacity mechanisms, while new, often more cooperative business models emerge on the retail side, from co-investing in wind farms to sharing surplus solar power."
+  },
+  {
+    "objectID": "research/future-markets.html#read-the-paper",
+    "href": "research/future-markets.html#read-the-paper",
+    "title": "My take on future electricity markets",
+    "section": "Read the paper",
+    "text": "Read the paper\nP. Pinson (2023). What may future electricity markets look like? Journal of Modern Power Systems and Clean Energy 11(3), pp. 698–706.\nRead on arXiv (free) Journal version (IEEE Xplore)"
   },
   {
     "objectID": "ijf.html",
