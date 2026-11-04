@@ -1,3 +1,19 @@
+- title: Decision-calibrated prediction sets for robust power system operations
+  year: 2026
+  venue: Preprint (arXiv:2606.02081)
+  authors: A. Stratigakos, H. Wen, E. Spyrou, P. Pinson
+  url: ''
+  preprint: https://arxiv.org/abs/2606.02081
+  status: Preprint
+  categories:
+  - Forecasting
+  - Optimisation
+  - Energy
+  - Preprint
+  themes: forecasting optimisation energy
+  kind: preprint
+  pdf: https://arxiv.org/pdf/2606.02081
+  haspdf: 'yes'
 - title: 'From intraday orderbook to imbalance price: Understanding cross-market interaction'
   year: 2026
   venue: Preprint (arXiv:2609.37903)
@@ -44,11 +60,11 @@
   haspdf: 'yes'
 - title: Towards replication-robust analytics markets
   year: 2026
-  venue: INFORMS Journal on Data Science, in press
+  venue: INFORMS Journal on Data Science 5(2), pp. 155-170
   authors: T. Falconer, P. Pinson, J. Kazempour
   url: https://pubsonline.informs.org/doi/10.1287/ijds.2025.0075
   preprint: https://arxiv.org/abs/2310.06000
-  status: In press
+  status: ''
   categories:
   - Markets
   - Datamarkets
@@ -86,6 +102,81 @@
   themes: forecasting markets
   kind: article
   pdf: https://arxiv.org/pdf/2501.16086
+  haspdf: 'yes'
+- title: Predict-and-optimize robust unit commitment with statistical guarantees via weight combination
+  year: 2026
+  venue: IEEE Transactions on Power Systems
+  authors: R. Xie, Y. Chen, P. Pinson
+  url: https://ieeexplore.ieee.org/document/11176839
+  preprint: ''
+  status: ''
+  categories:
+  - Optimisation
+  - Energy
+  - Journal article
+  themes: optimisation energy
+  kind: article
+  pdf: https://arxiv.org/pdf/2411.03138
+  haspdf: 'yes'
+- title: 'Load forecasting model trading: A cost-oriented and auction-based approach'
+  year: 2026
+  venue: IEEE Transactions on Smart Grid
+  authors: D. Qin, P. Pinson, Y. Wang
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Markets
+  - Datamarkets
+  - Journal article
+  themes: forecasting markets datamarkets
+  kind: article
+  pdf: ''
+  haspdf: 'no'
+- title: Clustering of timed sequences – Application to the analysis of care pathways
+  year: 2025
+  venue: Data & Knowledge Engineering 156, art. no. 102401
+  authors: T. Guyet, P. Pinson, E. Gesny
+  url: ''
+  preprint: https://arxiv.org/abs/2404.15379
+  status: ''
+  categories:
+  - Analytics
+  - Journal article
+  themes: analytics
+  kind: article
+  pdf: https://arxiv.org/pdf/2404.15379
+  haspdf: 'yes'
+- title: Selling information to a competitor
+  year: 2025
+  venue: Preprint (arXiv:2505.00405)
+  authors: T. Falconer, A. Ratha, J. Kazempour, P. Pinson, M. Kamgarpour
+  url: ''
+  preprint: https://arxiv.org/abs/2505.00405
+  status: Preprint
+  categories:
+  - Markets
+  - Preprint
+  themes: markets
+  kind: preprint
+  pdf: https://arxiv.org/pdf/2505.00405
+  haspdf: 'yes'
+- title: Capacity credit evaluation of generalized energy storage considering strategic capacity withholding and decision-dependent uncertainty
+  year: 2025
+  venue: Applied Energy 397, art. no. 126310
+  authors: N. Qi, P. Pinson, M.R. Almassalkhi, Y. Zhuang, Y. Su, F. Liu
+  url: https://doi.org/10.1016/j.apenergy.2025.126310
+  preprint: https://arxiv.org/abs/2406.07338
+  status: ''
+  categories:
+  - Optimisation
+  - Energy
+  - Markets
+  - Journal article
+  themes: optimisation energy markets
+  kind: article
+  pdf: https://arxiv.org/pdf/2406.07338
   haspdf: 'yes'
 - title: 'Synergies between AI computing and power systems: Metrics, scheduling, and resilience'
   year: 2025
@@ -146,21 +237,6 @@
   kind: preprint
   pdf: https://arxiv.org/pdf/2510.13385
   haspdf: 'yes'
-- title: Predict-and-optimize robust unit commitment with statistical guarantees via weight combination
-  year: 2025
-  venue: IEEE Transactions on Power Systems, in press
-  authors: R. Xie, Y. Chen, P. Pinson
-  url: https://ieeexplore.ieee.org/document/11176839
-  preprint: ''
-  status: In press
-  categories:
-  - Optimisation
-  - Energy
-  - Journal article
-  themes: optimisation energy
-  kind: article
-  pdf: https://arxiv.org/pdf/2411.03138
-  haspdf: 'yes'
 - title: Pooling probabilistic forecasts for cooperative wind power offering
   year: 2025
   venue: Preprint, under review
@@ -176,22 +252,6 @@
   kind: preprint
   pdf: https://arxiv.org/pdf/2510.12382
   haspdf: 'yes'
-- title: 'Load forecasting model trading: A cost-oriented and auction-based approach'
-  year: 2025
-  venue: IEEE Transactions on Smart Grid, in press
-  authors: D. Qin, P. Pinson, Y. Wang
-  url: ''
-  preprint: ''
-  status: In press
-  categories:
-  - Forecasting
-  - Markets
-  - Datamarkets
-  - Journal article
-  themes: forecasting markets datamarkets
-  kind: article
-  pdf: ''
-  haspdf: 'no'
 - title: 'Inverse game theory: An incenter-based approach'
   year: 2025
   venue: 34th International Joint Conference on Artificial Intelligence (IJCAI 2025), pp. 3805-3813
@@ -323,6 +383,35 @@
   kind: preprint
   pdf: ''
   haspdf: 'no'
+- title: 'Catégorisation de séquences temporelles : application à l''analyse de parcours de soins'
+  year: 2024
+  venue: Proc. Extraction et Gestion des Connaissances (EGC) 2024, pp. 119-130
+  authors: E. Gesny, P. Pinson, T. Guyet
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Analytics
+  - Conference paper
+  themes: analytics
+  kind: conference
+  pdf: ''
+  haspdf: 'no'
+- title: Forecast trading as a means to reach social optimum on a peer-to-peer market
+  year: 2024
+  venue: Springer conference proceedings (LNCS)
+  authors: I. Shilov, H. Le Cadre, A. Bušić, P. Pinson
+  url: https://link.springer.com/chapter/10.1007/978-3-031-78600-6_11
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Markets
+  - Conference paper
+  themes: forecasting markets
+  kind: conference
+  pdf: https://hal.science/hal-04866031/document
+  haspdf: 'yes'
 - title: Wind energy forecasting with missing values within a fully conditional specification framework
   year: 2024
   venue: International Journal of Forecasting 40(1), pp. 77-95
@@ -469,6 +558,36 @@
   kind: article
   pdf: https://arxiv.org/pdf/2205.02668
   haspdf: 'yes'
+- title: On the contribution of pre-trained models to accuracy and utility in modeling distributed energy resources
+  year: 2023
+  venue: Preprint (arXiv:2302.11679)
+  authors: H. Kazmi, P. Pinson
+  url: ''
+  preprint: https://arxiv.org/abs/2302.11679
+  status: Preprint
+  categories:
+  - Forecasting
+  - Energy
+  - Preprint
+  themes: forecasting energy
+  kind: preprint
+  pdf: https://arxiv.org/pdf/2302.11679
+  haspdf: 'yes'
+- title: Towards forecast markets for enhanced peer-to-peer electricity trading
+  year: 2023
+  venue: Proc. IEEE SmartGridComm 2023, pp. 1-7
+  authors: I. Shilov, H. Le Cadre, A. Bušić, A. Sanjab, P. Pinson
+  url: ''
+  preprint: ''
+  status: ''
+  categories:
+  - Forecasting
+  - Markets
+  - Conference paper
+  themes: forecasting markets
+  kind: conference
+  pdf: https://inria.hal.science/hal-04344943v1/file/Towards_Forecast_Markets_For_Enhanced_Peer-to-Peer_Electricity_Trading.pdf
+  haspdf: 'yes'
 - title: What may future electricity markets look like?
   year: 2023
   venue: Journal of Modern Power Systems and Clean Energy 11(3), pp. 698-706 (invited)
@@ -600,12 +719,12 @@
   kind: article
   pdf: https://arxiv.org/pdf/2209.08639
   haspdf: 'yes'
-- title: Chance-constrained economic dispatch of generic energy storage under decision-dependent uncertainty
+- title: Chance-constrained generic energy storage operations under decision-dependent uncertainty
   year: 2023
   venue: IEEE Transactions on Sustainable Energy 14(4), pp. 2234-2248
   authors: N. Qi, P. Pinson, M.R. Almassalkhi, L. Cheng, Y. Zhuang
   url: https://ieeexplore.ieee.org/document/10081472
-  preprint: ''
+  preprint: https://arxiv.org/abs/2201.06407
   status: ''
   categories:
   - Optimisation
@@ -613,8 +732,8 @@
   - Journal article
   themes: optimisation energy
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://arxiv.org/pdf/2201.06407
+  haspdf: 'yes'
 - title: Variable heat pricing to steer the flexibility of heat demand response in district heating systems
   year: 2022
   venue: Electric Power Systems Research 212, art. no. 108383
@@ -1856,8 +1975,8 @@
   - Journal article
   themes: optimisation energy
   kind: article
-  pdf: ''
-  haspdf: 'no'
+  pdf: https://backend.orbit.dtu.dk/ws/files/133172624/07932508.pdf
+  haspdf: 'yes'
 - title: A local energy market for electricity and hydrogen
   year: 2018
   venue: IEEE Transactions on Power Systems 33(4), pp. 3898-3908

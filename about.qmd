@@ -1,33 +1,67 @@
 ---
 title: "About"
+pagetitle: "About – Pierre Pinson"
+body-classes: about-page
+page-layout: article
 image: images/portrait.jpg
 aliases:
   - /index.php/sample-page-2-2/index.html
   - /index.php/contact-2/index.html
-about:
-  template: trestles
-  image-shape: rounded
-  image-width: 14em
-  links:
-    - text: Email
-      href: mailto:p.pinson@imperial.ac.uk
-    - text: Google Scholar
-      href: https://scholar.google.com/citations?user=V3DJKFkAAAAJ&hl=en
-    - text: LinkedIn
-      href: https://www.linkedin.com/in/pierrepinson
-    - text: CV (PDF)
-      href: /files/ppinsoncv.pdf?v=2026-11
+include-after-body:
+  - text: |
+      <script src="/assets/about.js" defer></script>
 ---
 
-[I work with the mathematics of energy markets.]{.lead}
+```{=html}
+<section class="ab-hero">
+  <div class="ab-photo"><img src="images/portrait.jpg" alt="Portrait of Pierre Pinson"></div>
+  <div class="ab-intro">
+    <h1>Pierre Pinson</h1>
+    <p class="ab-punch">I work with the mathematics of energy markets.</p>
+    <div class="ab-links">
+      <a class="btn-pp primary" href="mailto:p.pinson@imperial.ac.uk">Email</a>
+      <a class="btn-pp" href="/files/ppinsoncv.pdf?v=2026-11">CV (PDF)</a>
+      <a class="btn-pp" href="https://scholar.google.com/citations?user=V3DJKFkAAAAJ&amp;hl=en">Google Scholar</a>
+      <a class="btn-pp" href="https://www.linkedin.com/in/pierrepinson">LinkedIn</a>
+    </div>
+  </div>
+</section>
 
-For more than 20 years, through research, teaching and consultancy, I have worked at the interface between data, AI and power systems and markets. My core focus is how to generate optimal value for society from data. I combine mathematics and statistics with applications in meteorology, power and energy, logistics and business analytics, and my main contributions are in forecasting, optimisation under uncertainty and game theory. That includes probabilistic energy forecasting, trading strategies for renewable assets, electricity market design (peer-to-peer, coordination between markets, new market products), and data markets.
+<section class="ab-now" aria-label="Current roles">
+  <a class="ab-role" href="https://incommodities.com/"><span class="ab-org">inCommodities</span><span class="ab-what">Principal, leading research and translation</span></a>
+  <a class="ab-role" href="https://www.imperial.ac.uk/design-engineering/"><span class="ab-org">Imperial College London</span><span class="ab-what">Professor, Dyson School of Design Engineering</span></a>
+  <div class="ab-role"><span class="ab-org">Halfspace</span><span class="ab-what">Chief Scientific Advisor</span></div>
+  <a class="ab-role" href="ijf.html"><span class="ab-org">Int. Journal of Forecasting</span><span class="ab-what">Editor-in-Chief, 2019 – 2026</span></a>
+</section>
+```
 
-I am Principal at [inCommodities](https://incommodities.com/), an energy trading company in Denmark, where I lead research and translation, and a Professor at [Imperial College London](https://www.imperial.ac.uk/), [Dyson School of Design Engineering](https://www.imperial.ac.uk/design-engineering/). I am also Chief Scientific Advisor at Halfspace and Editor-in-Chief of the [International Journal of Forecasting](ijf.qmd).
+For more than 20 years, through research, teaching and consultancy, I have worked at the interface between data, AI and power systems and markets. My core focus is how to generate optimal value for society from data. I combine mathematics and statistics with applications in meteorology, power and energy, logistics and business analytics, and my main contributions are in [forecasting](research/forecasting.qmd), optimisation under uncertainty and game theory: probabilistic energy forecasting, trading strategies for renewable assets, [electricity market design](research/markets.qmd), and [data markets](research/data-markets.qmd).
 
-I am an IEEE Fellow and a Clarivate Highly Cited Researcher, and in 2024 I led the team that won the INFORMS Franz Edelman Award. I care about teaching as much as research: I have taught in French, English and Danish, and my video courses on YouTube, including the open course [Renewables in Electricity Markets](teaching/index.qmd), have been viewed around 300,000 times. In March 2026 I gave the DTU Ørsted Lecture, "Can we predict the future of forecasting?".
+I care about teaching as much as research. I have taught in French, English and Danish, and my video courses on YouTube, including the open course [Renewables in Electricity Markets](teaching/index.qmd), have been viewed around 300,000 times. In March 2026 I gave the DTU Ørsted Lecture, ["Can we predict the future of forecasting?"](https://www.youtube.com/watch?v=tOe7jf_pcB8).
 
-## Positions
+```{=html}
+<section class="ab-facts" aria-label="In short">
+  <div><span class="ab-n">20+</span><span class="ab-l">years in forecasting and energy markets</span></div>
+  <div><span class="ab-n">220+</span><span class="ab-l"><a href="publications.html">publications</a></span></div>
+  <div><span class="ab-n">6×</span><span class="ab-l">Clarivate Highly Cited Researcher</span></div>
+  <div><span class="ab-n">3</span><span class="ab-l">teaching languages: French, English, Danish</span></div>
+</section>
+
+<section class="ab-career column-page">
+  <h2>Career at a glance</h2>
+  <p class="ab-hint">Hover or tap a bar or a milestone for details.</p>
+  <div id="ab-timeline" class="widget">
+    <div class="w-scroll"><svg viewBox="0 0 900 360" role="img" aria-label="Career timeline from 2002 to 2026, in four lanes: academia, industry and advisory, editorial, and recognition."></svg></div>
+    <div class="ab-detail" aria-live="polite"><span class="ab-d-when"></span><strong class="ab-d-title"></strong><span class="ab-d-text"></span></div>
+  </div>
+</section>
+```
+
+## The full record
+
+::: {.panel-tabset}
+
+### Positions
 
 ::: {.timeline}
 - [2026 –]{.when} Principal, inCommodities (Aarhus, Denmark)
@@ -44,10 +78,10 @@ I am an IEEE Fellow and a Clarivate Highly Cited Researcher, and in 2024 I led t
 - [2006 – 2008]{.when} Postdoctoral Fellow, then Assistant Professor, Technical University of Denmark, Department of Applied Mathematics and Computer Science
 :::
 
-## Editorial and society roles
+### Editorial
 
 ::: {.timeline}
-- [2019 –]{.when} Editor-in-Chief, International Journal of Forecasting
+- [2019 – 2026]{.when} Editor-in-Chief, International Journal of Forecasting
 - [2019 –]{.when} Director, International Institute of Forecasters
 - [2021 – 2026]{.when} Associate Editor, OR Spectrum
 - [2022 – 2024]{.when} Associate Editor, Scientific Data (Nature)
@@ -56,7 +90,7 @@ I am an IEEE Fellow and a Clarivate Highly Cited Researcher, and in 2024 I led t
 - [2011 – 2016]{.when} Editor, IEEE Transactions on Power Systems (and IEEE Power Engineering Letters)
 :::
 
-## Honours and awards
+### Honours
 
 ::: {.timeline}
 - [2026]{.when} DTU Ørsted Lecture, Technical University of Denmark
@@ -70,18 +104,21 @@ I am an IEEE Fellow and a Clarivate Highly Cited Researcher, and in 2024 I led t
 - [2017]{.when} Emerald Citation of Excellence
 :::
 
-## Visiting positions
+### Visits
 
 ::: {.timeline}
 - [2019]{.when} Simons Fellow, Isaac Newton Institute for Mathematical Sciences, Cambridge (3 months)
 - [2016]{.when} Visiting Professor, École Normale Supérieure de Rennes
+- [2010 – 2011]{.when} Scientist, European Centre for Medium-Range Weather Forecasts (Reading, UK)
 - [2009]{.when} Visiting Researcher, University of Washington, Department of Statistics
 - [2009]{.when} Visiting Researcher, University of Oxford, Mathematical Institute
 :::
 
-## Education
+### Education
 
 ::: {.timeline}
 - [2006]{.when} Ph.D. in Energy Engineering (forecasting, stochastic optimisation), École des Mines de Paris
 - [2002]{.when} M.Sc./M.Eng. in Applied Mathematics, INSA Toulouse
+:::
+
 :::

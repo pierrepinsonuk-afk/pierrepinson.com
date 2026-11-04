@@ -6,7 +6,7 @@ abilevelmodelforelectricityretailersparticipationinademandresponsemarketenvironm
   title: A bilevel model for electricity retailers' participation in a demand response market environment
   year: 2013
 acausalanalysisofbalancingcostsintheukelectricitymarket:
-  checked: '2026-11-01'
+  checked: '2026-11-04'
   doi: null
   pdf: null
   source: null
@@ -28,10 +28,10 @@ acriticaloverviewofprivacypreservingapproachesforcollaborativeforecasting:
   verified: true
   year: 2021
 activedistributiongridmanagementbasedonrobustacoptimalpowerflow:
-  checked: '2026-11-01'
-  doi: null
-  pdf: null
-  source: null
+  checked: '2026-11-04'
+  doi: 10.1109/tsg.2017.2707065
+  pdf: https://backend.orbit.dtu.dk/ws/files/133172624/07932508.pdf
+  source: semantic scholar
   title: Active distribution grid management based on robust AC optimal power flow
   year: 2018
 adaptivecalibrationofuvwindensembleforecasts:
@@ -137,7 +137,7 @@ anasynchronousonlinenegotiationmechanismforrealtimepeertopeerelectricitymarkets:
   verified: true
   year: 2022
 ? anegotiationbasedincentivemechanismforefficienttransmissionexpansionplanningconsideringgenerationinvestmentequilibriuminderegulatedenvironment
-: checked: '2026-11-01'
+: checked: '2026-11-04'
   doi: 10.1016/j.apenergy.2025.125495
   pdf: null
   source: null
@@ -191,7 +191,7 @@ automaticclassificationofoffshorewindregimeswithweatherradarobservations:
   verified: true
   year: 2014
 bayesianapproachtounveilingsupplycurvesinelectricitymarkets:
-  checked: '2026-11-01'
+  checked: '2026-11-04'
   doi: null
   pdf: null
   source: null
@@ -221,12 +221,26 @@ benefitsofspatiotemporalmodellingforshorttermwindpowerforecastingatbothindividua
   verified: true
   year: 2018
 bigdataanalyticsforfutureelectricitygrids:
-  checked: '2026-11-01'
+  checked: '2026-11-04'
   doi: 10.1016/j.epsr.2020.106788
   pdf: null
   source: null
   title: Big data analytics for future electricity grids
   year: 2020
+capacitycreditevaluationofgeneralizedenergystorageconsideringstrategiccapacitywithholdinganddecisiondependentuncertainty:
+  checked: '2026-11-04'
+  doi: null
+  pdf: https://arxiv.org/pdf/2406.07338
+  source: arxiv (from your data)
+  title: Capacity credit evaluation of generalized energy storage considering strategic capacity withholding and decision-dependent uncertainty
+  year: 2025
+categorisationdesequencestemporellesapplicationalanalysedeparcoursdesoins:
+  checked: '2026-11-04'
+  doi: null
+  pdf: null
+  source: null
+  title: 'Catégorisation de séquences temporelles : application à l''analyse de parcours de soins'
+  year: 2024
 chanceconstrainedeconomicdispatchofgenericenergystorageunderdecisiondependentuncertainty:
   checked: '2026-11-01'
   doi: null
@@ -234,8 +248,15 @@ chanceconstrainedeconomicdispatchofgenericenergystorageunderdecisiondependentunc
   source: null
   title: Chance-constrained economic dispatch of generic energy storage under decision-dependent uncertainty
   year: 2023
+chanceconstrainedgenericenergystorageoperationsunderdecisiondependentuncertainty:
+  checked: '2026-11-04'
+  doi: null
+  pdf: https://arxiv.org/pdf/2201.06407
+  source: arxiv (from your data)
+  title: Chance-constrained generic energy storage operations under decision-dependent uncertainty
+  year: 2023
 chanceconstrainedoptimalpowerflowwithnonparametricprobabilitydistributionsofdynamiclineratings:
-  checked: '2026-11-01'
+  checked: '2026-11-04'
   doi: null
   pdf: null
   source: null
@@ -250,12 +271,19 @@ chanceconstrainedoptimizationofdemandresponsetopricesignals:
   verified: true
   year: 2013
 chanceconstrainedpeertopeerjointenergyandreservemarketbasedonconsensusadmm:
-  checked: '2026-11-01'
+  checked: '2026-11-04'
   doi: null
   pdf: null
   source: null
   title: Chance-constrained peer-to-peer joint energy and reserve market based on consensus ADMM
   year: 2021
+clusteringoftimedsequencesapplicationtotheanalysisofcarepathways:
+  checked: '2026-11-04'
+  doi: null
+  pdf: https://arxiv.org/pdf/2404.15379
+  source: arxiv (from your data)
+  title: Clustering of timed sequences – Application to the analysis of care pathways
+  year: 2025
 commentsonspacetimewindspeedforecastingforimprovedpowersystemdispatch:
   checked: '2026-11-01'
   doi: null
@@ -319,7 +347,7 @@ convexrelaxationsandapproximationsofchanceconstrainedacopfproblems:
   verified: false
   year: 2024
 coordinationofpowerandnaturalgasmarketsviafinancialinstruments:
-  checked: '2026-11-01'
+  checked: '2026-11-04'
   doi: 10.1007/s10287-021-00403-x
   pdf: null
   source: null
@@ -358,14 +386,21 @@ dataaremissingagainreconstructionofpowergenerationdatausingknearestneighborsands
   verified: false
   year: 2025
 datadrivenatseaforecastingandrevenuemanagementatmolslinjen:
-  checked: '2026-11-01'
+  checked: '2026-11-04'
   doi: 10.1287/inte.2024.0177
   pdf: null
   source: null
   title: 'Data-driven at sea: Forecasting and revenue management at Molslinjen'
   year: 2024
+decisioncalibratedpredictionsetsforrobustpowersystemoperations:
+  checked: '2026-11-04'
+  doi: null
+  pdf: https://arxiv.org/pdf/2606.02081
+  source: arxiv (from your data)
+  title: Decision-calibrated prediction sets for robust power system operations
+  year: 2026
 decisiondependentstochasticgenerationexpansionplanningwithlargeamountsofwindpower:
-  checked: '2026-11-01'
+  checked: '2026-11-04'
   doi: null
   pdf: null
   source: null
@@ -473,7 +508,7 @@ economicdispatchofdemandsidebalancingthroughasymmetricblockoffers:
   title: Economic dispatch of demand-side balancing through asymmetric block offers
   year: 2016
 editorial:
-  checked: '2026-11-01'
+  checked: '2026-11-04'
   doi: null
   pdf: null
   source: null
@@ -551,8 +586,8 @@ ensemblebasedprobabilisticforecastingathornsrev:
   verified: true
   year: 2009
 evaluatingpricebaseddemandresponseinpracticewithapplicationtotheecogrideuexperiment:
-  checked: '2026-11-01'
-  doi: null
+  checked: '2026-11-04'
+  doi: 10.1109/tsg.2016.2610518
   pdf: null
   source: null
   title: Evaluating price-based demand response in practice – With application to the EcoGrid EU experiment
@@ -622,7 +657,7 @@ flechadanishmarketsolutionfordsocongestionmanagementthroughderflexibilityservice
   verified: false
   year: 2014
 forecastingandmarketdesignadvances:
-  checked: '2026-11-01'
+  checked: '2026-11-04'
   doi: null
   pdf: null
   source: null
@@ -660,12 +695,19 @@ forecastingtheoryandpractice:
   verified: true
   year: 2022
 forecastreconciliationindayaheadwindpowerforecasting:
-  checked: '2026-11-01'
+  checked: '2026-11-04'
   doi: null
   pdf: null
   source: null
   title: Forecast reconciliation in day-ahead wind power forecasting
   year: 2019
+forecasttradingasameanstoreachsocialoptimumonapeertopeermarket:
+  checked: '2026-11-04'
+  doi: 10.1007/978-3-031-78600-6_11
+  pdf: https://hal.science/hal-04866031/document
+  source: openalex
+  title: Forecast trading as a means to reach social optimum on a peer-to-peer market
+  year: 2024
 forewordforthespecialsectiononwindandsolarenergyuncoveringandaccommodatingtheirimpactsonelectricitymarkets:
   checked: '2026-11-01'
   doi: null
@@ -675,8 +717,8 @@ forewordforthespecialsectiononwindandsolarenergyuncoveringandaccommodatingtheiri
   verified: false
   year: 2015
 fromdemandresponseevaluationtoforecastingmethodsandresultsfromtheecogrideuexperiment:
-  checked: '2026-11-01'
-  doi: null
+  checked: '2026-11-04'
+  doi: 10.1016/j.segan.2017.03.001
   pdf: null
   source: null
   title: From demand response evaluation to forecasting – Methods and results from the EcoGrid EU experiment
@@ -728,7 +770,7 @@ globalenergyforecastingcompetition2012gefcom2012:
   title: Global Energy Forecasting Competition 2012 (GEFCom2012)
   year: 2014
 guesteditorialenergyforecastinginthebigdataworld:
-  checked: '2026-11-01'
+  checked: '2026-11-04'
   doi: null
   pdf: null
   source: null
@@ -797,7 +839,7 @@ impactofpublicaggregatewindforecastsonelectricitymarketoutcomes:
   verified: true
   year: 2017
 incentivecompatibilityinatwostagestochasticelectricitymarketwithhighwindpowerpenetration:
-  checked: '2026-11-01'
+  checked: '2026-11-04'
   doi: 10.1109/tpwrs.2019.2901249
   pdf: null
   source: null
@@ -835,8 +877,8 @@ integratedoptimizationofoperationsandcapacityplanningunderuncertaintyfordrayagep
   verified: true
   year: 2025
 introducingdistributedlearninginwindpowerforecasting:
-  checked: '2026-11-01'
-  doi: null
+  checked: '2026-11-04'
+  doi: 10.1109/pmaps.2016.7764224
   pdf: null
   source: null
   title: Introducing distributed learning in wind power forecasting
@@ -858,12 +900,12 @@ learningtofixoptimisationawaremachinelearningforacceleratedunitcommitment:
   verified: true
   year: 2026
 loadforecastingmodeltradingacostorientedandauctionbasedapproach:
-  checked: '2026-11-01'
+  checked: '2026-11-04'
   doi: 10.1109/tsg.2025.3614766
   pdf: null
   source: null
   title: 'Load forecasting model trading: A cost-oriented and auction-based approach'
-  year: 2025
+  year: 2026
 locallinearregressionwithadaptiveorthogonalfittingforthewindpowerapplication:
   checked: '2026-11-01'
   doi: null
@@ -959,14 +1001,14 @@ offeringstrategiesforhybridconcentratedsolarfossilpowerplantsthroughrobustoptimi
   title: Offering strategies for hybrid concentrated solar-fossil power plants through robust optimization
   year: 2015
 onlineadaptiveclusteringalgorithmforloadprofiling:
-  checked: '2026-11-01'
+  checked: '2026-11-04'
   doi: 10.1016/j.segan.2018.100181
   pdf: null
   source: null
   title: Online adaptive clustering algorithm for load profiling
   year: 2019
 onlineadaptivelassoestimationinvectorautoregressivemodelsforwindpowerforecastinginhighdimension:
-  checked: '2026-11-01'
+  checked: '2026-11-04'
   doi: null
   pdf: null
   source: null
@@ -989,7 +1031,7 @@ onlinedecisionmakingfortradingwindenergy:
   verified: false
   year: 2023
 onlinedistributedlearninginwindpowerforecasting:
-  checked: '2026-11-01'
+  checked: '2026-11-04'
   doi: 10.1016/j.ijforecast.2020.04.004
   pdf: null
   source: null
@@ -1018,6 +1060,13 @@ onmachinelearningbasedtechniquesforfuturesustainableandresilientenergysystems:
   source: openalex
   title: On machine learning-based techniques for future sustainable and resilient energy systems
   verified: false
+  year: 2023
+onthecontributionofpretrainedmodelstoaccuracyandutilityinmodelingdistributedenergyresources:
+  checked: '2026-11-04'
+  doi: null
+  pdf: https://arxiv.org/pdf/2302.11679
+  source: arxiv (from your data)
+  title: On the contribution of pre-trained models to accuracy and utility in modeling distributed energy resources
   year: 2023
 onthedesignofdecentraliseddatamarkets:
   checked: '2026-11-01'
@@ -1068,8 +1117,8 @@ optimalbiddingstrategyofbatterystorageinpowermarketsconsideringperformancebasedr
   verified: false
   year: 2016
 optimalofferingandallocationpoliciesforwindpowerinenergyandreservemarkets:
-  checked: '2026-11-01'
-  doi: null
+  checked: '2026-11-04'
+  doi: 10.1002/we.2125
   pdf: null
   source: null
   title: Optimal offering and allocation policies for wind power in energy and reserve markets
@@ -1083,7 +1132,7 @@ optimalofferingandoperatingstrategyforalargewindstoragesystemasapricemaker:
   verified: true
   year: 2017
 optimalofferingforwindstoragesystemsusinglineardecisionrules:
-  checked: '2026-11-01'
+  checked: '2026-11-04'
   doi: null
   pdf: null
   source: null
@@ -1106,7 +1155,7 @@ optimalpredictionintervalsofwindpowergeneration:
   verified: false
   year: 2014
 p2pmarketcoordinationmethodologieswithdistributiongridmanagement:
-  checked: '2026-11-01'
+  checked: '2026-11-04'
   doi: 10.1016/j.segan.2023.101075
   pdf: null
   source: null
@@ -1169,7 +1218,7 @@ predictionmarketswithintermittentcontributions:
   verified: true
   year: 2025
 previsionmeteorologiquepourlesenergiesrenouvelables:
-  checked: '2026-11-01'
+  checked: '2026-11-04'
   doi: null
   pdf: null
   source: null
@@ -1294,7 +1343,7 @@ redefiningthemeritorderofstochasticgenerationinforwardmarkets:
   verified: true
   year: 2014
 reeuropealargescaledatasetforafuturerenewableenergybasedeuropeanpowersystem:
-  checked: '2026-11-01'
+  checked: '2026-11-04'
   doi: null
   pdf: null
   source: null
@@ -1354,6 +1403,13 @@ seamlessandmultiresolutionenergyforecasting:
   source: openalex
   title: Seamless and multi-resolution energy forecasting
   verified: false
+  year: 2025
+sellinginformationtoacompetitor:
+  checked: '2026-11-04'
+  doi: null
+  pdf: https://arxiv.org/pdf/2505.00405
+  source: arxiv (from your data)
+  title: Selling information to a competitor
   year: 2025
 sharingwindpowerforecastsinelectricitymarketsanumericalanalysis:
   checked: '2026-11-01'
@@ -1460,7 +1516,7 @@ temporalhierarchieswithautocorrelationforloadforecasting:
   verified: false
   year: 2019
 theemergenceofconsumercentricelectricitymarkets:
-  checked: '2026-11-01'
+  checked: '2026-11-04'
   doi: null
   pdf: null
   source: null
@@ -1497,7 +1553,7 @@ thewirebenchmarkingexerciseonshorttermforecastingmodelsforrenewablepowergenerati
   title: The "WIRE" benchmarking exercise on short-term forecasting models for renewable power generation
   year: 2015
 toshareornottosharealternativeviewsonafutureofcollaborativeforecasting:
-  checked: '2026-11-01'
+  checked: '2026-11-04'
   doi: null
   pdf: null
   source: null
@@ -1511,6 +1567,13 @@ towardsdatamarketsinrenewableenergyforecasting:
   title: Towards data markets in renewable energy forecasting
   verified: false
   year: 2021
+towardsforecastmarketsforenhancedpeertopeerelectricitytrading:
+  checked: '2026-11-04'
+  doi: 10.1109/smartgridcomm57358.2023.10333930
+  pdf: https://inria.hal.science/hal-04344943v1/file/Towards_Forecast_Markets_For_Enhanced_Peer-to-Peer_Electricity_Trading.pdf
+  source: openalex
+  title: Towards forecast markets for enhanced peer-to-peer electricity trading
+  year: 2023
 towardsfullyrenewableenergysystemsexperienceandtrendsindenmark:
   checked: '2026-11-01'
   doi: null
@@ -1599,7 +1662,7 @@ variableheatpricingtosteertheflexibilityofheatdemandresponseindistrictheatingsys
   verified: false
   year: 2022
 verificationofsolarirradianceprobabilisticforecasts:
-  checked: '2026-11-01'
+  checked: '2026-11-04'
   doi: 10.1016/j.solener.2019.10.041
   pdf: null
   source: null
@@ -1646,7 +1709,7 @@ vilabavirtuallaboratoryforcollaborativeresearchonwindpowerforecasting:
   verified: false
   year: 2007
 visualizingbigenergydata:
-  checked: '2026-11-01'
+  checked: '2026-11-04'
   doi: null
   pdf: null
   source: null

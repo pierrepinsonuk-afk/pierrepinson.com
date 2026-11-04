@@ -10,7 +10,7 @@
 - [A market for trading forecasts: A wagering mechanism](https://arxiv.org/pdf/2205.02668)  
   [A. Raja, J. Kazempour, **P. Pinson**, S. Grammatico · *International Journal of Forecasting 40(1), pp. 142-159* · 2024]{.kp-meta}
 - [Towards replication-robust analytics markets](https://arxiv.org/pdf/2310.06000)  
-  [T. Falconer, **P. Pinson**, J. Kazempour · *INFORMS Journal on Data Science, in press* · 2026]{.kp-meta}
+  [T. Falconer, **P. Pinson**, J. Kazempour · *INFORMS Journal on Data Science 5(2), pp. 155-170* · 2026]{.kp-meta}
 - [Prediction markets with intermittent contributions](https://arxiv.org/pdf/2510.13385)  
   [M. Vitali, **P. Pinson** · *Preprint, under review* · 2025]{.kp-meta}
 :::

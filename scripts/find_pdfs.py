@@ -2,12 +2,13 @@
 
 Run from the project root (needs an internet connection; uses only the Python standard library + PyYAML):
 
-  python scripts/find_pdfs.py --email you@example.com      # look up papers not checked before
+  python scripts/find_pdfs.py --key YOUR_OPENALEX_KEY --email you@example.com   # papers not checked before
   python scripts/find_pdfs.py --email ... --retry-missing   # look again for papers with no PDF yet
   python scripts/find_pdfs.py --email ... --refresh         # redo everything
   python scripts/find_pdfs.py --email ... --check           # also test that each link really returns a PDF
 
-The email is only sent to OpenAlex and Unpaywall, as they ask, so they can contact you about heavy use.
+OpenAlex needs a free API key (since February 2026): get one at https://openalex.org/settings/api, or set
+OPENALEX_API_KEY in your terminal once. The email is only sent to Unpaywall, which asks for it.
 
 Sources, in order: arXiv links already in your data, OpenAlex, Unpaywall, an arXiv title search,
 Semantic Scholar. A paper only counts as a match if the title is near-identical and Pinson is an author.
@@ -16,6 +17,7 @@ Results go to data/pdf_links.yml (generated; safe to delete) and a summary to da
 To fix a link by hand, or to block a wrong one, edit data/pdf_overrides.yml: it always wins.
 """
 import argparse
+import os
 import datetime
 import difflib
 import json
@@ -35,7 +37,8 @@ from build import DATA, load_pubs, title_key  # noqa: E402
 
 CACHE = DATA / "pdf_links.yml"
 REPORT = DATA / "pdf_report.txt"
-UA = "pierrepinson.com-pdf-finder/1.0"
+UA = "pierrepinson.com-pdf-finder/1.1"
+KEY = ""
 
 
 def words(t):
@@ -77,10 +80,10 @@ def from_data(p):
 
 
 def openalex(p, email):
+    if not KEY:
+        return None, None
     q = urllib.parse.quote(words(p["title"]))
-    url = f"https://api.openalex.org/works?search={q}&per-page=8"
-    if email:
-        url += "&mailto=" + urllib.parse.quote(email)
+    url = f"https://api.openalex.org/works?search={q}&per-page=8&api_key={urllib.parse.quote(KEY)}"
     data = get(url)
     for w in (data or {}).get("results", []):
         if not same_title(w.get("title"), p["title"]):
@@ -150,11 +153,17 @@ def looks_like_pdf(url):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--email", default="", help="your email, passed to OpenAlex and Unpaywall")
+    ap.add_argument("--email", default="", help="your email, passed to Unpaywall")
+    ap.add_argument("--key", default=os.environ.get("OPENALEX_API_KEY", ""), help="your free OpenAlex API key")
     ap.add_argument("--refresh", action="store_true", help="look up every paper again")
     ap.add_argument("--retry-missing", action="store_true", help="look again for papers without a PDF")
     ap.add_argument("--check", action="store_true", help="download the first bytes of each link to verify it")
     args = ap.parse_args()
+    global KEY
+    KEY = args.key.strip()
+    if not KEY:
+        print("No OpenAlex API key: skipping OpenAlex (the best source). Get a free key at "
+              "https://openalex.org/settings/api and use --key.")
 
     cache = yaml.safe_load(CACHE.read_text(encoding="utf-8")) if CACHE.exists() else {}
     cache = cache or {}
