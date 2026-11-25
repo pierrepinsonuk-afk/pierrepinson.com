@@ -1,14 +1,21 @@
 /*-- scss:defaults --*/
-$body-bg: #0E1A26;
-$body-color: #E3E9EF;
-$link-color: #F2A541;
-$navbar-bg: #0E1A26;
-$navbar-fg: #C9D3DD;
-$navbar-hl: #F2A541;
-$footer-bg: #0E1A26;
-$footer-fg: #9FB0C2;
-$border-color: #22374B;
-$text-muted: #9FB0C2;
-$code-color: #F2C384;
+// Darker take on the cover slides: near-black navy, electric Imperial blue and bright mint
+$body-bg: #03031A;
+$body-color: #F4F5FF;
+$link-color: #9FF5D0;
+$headings-color: #FFFFFF;
+$navbar-bg: #03031A;
+$navbar-fg: #E2E3FF;
+$navbar-hl: #9FF5D0;
+$footer-bg: #03031A;
+$footer-fg: #B4B6F2;
+$border-color: #1F1F5E;
+$text-muted: #B4B6F2;
+$code-color: #9FF5D0;
 /*-- scss:rules --*/
-:root { --pp-accent: #F2A541; --pp-on-accent: #0E1A26; --pp-muted: #9FB0C2; --pp-rule: #22374B; --pp-surface: #13263A; }
+:root { --pp-accent: #9FF5D0; --pp-on-accent: #03031A; --pp-muted: #B4B6F2; --pp-rule: #1F1F5E;
+  --pp-surface: #0A0A30; --pp-soft: #3D3DFF; --pp-mint: #9FF5D0; --pp-hero: #0000B8; }
+.navbar { background: rgba(3,3,26,.88) !important; }
+.quarto-title .subtitle, .ab-punch { color: #B4B6F2 !important; }
+.hl-card { background: linear-gradient(180deg, #0B0B3A, #06061F); border-color: #23236A; }
+.hl-card:hover { box-shadow: 0 14px 40px -18px #3D3DFF; }

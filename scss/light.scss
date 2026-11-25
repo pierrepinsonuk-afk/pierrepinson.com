@@ -1,13 +1,20 @@
 /*-- scss:defaults --*/
-$body-bg: #F6F7F9;
-$body-color: #15222F;
-$link-color: #A3560B;
-$navbar-bg: #F6F7F9;
-$navbar-fg: #2C3B4A;
-$navbar-hl: #A3560B;
-$footer-bg: #F6F7F9;
-$footer-fg: #4D5B6B;
-$border-color: #D8DEE5;
-$text-muted: #4D5B6B;
+// Palette from the presentation template: Imperial blue, periwinkle, mint, lavender panels on white
+$body-bg: #FFFFFF;
+$body-color: #0A0A2E;
+$link-color: #0000CD;
+$headings-color: #0000CD;
+$navbar-bg: #FFFFFF;
+$navbar-fg: #0A0A2E;
+$navbar-hl: #0000CD;
+$footer-bg: #FFFFFF;
+$footer-fg: #3E3E6B;
+$border-color: #D6D6F2;
+$text-muted: #3E3E6B;
 /*-- scss:rules --*/
-:root { --pp-accent: #A3560B; --pp-on-accent: #FFFFFF; --pp-muted: #4D5B6B; --pp-rule: #D8DEE5; --pp-surface: #FFFFFF; }
+:root { --pp-accent: #0000CD; --pp-on-accent: #FFFFFF; --pp-muted: #3E3E6B; --pp-rule: #D6D6F2;
+  --pp-surface: #F1F1FD; --pp-soft: #7B7BE6; --pp-mint: #B6F2D8; --pp-hero: #0000CD; }
+.navbar { background: rgba(255,255,255,.9) !important; }
+.quarto-title .subtitle, .ab-punch { color: #5A5AD6 !important; }
+.hl-card { background: #FFFFFF; border-color: #D6D6F2; }
+.hl-art { background: linear-gradient(160deg, #EDEDFD, #FFFFFF 75%); }

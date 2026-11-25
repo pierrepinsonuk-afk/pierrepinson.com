@@ -360,3 +360,34 @@ a.ab-role:hover { border-color: var(--pp-accent); transform: translateY(-2px); }
   #ab-timeline .w-scroll svg { min-width: 900px; }
 }
 .ab-facts p { display: flex; flex-direction: column; gap: .2rem; margin: 0; max-width: none; }
+
+/* ---- Presentation-style touches ---- */
+/* Hero as a full-width Imperial-blue band with a blurred light streak, like the cover slides */
+.hero { position: relative; isolation: isolate; color: #FFFFFF;
+  --bs-body-color: #FFFFFF; --pp-accent: #B6F2D8; --pp-on-accent: #0000A0; --pp-muted: #D9DBFF; --pp-rule: rgba(255,255,255,.28);
+  box-shadow: 0 0 0 100vmax var(--pp-hero); clip-path: inset(0 -100vmax); background: var(--pp-hero);
+  padding-top: 4rem; padding-bottom: 4rem; margin-bottom: 2.5rem; }
+.hero::before { content: ""; position: absolute; z-index: -1; inset: -20% -40vw; pointer-events: none;
+  background: radial-gradient(28% 40% at 22% 70%, rgba(220,222,255,.38), transparent 70%),
+              radial-gradient(24% 38% at 62% 30%, rgba(220,222,255,.30), transparent 70%),
+              radial-gradient(30% 45% at 92% 75%, rgba(200,205,255,.25), transparent 70%);
+  filter: blur(40px); }
+.hero h1 { color: #B6F2D8 !important; }
+.hero h1.flow .arrow { color: #FFFFFF; }
+.hero .roles, .hero .roles strong { color: #FFFFFF; }
+.hero .lede { color: #E4E5FF; }
+.hero a:not(.btn-pp) { color: #B6F2D8; }
+.hero .btn-pp { color: #FFFFFF; border-color: rgba(255,255,255,.6); }
+.hero .btn-pp.primary { background: #B6F2D8; border-color: #B6F2D8; color: #0000A0; }
+.hero .btn-pp:hover { border-color: #B6F2D8; }
+.hero .fan .obs { stroke: #FFFFFF; } .hero .fan .truth { stroke: #FFFFFF; opacity: .7; }
+.hero .fan .now { stroke: rgba(255,255,255,.35); }
+.hero .fan-caption, .hero .fan-hint { color: #D9DBFF; }
+.fan-wrap::before { display: none; }
+.navbar-brand .navbar-title { color: var(--pp-accent); font-weight: 700; }
+h2 { font-weight: 700; }
+.highlights > h2 { font-size: 2rem; }
+.hl-kicker { text-transform: uppercase; letter-spacing: .06em; font-size: .74rem; font-weight: 600; }
+.home #quarto-content, .home main.content { padding-top: 0 !important; margin-top: 0 !important; }
+.home .hero { margin-top: 0; }
+.hero a:not(.btn-pp) { color: #B6F2D8 !important; }
