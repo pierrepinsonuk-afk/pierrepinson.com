@@ -48,6 +48,21 @@ listing:
 
 {{< include _highlights.md >}}
 
+```{=html}
+<section class="band sp-teaser" aria-labelledby="sp-teaser-title">
+  <div class="sp-teaser-text">
+    <p class="sp-kicker">Speaking</p>
+    <h2 id="sp-teaser-title">Invite me to speak</h2>
+    <p>Keynotes, panels, executive briefings and masterclasses on forecasting, AI, data and the future of energy markets, in English, French or Danish.</p>
+    <div class="sp-actions">
+      <a class="btn-pp primary" href="speaking.html">Talks and formats</a>
+      <a class="btn-pp" href="https://www.youtube.com/watch?v=tOe7jf_pcB8">Watch the Ørsted Lecture</a>
+    </div>
+  </div>
+  <figure class="sp-teaser-photo"><img src="assets/img/speaking/orsted-2026.jpg" alt="Pierre Pinson giving the DTU Ørsted Lecture 2026" loading="lazy" width="1100" height="825"><figcaption>DTU Ørsted Lecture 2026: "Can we predict the future of forecasting?"</figcaption></figure>
+</section>
+```
+
 ::: {.home-cols}
 ::: {}
 ## Recent publications

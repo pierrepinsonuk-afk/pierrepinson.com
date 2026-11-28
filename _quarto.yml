@@ -37,6 +37,8 @@ website:
             text: Exercises
           - href: teaching/interviews.qmd
             text: Interviews
+      - href: speaking.qmd
+        text: Speaking
       - href: ijf.qmd
         text: IJF
       - href: news/index.qmd
