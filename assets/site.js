@@ -117,3 +117,22 @@
     update();
   }
 })();
+
+/* Phones: position dots under the swipeable rows of cards. */
+(function () {
+  document.querySelectorAll(".hl-grid, .sp-grid").forEach((row) => {
+    const dots = document.createElement("div"); dots.className = "swipe-dots"; dots.setAttribute("aria-hidden", "true");
+    row.after(dots);
+    const update = () => {
+      const cards = [...row.children].filter((c) => c.offsetParent !== null);
+      if (dots.children.length !== cards.length) dots.innerHTML = cards.map(() => "<span></span>").join("");
+      let best = 0, bestD = Infinity;
+      cards.forEach((c, i) => { const d = Math.abs(c.getBoundingClientRect().left - row.getBoundingClientRect().left); if (d < bestD) { bestD = d; best = i; } });
+      [...dots.children].forEach((d, i) => d.classList.toggle("on", i === best));
+    };
+    row.addEventListener("scroll", () => requestAnimationFrame(update), { passive: true });
+    window.addEventListener("resize", update);
+    document.addEventListener("click", (e) => { if (e.target.closest(".sp-filter")) setTimeout(update, 50); });
+    update();
+  });
+})();

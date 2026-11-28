@@ -49,9 +49,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-18038207a4bfd50187eff2b2f0526436.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-97c4ec0504411ca550ad887433296a9c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-4dba1a1fa9c752ea74a615db52c21731.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-97c4ec0504411ca550ad887433296a9c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-ddc28748d469ec31e741321a7525f9c9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-9b93b98d56953ffc699ac85413bd0578.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-ddc28748d469ec31e741321a7525f9c9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -80,6 +80,33 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#0000CD">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#03031A">
+<script>
+/* Follow the device's light/dark setting until the visitor picks one with the toggle. */
+(function () {
+  try {
+    var mq = window.matchMedia("(prefers-color-scheme: dark)");
+    var manual = function () { return localStorage.getItem("pp-scheme-manual") === "1"; };
+    if (!manual()) localStorage.setItem("quarto-color-scheme", mq.matches ? "alternate" : "default");
+    document.addEventListener("DOMContentLoaded", function () {
+      document.querySelectorAll(".quarto-color-scheme-toggle").forEach(function (t) {
+        t.addEventListener("click", function () { localStorage.setItem("pp-scheme-manual", "1"); });
+      });
+      var onChange = function (e) {
+        if (manual()) return;
+        var isDark = document.body.classList.contains("quarto-dark");
+        if (e.matches !== isDark && window.quartoToggleColorScheme) {
+          window.quartoToggleColorScheme();
+          localStorage.setItem("quarto-color-scheme", e.matches ? "alternate" : "default");
+        }
+      };
+      if (mq.addEventListener) mq.addEventListener("change", onChange);
+    });
+  } catch (e) {}
+})();
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400&amp;family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap">
