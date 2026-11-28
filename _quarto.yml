@@ -70,6 +70,33 @@ format:
           <script src="/assets/site.js" defer></script>
     include-in-header:
       - text: |
+          <meta name="color-scheme" content="light dark">
+          <meta name="theme-color" media="(prefers-color-scheme: light)" content="#0000CD">
+          <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#03031A">
+          <script>
+          /* Follow the device's light/dark setting until the visitor picks one with the toggle. */
+          (function () {
+            try {
+              var mq = window.matchMedia("(prefers-color-scheme: dark)");
+              var manual = function () { return localStorage.getItem("pp-scheme-manual") === "1"; };
+              if (!manual()) localStorage.setItem("quarto-color-scheme", mq.matches ? "alternate" : "default");
+              document.addEventListener("DOMContentLoaded", function () {
+                document.querySelectorAll(".quarto-color-scheme-toggle").forEach(function (t) {
+                  t.addEventListener("click", function () { localStorage.setItem("pp-scheme-manual", "1"); });
+                });
+                var onChange = function (e) {
+                  if (manual()) return;
+                  var isDark = document.body.classList.contains("quarto-dark");
+                  if (e.matches !== isDark && window.quartoToggleColorScheme) {
+                    window.quartoToggleColorScheme();
+                    localStorage.setItem("quarto-color-scheme", e.matches ? "alternate" : "default");
+                  }
+                };
+                if (mq.addEventListener) mq.addEventListener("change", onChange);
+              });
+            } catch (e) {}
+          })();
+          </script>
           <link rel="preconnect" href="https://fonts.googleapis.com">
           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
           <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Space+Grotesk:wght@500;600;700&display=swap">

@@ -490,3 +490,54 @@ h2 { font-weight: 700; }
 .sp-mosaic .m-a img { object-position: 85% 40%; }
 .sp-mosaic .m-c img { object-position: 30% 30%; }
 .sp-mosaic .m-d img { object-position: 10% 50%; }
+
+/* ---- Adapting to the visitor's device ---- */
+/* No sideways scrolling on any screen: the full-width bands' glow stays inside the page. */
+html, body { overflow-x: clip; }
+main { overflow-wrap: break-word; }
+.pub, .pub-list > * { min-width: 0; overflow-wrap: anywhere; }
+/* iPhone and Android notches and rounded corners */
+@supports (padding: max(0px)) {
+  .navbar, #quarto-content, .nav-footer { padding-left: max(var(--bs-gutter-x, .75rem), env(safe-area-inset-left)); padding-right: max(var(--bs-gutter-x, .75rem), env(safe-area-inset-right)); }
+}
+/* Touch screens (phones, tablets): bigger tap targets, no hover-only effects */
+@media (pointer: coarse) {
+  .chip, .sp-filter .chip { min-height: 40px; padding-left: .95rem; padding-right: .95rem; }
+  .pub-links { gap: .5rem 1.2rem; }
+  .pub-links a, .sp-more, .pub-reset { display: inline-flex; align-items: center; min-height: 36px; }
+  .navbar .dropdown-item, .navbar-nav .nav-link { padding-top: .7rem; padding-bottom: .7rem; }
+  .btn-pp { min-height: 46px; }
+}
+@media (hover: none) {
+  .sp-mosaic figure:hover img, .sp-thumb:hover img, .sp-talk:hover { transform: none; }
+}
+/* Visitors who ask their device for less motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
+}
+/* Very large screens: give the text a little more room and size */
+@media (min-width: 1800px) {
+  html { font-size: 17.5px; }
+}
+/* Printing a page (e.g. the publication list) */
+@media print {
+  .navbar, .nav-footer, .sp-filter, .pub-explorer, .sp-actions, .quarto-color-scheme-toggle, .band::before { display: none !important; }
+  .band { background: none !important; box-shadow: none !important; color: #000 !important; }
+  .band h1, .band h2, .band p, .band li { color: #000 !important; }
+  a { color: #000 !important; }
+}
+/* Phones: highlights and talk cards become a swipeable row instead of a long stack */
+@media (max-width: 700px) {
+  .hl-grid, .sp-grid { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; gap: .8rem;
+    margin: 0 calc(-1 * var(--bs-gutter-x, .75rem)); padding: .2rem var(--bs-gutter-x, .75rem) 1rem; scrollbar-width: none; overscroll-behavior-x: contain; }
+  .hl-grid::-webkit-scrollbar, .sp-grid::-webkit-scrollbar { display: none; }
+  .hl-grid > .hl-card, .sp-grid > .sp-talk { flex: 0 0 82%; scroll-snap-align: start; }
+  .sp-talk.dim { display: none; }
+  .hl-art { aspect-ratio: 2 / 1; }
+}
+.swipe-dots { display: none; }
+@media (max-width: 700px) {
+  .swipe-dots { display: flex; justify-content: center; gap: .45rem; margin-top: -.3rem; }
+  .swipe-dots span { width: 7px; height: 7px; border-radius: 50%; background: var(--pp-rule); transition: background .2s, width .2s; }
+  .swipe-dots span.on { background: var(--pp-accent); width: 18px; border-radius: 4px; }
+}
