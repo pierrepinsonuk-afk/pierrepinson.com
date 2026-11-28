@@ -160,25 +160,36 @@ Half-day or full-day sessions on probabilistic forecasting, trading under uncert
 :::
 :::
 
-## Selected past talks
-
-::: {.timeline}
-- [2026]{.when} DTU Ørsted Lecture, Technical University of Denmark: "Can we predict the future of forecasting?"
-- [2026]{.when} Carnegie Mellon Electricity Industry Center: "AI at the core of future electricity markets"
-- [2025]{.when} Karlsruhe Institute of Technology: "Collaborative and market-based analytics and forecasting"
-- [2025]{.when} Lancaster University: "Improving forecasts through data markets"
-- [2025]{.when} Keynote, International Symposium on Forecasting (ISF 2025): "Let's learn to share: better forecasts through data sharing"
-- [2024]{.when} Inaugural lecture, Imperial College London: "Data, people, markets and the energy transition"
-- [2020]{.when} Probabilistic Methods Applied to Power Systems (PMAPS): "Now that we are getting so much data, what do we do with it?"
-- [2020]{.when} Power Systems Computation Conference (PSCC): "Big data analytics in future electricity grids"
-- [2018]{.when} MIT and University College Dublin: "Community and peer-to-peer electricity markets"
-- [2018]{.when} University of Waterloo: "Show me your forecast, I will show you mine! Are we going towards energy data markets?"
-- [2017]{.when} University of Oxford, ETH Zurich and Institut Henri Poincaré: "Community and peer-to-peer electricity markets"
-- [2017]{.when} International Symposium on Forecasting, Cairns: "Wind power forecasting: nonlinearity, dimensionality and sharing aspects"
-- [2015]{.when} ETH Zurich and TU Eindhoven: "Towards future electricity markets with large penetration of renewable generation"
-- [2014]{.when} Tsinghua University, University of Hong Kong, Université Paris 7 and University of Bonn: "Offshore wind power fluctuations: modelling and forecasting"
-- [2013]{.when} German Weather Service (DWD), and WIPFOR, Paris: "Renewable energy forecasts ought to be probabilistic!"
-:::
+```{=html}
+<section class="sp-examples">
+  <h2>Example talks</h2>
+  <p class="sp-intro">A few talks I have given, by theme, at conferences, universities and public lectures.</p>
+  <div class="sp-ex-grid">
+    <div class="sp-ex"><h3>Forecasting and AI</h3><ul>
+      <li><span class="sp-ex-title">Can we predict the future of forecasting?</span><span class="sp-ex-where">DTU Ørsted Lecture, Technical University of Denmark</span></li>
+      <li><span class="sp-ex-title">Renewable energy forecasts ought to be probabilistic!</span><span class="sp-ex-where">German Weather Service (DWD); WIPFOR, Paris</span></li>
+      <li><span class="sp-ex-title">Wind power forecasting: nonlinearity, dimensionality and sharing aspects</span><span class="sp-ex-where">International Symposium on Forecasting, Cairns</span></li>
+      <li><span class="sp-ex-title">Offshore wind power fluctuations: modelling and forecasting</span><span class="sp-ex-where">Tsinghua University, University of Hong Kong, Université Paris 7, University of Bonn</span></li>
+    </ul></div>
+    <div class="sp-ex"><h3>Electricity markets</h3><ul>
+      <li><span class="sp-ex-title">AI at the core of future electricity markets</span><span class="sp-ex-where">Carnegie Mellon Electricity Industry Center</span></li>
+      <li><span class="sp-ex-title">Community and peer-to-peer electricity markets</span><span class="sp-ex-where">MIT, University of Oxford, ETH Zurich, University College Dublin, Institut Henri Poincaré</span></li>
+      <li><span class="sp-ex-title">Towards future electricity markets with large penetration of renewable generation</span><span class="sp-ex-where">ETH Zurich, TU Eindhoven</span></li>
+    </ul></div>
+    <div class="sp-ex"><h3>Data sharing and data markets</h3><ul>
+      <li><span class="sp-ex-title">Let's learn to share: better forecasts through data sharing</span><span class="sp-ex-where">Keynote, International Symposium on Forecasting</span></li>
+      <li><span class="sp-ex-title">Collaborative and market-based analytics and forecasting</span><span class="sp-ex-where">Karlsruhe Institute of Technology</span></li>
+      <li><span class="sp-ex-title">Improving forecasts through data markets</span><span class="sp-ex-where">Lancaster University</span></li>
+      <li><span class="sp-ex-title">Show me your forecasts, I'll show you mine! Are we moving towards energy data markets?</span><span class="sp-ex-where">WISE public lecture, University of Waterloo</span></li>
+    </ul></div>
+    <div class="sp-ex"><h3>Data, people and the energy transition</h3><ul>
+      <li><span class="sp-ex-title">Data, people, markets and the energy transition</span><span class="sp-ex-where">Inaugural lecture, Imperial College London</span></li>
+      <li><span class="sp-ex-title">Now that we are getting so much data, what do we do with it?</span><span class="sp-ex-where">Probabilistic Methods Applied to Power Systems (PMAPS)</span></li>
+      <li><span class="sp-ex-title">Big data analytics in future electricity grids</span><span class="sp-ex-where">Power Systems Computation Conference (PSCC)</span></li>
+    </ul></div>
+  </div>
+</section>
+```
 
 ```{=html}
 <section class="band sp-cta">

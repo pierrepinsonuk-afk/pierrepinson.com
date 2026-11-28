@@ -541,3 +541,15 @@ main { overflow-wrap: break-word; }
   .swipe-dots span { width: 7px; height: 7px; border-radius: 50%; background: var(--pp-rule); transition: background .2s, width .2s; }
   .swipe-dots span.on { background: var(--pp-accent); width: 18px; border-radius: 4px; }
 }
+/* Example talks, by theme */
+.sp-examples { margin-top: 3rem; }
+.sp-ex-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.2rem 2rem; margin-top: 1rem; }
+.sp-ex { border-top: 3px solid var(--pp-accent); padding-top: .9rem; }
+.sp-ex h3 { font-size: 1.08rem; margin: 0 0 .5rem; border: 0; }
+.sp-ex ul { list-style: none; padding: 0; margin: 0; }
+.sp-ex li { padding: .55rem 0; border-bottom: 1px solid var(--pp-rule); max-width: none; }
+.sp-ex li:last-child { border-bottom: 0; }
+.sp-ex-title { display: block; font-weight: 500; line-height: 1.35; }
+.sp-ex-title::before { content: "“"; } .sp-ex-title::after { content: "”"; }
+.sp-ex-where { display: block; font-size: .86rem; color: var(--pp-muted); margin-top: .15rem; }
+@media (max-width: 700px) { .sp-ex-grid { grid-template-columns: minmax(0, 1fr); } }
